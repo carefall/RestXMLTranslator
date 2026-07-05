@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="arena_enemy_stat">
+    <rus>Бои на "Арене"</rus>
+  </string>
+  <string id="bandit_stat">
+    <rus>Бандиты</rus>
+  </string>
+  <string id="bandos_stat">
+    <rus>"Грех"</rus>
+  </string>
+  <string id="dolg_stat">
+    <rus>"Долг"</rus>
+  </string>
+  <string id="ecolog_stat">
+    <rus>Учёные</rus>
+  </string>
+  <string id="freedom_stat">
+    <rus>"Свобода"</rus>
+  </string>
+  <string id="green_stat">
+    <rus>Охотники</rus>
+  </string>
+  <string id="killer_stat">
+    <rus>Наёмники</rus>
+  </string>
+  <string id="lastday_stat">
+    <rus>"Последний день"</rus>
+  </string>
+  <string id="military_stat">
+    <rus>Военные</rus>
+  </string>
+  <string id="monolith_stat">
+    <rus>"Монолит"</rus>
+  </string>
+  <string id="nebo_stat">
+    <rus>"Чистое небо"</rus>
+  </string>
+  <string id="sniper_stat">
+    <rus>"Мстители"</rus>
+  </string>
+  <string id="stalker_stat">
+    <rus>Сталкеры</rus>
+  </string>
+  <string id="stranger_stat">
+    <rus>"Нейтралы"</rus>
+  </string>
+  <string id="trader_stat">
+    <rus>Торговцы</rus>
+  </string>
+  <string id="voin_stat">
+    <rus>"Миротворцы"</rus>
+  </string>
+  <string id="zombied_stat">
+    <rus>Зомбированные</rus>
+  </string>
+  <string id="neutral_stat">
+    <rus>Нейтральные</rus>
+  </string>
+  <string id="wounded_stat">
+    <rus>Раненные</rus>
+  </string>
+  <string id="experienced_stat">
+    <rus>Опытные</rus>
+  </string>
+  <string id="veteran_stat">
+    <rus>Ветераны</rus>
+  </string>
+  <string id="master_stat">
+    <rus>Мастера</rus>
+  </string>
+  <string id="arena_monstr_stat">
+    <rus>Бои на "Арене"</rus>
+  </string>
+  <string id="bibliotekar_stat">
+    <rus>Библиотекари</rus>
+  </string>
+  <string id="bloodsucker_stat">
+    <rus>Кровососы</rus>
+  </string>
+  <string id="boar_stat">
+    <rus>Кабаны</rus>
+  </string>
+  <string id="burer_stat">
+    <rus>Бюреры</rus>
+  </string>
+  <string id="cat_stat">
+    <rus>Коты</rus>
+  </string>
+  <string id="chimera_stat">
+    <rus>Химеры</rus>
+  </string>
+  <string id="controller_stat">
+    <rus>Контролёры</rus>
+  </string>
+  <string id="dog_stat">
+    <rus>Слепые псы</rus>
+  </string>
+  <string id="flesh_stat">
+    <rus>Плоти</rus>
+  </string>
+  <string id="fracture_stat">
+    <rus>Изломы</rus>
+  </string>
+  <string id="ghoul_stat">
+    <rus>Гули</rus>
+  </string>
+  <string id="medwed_stat">
+    <rus>Медведи</rus>
+  </string>
+  <string id="poltergeist_stat">
+    <rus>Полтергейсты</rus>
+  </string>
+  <string id="pseudo_gigant_stat">
+    <rus>Псевдогиганты</rus>
+  </string>
+  <string id="pseudodog_stat">
+    <rus>Псевдособаки</rus>
+  </string>
+  <string id="psy_dog_stat">
+    <rus>Пси-собаки</rus>
+  </string>
+  <string id="rat_stat">
+    <rus>Крысы</rus>
+  </string>
+  <string id="ratlike_stat">
+    <rus>Крысоволки</rus>
+  </string>
+  <string id="snork_stat">
+    <rus>Снорки</rus>
+  </string>
+  <string id="spider_stat">
+    <rus>Пауки</rus>
+  </string>
+  <string id="swamp_stat">
+    <rus>Ластоноги</rus>
+  </string>
+  <string id="tarakan_stat">
+    <rus>Тараканы</rus>
+  </string>
+  <string id="tushkano_stat">
+    <rus>Тушканчики</rus>
+  </string>
+  <string id="zombie_stat">
+    <rus>Зомби гражданские</rus>
+  </string>
+  <string id="karlik_stat">
+    <rus>Карлики</rus>
+  </string>
+  <string id="frog_stat">
+    <rus>Лягушки</rus>
+  </string>
+  <string id="deathclaw_stat">
+    <rus>Когти смерти</rus>
+  </string>
+  <string id="normal_stat">
+    <rus>Опасные</rus>
+  </string>
+  <string id="strong_stat">
+    <rus>Очень опасные</rus>
+  </string>
+  <string id="personal_stat">
+    <rus>Редкие</rus>
+  </string>
+  <string id="corpse_stat">
+    <rus>Трупы</rus>
+  </string>
+</string_table>

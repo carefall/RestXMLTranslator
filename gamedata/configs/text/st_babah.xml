@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="detonator_error_text">
+    <rus>Ошибка детонатора!</rus>
+  </string>
+  <string id="exploded_other_territory_text">
+    <rus>Взорвано на другой территории</rus>
+  </string>
+  <string id="explosives_exploded_text">
+    <rus>Взрывчатка взорвана!</rus>
+  </string>
+  <string id="explosives_header_text">
+    <rus>Взрывчатка</rus>
+  </string>
+  <string id="local_network_header_text">
+    <rus>Локальная сеть</rus>
+  </string>
+  <string id="nothing_exploded_text">
+    <rus>Ничего не взорвано!</rus>
+  </string>
+  <string id="strange_place_text">
+    <rus>Здесь странное место...</rus>
+  </string>
+  <string id="timer_started_text">
+    <rus>Таймер запущен! Срочно надо выложить её и отойти на безопасное расстояние.</rus>
+  </string>
+</string_table>

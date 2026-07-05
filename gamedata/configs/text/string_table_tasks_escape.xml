@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="storyline_escape_eliminate_gunslinger">
+    <rus>Обезвредить Стрелка</rus>
+  </string>
+  <string id="storyline_escape_find_gunslinger">
+    <rus>Найти Стрелка</rus>
+  </string>
+  <string id="esc_bandits_on_factory">
+    <rus>Уничтожить бандитов на фабрике</rus>
+  </string>
+  <string id="esc_bandits_on_factory_0">
+    <rus>Уничтожить бандитов, засевших на фабрике</rus>
+  </string>
+  <string id="esc_bandits_on_factory_1">
+    <rus>Убить всех бандитов на фабрике</rus>
+  </string>
+  <string id="esc_bandits_on_factory_2">
+    <rus>Поговорить с торговцем</rus>
+  </string>
+  <string id="esc_bandits_on_factory_3">
+    <rus>Поговорить с Волком</rus>
+  </string>
+  <string id="esc_blockpost_case_to_trader">
+    <rus>Ящик в тумбочке</rus>
+  </string>
+  <string id="esc_blockpost_case_to_trader_0">
+    <rus>Украсть с блокпоста ящик с важными документами</rus>
+  </string>
+  <string id="esc_blockpost_case_to_trader_1">
+    <rus>Украсть ящик с блокпоста</rus>
+  </string>
+  <string id="esc_blockpost_case_to_trader_2">
+    <rus>Принести ящик торговцу</rus>
+  </string>
+  <string id="esc_defend_lager">
+    <rus>Боевое крещение</rus>
+  </string>
+  <string id="esc_defend_lager_from_killers">
+    <rus>Защитить лагерь новичков от наёмников</rus>
+  </string>
+  <string id="esc_defend_lager_from_killers_0">
+    <rus>Защитить лагерь новичков от наёмников</rus>
+  </string>
+  <string id="esc_defend_lager_from_killers_1">
+    <rus>Уничтожить отряд наёмников</rus>
+  </string>
+  <string id="esc_defend_lager_from_killers_2">
+    <rus>Поговорить с командиром новичков</rus>
+  </string>
+  <string id="esc_dinamit_to_volk">
+    <rus>Уничтожить бандитов на КСП "Автомобилист"</rus>
+  </string>
+  <string id="esc_dinamit_to_volk_0">
+    <rus>Уничтожить бандитов на КСП "Автомобилист" и отчитаться перед Волком</rus>
+  </string>
+  <string id="esc_dinamit_to_volk_1">
+    <rus>Встретиться с людьми Волка</rus>
+  </string>
+  <string id="esc_dinamit_to_volk_2">
+    <rus>Уничтожить всех бандитов</rus>
+  </string>
+  <string id="esc_dinamit_to_volk_3">
+    <rus>Поговорить с Волком</rus>
+  </string>
+  <string id="esc_help_wounded_from_raid">
+    <rus>Хитрый Лис</rus>
+  </string>
+  <string id="esc_help_wounded_from_raid_0">
+    <rus>Оказать помощь раненому сталкеру</rus>
+  </string>
+  <string id="esc_help_wounded_from_raid_1">
+    <rus>Помочь Лису</rus>
+  </string>
+  <string id="esc_help_wounded_from_raid_2">
+    <rus>Получить информацию о Стрелке</rus>
+  </string>
+  <string id="esc_wounded_to_trader_gift">
+    <rus>Доставить пакет торговцу</rus>
+  </string>
+  <string id="esc_wounded_to_trader_gift_0">
+    <rus>Доставить пакет торговцу; он сможет помочь</rus>
+  </string>
+  <string id="garbage_meet_stalker">
+    <rus>Встретиться с Серым</rus>
+  </string>
+  <string id="garbage_meet_stalker_0">
+    <rus>Встретиться с Серым на Свалке</rus>
+  </string>
+  <string id="meet_with_doctor">
+    <rus>Вот так встреча</rus>
+  </string>
+  <string id="meet_with_doctor_1">
+    <rus>Встретиться с Доктором</rus>
+  </string>
+  <string id="meet_with_doctor_2">
+    <rus>Встретиться с Доктором в тайнике Стрелка</rus>
+  </string>
+  <string id="tutorial_find_artefact">
+    <rus>Первый артефакт</rus>
+  </string>
+  <string id="tutorial_find_artefact_0">
+    <rus>Найти свой первый артефакт</rus>
+  </string>
+  <string id="tutorial_find_artefact_1">
+    <rus>Найти артефакт</rus>
+  </string>
+  <string id="tutorial_find_artefact_2">
+    <rus>Принести артефакт торговцу</rus>
+  </string>
+  <string id="tutorial_help_wounded">
+    <rus>Шустрый пленник</rus>
+  </string>
+  <string id="tutorial_help_wounded_0">
+    <rus>Принести информацию торговцу</rus>
+  </string>
+  <string id="tutorial_help_wounded_1">
+    <rus>Поговорить с Волком</rus>
+  </string>
+  <string id="tutorial_help_wounded_2">
+    <rus>Взять у Шустрого флешку</rus>
+  </string>
+  <string id="tutorial_help_wounded_3">
+    <rus>Принести флешку торговцу</rus>
+  </string>
+  <string id="esc_trader_job">
+    <rus>Работа на торговца</rus>
+  </string>
+  <string id="esc_trader_job_text">
+    <rus>Получить спецзадание у торговца</rus>
+  </string>
+  <string id="bar_barman_job">
+    <rus>Работа на Бармена</rus>
+  </string>
+  <string id="bar_barman_job_text">
+    <rus>Поговорить с Барменом</rus>
+  </string>
+  <string id="bar_barman_new_job">
+    <rus>На пороге перемен</rus>
+  </string>
+  <string id="yan_scientist_job">
+    <rus>Помощь учёным</rus>
+  </string>
+  <string id="yan_scientist_job_text">
+    <rus>Предложить свою помощь учёным</rus>
+  </string>
+  <string id="find_railroad_passage">
+    <rus>Электрический тоннель</rus>
+  </string>
+  <string id="find_railroad_passage_1">
+    <rus>Встретиться с провожатым</rus>
+  </string>
+  <string id="find_railroad_passage_2">
+    <rus>Пересечь железнодорожную насыпь</rus>
+  </string>
+  <string id="find_railroad_passage_text">
+    <rus>"Прежде чем углубиться в Зону, необходимо пересечь старую железнодорожную насыпь. Единственный безопасный проход в ней охраняется военным. Однако есть небольшой тоннель слева, новички обычно ходят через него. Там тебя будет ждать один из моих должников."</rus>
+  </string>
+</string_table>

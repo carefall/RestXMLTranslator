@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="sigaret">
+    <rus>Сигареты</rus>
+  </string>
+  <string id="sigaret_s">
+    <rus>Сигареты</rus>
+  </string>
+  <string id="enc_sigaret">
+    <rus>Хорошие, в свою бытность, сигареты "Lucky Strike" компании "American Tobacco Company". Встречаются, в основном, у новичков, недавно попавших внутрь периметра. У бывалых сталкеров авторитетом не пользуются, так как заматерев, они довольно быстро отучились от этой привычки, чтобы быстро бегать от кровососов, кабанов и прочей мутировавшей живности...</rus>
+  </string>
+  <string id="sigaret_a">
+    <rus>Сигареты, модель "А"</rus>
+  </string>
+  <string id="sigaret_s_a">
+    <rus>Сигареты модели А</rus>
+  </string>
+  <string id="enc_sigaret_a">
+    <rus>Данная сущность — только для НПЦ. Если вы это читаете — вам в баг-репорты. Этот предмет нельзя продать, только утилизировать.</rus>
+  </string>
+</string_table>

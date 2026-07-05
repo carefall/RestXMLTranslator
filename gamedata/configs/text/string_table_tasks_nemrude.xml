@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="forest_lesnik_mushroom_name">
+    <rus>Лесные дары</rus>
+  </string>
+  <string id="forest_lesnik_mushroom_name_1">
+    <rus>Найти грибы для Лесника</rus>
+  </string>
+  <string id="forest_lesnik_mushroom_name_2">
+    <rus>Собрать грибы</rus>
+  </string>
+  <string id="forest_lesnik_mushroom_name_3">
+    <rus>Принести грибы Леснику</rus>
+  </string>
+  <string id="fanat_del_quest_name">
+    <rus>Пираты из Лощины</rus>
+  </string>
+  <string id="fanat_del_quest_name_1">
+    <rus>Ликвидировать бандитов и забрать общак</rus>
+  </string>
+  <string id="fanat_del_quest_name_2">
+    <rus>Ликвидировать бандитов</rus>
+  </string>
+  <string id="fanat_del_quest_name_3">
+    <rus>Найти и забрать общак</rus>
+  </string>
+  <string id="fanat_del_quest_name_4">
+    <rus>Вернуться к Фанату</rus>
+  </string>
+  <string id="stancia2_taynik1_name">
+    <rus>Тайник на ЧАЭС-2</rus>
+  </string>
+  <string id="stancia2_taynik1_name_1">
+    <rus>Найти тайник на ЧАЭС-2</rus>
+  </string>
+  <string id="stancia2_taynik1_name_2">
+    <rus>Рассказать о тайнике</rus>
+  </string>
+  <string id="stancia2_taynik2_name">
+    <rus>Тайник на ЧАЭС-2</rus>
+  </string>
+  <string id="stancia2_taynik2_name_1">
+    <rus>Найти тайник на ЧАЭС-2</rus>
+  </string>
+  <string id="stancia2_taynik2_name_2">
+    <rus>Рассказать о тайнике</rus>
+  </string>
+  <string id="stancia2_taynik3_name">
+    <rus>Тайник на ЧАЭС-2</rus>
+  </string>
+  <string id="stancia2_taynik3_name_1">
+    <rus>Найти тайник на ЧАЭС-2</rus>
+  </string>
+  <string id="stancia2_taynik3_name_2">
+    <rus>Рассказать о тайнике</rus>
+  </string>
+  <string id="stancia2_taynik4_name">
+    <rus>Тайник на ЧАЭС-2</rus>
+  </string>
+  <string id="stancia2_taynik4_name_1">
+    <rus>Найти тайник на ЧАЭС-2</rus>
+  </string>
+  <string id="stancia2_taynik4_name_2">
+    <rus>Рассказать о тайнике</rus>
+  </string>
+  <string id="gar_seriy_artmod_name">
+    <rus>Артефакт для Серого</rus>
+  </string>
+  <string id="gar_seriy_artmod_name_1">
+    <rus>Найти артефакт "Колючка"</rus>
+  </string>
+  <string id="gar_seriy_artmod_name_2">
+    <rus>Принести "Колючку" Серому</rus>
+  </string>
+  <string id="del_brom_abakan_name">
+    <rus>Страж Лощины</rus>
+  </string>
+  <string id="del_brom_abakan_name_1">
+    <rus>Протекта для Брома</rus>
+  </string>
+  <string id="del_brom_abakan_name_2">
+    <rus>Найти оружие для Брома</rus>
+  </string>
+  <string id="del_brom_abakan_name_3">
+    <rus>Вернуться к Брому</rus>
+  </string>
+  <string id="jup_kalter_newstory_name">
+    <rus>Срочное дело</rus>
+  </string>
+  <string id="jup_kalter_newstory_name_1">
+    <rus>Срочное дело от Кальтера</rus>
+  </string>
+  <string id="jup_kalter_newstory_name_2">
+    <rus>Поговорить с Кальтером</rus>
+  </string>
+  <string id="jup_kalter_ammunition_name">
+    <rus>Удача любит подготовленных</rus>
+  </string>
+  <string id="jup_kalter_ammunition_name_1">
+    <rus>Подготовиться к атаке на бандитов</rus>
+  </string>
+  <string id="jup_kalter_ammunition_name_2">
+    <rus>Найти амуницию</rus>
+  </string>
+  <string id="jup_kalter_ammunition_name_3">
+    <rus>Пригнать БРДМ к Янову</rus>
+  </string>
+  <string id="jup_kalter_ammunition_name_4">
+    <rus>Принести необходимое Кальтеру</rus>
+  </string>
+  <string id="jup_kalter_monsters_name">
+    <rus>Естественная угроза</rus>
+  </string>
+  <string id="jup_kalter_monsters_name_1">
+    <rus>Зачистить лагеря монстров</rus>
+  </string>
+  <string id="jup_kalter_monsters_name_2">
+    <rus>Зачистить лагерь кабанов</rus>
+  </string>
+  <string id="jup_kalter_monsters_name_3">
+    <rus>Зачистить лагерь крысоволков</rus>
+  </string>
+  <string id="jup_kalter_monsters_name_4">
+    <rus>Зачистить лагерь химер</rus>
+  </string>
+  <string id="jup_kalter_monsters_name_5">
+    <rus>Зачистить лагерь снорков</rus>
+  </string>
+  <string id="jup_kalter_monsters_name_6">
+    <rus>Вернуться к Кальтеру</rus>
+  </string>
+  <string id="jup_kalter_shturm_name">
+    <rus>Упреждающий удар</rus>
+  </string>
+  <string id="jup_kalter_shturm_name_1">
+    <rus>Доехать на технике до места встречи</rus>
+  </string>
+  <string id="jup_kalter_shturm_name_2">
+    <rus>Доехать до места встречи на БРДМе</rus>
+  </string>
+  <string id="jup_kalter_shturm_name_3">
+    <rus>Поговорить со сталкерами</rus>
+  </string>
+  <string id="jup_kalter_shturm_name_4">
+    <rus>Захватить склад контейнеров</rus>
+  </string>
+  <string id="jup_kalter_shturm_name_5">
+    <rus>Вернуться к Кальтеру</rus>
+  </string>
+  <string id="kostya_news_tayniki_name">
+    <rus>ПДА в недрах Юпитера</rus>
+  </string>
+  <string id="kostya_news_tayniki_name_1">
+    <rus>Найти ПДА военных на Юпитере</rus>
+  </string>
+  <string id="kostya_news_tayniki_name_2">
+    <rus>Найти ПДА на Юпитере</rus>
+  </string>
+  <string id="kostya_news_tayniki_name_3">
+    <rus>Вернуться к Косте</rus>
+  </string>
+  <string id="kostya_poisk_start_name">
+    <rus>Флешки пропавших бойцов</rus>
+  </string>
+  <string id="kostya_poisk_start_name_1">
+    <rus>Найти три флешки в трупах военных</rus>
+  </string>
+  <string id="kostya_poisk_start_name_2">
+    <rus>Найти три флешки</rus>
+  </string>
+  <string id="kostya_poisk_start_name_3">
+    <rus>Принести флешки Косте</rus>
+  </string>
+  <string id="kostya_poisk_taynik_name">
+    <rus>Кодовые данные</rus>
+  </string>
+  <string id="kostya_poisk_taynik_name_1">
+    <rus>Найти две флешки с наводками</rus>
+  </string>
+  <string id="kostya_poisk_taynik_name_2">
+    <rus>Забрать две флешки</rus>
+  </string>
+  <string id="kostya_poisk_taynik_name_3">
+    <rus>Принести флешки Косте</rus>
+  </string>
+  <string id="kostya_poisk_taynik2_name">
+    <rus>В поисках данных</rus>
+  </string>
+  <string id="kostya_poisk_taynik2_name_1">
+    <rus>Найти две флешки с наводками</rus>
+  </string>
+  <string id="kostya_poisk_taynik2_name_2">
+    <rus>Забрать две флешки</rus>
+  </string>
+  <string id="kostya_poisk_taynik2_name_3">
+    <rus>Принести флешки Косте</rus>
+  </string>
+  <string id="kostya_poisk_taynik3_name">
+    <rus>Последний рывок</rus>
+  </string>
+  <string id="kostya_poisk_taynik3_name_1">
+    <rus>Найти последнюю флешку</rus>
+  </string>
+  <string id="kostya_poisk_taynik3_name_2">
+    <rus>Забрать флешку</rus>
+  </string>
+  <string id="kostya_poisk_taynik3_name_3">
+    <rus>Принести флешку Косте</rus>
+  </string>
+  <string id="poisk_taynik_voyak_name">
+    <rus>Секретная документация</rus>
+  </string>
+  <string id="poisk_taynik_voyak_name_1">
+    <rus>Найти схрон военных</rus>
+  </string>
+  <string id="poisk_taynik_voyak_name_2">
+    <rus>Поговорить с Костей</rus>
+  </string>
+  <string id="zahar_krovosos_quest_name">
+    <rus>Загадочный хищник</rus>
+  </string>
+  <string id="zahar_krovosos_quest_name_1">
+    <rus>Уничтожить неизвестного монстра</rus>
+  </string>
+  <string id="zahar_krovosos_quest_name_2">
+    <rus>Обследовать первое место</rus>
+  </string>
+  <string id="zahar_krovosos_quest_name_3">
+    <rus>Обследовать второе место</rus>
+  </string>
+  <string id="zahar_krovosos_quest_name_4">
+    <rus>Обследовать третье место</rus>
+  </string>
+  <string id="zahar_krovosos_quest_name_5">
+    <rus>Поговорить с Крестом</rus>
+  </string>
+  <string id="zahar_krovosos_quest_name_6">
+    <rus>Найти логово монстра</rus>
+  </string>
+  <string id="zahar_krovosos_quest_name_7">
+    <rus>Добыть часть монстра</rus>
+  </string>
+  <string id="zahar_krovosos_quest_name_8">
+    <rus>Вернуться к Захару</rus>
+  </string>
+  <string id="fanat_taynik_quest_name">
+    <rus>Тайник забытого сталкера</rus>
+  </string>
+  <string id="fanat_taynik_quest_name_1">
+    <rus>Найти тайник с артефактом</rus>
+  </string>
+  <string id="fanat_taynik_quest_name_2">
+    <rus>Найти тайник c артефактом</rus>
+  </string>
+  <string id="fanat_taynik_quest_name_3">
+    <rus>Вернуться к Фанату</rus>
+  </string>
+  <string id="den_knifes_quest_name">
+    <rus>Семь раз отмерь - один раз отрежь</rus>
+  </string>
+  <string id="den_knifes_quest_name_1">
+    <rus>Найти ножи для Дэна</rus>
+  </string>
+  <string id="den_knifes_quest_name_2">
+    <rus>Найти все ножи для Дэна</rus>
+  </string>
+  <string id="den_knifes_quest_name_3">
+    <rus>Вернуться к Дэну</rus>
+  </string>
+  <string id="max_helicopters_quest_name">
+    <rus>На крыльях свободы</rus>
+  </string>
+  <string id="max_helicopters_quest_name_1">
+    <rus>Узнать о судьбе вертолёта</rus>
+  </string>
+  <string id="max_helicopters_quest_name_2">
+    <rus>Добраться до вертолёта</rus>
+  </string>
+  <string id="max_helicopters_quest_name_3">
+    <rus>Обыскать вертолёт</rus>
+  </string>
+  <string id="max_helicopters_quest_name_4">
+    <rus>Добраться до второго вертолёта</rus>
+  </string>
+  <string id="max_helicopters_quest_name_5">
+    <rus>Поговорить с бандитами</rus>
+  </string>
+  <string id="max_helicopters_quest_name_6">
+    <rus>Забрать блокнот с кодом</rus>
+  </string>
+  <string id="max_helicopters_quest_name_7">
+    <rus>Вернуться к Максу</rus>
+  </string>
+  <string id="dan_meeting_marsh_name">
+    <rus>Встреча с охотником</rus>
+  </string>
+  <string id="dan_meeting_marsh_name_1">
+    <rus>Встретиться с Дэном</rus>
+  </string>
+  <string id="dan_meeting_marsh_name_2">
+    <rus>Поговорить с Дэном</rus>
+  </string>
+  <string id="freeman_plant_quest_name">
+    <rus>Аномальное растение</rus>
+  </string>
+  <string id="freeman_plant_quest_name_1">
+    <rus>Найти аномальное растение для Фримена</rus>
+  </string>
+  <string id="freeman_plant_quest_name_2">
+    <rus>Найти артефакт</rus>
+  </string>
+  <string id="freeman_plant_quest_name_3">
+    <rus>Принести артефакт Фримену</rus>
+  </string>
+  <string id="tolik_chasy_quest_name">
+    <rus>Трофейная реликвия</rus>
+  </string>
+  <string id="tolik_chasy_quest_name_1">
+    <rus>Найти семейную реликвию для Толика</rus>
+  </string>
+  <string id="tolik_chasy_quest_name_2">
+    <rus>Найти часы Толика</rus>
+  </string>
+  <string id="tolik_chasy_quest_name_3">
+    <rus>Вернуться к Толику</rus>
+  </string>
+  <string id="bar_ryaboy_quest_name">
+    <rus>На грани сознания</rus>
+  </string>
+  <string id="bar_ryaboy_quest_name_1">
+    <rus>Получить информацию о "выжигателе" от Рябого</rus>
+  </string>
+  <string id="bar_ryaboy_quest_name_2">
+    <rus>Поговорить с Рябым</rus>
+  </string>
+  <string id="bar_ryaboy_quest_name_3">
+    <rus>Поговорить с Лысым</rus>
+  </string>
+  <string id="bar_ryaboy_quest_name_4">
+    <rus>Вернуться к Рябому</rus>
+  </string>
+  <string id="bar_ryaboy_quest_name_5">
+    <rus>Отдать артефакт Бармену</rus>
+  </string>
+  <string id="sedoy_talking_start_name">
+    <rus>Расчёт за доставку</rus>
+  </string>
+  <string id="sedoy_talking_start_name_1">
+    <rus>Поговорить с Седым</rus>
+  </string>
+  <string id="tushkano_cocoon_job_name">
+    <rus>Сухой закон</rus>
+  </string>
+  <string id="tushkano_cocoon_job_name_1">
+    <rus>Стырить спиртное у Свиблова</rus>
+  </string>
+  <string id="tushkano_cocoon_job_name_2">
+    <rus>Забрать капсулу</rus>
+  </string>
+  <string id="tushkano_cocoon_job_name_3">
+    <rus>Активировать капсулу</rus>
+  </string>
+  <string id="tushkano_cocoon_job_name_4">
+    <rus>Умыкнуть спиртное</rus>
+  </string>
+  <string id="tushkano_cocoon_job_name_5">
+    <rus>Вернуться к Седому</rus>
+  </string>
+  <string id="nayka_nabor_new_name">
+    <rus>Полевые исследования</rus>
+  </string>
+  <string id="nayka_nabor_new_name_1">
+    <rus>Выполнить заказ учёных</rus>
+  </string>
+  <string id="nayka_nabor_new_name_2">
+    <rus>Найти необходимые образцы</rus>
+  </string>
+  <string id="nayka_nabor_new_name_3">
+    <rus>Принести заказ учёным</rus>
+  </string>
+  <string id="new_matvei_zakaz8_name">
+    <rus>Заказ на аномальное оружие</rus>
+  </string>
+  <string id="new_matvei_zakaz8_name_1">
+    <rus>Выполнить заказ на аномальное оружие</rus>
+  </string>
+  <string id="new_matvei_zakaz8_name_2">
+    <rus>Найти аномальное оружие</rus>
+  </string>
+  <string id="new_matvei_zakaz8_name_3">
+    <rus>Принести заказ Матвею Кулинару</rus>
+  </string>
+  <string id="new_matvei_zakaz9_name">
+    <rus>Заказ на "Глоки" и Mossberg 590</rus>
+  </string>
+  <string id="new_matvei_zakaz9_name_1">
+    <rus>Выполнить заказ на оружие</rus>
+  </string>
+  <string id="new_matvei_zakaz9_name_2">
+    <rus>Найти 5 пистолетов Glock-17 и дробовик Mossberg 590</rus>
+  </string>
+  <string id="new_matvei_zakaz9_name_3">
+    <rus>Принести заказ Матвею Кулинару</rus>
+  </string>
+  <string id="new_matvei_zakaz10_name">
+    <rus>Заказ на Five-seveN и ДВЛ-10</rus>
+  </string>
+  <string id="new_matvei_zakaz10_name_1">
+    <rus>Выполнить заказ на оружие</rus>
+  </string>
+  <string id="new_matvei_zakaz10_name_2">
+    <rus>Найти пистолет FN Five-seveN и винтовку ДВЛ-10</rus>
+  </string>
+  <string id="new_matvei_zakaz10_name_3">
+    <rus>Принести заказ Матвею Кулинару</rus>
+  </string>
+  <string id="new_matvei_zakaz11_name">
+    <rus>Заказ на AUG A3 и "Рубиновый булыжник"</rus>
+  </string>
+  <string id="new_matvei_zakaz11_name_1">
+    <rus>Выполнить заказ на оружие</rus>
+  </string>
+  <string id="new_matvei_zakaz11_name_2">
+    <rus>Найти автомат AUG A3 и "Рубиновый булыжник"</rus>
+  </string>
+  <string id="new_matvei_zakaz11_name_3">
+    <rus>Принести заказ Матвею Кулинару</rus>
+  </string>
+  <string id="new_matvei_zakaz12_name">
+    <rus>Заказ на АШ-12 и M249</rus>
+  </string>
+  <string id="new_matvei_zakaz12_name_1">
+    <rus>Выполнить заказ на оружие</rus>
+  </string>
+  <string id="new_matvei_zakaz12_name_2">
+    <rus>Найти пулемёт M249 и автомат АШ-12</rus>
+  </string>
+  <string id="new_matvei_zakaz12_name_3">
+    <rus>Принести заказ Матвею Кулинару</rus>
+  </string>
+  <string id="new_matvei_zakaz13_name">
+    <rus>Заказ на "Гаусс-пистолет" и Вепрь-12</rus>
+  </string>
+  <string id="new_matvei_zakaz13_name_1">
+    <rus>Выполнить заказ на оружие</rus>
+  </string>
+  <string id="new_matvei_zakaz13_name_2">
+    <rus>Найти "Гаусс-пистолет" и дробовик Вепрь-12</rus>
+  </string>
+  <string id="new_matvei_zakaz13_name_3">
+    <rus>Принести заказ Матвею Кулинару</rus>
+  </string>
+  <string id="new_matvei_zakaz14_name">
+    <rus>Заказ на пистолеты-пулемёты</rus>
+  </string>
+  <string id="new_matvei_zakaz14_name_1">
+    <rus>Выполнить заказ на оружие</rus>
+  </string>
+  <string id="new_matvei_zakaz14_name_2">
+    <rus>Найти пистолеты-пулемёты MP9 и СР-2М</rus>
+  </string>
+  <string id="new_matvei_zakaz14_name_3">
+    <rus>Принести заказ Матвею Кулинару</rus>
+  </string>
+  <string id="x18_lights_task_name">
+    <rus>Погружение во тьму</rus>
+  </string>
+  <string id="x18_lights_task_name_1">
+    <rus>Включить свет в Х-18</rus>
+  </string>
+  <string id="x18_lights_task_name_2">
+    <rus>Найти источник проблемы</rus>
+  </string>
+  <string id="x18_lights_task_name_3">
+    <rus>Собрать необходимое для генератора</rus>
+  </string>
+  <string id="x18_lights_task_name_4">
+    <rus>Залить бензин</rus>
+  </string>
+  <string id="x18_lights_task_name_5">
+    <rus>Залить масло</rus>
+  </string>
+  <string id="x18_lights_task_name_6">
+    <rus>Вставить свечу</rus>
+  </string>
+  <string id="x18_lights_task_name_7">
+    <rus>Запустить генератор</rus>
+  </string>
+  <string id="x18_lights_task_name_8">
+    <rus>Включить свет</rus>
+  </string>
+  <string id="road_to_killing_osoznanie_name">
+    <rus>Точка невозврата</rus>
+  </string>
+  <string id="road_to_killing_osoznanie_name_1">
+    <rus>Уничтожить О-Сознание</rus>
+  </string>
+  <string id="road_to_killing_osoznanie_name_2">
+    <rus>Добраться до последнего телепорта</rus>
+  </string>
+  <string id="peshera_naydena_new_task_name">
+    <rus>Неизвестный в пещере</rus>
+  </string>
+  <string id="peshera_naydena_new_task_name_1">
+    <rus>Добраться до штаба и поговорить с Клыком</rus>
+  </string>
+  <string id="peshera_naydena_new_task_name_2">
+    <rus>Поговорить с Клыком</rus>
+  </string>
+  <string id="peshera_naydena_new_task_name_3">
+    <rus>Добраться с Клыком до пещеры</rus>
+  </string>
+  <string id="peshera_naydena_new_task_name_4">
+    <rus>Поговорить с незнакомцем</rus>
+  </string>
+  <string id="peshera_naydena_new_task_name_5">
+    <rus>Проследить за вертолётом</rus>
+  </string>
+  <string id="peshera_naydena_new_task_name_6">
+    <rus>Поговорить с Пантерой</rus>
+  </string>
+  <string id="peshera_naydena_new_task_name_7">
+    <rus>Добраться до "Зимовья"</rus>
+  </string>
+  <string id="peshera_naydena_new_task_name_8">
+    <rus>Поговорить с Гинекологом</rus>
+  </string>
+  <string id="help_for_esc_mechanic_task_name">
+    <rus>Похмельный синдром</rus>
+  </string>
+  <string id="help_for_esc_mechanic_task_name_1">
+    <rus>Помочь Андреню Механику</rus>
+  </string>
+  <string id="help_for_esc_mechanic_task_name_2">
+    <rus>Найти тайник с лекарством</rus>
+  </string>
+  <string id="help_for_esc_mechanic_task_name_3">
+    <rus>Принести лекарство Механику</rus>
+  </string>
+  <string id="esc_mechanic_materials_task_name">
+    <rus>Паяльник против ржавчины</rus>
+  </string>
+  <string id="esc_mechanic_materials_task_name_1">
+    <rus>Собрать материалы для Андрея Механика</rus>
+  </string>
+  <string id="esc_mechanic_materials_task_name_2">
+    <rus>Найти материалы</rus>
+  </string>
+  <string id="esc_mechanic_materials_task_name_3">
+    <rus>Вернуться к Андрею</rus>
+  </string>
+  <string id="voronin_secret_task_name">
+    <rus>Снайперский выстрел</rus>
+  </string>
+  <string id="voronin_secret_task_name_1">
+    <rus>Уничтожить лидеров на встрече</rus>
+  </string>
+  <string id="voronin_secret_task_name_2">
+    <rus>Добраться до снайперкой лёжки</rus>
+  </string>
+  <string id="voronin_secret_task_name_3">
+    <rus>Ликвидировать лидеров</rus>
+  </string>
+  <string id="voronin_secret_task_name_4">
+    <rus>Забрать материалы</rus>
+  </string>
+  <string id="voronin_secret_task_name_5">
+    <rus>Вернуться к генералу Воронину</rus>
+  </string>
+  <string id="moskvich_assembly_task_name">
+    <rus>Железный конь</rus>
+  </string>
+  <string id="moskvich_assembly_task_name_1">
+    <rus>Сборка "Москвича"</rus>
+  </string>
+  <string id="moskvich_assembly_task_name_2">
+    <rus>Найти колёса для "Москвича"</rus>
+  </string>
+  <string id="moskvich_assembly_task_name_3">
+    <rus>Найти автомобильный аккумулятор</rus>
+  </string>
+  <string id="moskvich_assembly_task_name_4">
+    <rus>Найти свечу зажигания</rus>
+  </string>
+  <string id="moskvich_assembly_task_name_5">
+    <rus>Найти баллонный ключ</rus>
+  </string>
+  <string id="moskvich_assembly_task_name_6">
+    <rus>Найти канистру с бензином</rus>
+  </string>
+  <string id="moskvich_assembly_task_name_7">
+    <rus>Собрать "Москвич"</rus>
+  </string>
+  <string id="moskvich_assembly_task_name_8">
+    <rus>Вернуть ключ Андрею</rus>
+  </string>
+  <string id="request_from_ecolog_name">
+    <rus>Зов науки</rus>
+  </string>
+  <string id="request_from_ecolog_name_1">
+    <rus>Поговорить с учёными на Янтаре</rus>
+  </string>
+  <string id="road_to_the_hospital_name">
+    <rus>Дорога в Госпиталь</rus>
+  </string>
+  <string id="road_to_the_hospital_name_1">
+    <rus>Добраться к Госпиталю</rus>
+  </string>
+  <string id="road_to_the_hospital_name_2">
+    <rus>Добраться до Красного Леса</rus>
+  </string>
+  <string id="road_to_the_hospital_name_3">
+    <rus>Добраться до Лиманска</rus>
+  </string>
+  <string id="road_to_the_hospital_name_4">
+    <rus>Добраться до Госпиталя</rus>
+  </string>
+  <string id="borman_meet_task_name">
+    <rus>Лиманские дела</rus>
+  </string>
+  <string id="borman_meet_task_name_1">
+    <rus>Поговорить с Борманом</rus>
+  </string>
+  <string id="borman_retranslator_task_name">
+    <rus>Перепрошивка</rus>
+  </string>
+  <string id="borman_retranslator_task_name_1">
+    <rus>Помочь Борману</rus>
+  </string>
+  <string id="borman_retranslator_task_name_2">
+    <rus>Ликвидировать снайперов "Монолита"</rus>
+  </string>
+  <string id="borman_retranslator_task_name_3">
+    <rus>Найти ретранслятор</rus>
+  </string>
+  <string id="borman_retranslator_task_name_4">
+    <rus>Отнести ретранслятор Шурупу</rus>
+  </string>
+  <string id="borman_retranslator_task_name_5">
+    <rus>Дождаться готовности</rus>
+  </string>
+  <string id="borman_retranslator_task_name_6">
+    <rus>Вернуть ретранслятор на первоначальное место</rus>
+  </string>
+  <string id="borman_retranslator_task_name_7">
+    <rus>Вернуться к Борману</rus>
+  </string>
+  <string id="borman_kill_the_bandits_task_name">
+    <rus>Беспредельщики</rus>
+  </string>
+  <string id="borman_kill_the_bandits_task_name_1">
+    <rus>Ликвидировать бандитов в северном доме</rus>
+  </string>
+  <string id="borman_kill_the_bandits_task_name_2">
+    <rus>Ликвидировать бандитов в Лиманске</rus>
+  </string>
+  <string id="borman_kill_the_bandits_task_name_3">
+    <rus>Вернуться к Борману</rus>
+  </string>
+  <string id="borman_find_food_task_name">
+    <rus>Ящик с провизией в Лиманске</rus>
+  </string>
+  <string id="borman_find_food_task_name_1">
+    <rus>Поговорить с Борманом</rus>
+  </string>
+  <string id="borman_find_food_task_name_2">
+    <rus>Найти ящик с провизией</rus>
+  </string>
+  <string id="borman_find_food_task_name_3">
+    <rus>Вернуться к Борману</rus>
+  </string>
+  <string id="borman_find_mg_task_name">
+    <rus>Тяжёлый аргумент</rus>
+  </string>
+  <string id="borman_find_mg_task_name_1">
+    <rus>Найти танковый пулемёт на территории стройки</rus>
+  </string>
+  <string id="borman_find_mg_task_name_2">
+    <rus>Найти танковый пулемёт</rus>
+  </string>
+  <string id="borman_find_mg_task_name_3">
+    <rus>Вернуться к Борману</rus>
+  </string>
+  <string id="rubezh_task_name">
+    <rus>"Рубеж"</rus>
+  </string>
+  <string id="rubezh_task_name_1">
+    <rus>Найти способ отключить систему "Рубеж"</rus>
+  </string>
+  <string id="rubezh_task_name_2">
+    <rus>Поговорить с Долговязым</rus>
+  </string>
+  <string id="rubezh_task_name_3">
+    <rus>Найти электронику</rus>
+  </string>
+  <string id="rubezh_task_name_4">
+    <rus>Вернуться к Долговязому</rus>
+  </string>
+  <string id="rubezh_task_name_5">
+    <rus>Дождаться готовности</rus>
+  </string>
+  <string id="rubezh_task_name_6">
+    <rus>Отключить систему "Рубеж"</rus>
+  </string>
+  <string id="esc_return_task_name">
+    <rus>Назад к истокам</rus>
+  </string>
+  <string id="esc_return_task_name_1">
+    <rus>Зайти к Сидоровичу за новым делом</rus>
+  </string>
+  <string id="esc_return_task_name_2">
+    <rus>Зайти к Сидоровичу</rus>
+  </string>
+  <string id="need_meet_kat_name">
+    <rus>Пересечься с Котом</rus>
+  </string>
+  <string id="need_meet_kat_name_1">
+    <rus>Встретиться с Котом в баре "Чистого неба"</rus>
+  </string>
+  <string id="neumeha_gun_name">
+    <rus>Обмен по нужде</rus>
+  </string>
+  <string id="neumeha_gun_name_1">
+    <rus>Достать АК-105 для Неумехи</rus>
+  </string>
+  <string id="neumeha_gun_name_2">
+    <rus>Вернуться к Неумехе</rus>
+  </string>
+  <string id="voronin_after_yantar_meeting_name">
+    <rus>Доброволец для генерала</rus>
+  </string>
+  <string id="voronin_after_yantar_meeting_name_1">
+    <rus>Поговорить с генералом Ворониным</rus>
+  </string>
+  <string id="voronin_after_yantar_meeting_name_2">
+    <rus>Поговорить с генералом</rus>
+  </string>
+  <string id="ask_voronin_about_klyk_name">
+    <rus>След Клыка</rus>
+  </string>
+  <string id="ask_voronin_about_klyk_name_1">
+    <rus>Поговорить с генералом Ворониным</rus>
+  </string>
+  <string id="ask_voronin_about_klyk_name_2">
+    <rus>Поговорить с генералом</rus>
+  </string>
+  <string id="informator_after_voronin_name">
+    <rus>След Клыка</rus>
+  </string>
+  <string id="informator_after_voronin_name_1">
+    <rus>Поговорить с Осведомителем</rus>
+  </string>
+  <string id="music_flash_sak_task_name">
+    <rus>Записка для Ворона</rus>
+  </string>
+  <string id="music_flash_sak_task_name_1">
+    <rus>Отнести записку Ворону</rus>
+  </string>
+  <string id="skat_task_new_name">
+    <rus>Сборка "СКАТ-15"</rus>
+  </string>
+  <string id="skat_task_new_name_1">
+    <rus>Найти "СКАТ-15" и блоки апгрейдера</rus>
+  </string>
+  <string id="skat_task_new_name_2">
+    <rus>Найти "СКАТ-15"</rus>
+  </string>
+  <string id="skat_task_new_name_3">
+    <rus>Найти систему для активации модулей</rus>
+  </string>
+  <string id="skat_task_new_name_4">
+    <rus>Найти блок апгрейдера №1</rus>
+  </string>
+  <string id="skat_task_new_name_5">
+    <rus>Найти блок апгрейдера №2</rus>
+  </string>
+  <string id="skat_task_new_name_6">
+    <rus>Активировать блоки апгрейдера</rus>
+  </string>
+  <string id="kostya_news_tayniki_sms_name">
+    <rus>Новая информация</rus>
+  </string>
+  <string id="kostya_news_tayniki_sms_name_1">
+    <rus>Новая информация</rus>
+  </string>
+  <string id="kostya_news_tayniki_sms_name_2">
+    <rus>Поговорить с Костей</rus>
+  </string>
+  <string id="otshelnik_before_detector_name">
+    <rus>Заглянуть к Отшельнику</rus>
+  </string>
+  <string id="otshelnik_before_detector_name_1">
+    <rus>Поговорить с Отшельником</rus>
+  </string>
+  <string id="jora_safe_opened_name">
+    <rus>Возвращение в лазарет</rus>
+  </string>
+  <string id="jora_safe_opened_name_1">
+    <rus>Вернуться в лазарет</rus>
+  </string>
+  <string id="task_himera_contact_name">
+    <rus>Контакт с Химерой</rus>
+  </string>
+  <string id="task_himera_contact_name_1">
+    <rus>Вернуться в лазарет</rus>
+  </string>
+  <string id="task_himera_contact_name_2">
+    <rus>Поговорить с Химерой</rus>
+  </string>
+  <string id="task_after_himera_contact_name">
+    <rus>Обманный расчёт</rus>
+  </string>
+  <string id="task_after_himera_contact_name_1">
+    <rus>Поговорить с Циклопом</rus>
+  </string>
+  <string id="task_after_himera_contact_name_2">
+    <rus>Найти тайник Химеры</rus>
+  </string>
+  <string id="kluk_is_alive_name">
+    <rus>Живее всех живых</rus>
+  </string>
+  <string id="kluk_is_alive_name_1">
+    <rus>Встретиться с Клыком</rus>
+  </string>
+  <string id="task_after_warlab_name">
+    <rus>Разговор с Клыком</rus>
+  </string>
+  <string id="task_after_warlab_name_1">
+    <rus>Поговорить с Клыком</rus>
+  </string>
+  <string id="task_after_warlab_name_2">
+    <rus>Вернуть печатку Лукашу</rus>
+  </string>
+  <string id="road_to_generators_name">
+    <rus>Новая территория</rus>
+  </string>
+  <string id="road_to_generators_name_1">
+    <rus>Добраться до перехода</rus>
+  </string>
+  <string id="road_to_generators_name_2">
+    <rus>Добраться до Генераторов</rus>
+  </string>
+  <string id="road_to_generators_name_3">
+    <rus>Добраться до деревни сталкеров</rus>
+  </string>
+  <string id="road_to_generators_name_4">
+    <rus>Поговорить с главным в деревне</rus>
+  </string>
+  <string id="trap_task_name">
+    <rus>"Тёплый приeм"</rus>
+  </string>
+  <string id="trap_task_name_1">
+    <rus>Встретиться с Парфюмером</rus>
+  </string>
+  <string id="trap_task_name_2">
+    <rus>Добраться до деревни и говорить с Саней Тюменским</rus>
+  </string>
+  <string id="arny_test_guns_name">
+    <rus>Тест пистолетов</rus>
+  </string>
+  <string id="arny_test_guns_name_1">
+    <rus>Протестировать пистолеты для Арни</rus>
+  </string>
+  <string id="arny_test_guns_name_2">
+    <rus>Протестировать ПМ</rus>
+  </string>
+  <string id="arny_test_guns_name_3">
+    <rus>Протестировать ПБ</rus>
+  </string>
+  <string id="arny_test_guns_name_4">
+    <rus>Протестировать Форт-12</rus>
+  </string>
+  <string id="arny_test_guns_name_5">
+    <rus>Протестировать ТТ-33</rus>
+  </string>
+  <string id="arny_test_guns_name_6">
+    <rus>Протестировать MP-443 "Грач"</rus>
+  </string>
+  <string id="arny_test_guns_name_7">
+    <rus>Протестировать Beretta 92FS</rus>
+  </string>
+  <string id="arny_test_guns_name_8">
+    <rus>Протестировать HK USP .45 Compact</rus>
+  </string>
+  <string id="arny_test_guns_name_9">
+    <rus>Протестировать SIG Sauer P220</rus>
+  </string>
+  <string id="arny_test_guns_name_10">
+    <rus>Протестировать Walther P99</rus>
+  </string>
+  <string id="arny_test_guns_name_11">
+    <rus>Протестировать Browning High-Power</rus>
+  </string>
+  <string id="arny_test_guns_name_12">
+    <rus>Протестировать FN Five-seveN</rus>
+  </string>
+  <string id="arny_test_guns_name_13">
+    <rus>Протестировать Glock-17</rus>
+  </string>
+  <string id="arny_test_guns_name_14">
+    <rus>Протестировать Colt M1911</rus>
+  </string>
+  <string id="arny_test_guns_name_15">
+    <rus>Протестировать СР-1М "Гюрза"</rus>
+  </string>
+  <string id="arny_test_guns_name_16">
+    <rus>Протестировать IMI Desert Eagle</rus>
+  </string>
+  <string id="arny_test_guns_name_17">
+    <rus>Протестировать Taurus Raging Bull</rus>
+  </string>
+  <string id="arny_test_guns_name_18">
+    <rus>Отчитаться Арни о тестировании</rus>
+  </string>
+  <string id="arny_test_guns_name_19">
+    <rus>Отнести пистолеты Арни</rus>
+  </string>
+  <string id="lukash_btr_task_name">
+    <rus>Стражник для "Барьера"</rus>
+  </string>
+  <string id="lukash_btr_task_name_1">
+    <rus>Пригнать БТР</rus>
+  </string>
+  <string id="lukash_btr_task_name_2">
+    <rus>Найти БТР в Красном Лесу</rus>
+  </string>
+  <string id="lukash_btr_task_name_3">
+    <rus>Поговорить с Шурупом</rus>
+  </string>
+  <string id="lukash_btr_task_name_4">
+    <rus>Найти аккумулятор и три артефакта "Батарейка"</rus>
+  </string>
+  <string id="lukash_btr_task_name_5">
+    <rus>Вернуться к Шурупу</rus>
+  </string>
+  <string id="lukash_btr_task_name_6">
+    <rus>Забрать рабочий аккумулятор</rus>
+  </string>
+  <string id="lukash_btr_task_name_7">
+    <rus>Починить БТР</rus>
+  </string>
+  <string id="lukash_btr_task_name_8">
+    <rus>Доставить БТР до "Барьера"</rus>
+  </string>
+  <string id="lukash_btr_task_name_9">
+    <rus>Вернуться к Лукашу</rus>
+  </string>
+  <string id="arny_michaeljackson_task_name">
+    <rus>Старое радио</rus>
+  </string>
+  <string id="arny_michaeljackson_task_name_1">
+    <rus>Раздобыть радио для Арни</rus>
+  </string>
+  <string id="arny_michaeljackson_task_name_2">
+    <rus>Вернуться к Арни</rus>
+  </string>
+  <string id="jup_mechanic_toolkits_task_name">
+    <rus>Инструменты для мастера</rus>
+  </string>
+  <string id="jup_mechanic_toolkits_task_name_1">
+    <rus>Раздобыть инструменты для Шурика Фроста</rus>
+  </string>
+  <string id="jup_mechanic_toolkits_task_name_2">
+    <rus>Найти инструменты</rus>
+  </string>
+  <string id="jup_mechanic_toolkits_task_name_3">
+    <rus>Вернуться к Шурику Фросту</rus>
+  </string>
+  <string id="jup_tunnel_trap_task_name">
+    <rus>Сигнал СОС</rus>
+  </string>
+  <string id="jup_tunnel_trap_task_name_1">
+    <rus>Проверить южный туннель</rus>
+  </string>
+  <string id="zveroboy_need_help_task_name">
+    <rus>Зверобой в беде</rus>
+  </string>
+  <string id="zveroboy_need_help_task_name_1">
+    <rus>Помочь Зверобою</rus>
+  </string>
+  <string id="monster_scaner_start_name">
+    <rus>Испытание сканера</rus>
+  </string>
+  <string id="monster_scaner_start_name_1">
+    <rus>Протестировать сканнер</rus>
+  </string>
+  <string id="monster_scaner_start_name_2">
+    <rus>Забрать сканер</rus>
+  </string>
+  <string id="monster_scaner_start_name_3">
+    <rus>Установить сканер в точке замера</rus>
+  </string>
+  <string id="monster_scaner_start_name_4">
+    <rus>Дождаться окончания сканирования</rus>
+  </string>
+  <string id="monster_scaner_start_name_5">
+    <rus>Отнести сканер учёным</rus>
+  </string>
+  <string id="zveroboy_wants_talk_name">
+    <rus>Весточка от Зверобоя</rus>
+  </string>
+  <string id="zveroboy_wants_talk_name_1">
+    <rus>Поговорить с Зверобоем</rus>
+  </string>
+  <string id="kudasov_controller_task_name">
+    <rus>Воспалённый разум</rus>
+  </string>
+  <string id="kudasov_controller_task_name_1">
+    <rus>Проверить сигнал в Копачах</rus>
+  </string>
+  <string id="kudasov_controller_task_name_2">
+    <rus>Уничтожить контролёра и забрать чип</rus>
+  </string>
+  <string id="kudasov_controller_task_name_3">
+    <rus>Отнести чип профессору Кудасову</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_name">
+    <rus>Сеть замеров</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_name_1">
+    <rus>Развернуть сеть сканеров на Юпитере</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_name_2">
+    <rus>Установить сканер на стоянке</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_name_3">
+    <rus>Установить сканер у архианомалии "Бетонная ванна"</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_name_4">
+    <rus>Установить сканер у архианомалии "Пепелище"</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_name_5">
+    <rus>Установить сканер в карьере</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_name_6">
+    <rus>Установить сканер у архианомалии "Плавни"</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_name_7">
+    <rus>Вернуться к профессору Кудасову</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_second_task_name">
+    <rus>Вторая серия замеров</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_second_task_name_1">
+    <rus>Развернуть вторую линию сканеров</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_second_task_name_2">
+    <rus>Установить сканер у архианомалии "Битум"</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_second_task_name_3">
+    <rus>Установить сканер у архианомалии "Вулкан"</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_second_task_name_4">
+    <rus>Установить сканер у архианомалии "Ведьмин круг"</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_second_task_name_5">
+    <rus>Установить сканер у архианомалии "Разлом"</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_second_task_name_6">
+    <rus>Установить сканер в Шахте</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_second_task_name_7">
+    <rus>Вернуться к профессору Кудасову</rus>
+  </string>
+  <string id="kudasov_need_meet_task_name">
+    <rus>Срочный разговор</rus>
+  </string>
+  <string id="kudasov_need_meet_task_name_1">
+    <rus>Поговорить с профессором Кудасовым</rus>
+  </string>
+  <string id="inferno_task_start_name">
+    <rus>Инферно</rus>
+  </string>
+  <string id="inferno_task_start_name_1">
+    <rus>Добыть уникальный артефакт</rus>
+  </string>
+  <string id="inferno_task_start_name_2">
+    <rus>Поймать артефакт</rus>
+  </string>
+  <string id="inferno_task_start_name_3">
+    <rus>Вернуться к профессору Кудасову</rus>
+  </string>
+  <string id="bonesetter_task_name">
+    <rus>Докторский саквояж</rus>
+  </string>
+  <string id="bonesetter_task_name_1">
+    <rus>Найти медицинскую сумку</rus>
+  </string>
+  <string id="bonesetter_task_name_2">
+    <rus>Вернуться к Костоправу</rus>
+  </string>
+  <string id="norman_stashes_chain_name">
+    <rus>Тайники Нормана</rus>
+  </string>
+  <string id="norman_stashes_chain_name_1">
+    <rus>Найти тайники Нормана</rus>
+  </string>
+  <string id="norman_stashes_chain_name_2">
+    <rus>Найти первый тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_3">
+    <rus>Найти второй тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_4">
+    <rus>Найти третий тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_5">
+    <rus>Найти четвёртый тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_6">
+    <rus>Найти пятый тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_7">
+    <rus>Найти шестой тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_8">
+    <rus>Найти седьмой тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_9">
+    <rus>Найти восьмой тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_10">
+    <rus>Найти девятый тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_11">
+    <rus>Найти десятый тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_12">
+    <rus>Найти одиннадцатый тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_13">
+    <rus>Найти двенадцатый тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_14">
+    <rus>Найти тринадцатый тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_15">
+    <rus>Найти четырнадцатый тайник</rus>
+  </string>
+  <string id="norman_stashes_chain_name_16">
+    <rus>Найти последний тайник</rus>
+  </string>
+  <string id="zveroboy_first_task_name">
+    <rus>Звериные тропы</rus>
+  </string>
+  <string id="zveroboy_first_task_name_1">
+    <rus>Зачистить лагеря монстров</rus>
+  </string>
+  <string id="zveroboy_first_task_name_2">
+    <rus>Зачистить лагерь снорков</rus>
+  </string>
+  <string id="zveroboy_first_task_name_3">
+    <rus>Зачистить лагерь псевдособак</rus>
+  </string>
+  <string id="zveroboy_first_task_name_4">
+    <rus>Зачистить лагерь псевдогигантов</rus>
+  </string>
+  <string id="zveroboy_first_task_name_5">
+    <rus>Вернуться к Зверобою</rus>
+  </string>
+  <string id="zveroboy_second_task_name">
+    <rus>Логово смерти</rus>
+  </string>
+  <string id="zveroboy_second_task_name_1">
+    <rus>Зачистить лагерь монстров</rus>
+  </string>
+  <string id="zveroboy_second_task_name_2">
+    <rus>Уничтожить семейку когтей смерти</rus>
+  </string>
+  <string id="zveroboy_second_task_name_3">
+    <rus>Вернуться к Зверобою</rus>
+  </string>
+  <string id="vintorez_uniq_name">
+    <rus>Особый заказ</rus>
+  </string>
+  <string id="vintorez_uniq_name_1">
+    <rus>Выкупить ВСС у Шурупа</rus>
+  </string>
+  <string id="vintorez_uniq_name_2">
+    <rus>Поговорить с Шурупом</rus>
+  </string>
+
+</string_table>

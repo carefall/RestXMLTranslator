@@ -1,0 +1,1767 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="zaton_secret_1_name">
+    <rus>Шмотки утопленника</rus>
+  </string>
+  <string id="zaton_secret_1_descr">
+    <rus>Видел, как из упавшего верта\nвыбрался вояка и пошёл прямо через болото,\nберегом не смог — много аномалий.\nДа только засосало мужика — \nоднако рюкзачок он успел с плеч скинуть.\nСлазить бы посмотреть, что там,\nда боязно — болото-то аномальное...</rus>
+  </string>
+  <string id="zaton_secret_2_name">
+    <rus>Кустарный тайник</rus>
+  </string>
+  <string id="zaton_secret_2_descr">
+    <rus>Место безлюдное,\nпочти на окраине, только монстры бегают.\nОни-то мой рюкзачок и постерегут,\nпока я ищу тропку из этого проклятого места...</rus>
+  </string>
+  <string id="zaton_secret_3_name">
+    <rus>Хабар безумца</rus>
+  </string>
+  <string id="zaton_secret_3_descr">
+    <rus>Сделал нычку в самом пекле.\nНи один здравомыслящий сюда не сунется.\nА если и сунется — кирпич с неба прилетит -\nкак раз над головой эта фиговина и крутится.\nГосподи-прости — и какая ж сила \nэту штуковину от земли оторвала?!</rus>
+  </string>
+  <string id="zaton_secret_4_name">
+    <rus>Рюкзак докера</rus>
+  </string>
+  <string id="zaton_secret_4_descr">
+    <rus>Прятать особо нечего,\nпоэтому далеко не пойду.\nОставлю рюкзак в какой-то железной штуке,\nоколо портовых кранов.\nНайдут так найдут,\nоднако товарищей мародёров будет ждать сюрприз.</rus>
+  </string>
+  <string id="zaton_secret_5_name">
+    <rus>Скарб скалолаза</rus>
+  </string>
+  <string id="zaton_secret_5_descr">
+    <rus>Эх, вспомню молодость.\nСюда не сунутся — многие боятся высоты.\nА если рюкзачок и упадёт вниз -\nне страшно, найду.</rus>
+  </string>
+  <string id="zaton_secret_6_name">
+    <rus>Тайник ассенизатора</rus>
+  </string>
+  <string id="zaton_secret_6_descr">
+    <rus>Надоело по этой вонючей каналье лазить.\nИм-то там наверху хорошо,\nа я тут службу несу по колено в дерьме,\nпричём в чужом дерьме. Одна радость:\nискать мой рюкзак в этих \nзловонных трубах никто не будет.</rus>
+  </string>
+  <string id="zaton_secret_7_name">
+    <rus>Рюкзак трубочиста</rus>
+  </string>
+  <string id="zaton_secret_7_descr">
+    <rus>Трубы здесь нет, однако крыша имеется.\nКакой пень полезет на крышу? Никакой.\nЗначит, и хабар будет в целости и сохранности.</rus>
+  </string>
+  <string id="zaton_secret_8_name">
+    <rus>Заначка самоубийцы</rus>
+  </string>
+  <string id="zaton_secret_8_descr">
+    <rus>Нашёл тихое место, укромное.\nДаже и не подумаешь, что здесь целая система пещер,\nесли верить ПДА — я почти под трубопроводом.\nОднако оплошал — одни камни, и верёвку не зацепить.\nПридётся смотаться за крюком и молотком.\nРюкзак оставлю, всё равно вернусь.\nЕсли кто найдёт — пусть и используют по-назначению,\nя такого добра ещё надыбаю.</rus>
+  </string>
+  <string id="dead_city_secret_1_name">
+    <rus>Заначка беглеца</rus>
+  </string>
+  <string id="dead_city_secret_1_descr">
+    <rus>Пора линять из этого "Последнего дня".\nОтморозки... Сделаю заначку на крыше,\nбуду уносить ноги — пригодится -\nвещички крайне нужные.</rus>
+  </string>
+  <string id="dead_city_secret_2_name">
+    <rus>Вещи зомбированного</rus>
+  </string>
+  <string id="dead_city_secret_2_descr">
+    <rus>Что-то после вчерашнего рандеву\nс контролёром как-то не по себе.\nМысли дурацкие и голова, как кирпич.\nПрипрячу пока шмотки свои в фонтане напротив школы.\nКак бы с ними глупостей не натворить,\nпока болею.</rus>
+  </string>
+  <string id="dead_city_secret_3_name">
+    <rus>Нычка Обморока</rus>
+  </string>
+  <string id="dead_city_secret_3_descr">
+    <rus>Нычка — не нычка,\nно пока свои же шакалы не прибили и не обчистили.\nПрипрячу в домике на холме.\nНа этой территории даже с авторитетами мало считаются.</rus>
+  </string>
+  <string id="dead_city_secret_4_name">
+    <rus>Схрон старожила</rus>
+  </string>
+  <string id="dead_city_secret_4_descr">
+    <rus>Насобирал немного. Да куда всё это?\nТут нет ни торговцев,\nни выходов на другие территории.\nПусть барахло лучше будет здесь -\nна козырьке разрушенного дома.\nМожет, будут времена получше, тогда и заберу.</rus>
+  </string>
+  <string id="dead_city_secret_5_name">
+    <rus>Дедкины вещи</rus>
+  </string>
+  <string id="dead_city_secret_5_descr">
+    <rus>Я стар...\nРюкзак таскать уже в тягость — \nне то что эти, молодые.\nНеизвестна им СОЛЬ победы и вкус адреналина,\nкогда идёшь на задание с одним обрезом.\nНо нычку оставлю в комнате на пятом этаже.\nМожет, кто и за мой упокой потом выпьет,\nкогда найдёт.</rus>
+  </string>
+  <string id="atp_arhara_secret_1_name">
+    <rus>Тайник матёрого разведчика</rus>
+  </string>
+  <string id="atp_arhara_secret_1_descr">
+    <rus>Припрятал кое-чего из хабара в кусты.\nПозже заберу.</rus>
+  </string>
+  <string id="atp_arhara_secret_2_name">
+    <rus>Заначка Шныры</rus>
+  </string>
+  <string id="atp_arhara_secret_2_descr">
+    <rus>Ну, мля, ворьё... Свои у своих тырят!\nГде совесть воровская? Хабар невелик,\nя бы даже не позарился, но спрячу.\nЕсли будет ещё чего ценного — буду в него добавлять.\nНадеюсь, так высоко шпана не полезет.</rus>
+  </string>
+  <string id="atp_arhara_secret_3_name">
+    <rus>Хабар Кита</rus>
+  </string>
+  <string id="atp_arhara_secret_3_descr">
+    <rus>Калинин-калининым,\nа хабарок-то я от его пытливых глазок припрячу.\nВернее, притоплю в камышах.\nНакоплю деньжат и рвану за периметр,\nдобро с собой прихвачу.\nТам, говорят, беспредел творится,\nдары Зоны лишними не будут.</rus>
+  </string>
+  <string id="generators_arhara_secret_1_name">
+    <rus>Рюкзак "монолитовца"</rus>
+  </string>
+  <string id="generators_arhara_secret_1_descr">
+    <rus>Чёрт меня дёрнул податься к этим фанатикам.\nСтырил у них хабарок и припрятал за цистернами -\nони типа говорят — грех такой хранить.\nНоги буду делать отсюда — прихвачу.</rus>
+  </string>
+  <string id="generators_arhara_secret_2_name">
+    <rus>Тайник Земляка</rus>
+  </string>
+  <string id="generators_arhara_secret_2_descr">
+    <rus>Схоронил от дурных и завистливых глаз\nхабарок свой под поваленным деревом.\nПусть тут побудет — место безлюдное -\nникто не доберётся.</rus>
+  </string>
+  <string id="generators_arhara_secret_3_name">
+    <rus>Хабар охранника</rus>
+  </string>
+  <string id="generators_arhara_secret_3_descr">
+    <rus>Припрятал шмотки кое-какие,\nаккурат на маковке вздыбленной земли.\nВсё равно их бывшим владельцам они уже не потребуются.\nА мне эти вещи, как пить дать, сгодятся.</rus>
+  </string>
+  <string id="generators_arhara_secret_4_name">
+    <rus>Тайник Фрица</rus>
+  </string>
+  <string id="generators_arhara_secret_4_descr">
+    <rus>Хабар не так уж и плох.\nВ рюкзаке его постоянно таскать — не дело.\nЗаберусь повыше и припрячу рюкзак на будущее.\nВсё равно бывшим владельцам \nон уже не потребуются,\nа мне, может, сгодится — \nне на век же я в Зоне застрял.</rus>
+  </string>
+  <string id="generators_arhara_secret_5_name">
+    <rus>Неизвестный тайник</rus>
+  </string>
+  <string id="generators_arhara_secret_5_descr">
+    <rus>Владелец этого тайника неизвестен.\nВозможно, он уже давно сгинул \nв суровом водовороте жизни Зоны,\nоставив свой хабар прямо под деревом -\nкак дар для случайно наткнувшегося сталкера.</rus>
+  </string>
+  <string id="aver_arhara_secret_1_name">
+    <rus>Тайник Архары</rus>
+  </string>
+  <string id="aver_arhara_secret_1_descr">
+    <rus>Заховал барахлишко под деревом,\nнадеюсь, не найдут.\nНароду тут немного шарится.\nС собой тащить в лом.</rus>
+  </string>
+  <string id="aver_arhara_secret_2_name">
+    <rus>Тайник Пилигрима</rus>
+  </string>
+  <string id="aver_arhara_secret_2_descr">
+    <rus>Место для меня новое.\nПусть хабарок пока полежит.\nОсвоюсь — заберу.</rus>
+  </string>
+  <string id="aver_arhara_secret_3_name">
+    <rus>Тайник Отшельника</rus>
+  </string>
+  <string id="aver_arhara_secret_3_descr">
+    <rus>Замочили вчера несколько "мстителей".\nЗабрали их добро, но до базы не донесём,\nпоэтому часть хабара припрятали под ёлкой,\nу самой вершины.</rus>
+  </string>
+  <string id="aver_arhara_secret_4_name">
+    <rus>Тайник Звездочёта</rus>
+  </string>
+  <string id="aver_arhara_secret_4_descr">
+    <rus>Приглядел два больших камня на склоне.\nСделаю тут тайничок полезный.\nВсё равно часто здесь бываю.\nПригодится в трудную минутку — хабарок-то неплохой.</rus>
+  </string>
+  <string id="aver_arhara_secret_5_name">
+    <rus>Тайник Старика</rus>
+  </string>
+  <string id="aver_arhara_secret_5_descr">
+    <rus>Оставлю рюкзачок в камнях,\nпока у медика лечусь.\nПоправлю здоровье — заберу.</rus>
+  </string>
+  <string id="warlab_arhara_secret_1_name">
+    <rus>Тайник Пантеры</rus>
+  </string>
+  <string id="warlab_arhara_secret_1_descr">
+    <rus>Припрятала чуток хабара \nи запасной любимый ствол.\nЭти мужики — такое ворьё, всё утащат, \nа тайничок могут и не найти.</rus>
+  </string>
+  <string id="warlab_arhara_secret_2_name">
+    <rus>Тайник Витамина</rus>
+  </string>
+  <string id="warlab_arhara_secret_2_descr">
+    <rus>Пришли. Собак постреляли. База наша.\nПрипрятал я чуток хабара,\nчтобы в рюкзаке лишнего пока не таскать.\nНа задание пойду — заберу.</rus>
+  </string>
+  <string id="warlab_arhara_secret_3_name">
+    <rus>Тайник Костолома</rus>
+  </string>
+  <string id="warlab_arhara_secret_3_descr">
+    <rus>Затихарил в шахте лифта рюкзачок.\nПусть своего часа дожидается — может и пригодится.\nЖизнь наёмника не стоит и гроша — \nхз, что будет завтра.</rus>
+  </string>
+  <string id="village_arhara_secret_1_name">
+    <rus>Тайник Михи</rus>
+  </string>
+  <string id="village_arhara_secret_1_descr">
+    <rus>Фиг знает, как меня сюда занесло,\nно обратно всё барахло,\nчто тут насобирал, утащить не смогу.\nСамое ненужное занычу за сортиром, \nпропадёт — так не жалко.</rus>
+  </string>
+  <string id="village_arhara_secret_2_name">
+    <rus>Тайник местного</rus>
+  </string>
+  <string id="village_arhara_secret_2_descr">
+    <rus>Деревня вымерла.\nВсе незаметно разошлись, кто-куда.\nТишина какая-то мёртвая установилась, \nаж мурашки бегают. Не к добру это. \nЧто есть — припрячу в подвале, \nа пока надо отсюда делать ноги.</rus>
+  </string>
+  <string id="village_arhara_secret_3_name">
+    <rus>Рюкзак капитана</rus>
+  </string>
+  <string id="village_arhara_secret_3_descr">
+    <rus>Зачистили вчера выбранный квадрат.\nТрупы обшмонали. Добро слили перекупщикам.\nЧто осталось — припрячу в одном из домов.\nВдруг в карты проиграюсь — \nбудет, чем долг отдать.</rus>
+  </string>
+  <string id="village_arhara_secret_4_name">
+    <rus>Тайник лейтенанта</rus>
+  </string>
+  <string id="village_arhara_secret_4_descr">
+    <rus>Сделал тайничок на крыше одного дома.\nМестечко укромное, иногда можно втихомолочку \nперекусить и журнальчик полистать.\nНадо же тонус поддерживать.\nИ какой идиот сказал, \nчто Зона не для баб?</rus>
+  </string>
+  <string id="agr_secret_0000_descr">
+    <rus>Тайник наш пока в тоннеле,\nвсё добро лежит в трубе.\nТам хорошо, мало кто про место знает, \nда и аномалии отобьют охоту лезть.</rus>
+  </string>
+  <string id="agr_secret_0000_name">
+    <rus>Тайник Серого</rus>
+  </string>
+  <string id="agr_secret_0001_descr">
+    <rus>В пеньке спрятал, возле тоннеля.\nДырка там удобная.</rus>
+  </string>
+  <string id="agr_secret_0001_name">
+    <rus>Дырявый пень</rus>
+  </string>
+  <string id="agr_secret_0002_descr">
+    <rus>Под крестом, возле куста, \nзакопал хабара чуток.</rus>
+  </string>
+  <string id="agr_secret_0002_name">
+    <rus>Заначка под крестом</rus>
+  </string>
+  <string id="agr_secret_0003_descr">
+    <rus>Скинул рюкзак под поваленным деревом.</rus>
+  </string>
+  <string id="agr_secret_0003_name">
+    <rus>Рюкзак под деревом</rus>
+  </string>
+  <string id="agr_secret_0004_descr">
+    <rus>Рюкзак засунул в трубу, возле фабрики.\nНикто не найдёт.</rus>
+  </string>
+  <string id="agr_secret_0004_name">
+    <rus>Рюкзак трубочиста</rus>
+  </string>
+  <string id="agr_secret_0005_descr">
+    <rus>Ящик снычковал на крыше фабрики,\nтам никто не увидит.\nТолько под дождём заржавеет...</rus>
+  </string>
+  <string id="agr_secret_0005_name">
+    <rus>Ящик на крыше</rus>
+  </string>
+  <string id="agr_secret_0006_descr">
+    <rus>Стреляли, пришлось бросить рюкзак \nпод вагоном, за колесом.\nЗато ушёл. Потом заберу.</rus>
+  </string>
+  <string id="agr_secret_0006_name">
+    <rus>Рюкзак пьяницы</rus>
+  </string>
+  <string id="agr_secret_0007_descr">
+    <rus>Под крестом спрятал, за цистернами.\nПокопай немного, только не увлекайся.</rus>
+  </string>
+  <string id="agr_secret_0007_name">
+    <rus>У четырёх цистерн</rus>
+  </string>
+  <string id="agr_secret_0008_descr">
+    <rus>На фабрике положил рюкзак сверху,\nтак что снизу не увидать.\nТолько вот точно не помню, что в нём.</rus>
+  </string>
+  <string id="agr_secret_0008_name">
+    <rus>Рюкзак мой свет в окошке</rus>
+  </string>
+  <string id="agr_secret_0009_descr">
+    <rus>Внутри фабрики, в ящике, \nспрятал вещички.</rus>
+  </string>
+  <string id="agr_secret_0009_name">
+    <rus>Радиоактивный ящик</rus>
+  </string>
+  <string id="agr_secret_0010_descr">
+    <rus>Под лестницей в ящике тайник.</rus>
+  </string>
+  <string id="agr_secret_0010_name">
+    <rus>Ящик в пролёте</rus>
+  </string>
+  <string id="agr_secret_0011_descr">
+    <rus>В шкафчике спрятал ящик с хабаром.\nВсё равно никто проверять не будет.</rus>
+  </string>
+  <string id="agr_secret_0011_name">
+    <rus>Фабричный ящик</rus>
+  </string>
+  <string id="agr_secret_0012_descr">
+    <rus>Скинул сумку за окном, \nзаберу её потом.</rus>
+  </string>
+  <string id="agr_secret_0012_name">
+    <rus>Сумка на опоре</rus>
+  </string>
+  <string id="agr_secret_0013_descr">
+    <rus>Мы с Коляном на Агропроме неплохо погуляли,\nхлама разного нагребли,\nно кое-что довелось припрятать.\nЯщик положили в мусорном контейнере.</rus>
+  </string>
+  <string id="agr_secret_0013_name">
+    <rus>Ящик мусора</rus>
+  </string>
+  <string id="agr_secret_0014_descr">
+    <rus>Под поваленным деревом нашёл сейф,\nпока буду тут всё прятать.</rus>
+  </string>
+  <string id="agr_secret_0014_name">
+    <rus>Сейф под деревом</rus>
+  </string>
+  <string id="agr_secret_0015_descr">
+    <rus>В трубу кинул вещи, потом заберу.\nПришлось оставить, а то бы \nс собой забрал, конечно. \nТолько бы не намокли.</rus>
+  </string>
+  <string id="agr_secret_0015_name">
+    <rus>Вещи в трубе</rus>
+  </string>
+  <string id="agr_secret_0016_descr">
+    <rus>Добро в старой трубе,\nнадо будет пацанам сказать.\nЯ туда не полезу.</rus>
+  </string>
+  <string id="agr_secret_0016_name">
+    <rus>Радиоактивная труба</rus>
+  </string>
+  <string id="agr_secret_0017_descr">
+    <rus>Сбежал с базы, ну их в баню,\nлезть под пули сталкеров.\nСпрятал шмотки в трубу, в завале.\nПересижу, пока не улетят, потом заберу.</rus>
+  </string>
+  <string id="agr_secret_0017_name">
+    <rus>Завал</rus>
+  </string>
+  <string id="agr_secret_0018_descr">
+    <rus>Под кустом полузакопанный сейф,\nтут всё прячу.</rus>
+  </string>
+  <string id="agr_secret_0018_name">
+    <rus>Сейф под кустом</rus>
+  </string>
+  <string id="agr_secret_0019_descr">
+    <rus>Ящик обнаружили под опорой,\nкто-то его тащил аж из НИИ.\nПодождём вертолёта, тогда заберём.</rus>
+  </string>
+  <string id="agr_secret_0019_name">
+    <rus>Архивный бокс</rus>
+  </string>
+  <string id="agr_secret_0020_descr">
+    <rus>В железной байдовине спрятал вещички.</rus>
+  </string>
+  <string id="agr_secret_0020_name">
+    <rus>Под люком</rus>
+  </string>
+  <string id="agr_secret_0021_descr">
+    <rus>Под кустом полузакопанный сейф,\nтам всё прячу.</rus>
+  </string>
+  <string id="agr_secret_0021_name">
+    <rus>Под кустом у стены</rus>
+  </string>
+  <string id="agr_secret_0022_descr">
+    <rus>Удобный ящик, \nчтоб лишнее барахло сбрасывать.\nЕдинственное — на виду он, \nпрямо под стеллажами.\nУпрут, думаю, если барахло припрячу.\nНо посмотрим...</rus>
+  </string>
+  <string id="agr_secret_0022_name">
+    <rus>Институтский ящик</rus>
+  </string>
+  <string id="agr_secret_0023_descr">
+    <rus>В казарме одной сейф приглядел.\nСпрятал в нём хабар, \nа тут военные нагрянули.\nНе достать теперь добро...</rus>
+  </string>
+  <string id="agr_secret_0023_name">
+    <rus>Агросейф</rus>
+  </string>
+  <string id="agr_secret_0024_descr">
+    <rus>В трубу кинул шмотки, \nпотом заберу.</rus>
+  </string>
+  <string id="agr_secret_0024_name">
+    <rus>Кузов грузовика</rus>
+  </string>
+  <string id="agr_secret_0025_descr">
+    <rus>Припрятал вещи в трухлявом бревне.\nВокруг кустов наросло — \nбудто специально посадили для маскировки.</rus>
+  </string>
+  <string id="agr_secret_0025_name">
+    <rus>Гнилое бревно</rus>
+  </string>
+  <string id="agr_secret_0026_descr">
+    <rus>Удобный ящик, \nчтоб лишнее барахло сбрасывать.\nКогда-то в нём хранился \nинститутский хозяйственный инвентарь.\nЛежит под столом на первом этаже.</rus>
+  </string>
+  <string id="agr_secret_0026_name">
+    <rus>Ящик завхоза</rus>
+  </string>
+  <string id="agr_secret_0027_descr">
+    <rus>Припрятал на втором этаже.\nУдобный ящик для небольших вещей.\nЯ в таком слесарные инструменты дома держал.</rus>
+  </string>
+  <string id="agr_secret_0027_name">
+    <rus>Инвентарь слесаря</rus>
+  </string>
+  <string id="agr_u_secret_0000_descr">
+    <rus>Бандиты что-то прячут под трубой,\nнадо наведаться. Из разговора ясно, \nчто там их запасы.</rus>
+  </string>
+  <string id="agr_u_secret_0000_name">
+    <rus>Бандитский общак</rus>
+  </string>
+  <string id="agr_u_secret_0001_descr">
+    <rus>Спрятал рюкзак за кусками бетона,\nпойду налегке.\nЛучше буду голодный, но живой.</rus>
+  </string>
+  <string id="agr_u_secret_0001_name">
+    <rus>Рюкзак в закоулке</rus>
+  </string>
+  <string id="agr_u_secret_0002_descr">
+    <rus>Ящик за ржавой бочкой в подземелье, \nвсё там лежит.\nЯ туда возвращаться не собираюсь, дудки!\nКаким чудом я того кровососа задавил,\nдо сих пор не помню.</rus>
+  </string>
+  <string id="agr_u_secret_0002_name">
+    <rus>Ящик кровососа</rus>
+  </string>
+  <string id="agr_u_secret_0003_descr">
+    <rus>За стеной лежит хабар.\nОтвечаю за базар!</rus>
+  </string>
+  <string id="agr_u_secret_0003_name">
+    <rus>Хабар сталкера</rus>
+  </string>
+  <string id="agr_u_secret_0004_descr">
+    <rus>Я тут нарыл кое-какие ценности.\nХитрое местечко для моего тайника.\nНа жёлтой бочке, фиг найдёшь.</rus>
+  </string>
+  <string id="agr_u_secret_0004_name">
+    <rus>Нора крота</rus>
+  </string>
+  <string id="bar_secret_0000_description">
+    <rus>Чёрт меня дернул лезть на эту пристройку.\nБоюсь же высоты — решил спрятать \nрюкзак под боком у базы "Долга".\nПотом заберу.</rus>
+  </string>
+  <string id="bar_secret_0000_name">
+    <rus>Спрятанный рюкзак</rus>
+  </string>
+  <string id="bar_secret_0001_description">
+    <rus>За мной погналась стая тушканов,\nесли бы рюкзак не оставил в машине,\nто до заставы не добежал бы.</rus>
+  </string>
+  <string id="bar_secret_0001_name">
+    <rus>Оставленный рюкзак</rus>
+  </string>
+  <string id="bar_secret_0002_description">
+    <rus>Всё, что осталось,\nзакопали под крестом.</rus>
+  </string>
+  <string id="bar_secret_0002_name">
+    <rus>Тайник под крестом</rus>
+  </string>
+  <string id="bar_secret_0003_description">
+    <rus>Скинул в трубах рюкзак,\nтак полегче будет.</rus>
+  </string>
+  <string id="bar_secret_0003_name">
+    <rus>Рюкзак</rus>
+  </string>
+  <string id="bar_secret_0004_description">
+    <rus>Снаряга заставы "Долга" хранится в бункере,\nно за ящиком никто не следит.</rus>
+  </string>
+  <string id="bar_secret_0004_name">
+    <rus>Склад в бункере</rus>
+  </string>
+  <string id="bar_secret_0005_description">
+    <rus>Видел, как "долговец" что-то сунул в трубу,\nвозле заставы.</rus>
+  </string>
+  <string id="bar_secret_0005_name">
+    <rus>Тайник</rus>
+  </string>
+  <string id="bar_secret_0006_description">
+    <rus>Это всё ему принадлежало,\nпусть пока тут и полежит.</rus>
+  </string>
+  <string id="bar_secret_0006_name">
+    <rus>Тайник под крестом</rus>
+  </string>
+  <string id="bar_secret_0007_description">
+    <rus>Иду в бар, рюкзак оставил в ангаре.</rus>
+  </string>
+  <string id="bar_secret_0007_name">
+    <rus>Рюкзак</rus>
+  </string>
+  <string id="bar_secret_0008_description">
+    <rus>Говорят, на территории "Долга",\nв электрощитке, что-то ценное лежит.</rus>
+  </string>
+  <string id="bar_secret_0008_name">
+    <rus>Электрощиток с тайником</rus>
+  </string>
+  <string id="bar_secret_0009_description">
+    <rus>Наверху башни возле "Долга" \nзапихнул ящичек так,\nчто никто не заметит.</rus>
+  </string>
+  <string id="bar_secret_0009_name">
+    <rus>Тайник на башне</rus>
+  </string>
+  <string id="bar_secret_0010_description">
+    <rus>Спрятал припасы в трубе под лестницей.</rus>
+  </string>
+  <string id="bar_secret_0010_name">
+    <rus>Тайник в башне</rus>
+  </string>
+  <string id="bar_secret_0011_description">
+    <rus>Недалеко от бара схоронил добро, \nза аномалиями, никто не подберётся.\nДа и как открывать не знают, \nа всё просто. Там поддеть дверцу надо, \nсразу и откроется.</rus>
+  </string>
+  <string id="bar_secret_0011_name">
+    <rus>Тайник Арни</rus>
+  </string>
+  <string id="bar_secret_0012_description">
+    <rus>Недалеко от кирпичной башни \nсхоронил добро.</rus>
+  </string>
+  <string id="bar_secret_0012_name">
+    <rus>Тайник за забором</rus>
+  </string>
+  <string id="bar_secret_0013_description">
+    <rus>Припрятал барахло за ящиками, \nвозле бара.</rus>
+  </string>
+  <string id="bar_secret_0013_name">
+    <rus>Ящик</rus>
+  </string>
+  <string id="bar_secret_0014_description">
+    <rus>В закоулке, возле бара, \nприпрятал ящичек.</rus>
+  </string>
+  <string id="bar_secret_0014_name">
+    <rus>Ящичек</rus>
+  </string>
+  <string id="bar_secret_0015_description">
+    <rus>Закопал под крестом, \nза ёлками.</rus>
+  </string>
+  <string id="bar_secret_0015_name">
+    <rus>Тайник</rus>
+  </string>
+  <string id="bar_secret_0016_description">
+    <rus>Под крестом,\nнедалеко от прохода к Дикой Территории.</rus>
+  </string>
+  <string id="bar_secret_0016_name">
+    <rus>Тайник</rus>
+  </string>
+  <string id="bar_secret_0017_description">
+    <rus>В трубе, возле "Арены",\nприпрятал ящичек c трофеями.</rus>
+  </string>
+  <string id="bar_secret_0017_name">
+    <rus>Ящичек</rus>
+  </string>
+  <string id="bar_secret_0018_description">
+    <rus>Под башней спрятал \nшмотьё в трубе.</rus>
+  </string>
+  <string id="bar_secret_0018_name">
+    <rus>Тайник</rus>
+  </string>
+  <string id="bar_secret_0019_description">
+    <rus>Под крестом тайник.</rus>
+  </string>
+  <string id="bar_secret_0019_name">
+    <rus>Тайник</rus>
+  </string>
+  <string id="esc_secret_0000_descr">
+    <rus>Во время перегруппировки спрятал \nбоеприпас в вагоне. Не забыть бы.</rus>
+  </string>
+  <string id="esc_secret_0000_name">
+    <rus>Вагон над мостом</rus>
+  </string>
+  <string id="esc_secret_0001_descr">
+    <rus>Видел, как возле железнодорожного тоннеля,\nпрямо у поезда, накрылся какой-то сталкер.\nВроде шмотки неплохие были.</rus>
+  </string>
+  <string id="esc_secret_0001_name">
+    <rus>Вещи погибшего в аномалии</rus>
+  </string>
+  <string id="esc_secret_0002_descr">
+    <rus>Возле лагеря бандитов, \nпод крестом, я спрятал хабар.</rus>
+  </string>
+  <string id="esc_secret_0002_name">
+    <rus>Крест у лагеря бандюков</rus>
+  </string>
+  <string id="esc_secret_0003_descr">
+    <rus>Перехваченный бандитами ящик обнаружен\nна чердаке центрального дома.\nНадо подготовить отряд и отбить его.</rus>
+  </string>
+  <string id="esc_secret_0003_name">
+    <rus>Бандитский склад</rus>
+  </string>
+  <string id="esc_secret_0004_descr">
+    <rus>Когда мы с братками \nотбивались от собак в погонах,\nя зарыл кое-какое добро под крестом. \nПусть полежит.</rus>
+  </string>
+  <string id="esc_secret_0004_name">
+    <rus>Под крестом</rus>
+  </string>
+  <string id="esc_secret_0005_descr">
+    <rus>Рюкзак я сунул на чердак.\nВернусь потом, пока никак.</rus>
+  </string>
+  <string id="esc_secret_0005_name">
+    <rus>Убежище на чердаке</rus>
+  </string>
+  <string id="esc_secret_0006_descr">
+    <rus>На ферме нашёл полузакопанный сейф,\nбуду пока там хранить добро.</rus>
+  </string>
+  <string id="esc_secret_0006_name">
+    <rus>Сейф на ферме</rus>
+  </string>
+  <string id="esc_secret_0007_descr">
+    <rus>Ребятки шепнули, что в вагоне на мосту \nкто-то что-то прячет, надо заглянуть \nна обратном пути. Узнать бы кто...</rus>
+  </string>
+  <string id="esc_secret_0007_name">
+    <rus>Контейнер в вагоне</rus>
+  </string>
+  <string id="esc_secret_0008_descr">
+    <rus>Спрятал товар под самой крышей,\nв домике возле моста.</rus>
+  </string>
+  <string id="esc_secret_0008_name">
+    <rus>Товар сталкера</rus>
+  </string>
+  <string id="esc_secret_0009_descr">
+    <rus>Шмотьё спрятал в одном из ящиков \nнедалеко от моста. Всё! \nУхожу из Зоны, прощайте, братки! \nНе забуду мать родную.</rus>
+  </string>
+  <string id="esc_secret_0009_name">
+    <rus>Вещи около моста</rus>
+  </string>
+  <string id="esc_secret_0010_descr">
+    <rus>Недалеко от лагеря новичков \nсгинул какой-то сталкер,\nнадо бы посмотреть его добро.\nКрики доносились со стороны \nнебольшой рощицы.</rus>
+  </string>
+  <string id="esc_secret_0010_name">
+    <rus>Рюкзак возле деревни</rus>
+  </string>
+  <string id="esc_secret_0011_descr">
+    <rus>На чердаке тайник, узнал у Лихого.\nОн много языком ляпал, \nмы его и пришили.</rus>
+  </string>
+  <string id="esc_secret_0011_name">
+    <rus>Чердак в деревне</rus>
+  </string>
+  <string id="esc_secret_0012_descr">
+    <rus>Нашёл на чердаке отличный тайник,\nподожду, пока кто-то \nтуда что-то положит.</rus>
+  </string>
+  <string id="esc_secret_0012_name">
+    <rus>Удобное место</rus>
+  </string>
+  <string id="esc_secret_0013_descr">
+    <rus>На чердаке тайник, узнал от Ворпала.\nНаши разведку местности проводили. \nПроверим.</rus>
+  </string>
+  <string id="esc_secret_0013_name">
+    <rus>Тайник Ворпала</rus>
+  </string>
+  <string id="esc_secret_0014_descr">
+    <rus>Говорят, у командира \nесть хитрый ящик в кабинете,\nи там ценного добра навалом.</rus>
+  </string>
+  <string id="esc_secret_0014_name">
+    <rus>Ценности командира</rus>
+  </string>
+  <string id="esc_secret_0015_descr">
+    <rus>Недалеко от лагеря новичков\nсгинул какой-то сталкер в камнях,\nнадо бы посмотреть, что он нёс.\nКто их вообще сюда пропускает?</rus>
+  </string>
+  <string id="esc_secret_0015_name">
+    <rus>У сельской дороги</rus>
+  </string>
+  <string id="esc_secret_0016_descr">
+    <rus>На чердаке у бандитов спрятал хабар,\nпока их не было.\nТеперь бы улучить момент и забрать.</rus>
+  </string>
+  <string id="esc_secret_0016_name">
+    <rus>Воровской чердак</rus>
+  </string>
+  <string id="esc_secret_0017_descr">
+    <rus>Обнаружил инвентарь в трубе, \nнедалеко от фермы.\nВот гауптвахта закончится — \nобязательно вернусь.</rus>
+  </string>
+  <string id="esc_secret_0017_name">
+    <rus>Газовая труба</rus>
+  </string>
+  <string id="esc_secret_0018_descr">
+    <rus>Недалеко от поста скинул рюкзак.\nНадо поскорее забрать, пока командир \nне перевёл нас на другое место.\n"Грузовик смерти" жути наводит, \nи фонит там будь здоров.\nПоэтому пока что добро в безопасности.</rus>
+  </string>
+  <string id="esc_secret_0018_name">
+    <rus>Спрятанные вещи</rus>
+  </string>
+  <string id="esc_secret_0019_descr">
+    <rus>На вышке временно оставил ящик.\nЗаберу, когда смогу.</rus>
+  </string>
+  <string id="esc_secret_0019_name">
+    <rus>Вышка на КПП</rus>
+  </string>
+  <string id="gar_secret_0000_descr">
+    <rus>Видел, как бандит прятал \nсвоё добро в ангаре в ящике.\nКак бы это тихо упереть?</rus>
+  </string>
+  <string id="gar_secret_0000_name">
+    <rus>Бандитский схрон</rus>
+  </string>
+  <string id="gar_secret_0001_descr">
+    <rus>Мы с Васей ходили посмотреть, чё как,\nтут Васю и настигла ментовская пуля.\nА я тут ни при чём. Пуля-дура.\nВещички схоронил на кране в трубе.</rus>
+  </string>
+  <string id="gar_secret_0001_name">
+    <rus>Старый кран</rus>
+  </string>
+  <string id="gar_secret_0002_descr">
+    <rus>На Свалке, \nв железнодорожном тоннеле за дизелем,\nсо всем своим барахлом накрылся Гризли.\nЖаль парня.</rus>
+  </string>
+  <string id="gar_secret_0002_name">
+    <rus>Вещи Гризли</rus>
+  </string>
+  <string id="gar_secret_0003_descr">
+    <rus>Хабар прятанул в трубе на свалке.</rus>
+  </string>
+  <string id="gar_secret_0003_name">
+    <rus>Труба на северной куче</rus>
+  </string>
+  <string id="gar_secret_0004_descr">
+    <rus>Вещи лежат на свалке, в одной трубе.\nЕсли не знать, где точно, \nни за что не найдёшь.</rus>
+  </string>
+  <string id="gar_secret_0004_name">
+    <rus>Заначка в металлоломе</rus>
+  </string>
+  <string id="gar_secret_0005_descr">
+    <rus>Спрятал барахло в металлической трубе,\nвозле двух цистерн.\nНадо бы забрать, но некогда.</rus>
+  </string>
+  <string id="gar_secret_0005_name">
+    <rus>Чугунка возле цистерн</rus>
+  </string>
+  <string id="gar_secret_0006_descr">
+    <rus>Среди радиоактивного мусора,\nгде мало кто шастает,\nспрятаны кое-какие полезные вещи.</rus>
+  </string>
+  <string id="gar_secret_0006_name">
+    <rus>Труба на восточной куче</rus>
+  </string>
+  <string id="gar_secret_0007_descr">
+    <rus>В низине видел чей-то рюкзак,\nвокруг куча аномалий.\nПриду потом — может, \nаномалии после выброса переместятся.</rus>
+  </string>
+  <string id="gar_secret_0007_name">
+    <rus>Ничейный рюкзак</rus>
+  </string>
+  <string id="gar_secret_0008_descr">
+    <rus>Замочили стукача на болоте,\nтам мы его и прикопали.\nА хабарок его под крестом оставили, \nне до того было.</rus>
+  </string>
+  <string id="gar_secret_0008_name">
+    <rus>Вещи убитого</rus>
+  </string>
+  <string id="gar_secret_0009_descr">
+    <rus>В пеньке тайник, хорошее место.</rus>
+  </string>
+  <string id="gar_secret_0009_name">
+    <rus>Трухлявый пень</rus>
+  </string>
+  <string id="gar_secret_0010_descr">
+    <rus>В лесу бревно, внутри — дыра.\nВ ней клад, забрать его пора.</rus>
+  </string>
+  <string id="gar_secret_0010_name">
+    <rus>Бревно в лесу</rus>
+  </string>
+  <string id="gar_secret_0011_descr">
+    <rus>Петренко передал, что есть информация \nпро тайник группы Стрелка на Свалке.\nТут в низине должен быть люк.\nОн рассказал, как можно его открыть.\nКак успокоится всё, надо туда смотаться.</rus>
+  </string>
+  <string id="gar_secret_0011_name">
+    <rus>Склад группы Стрелка</rus>
+  </string>
+  <string id="gar_secret_0012_descr">
+    <rus>Запрятал в машину, \nДлинный говорил, \nчто хорошее место.</rus>
+  </string>
+  <string id="gar_secret_0012_name">
+    <rus>Тайник в машине</rus>
+  </string>
+  <string id="gar_secret_0013_descr">
+    <rus>В автобусе положил рюкзак,\nвроде незаметно.</rus>
+  </string>
+  <string id="gar_secret_0013_name">
+    <rus>Рюкзак сталкера в автобусе</rus>
+  </string>
+  <string id="gar_secret_0014_descr">
+    <rus>Запас сложил в ящике,\nв странном домике за углом.\nДо сих пор не пойму, \nдля чего та постройка.</rus>
+  </string>
+  <string id="gar_secret_0014_name">
+    <rus>Сортирные запасы</rus>
+  </string>
+  <string id="gar_secret_0015_descr">
+    <rus>На куче мусора полузакопанный сейф,\nтам-то оно всё и лежит.\nНе забыть бы, что именно.</rus>
+  </string>
+  <string id="gar_secret_0015_name">
+    <rus>Сейф на южной куче</rus>
+  </string>
+  <string id="gar_secret_0016_descr">
+    <rus>На куче мусора, в трубу, \nположил свой хабар.</rus>
+  </string>
+  <string id="gar_secret_0016_name">
+    <rus>Схрон в металлоломе</rus>
+  </string>
+  <string id="gar_secret_0017_descr">
+    <rus>Командир по рации приказал отходить.\nЯ набрёл на ящик, скинул в него \nлишний вес и отошёл налегке.</rus>
+  </string>
+  <string id="gar_secret_0017_name">
+    <rus>Запас в ящике</rus>
+  </string>
+  <string id="gar_secret_0018_descr">
+    <rus>Хабар сунул в трубу на Свалке.\nДолго он там не пролежит.</rus>
+  </string>
+  <string id="gar_secret_0018_name">
+    <rus>Труба у автобуса</rus>
+  </string>
+  <string id="gar_secret_0019_descr">
+    <rus>В развалинах за окном \nхорошо запрятал рюкзак.\nНадеюсь, забрать будет легко,\nесли бандиты не помешают.</rus>
+  </string>
+  <string id="gar_secret_0019_name">
+    <rus>Рюкзак в развалинах</rus>
+  </string>
+  <string id="gar_secret_0020_descr">
+    <rus>Пока "долговцы" стрелялись,\nприпрятал хабар в вагончике.\nНадо как-то зайти, забрать.\nИ сказать спасибо "Долгу".</rus>
+  </string>
+  <string id="gar_secret_0020_name">
+    <rus>Ящик на блокпосту</rus>
+  </string>
+  <string id="gar_secret_0021_descr">
+    <rus>Говорят, Дохляк на Свалке скопытился,\nнадо хабар глянуть.\nА то желающих много набежит.</rus>
+  </string>
+  <string id="gar_secret_0021_name">
+    <rus>Рюкзак Дохляка</rus>
+  </string>
+  <string id="gar_secret_0022_descr">
+    <rus>В люке пока спрячу добро, \nавось не найдут.</rus>
+  </string>
+  <string id="gar_secret_0022_name">
+    <rus>Авоська в люке</rus>
+  </string>
+  <string id="gar_secret_0023_descr">
+    <rus>Возле экскаватора \nкто-то сгинул в аномалии. \nРюкзак видно, \nа достать тяжело.</rus>
+  </string>
+  <string id="gar_secret_0023_name">
+    <rus>Под ковшом</rus>
+  </string>
+  <string id="gar_secret_0024_descr">
+    <rus>Еле пролез под балками,\nзато хорошо рюкзак спрятал,\nникто сюда не полезет.</rus>
+  </string>
+  <string id="gar_secret_0024_name">
+    <rus>Заначка под бетонными блоками</rus>
+  </string>
+  <string id="mil_secret_0000_description">
+    <rus>Сунул добро в бревно, \nдумаю, не найдут.</rus>
+  </string>
+  <string id="mil_secret_0000_name">
+    <rus>Тайник в бревне</rus>
+  </string>
+  <string id="mil_secret_0001_description">
+    <rus>В печку припрятал барахлишко.</rus>
+  </string>
+  <string id="mil_secret_0001_name">
+    <rus>Тайник в печи</rus>
+  </string>
+  <string id="mil_secret_0002_description">
+    <rus>В кабине КАМАЗа припрятал барахлишко.</rus>
+  </string>
+  <string id="mil_secret_0002_name">
+    <rus>Тайник в КАМАЗе</rus>
+  </string>
+  <string id="mil_secret_0003_description">
+    <rus>Под крестом, возле деревни, \nзакопал хабара чуток.</rus>
+  </string>
+  <string id="mil_secret_0003_name">
+    <rus>Клад под крестом</rus>
+  </string>
+  <string id="mil_secret_0004_description">
+    <rus>В трубу кинул шмотки, \nпотом заберу.</rus>
+  </string>
+  <string id="mil_secret_0004_name">
+    <rus>Тайник в трубе</rus>
+  </string>
+  <string id="mil_secret_0005_description">
+    <rus>Тайник в водонапорной башне, \nв ящике.</rus>
+  </string>
+  <string id="mil_secret_0005_name">
+    <rus>Клад в башне</rus>
+  </string>
+  <string id="mil_secret_0006_description">
+    <rus>В печку сунул рюкзак, \nпотом пригодится.</rus>
+  </string>
+  <string id="mil_secret_0006_name">
+    <rus>Печной тайник</rus>
+  </string>
+  <string id="mil_secret_0007_description">
+    <rus>Хабар спрятал в машине,\nв деревне заброшенной.</rus>
+  </string>
+  <string id="mil_secret_0007_name">
+    <rus>Автотайник</rus>
+  </string>
+  <string id="mil_secret_0008_description">
+    <rus>В развалинах с радиацией оставил рюкзак.\nПобоятся сунуться.</rus>
+  </string>
+  <string id="mil_secret_0008_name">
+    <rus>Опасный секрет</rus>
+  </string>
+  <string id="mil_secret_0009_description">
+    <rus>Закопал хабар под крестом,\nв укромном месте.</rus>
+  </string>
+  <string id="mil_secret_0009_name">
+    <rus>Схрон сталкера</rus>
+  </string>
+  <string id="mil_secret_0010_description">
+    <rus>Припрятал в кустах рюкзачок, \nоколо больших валунов,\nа тут как тут — собаки нарисовались.\nНе забрать мне теперь хабар...</rus>
+  </string>
+  <string id="mil_secret_0010_name">
+    <rus>Рюкзак в укромном месте</rus>
+  </string>
+  <string id="mil_secret_0011_description">
+    <rus>Шмотьё припрятал на холме в машине.</rus>
+  </string>
+  <string id="mil_secret_0011_name">
+    <rus>Тайник на холме</rus>
+  </string>
+  <string id="mil_secret_0012_description">
+    <rus>Упал вертолёт возле \nзаброшенной военной базы.\nЯщик лежит недалеко, \nпрямо под ним.\nОдна беда, \nаномалии и радиация кругом.</rus>
+  </string>
+  <string id="mil_secret_0012_name">
+    <rus>Ящик из вертолёта</rus>
+  </string>
+  <string id="mil_secret_0013_name">
+    <rus>Секрет в могиле</rus>
+  </string>
+  <string id="mil_secret_0014_description">
+    <rus>В пеньке за камнями тайник,\nхорошее место.</rus>
+  </string>
+  <string id="mil_secret_0014_name">
+    <rus>Тайный пень</rus>
+  </string>
+  <string id="mil_secret_0015_description">
+    <rus>Оставил рюкзак в кабине крана,\nпотом заберу.</rus>
+  </string>
+  <string id="mil_secret_0015_name">
+    <rus>Тайник высотника</rus>
+  </string>
+  <string id="mil_secret_0016_description">
+    <rus>Всё сложил в ящик,\nв вагоне недалеко от базы.\nТак и договаривались, \nтеперь осталось только ждать.</rus>
+  </string>
+  <string id="mil_secret_0016_name">
+    <rus>Условленный тайник</rus>
+  </string>
+  <string id="mil_secret_0017_description">
+    <rus>Сунул добро в бревно, \nдумаю, не найдут.</rus>
+  </string>
+  <string id="mil_secret_0017_name">
+    <rus>Клад в бревне</rus>
+  </string>
+  <string id="mil_secret_0018_description">
+    <rus>Хабар сунул в трубу на берегу озера.</rus>
+  </string>
+  <string id="mil_secret_0018_name">
+    <rus>Труба с хабаром</rus>
+  </string>
+  <string id="mil_secret_0019_description">
+    <rus>В железной байдовине около забора \nспрятал вещички.</rus>
+  </string>
+  <string id="mil_secret_0019_name">
+    <rus>Тайник сталкера</rus>
+  </string>
+  <string id="mil_secret_0020_description">
+    <rus>Сунул добро в бревно, \nдумаю, не найдут.</rus>
+  </string>
+  <string id="mil_secret_0020_name">
+    <rus>Хабар в бревне</rus>
+  </string>
+  <string id="mil_secret_0021_description">
+    <rus>Удобный ящик,\nчтоб лишнее барахло сбрасывать.</rus>
+  </string>
+  <string id="mil_secret_0021_name">
+    <rus>Схрон в будке</rus>
+  </string>
+  <string id="mil_secret_0022_description">
+    <rus>В тоннеле припрятал рюкзак с хабаром.</rus>
+  </string>
+  <string id="mil_secret_0022_name">
+    <rus>Рюкзак в тоннеле</rus>
+  </string>
+  <string id="mil_secret_0023_description">
+    <rus>Приметил синий ящик\nпод деревом в углу стены,\nбуду туда свои припасы скидывать.</rus>
+  </string>
+  <string id="mil_secret_0023_name">
+    <rus>Ящик с добром</rus>
+  </string>
+  <string id="mil_secret_0024_description">
+    <rus>Нашёл за зданием бревно,\nдумаю туда хабар свой сложить.</rus>
+  </string>
+  <string id="mil_secret_0024_name">
+    <rus>Тайник в бревне</rus>
+  </string>
+  <string id="mil_secret_0025_description">
+    <rus>Затащил под разрушенную крышу\nящик с хабаром — до той поры,\nпока всё забрать не смогу.</rus>
+  </string>
+  <string id="mil_secret_0025_name">
+    <rus>Временный тайник</rus>
+  </string>
+  <string id="mil_secret_0026_description">
+    <rus>В люке схоронил вещи,\nкогда-нибудь пригодятся.</rus>
+  </string>
+  <string id="mil_secret_0026_name">
+    <rus>Стальной тайник</rus>
+  </string>
+  <string id="mil_secret_0027_description">
+    <rus>В ящик закинул добро, потом заберу.</rus>
+  </string>
+  <string id="mil_secret_0027_name">
+    <rus>Ящик в казарме</rus>
+  </string>
+  <string id="mil_secret_0028_description">
+    <rus>Хабар спрятал в машине \nпод боком у "Свободы",\nвремени не было \nискать что получше.</rus>
+  </string>
+  <string id="mil_secret_0028_name">
+    <rus>Тайник в машине</rus>
+  </string>
+  <string id="pri_secret_0000_description">
+    <rus>Говорят, где-то здесь,\nв полуразрушенном доме,\nсгинул какой-то сталкер известный,\nно добро его до сих пор \nникто не подобрал.</rus>
+  </string>
+  <string id="pri_secret_0000_name">
+    <rus>Вещи мёртвого сталкера</rus>
+  </string>
+  <string id="pri_secret_0001_description">
+    <rus>В гараже, говорят, ящик стоит,\nа в нём хабара мама не горюй.</rus>
+  </string>
+  <string id="pri_secret_0001_name">
+    <rus>Клад в гараже</rus>
+  </string>
+  <string id="pri_secret_0002_description">
+    <rus>В детском саду, говорят,\nящик стоит на втором этаже,\nа в нём хабара — мама родная.</rus>
+  </string>
+  <string id="pri_secret_0002_name">
+    <rus>Старый тайник</rus>
+  </string>
+  <string id="pri_secret_0003_description">
+    <rus>Отмычку Клыка похоронил \nв Припяти, под памятником.\nВесь его хабар оставил там же — \nнехорошо забирать у мёртвого.</rus>
+  </string>
+  <string id="pri_secret_0003_name">
+    <rus>Хабар Клыка</rus>
+  </string>
+  <string id="pri_secret_0004_description">
+    <rus>Последнее, что было известно о нём — то,\nчто выжил только он один после "Выжигателя".\nЗапасы оставил на лестничной площадке \nв здании автовокзала и двинул дальше.\nВсё пошло не так, как планировалось.\nА ведь это был лучший лидер \n"Свободы" за всю нашу историю...</rus>
+  </string>
+  <string id="pri_secret_0004_name">
+    <rus>Запасы лидера "Свободы"</rus>
+  </string>
+  <string id="rad_secret_0000_description">
+    <rus>Крест по дороге к "Выжигателю",\nдальше не пошёл, спрятал всё под ним.</rus>
+  </string>
+  <string id="rad_secret_0000_name">
+    <rus>Клад Угрюмого</rus>
+  </string>
+  <string id="rad_secret_0001_description">
+    <rus>Тут погиб какой-то сталкер,\nхабар до сих пор в камнях валяется,\nникто подобрать не может.</rus>
+  </string>
+  <string id="rad_secret_0001_name">
+    <rus>Хабар мёртвого сталкера</rus>
+  </string>
+  <string id="rad_secret_0002_description">
+    <rus>Говорят, в лесу между камнями\nполузакопанный сейф есть.\nНаверное, там хабара полно.</rus>
+  </string>
+  <string id="rad_secret_0002_name">
+    <rus>Хабар в сейфе</rus>
+  </string>
+  <string id="rad_secret_0003_description">
+    <rus>Говорил им не летать над "Выжигателем",\nвот и результат. \nВ середине леса приземлились, \nвряд ли кто-то выжил. \nГде-то около вертолёта лежит то, \nчто нам передать должны были.</rus>
+  </string>
+  <string id="rad_secret_0003_name">
+    <rus>Посылка "Долгу"</rus>
+  </string>
+  <string id="rad_secret_0004_description">
+    <rus>Говорят, там остался запас группы,\nкоторая пробивалась к центру Зоны \nпрямо под излучением "Выжигателя".\nНикто из них не вернулся, \nа запас так и остался дожидаться того,\nкто его подберёт.</rus>
+  </string>
+  <string id="rad_secret_0004_name">
+    <rus>Запас группы отчаянных</rus>
+  </string>
+  <string id="rad_secret_0005_description">
+    <rus>Говорят, сгинул в бассейне лидер \nкакой-то бывшей группировки,\nи хабар у него с собой богатый был.</rus>
+  </string>
+  <string id="rad_secret_0005_name">
+    <rus>Хабар лидера группировки</rus>
+  </string>
+  <string id="ros_secret_0000_description">
+    <rus>Заныкали рюкзак новенького,\nон так и не нашёл.\nА ведь я намекал ему, \nчтоб "спустился и ёмкости почистил".</rus>
+  </string>
+  <string id="ros_secret_0000_name">
+    <rus>Спрятанный рюкзак</rus>
+  </string>
+  <string id="ros_secret_0001_description">
+    <rus>Приховал добро под крестом.</rus>
+  </string>
+  <string id="ros_secret_0001_name">
+    <rus>Тайник под крестом</rus>
+  </string>
+  <string id="ros_secret_0002_description">
+    <rus>Спрятал кое-что в ящике,\nпод домиком. Не забыть.</rus>
+  </string>
+  <string id="ros_secret_0002_name">
+    <rus>Ящик под домиком</rus>
+  </string>
+  <string id="ros_secret_0003_description">
+    <rus>Сунул рюкзак под ступеньки,\nа там эти гады появились.\nБлин, как бы достать?</rus>
+  </string>
+  <string id="ros_secret_0003_name">
+    <rus>Рюкзак сталкера</rus>
+  </string>
+  <string id="ros_secret_0004_description">
+    <rus>Тут в углу,\nза деревом, сейф полузакопанный,\nв нём моё барахлишко и побудет.</rus>
+  </string>
+  <string id="ros_secret_0004_name">
+    <rus>Тайник за деревом</rus>
+  </string>
+  <string id="ros_secret_0005_description">
+    <rus>Всё, что захватили во время рейда,\nспрятали в гараже в ящике.</rus>
+  </string>
+  <string id="ros_secret_0005_name">
+    <rus>Тайник в гараже</rus>
+  </string>
+  <string id="ros_secret_0006_description">
+    <rus>За будкой в ящике припрятал вещички.</rus>
+  </string>
+  <string id="ros_secret_0006_name">
+    <rus>Спрятанный ящик</rus>
+  </string>
+  <string id="ros_secret_0007_description">
+    <rus>Сунул рюкзак в дырку,\nсбоку вроде не заметно.</rus>
+  </string>
+  <string id="ros_secret_0007_name">
+    <rus>Рюкзак в здании</rus>
+  </string>
+  <string id="ros_secret_0008_description">
+    <rus>Ящичек припрятал в проулке, \nу железных будок.</rus>
+  </string>
+  <string id="ros_secret_0008_name">
+    <rus>Ящик в укромном месте</rus>
+  </string>
+  <string id="ros_secret_0009_description">
+    <rus>Под крышей лежит мой рюкзак. \nЭто на чёрный день.</rus>
+  </string>
+  <string id="ros_secret_0009_name">
+    <rus>Тайник сталкера</rus>
+  </string>
+  <string id="ros_secret_0010_description">
+    <rus>Говорят, в этом домике сейф есть,\nа в нём что-то припрятано.</rus>
+  </string>
+  <string id="ros_secret_0010_name">
+    <rus>Сейф в доме</rus>
+  </string>
+  <string id="ros_secret_0011_description">
+    <rus>Спрятал в домике, в трубе. \nОсторожно, там всё фонит.</rus>
+  </string>
+  <string id="ros_secret_0011_name">
+    <rus>Тайник в трубе</rus>
+  </string>
+  <string id="ros_secret_0012_description">
+    <rus>О чём договорились, возьмёшь в будке,\nтуда обычно никто не заглядывает.</rus>
+  </string>
+  <string id="ros_secret_0012_name">
+    <rus>Спрятанный ящичек</rus>
+  </string>
+  <string id="ros_secret_0013_description">
+    <rus>Под крестом спрятал, в закоулке.</rus>
+  </string>
+  <string id="ros_secret_0013_name">
+    <rus>Тайник под крестом</rus>
+  </string>
+  <string id="ros_secret_0014_description">
+    <rus>Лишние припасы спрятали на стройке,\nпод бетоном.</rus>
+  </string>
+  <string id="ros_secret_0014_name">
+    <rus>Тайник под бетоном</rus>
+  </string>
+  <string id="ros_secret_0015_description">
+    <rus>Хабар будем складывать в ящик на стройке,\nна случай, если ноги надо будет уносить.</rus>
+  </string>
+  <string id="ros_secret_0015_name">
+    <rus>Тайник Счастливчика</rus>
+  </string>
+  <string id="ros_secret_0016_description">
+    <rus>На стройке спрятал,\nза бетонными плитами.</rus>
+  </string>
+  <string id="ros_secret_0016_name">
+    <rus>Нычка</rus>
+  </string>
+  <string id="ros_secret_0017_description">
+    <rus>Запихал всё в какую-то трубу,\nпрямо под завалом, потом заберу.</rus>
+  </string>
+  <string id="ros_secret_0017_name">
+    <rus>Тайник в трубе</rus>
+  </string>
+  <string id="ros_secret_0018_description">
+    <rus>Недалеко от стройки,\nза железным контейнером, \nприпрятал ящик ништячков.</rus>
+  </string>
+  <string id="ros_secret_0018_name">
+    <rus>Ящик с медикаментами</rus>
+  </string>
+  <string id="ros_secret_0019_description">
+    <rus>Затащили ящик в кабину крана.</rus>
+  </string>
+  <string id="ros_secret_0019_name">
+    <rus>Ящик на кране</rus>
+  </string>
+  <string id="ros_secret_0020_description">
+    <rus>В углу, за ж/д, \nзакрыл своё добро в люке.</rus>
+  </string>
+  <string id="ros_secret_0020_name">
+    <rus>Тайник в люке</rus>
+  </string>
+  <string id="ros_secret_0021_description">
+    <rus>Полез за артефактом и попал в аномалию,\nеле иду. Рюкзак скинул в углу, за ж/д.</rus>
+  </string>
+  <string id="ros_secret_0021_name">
+    <rus>Брошенный рюкзак</rus>
+  </string>
+  <string id="ros_secret_0022_description">
+    <rus>Наверху, под крышей возле вышки, \nзапихнул ящичек, чтоб никто не заметил.</rus>
+  </string>
+  <string id="ros_secret_0022_name">
+    <rus>Ящичек под крышей</rus>
+  </string>
+  <string id="ros_secret_0023_description">
+    <rus>То, что нашли, спрятали в трубе.\nНедалеко от стройки, между домами.</rus>
+  </string>
+  <string id="ros_secret_0023_name">
+    <rus>Тайник в трубе</rus>
+  </string>
+  <string id="ros_secret_0024_description">
+    <rus>Сунул добро в бревно, \nдумаю, не найдут.</rus>
+  </string>
+  <string id="ros_secret_0024_name">
+    <rus>Тайник</rus>
+  </string>
+  <string id="ros_secret_0025_description">
+    <rus>Нычканул под крышей \nрюкзак возле крана.</rus>
+  </string>
+  <string id="ros_secret_0025_name">
+    <rus>Рюкзак</rus>
+  </string>
+  <string id="val_secret_0000_description">
+    <rus>Под крестом, возле горы, \nзакопал хабара чуток.</rus>
+  </string>
+  <string id="val_secret_0000_name">
+    <rus>Тайник под крестом</rus>
+  </string>
+  <string id="val_secret_0001_description">
+    <rus>Сунул добро в бревно, \nдумаю, не найдут.</rus>
+  </string>
+  <string id="val_secret_0001_name">
+    <rus>Тайник в бревне</rus>
+  </string>
+  <string id="val_secret_0002_description">
+    <rus>Под мост засунул рюкзак,\nпусть полежит пока.</rus>
+  </string>
+  <string id="val_secret_0002_name">
+    <rus>Рюкзак под мостом</rus>
+  </string>
+  <string id="val_secret_0003_description">
+    <rus>Положили ящик в машину возле болота.</rus>
+  </string>
+  <string id="val_secret_0003_name">
+    <rus>Машина с тайником</rus>
+  </string>
+  <string id="val_secret_0004_description">
+    <rus>В пеньке тайник, \nхорошее место.</rus>
+  </string>
+  <string id="val_secret_0004_name">
+    <rus>Тайник в пеньке</rus>
+  </string>
+  <string id="val_secret_0005_description">
+    <rus>На ферме нашёл отличный ящик,\nбуду пока там хранить припасы.</rus>
+  </string>
+  <string id="val_secret_0005_name">
+    <rus>Ящик c припасами</rus>
+  </string>
+  <string id="val_secret_0006_description">
+    <rus>В трубу кинул шмотки, \nпотом заберу.</rus>
+  </string>
+  <string id="val_secret_0006_name">
+    <rus>Тайник в сарае</rus>
+  </string>
+  <string id="val_secret_0007_description">
+    <rus>Спрятал рюкзак под ёлкой.</rus>
+  </string>
+  <string id="val_secret_0007_name">
+    <rus>Тайник под ёлкой</rus>
+  </string>
+  <string id="val_secret_0008_description">
+    <rus>Новенький стащил-таки ящик у бандитов,\nположил его в Ниве перевёрнутой.\nГоворит, что по виду вроде \nправительственный ящик.\nНадо будет снарядить ребят, \nзабрать его.</rus>
+  </string>
+  <string id="val_secret_0008_name">
+    <rus>Правительственный ящик</rus>
+  </string>
+  <string id="val_secret_0009_description">
+    <rus>Кругом одно ворьё.\nУже у своих тырят, \nно мой ящичек они не найдут.\nНо мля, как же стрёмно ночью \nв этой кишке ползать.</rus>
+  </string>
+  <string id="val_secret_0009_name">
+    <rus>Ящичек</rus>
+  </string>
+  <string id="val_secret_0010_description">
+    <rus>В люке схоронил вещи, \nкогда-нибудь пригодятся.</rus>
+  </string>
+  <string id="val_secret_0010_name">
+    <rus>Тайник в люке</rus>
+  </string>
+  <string id="val_secret_0011_description">
+    <rus>Бросил рюкзак под дерево,\nиначе не ушёл бы от бандитов.</rus>
+  </string>
+  <string id="val_secret_0011_name">
+    <rus>Рюкзак сталкера</rus>
+  </string>
+  <string id="val_secret_0012_description">
+    <rus>Барахлишко положил в трубу, \nпотом заберу.</rus>
+  </string>
+  <string id="val_secret_0012_name">
+    <rus>Тайник</rus>
+  </string>
+  <string id="val_secret_0013_description">
+    <rus>Всё, что спёр у Борова,\nприпрятал в сейфе, что под ёлкой.\nТеперь переждать надо, \nпока они на нервах все.</rus>
+  </string>
+  <string id="val_secret_0013_name">
+    <rus>Спрятанный сейф</rus>
+  </string>
+  <string id="val_secret_0014_description">
+    <rus>Временный штаб в вагончике,\nящик с припасами там же.</rus>
+  </string>
+  <string id="val_secret_0014_name">
+    <rus>Склад в вагончике</rus>
+  </string>
+  <string id="val_secret_0015_description">
+    <rus>Еле залез в трубу, под дорогой,\nбудет теперь где рюкзак прятать.</rus>
+  </string>
+  <string id="val_secret_0015_name">
+    <rus>Тайное место в трубе</rus>
+  </string>
+  <string id="val_secret_0016_description">
+    <rus>В ящик закинул добро, \nпотом заберём.</rus>
+  </string>
+  <string id="val_secret_0016_name">
+    <rus>Ящик с добром</rus>
+  </string>
+  <string id="val_secret_0017_description">
+    <rus>Прячу хабар за трубой.\nСложно добираться, зато не стырят.</rus>
+  </string>
+  <string id="val_secret_0017_name">
+    <rus>Тайник за трубой</rus>
+  </string>
+  <string id="val_secret_0018_description">
+    <rus>Сныкал хабар в электрощитке \nна втором этаже, потом заберу.</rus>
+  </string>
+  <string id="val_secret_0018_name">
+    <rus>Тайник в электрощитке</rus>
+  </string>
+  <string id="val_secret_0019_description">
+    <rus>Всё, что нашли, оставили в ящике,\nбудем идти назад — заберём.</rus>
+  </string>
+  <string id="val_secret_0019_name">
+    <rus>Ящик-тайник</rus>
+  </string>
+  <string id="val_secret_0020_description">
+    <rus>Заныкали рюкзак новенького,\nон так и не нашёл.</rus>
+  </string>
+  <string id="val_secret_0020_name">
+    <rus>Спрятанный рюкзак</rus>
+  </string>
+  <string id="val_secret_0021_description">
+    <rus>В фургоне остался ящик, \nнадо бы забрать.</rus>
+  </string>
+  <string id="val_secret_0021_name">
+    <rus>Забытый ящик</rus>
+  </string>
+  <string id="val_secret_0022_description">
+    <rus>Нашёл сейф на бензоколонке, \nспрятал туда добро,\nвроде редко кто здесь ходит.</rus>
+  </string>
+  <string id="val_secret_0022_name">
+    <rus>Сейф на бензоколонке</rus>
+  </string>
+  <string id="val_secret_0023_description">
+    <rus>Ящик затащили на цистерну.</rus>
+  </string>
+  <string id="val_secret_0023_name">
+    <rus>Ящик</rus>
+  </string>
+  <string id="val_secret_0024_description">
+    <rus>Спрятал припасы в сейф на бензоколонке.</rus>
+  </string>
+  <string id="val_secret_0024_name">
+    <rus>Сейф на бензоколонке</rus>
+  </string>
+  <string id="val_secret_0025_description">
+    <rus>В лагере бандитов, в машине, \nкакой-то ящик лежит. \nНадо незаметно пробраться — \nтам есть чем разжиться.</rus>
+  </string>
+  <string id="val_secret_0025_name">
+    <rus>Ящик в машине</rus>
+  </string>
+  <string id="val_secret_0026_description">
+    <rus>Заныкал добро в ящик.\nНедалеко от той кодовой двери,\nгде Боров свои богатства держит.\nФраера там тереться не рискнут — \nместо надёжное.</rus>
+  </string>
+  <string id="val_secret_0026_name">
+    <rus>Тайник в ящике</rus>
+  </string>
+  <string id="val_secret_0027_description">
+    <rus>Оставил рюкзак в заброшенном здании,\nхорошо, никого рядом нет.</rus>
+  </string>
+  <string id="val_secret_0027_name">
+    <rus>Оставленный рюкзак</rus>
+  </string>
+  <string id="val_secret_0028_description">
+    <rus>Добро будем хранить в сейфе, \nв незаметном месте.\nНе сегодня-завтра военные придут, \nвсем тут фитиль вставят.\nРыскать долго они не будут, \nтак что самое ценное останется у меня.</rus>
+  </string>
+  <string id="val_secret_0028_name">
+    <rus>Тайник Борова</rus>
+  </string>
+  <string id="val_secret_0029_description">
+    <rus>Рюкзак заныкал возле здания.</rus>
+  </string>
+  <string id="val_secret_0029_name">
+    <rus>Рюкзак в тайном месте</rus>
+  </string>
+  <string id="val_secret_0030_description">
+    <rus>Сунул хабар в незаметный ящик \nоколо плит, потом заберу.</rus>
+  </string>
+  <string id="val_secret_0030_name">
+    <rus>Незаметный ящик</rus>
+  </string>
+  <string id="val_secret_0031_description">
+    <rus>Рюкзак спрятал под машиной,\nтуда никто не сунется.</rus>
+  </string>
+  <string id="val_secret_0031_name">
+    <rus>Спрятанный рюкзак</rus>
+  </string>
+  <string id="val_secret_0032_description">
+    <rus>Хабар спрятал в машине \nпод боком у бандитов,\nвремени не было \nискать что получше.</rus>
+  </string>
+  <string id="val_secret_0032_name">
+    <rus>Тайник в машине</rus>
+  </string>
+  <string id="x16_secret_0000_description">
+    <rus>Слухи ходят, что был сталкер,\nкоторый в лабораторию проник \nи припрятал свой хабар \nв электрощиток в шахте лифта.\nА забрать его уже не смог.</rus>
+  </string>
+  <string id="x16_secret_0000_name">
+    <rus>Хабар в электрощитке</rus>
+  </string>
+  <string id="x16_secret_0001_description">
+    <rus>Ходят слухи, что был сталкер,\nкоторый в лабораторию залез.\nТак он там коньки и отбросил, \nв районе клеток с подопытными, \nсо всем своим хабаром.</rus>
+  </string>
+  <string id="x16_secret_0001_name">
+    <rus>Рюкзак разведчика</rus>
+  </string>
+  <string id="x18_secret_0000_description">
+    <rus>В подземной лаборатории \nКопчёный всё сложил в сейфе.\nМесто неплохое, ни у кого \nключей от лаборатории нет.\nОдна напасть — камни вдруг ни с того \nни с сего в воздухе залетали.\nГоворят, что кого-то пришибли...</rus>
+  </string>
+  <string id="x18_secret_0000_name">
+    <rus>Тайник Копчёного</rus>
+  </string>
+  <string id="x18_secret_0001_description">
+    <rus>Рюкзак пришлось бросить. \nПотом вернусь.</rus>
+  </string>
+  <string id="x18_secret_0001_name">
+    <rus>Брошенный рюкзак</rus>
+  </string>
+  <string id="yan_secret_0000_description">
+    <rus>Крест на холме, а под ним тайник.</rus>
+  </string>
+  <string id="yan_secret_0000_name">
+    <rus>Тайник под крестом</rus>
+  </string>
+  <string id="yan_secret_0001_description">
+    <rus>Говорят, на островке среди болота \nесть полузакопанный сейф.\nНадо наведаться.</rus>
+  </string>
+  <string id="yan_secret_0001_name">
+    <rus>Старый сейф</rus>
+  </string>
+  <string id="yan_secret_0002_description">
+    <rus>В трубу засунул добро,\nна бетонной площадке.</rus>
+  </string>
+  <string id="yan_secret_0002_name">
+    <rus>Труба с добром</rus>
+  </string>
+  <string id="yan_secret_0003_description">
+    <rus>За гаражами припрятал хабарок.</rus>
+  </string>
+  <string id="yan_secret_0003_name">
+    <rus>Рюкзак за гаражами</rus>
+  </string>
+  <string id="yan_secret_0004_description">
+    <rus>Припрятал рюкзак в будке,\nпрямо за железной хренью.</rus>
+  </string>
+  <string id="yan_secret_0004_name">
+    <rus>Рюкзак с добычей</rus>
+  </string>
+  <string id="yan_secret_0005_description">
+    <rus>В автобусе положил ящичек,\nвроде незаметно.</rus>
+  </string>
+  <string id="yan_secret_0005_name">
+    <rus>Тайник в автобусе</rus>
+  </string>
+  <string id="yan_secret_0006_description">
+    <rus>Хабар спрятан в машине,\nнедалеко от территории.\nИзлучение не очень сильное.</rus>
+  </string>
+  <string id="yan_secret_0006_name">
+    <rus>Добыча в машине</rus>
+  </string>
+  <string id="yan_secret_0007_description">
+    <rus>Говорят, есть местечко одно на заводе.\nРазвалины то ли навеса, то ли сарая.\nТуда целый отряд отступил \nв одной особо жаркой перестрелке, \nа назад никто из них не вернулся.\nПроверить бы, что там от них осталось, \nда излучение мешает.</rus>
+  </string>
+  <string id="yan_secret_0007_name">
+    <rus>Старый рюкзак</rus>
+  </string>
+  <string id="yan_secret_0008_description">
+    <rus>Говорят, тут, в одной из труб,\nтайник какой-то группировки.\nКак они только под \nизлучением пробрались?</rus>
+  </string>
+  <string id="yan_secret_0008_name">
+    <rus>Тайник группировки</rus>
+  </string>
+  <string id="yan_secret_0009_description">
+    <rus>Сгинул очередной доброволец,\nпрототип не защитил от излучения.\nСмог дойти только до середины территории, \nтам и остался.\nСахаров хочет замеры более точные сделать, \nно я не пойду,\nа то тоже там с ним останусь, \nгде-нибудь недалеко от вагончика.</rus>
+  </string>
+  <string id="yan_secret_0009_name">
+    <rus>Рюкзак испытателя</rus>
+  </string>
+  <string id="yan_secret_0010_description">
+    <rus>Говорят, тут тайник чей-то есть.\nКарабкаться только опасно и высоко, \nда и под излучением не пробраться.</rus>
+  </string>
+  <string id="yan_secret_0010_name">
+    <rus>Старый тайник</rus>
+  </string>
+  <string id="yan_secret_0011_description">
+    <rus>Надо валить. Сахаров и Круглов — \nполные психи, требуют, \nчтоб я отправился с каким-то \nсталкером в центр излучения.\nНу их нафиг, как только соберу \nвсе запасы в люке, тут же свалю.</rus>
+  </string>
+  <string id="yan_secret_0011_name">
+    <rus>Тайник учёного</rus>
+  </string>
+  <string id="yan_secret_0012_description">
+    <rus>Сунул добро в бревно, \nдумаю, не найдут.</rus>
+  </string>
+  <string id="yan_secret_0012_name">
+    <rus>Клад в бревне</rus>
+  </string>
+  <string id="yan_secret_0013_description">
+    <rus>Вот же удача моя, змеюка подколодная.\nТолько нанялся учёных охранять,\nтак через три дня мародёры напали.\nПодстрелили меня, гады...\nХотя не всё так плохо.\nЯ живой, даже кое-какие трофеи перепали.\nЗаныкаю на территории бункера, \nтак будет надёжнее всего.</rus>
+  </string>
+  <string id="yan_secret_0013_name">
+    <rus>Ящичек в трубе</rus>
+  </string>
+  <string id="st_found_new_treasure">
+    <rus>Информация о схроне</rus>
+  </string>
+  <string id="marsh_secret_0000_name">
+    <rus>Тайник в камышах</rus>
+  </string>
+  <string id="marsh_secret_0000_description">
+    <rus>Случайно наткнулся на люк притопленный,\nв него своё барахлишко и определил.\nМеста глухие, найти не должны.</rus>
+  </string>
+  <string id="marsh_secret_0001_name">
+    <rus>Тайник сталкера</rus>
+  </string>
+  <string id="marsh_secret_0001_description">
+    <rus>Заныкал тут кое-что под опорой ЛЭП,\nукрадут — не жалко.</rus>
+  </string>
+  <string id="marsh_secret_0002_name">
+    <rus>Тайник мёртвого сталкера</rus>
+  </string>
+  <string id="marsh_secret_0002_description">
+    <rus>Говорят, что сгинул сталкер один.\nБарахлишко кое-какое после себя \nоставил в кабине ГАЗа.</rus>
+  </string>
+  <string id="marsh_secret_0003_name">
+    <rus>Тайник "мстителя"</rus>
+  </string>
+  <string id="marsh_secret_0003_description">
+    <rus>Видел, как один из "мстителей" \nтёрся у насосной станции,\nс трубой мутил что-то.</rus>
+  </string>
+  <string id="marsh_secret_0004_name">
+    <rus>Схрон на болотах</rus>
+  </string>
+  <string id="marsh_secret_0004_description">
+    <rus>Есть тут сталкер один,\nпо пьяни трепался про схрон свой.\nТочного места не назвал, только ржал, \nкак конь, и большой палец показывал.\nСоврал, нет, надо бы проверить.</rus>
+  </string>
+  <string id="marsh_secret_0005_name">
+    <rus>Неприметный тайник</rus>
+  </string>
+  <string id="marsh_secret_0005_description">
+    <rus>Перед рейдом кое-что заныкал в трубе,\nна полуострове недалеко от форпоста.\nМесто ненадёжное, боюсь, сопрут.</rus>
+  </string>
+  <string id="marsh_secret_0006_name">
+    <rus>Тайничок в камышах</rus>
+  </string>
+  <string id="marsh_secret_0006_description">
+    <rus>Ох, ну и досталось же мне тогда,\nприключилось от двух псевдособак убегать.\nПришлось хабарок сбросить.\nНадо бы проверить — где-то у кромки пруда \nв виде сломанного сердца.</rus>
+  </string>
+  <string id="marsh_secret_0007_name">
+    <rus>Ценный тайник</rus>
+  </string>
+  <string id="marsh_secret_0007_description">
+    <rus>Мы тогда с Жорой столько всего набрали, \nчто пришлось часть в сейфе оставить, \nпрямо на конце песчаной косы.</rus>
+  </string>
+  <string id="marsh_secret_0008_name">
+    <rus>Тайник на острове</rus>
+  </string>
+  <string id="marsh_secret_0008_description">
+    <rus>Ё-моё, где же я свой рюкзак посеял?\nВот, блин, напились тогда...\nА, всё-всё, вспомнил, \nнадо забрать добро, пока не поздно.</rus>
+  </string>
+  <string id="marsh_secret_0009_name">
+    <rus>Хабар сталкера</rus>
+  </string>
+  <string id="marsh_secret_0009_description">
+    <rus>Тут один сталкер скинул информацию на нычку.\nНаходится она где-то в камышах, \nаккурат между двумя озерцами.\nИнтересно, врал, нет?</rus>
+  </string>
+  <string id="marsh_secret_0010_name">
+    <rus>Тайник "чистонебовца"</rus>
+  </string>
+  <string id="marsh_secret_0010_description">
+    <rus>Видел, как один из этих "чистонебовцев"\nпрятал что-то на болотах в могиле.\nИнтересно, что там?</rus>
+  </string>
+  <string id="marsh_secret_0011_name">
+    <rus>Тайник в бревне</rus>
+  </string>
+  <string id="marsh_secret_0011_description">
+    <rus>Тут с мужиком одним выпили,\nа он такой болтун,\nдавай про нычки свои болтать. \nВрал наверное, бахвалился, хотя...</rus>
+  </string>
+  <string id="marsh_secret_0012_name">
+    <rus>Тайник охотника</rus>
+  </string>
+  <string id="marsh_secret_0012_description">
+    <rus>Схоронил кое-что,\nтут недалеко, подожду,\nпока выгодный клиент найдётся.</rus>
+  </string>
+  <string id="marsh_secret_0013_name">
+    <rus>Ценные вещи</rus>
+  </string>
+  <string id="marsh_secret_0013_description">
+    <rus>Эх, хорошо тогда фраерка одного обули.\nА часть про запас в дрова заховали.</rus>
+  </string>
+  <string id="marsh_secret_0014_name">
+    <rus>Вещички в схроне</rus>
+  </string>
+  <string id="marsh_secret_0014_description">
+    <rus>Всё помню... Выстрел с вышки,\nкак братишка мой раненый \nотползал от забора в те камыши.\nНе успел я. Рюкзак с его \nпожитками там и схоронил пока.</rus>
+  </string>
+  <string id="marsh_secret_0015_name">
+    <rus>Тайник с вещами</rus>
+  </string>
+  <string id="marsh_secret_0015_description">
+    <rus>Вот накоплю ещё деньжат,\nвозьму вещички те,\nчто тогда схоронил, \nи прощай Зона!</rus>
+  </string>
+  <string id="marsh_secret_0016_name">
+    <rus>Ценности на болотах</rus>
+  </string>
+  <string id="marsh_secret_0016_description">
+    <rus>Мы тогда в заварушку попали,\nпришлось ящик в печи спрятать.\nНадо время найти, перепрятать.</rus>
+  </string>
+  <string id="marsh_secret_0017_name">
+    <rus>Хабар в запорожце</rus>
+  </string>
+  <string id="marsh_secret_0017_description">
+    <rus>Загрузились мы тогда с Коляном.\nПришлось на болотах часть оставить.</rus>
+  </string>
+  <string id="marsh_secret_0018_name">
+    <rus>Нычка с вещами</rus>
+  </string>
+  <string id="marsh_secret_0018_description">
+    <rus>Ох, ну я и вляпался,\nпошёл один на Болота,\nа там монстров-шмонстров, \nеле ноги унёс.\nХорошо хабарок сныкал в пеньке.\nНадеюсь, не найдут.</rus>
+  </string>
+  <string id="marsh_secret_0019_name">
+    <rus>Неприметная нычка</rus>
+  </string>
+  <string id="marsh_secret_0019_description">
+    <rus>Жаль, тогда один был, \nнашёл сталкера мёртвого,\nа у него столько всего было.\nСамое ценное с собой взял,\nно кое-что припрятал в трубе.</rus>
+  </string>
+  <string id="marsh_secret_0020_name">
+    <rus>Возле путей</rus>
+  </string>
+  <string id="marsh_secret_0020_description">
+    <rus>Прилёг поспать в железнодорожном вагоне,\nно нагрянули химеры. Пришлось удирать. \nРюкзак скинул рядом с вагоном.</rus>
+  </string>
+  <string id="limansk_secret_0000_name">
+    <rus>Тайник в Лиманске</rus>
+  </string>
+  <string id="limansk_secret_0000_description">
+    <rus>Тогда с Коляном \nв удачный рейд сходили,\nчасть пожитков в сухом бревне \nоставили, что за домом.</rus>
+  </string>
+  <string id="limansk_secret_0001_name">
+    <rus>Схрон в Лиманске</rus>
+  </string>
+  <string id="limansk_secret_0001_description">
+    <rus>Повезло мне тогда, \nтак много хабара набрал, \nчто часть в легковушке \nпришлось оставить.</rus>
+  </string>
+  <string id="limansk_secret_0002_name">
+    <rus>Схрон с добром</rus>
+  </string>
+  <string id="limansk_secret_0002_description">
+    <rus>Словили с Серёгой одного "одержимого",\nа у него с собой чего только не было.\nВот зараза, и откуда только берут!\nЧасть в схроне оставили около здания, \nза стенкой. Надо бы забрать.</rus>
+  </string>
+  <string id="limansk_secret_0003_name">
+    <rus>Схрон "свободовца"</rus>
+  </string>
+  <string id="limansk_secret_0003_description">
+    <rus>Другана моего в "Воронке" укатало,\nмы тогда с рейда возвращались,\nу меня самого рюкзак под завязку,\nпришлось его рюкзак заныкать \nв кустах за детской площадкой.</rus>
+  </string>
+  <string id="limansk_secret_0004_name">
+    <rus>Схрон сталкера</rus>
+  </string>
+  <string id="limansk_secret_0004_description">
+    <rus>Да, уж вот страху-то натерпелся.\nСтая псов это что-то.\nЕле убежал. Правда,\nхабарок пришлось в гараже скинуть.</rus>
+  </string>
+  <string id="limansk_secret_0005_name">
+    <rus>Нычка в трубе</rus>
+  </string>
+  <string id="limansk_secret_0005_description">
+    <rus>Нет, больше меня в Лиманск не затянешь.\nНашёл хабар неплохой около машины,\nпока доставал — накрыли шквальным огнём.\nПришлось бежать оттуда, \nоставив часть пожитков.</rus>
+  </string>
+  <string id="limansk_secret_0006_name">
+    <rus>Заначка сталкера</rus>
+  </string>
+  <string id="limansk_secret_0006_description">
+    <rus>Играли с мужиком в карты, \nну я как всегда выиграл, \nа он на кон свой хабар, \nчто в Лиманске оставил, поставил.\nНу и проиграл, естественно.\nНычку свою он, конечно, \nграмотно устроил — в конце сливной трубы.\nНадо бы забрать, \nкогда в тех местах буду.</rus>
+  </string>
+  <string id="limansk_secret_0007_name">
+    <rus>Тайник в Лиманске</rus>
+  </string>
+  <string id="limansk_secret_0007_description">
+    <rus>Были с Петром недавно в Лиманске,\nнашли кое-что ценное.\nЧтобы не нести с собой, пришлось хабарок \nв трубе за гаражами оставить.\nСмотаюсь туда, как время будет.</rus>
+  </string>
+  <string id="limansk_secret_0008_name">
+    <rus>Нычка мёртвого сталкера</rus>
+  </string>
+  <string id="limansk_secret_0008_description">
+    <rus>Мы тогда видели, как один сталкер \nприпрятал хабарок под мостом,\nда вот несчастье с ним приключилось, \nрядом кровосос был, видимо, учуял нас.\nСами еле ноги унесли, \nа мужику не повезло.</rus>
+  </string>
+  <string id="limansk_secret_0009_name">
+    <rus>Тайник в пеньке</rus>
+  </string>
+  <string id="limansk_secret_0009_description">
+    <rus>Вот, блин, опростоволосился тогда.\nТакой хабарок нашёл, \nспрятал в укромное место около сетки.\nА потом выброс начался, и в том месте \nаномалия "Трамплин" образовалась.\nТри дня прождал, так и пришлось \nни с чем уйти.</rus>
+  </string>
+  <string id="red_forest_secret_0000_name">
+    <rus>Тайник сталкера</rus>
+  </string>
+  <string id="red_forest_secret_0000_description">
+    <rus>Заныкал в бревне хабарок. \nБудет время — заберу.</rus>
+  </string>
+  <string id="red_forest_secret_0001_name">
+    <rus>Тайник охотника</rus>
+  </string>
+  <string id="red_forest_secret_0001_description">
+    <rus>Был тут охотник один.\nИ его Зона не пожалела, погнула,\nа перед смертью он про тайник рассказал.\nСтоит поискать около холма,\nвроде в пеньке он барахло припрятал.</rus>
+  </string>
+  <string id="red_forest_secret_0002_name">
+    <rus>Рюкзак в лесу</rus>
+  </string>
+  <string id="red_forest_secret_0002_description">
+    <rus>Шли в Лиманск. Пройти тогда не смогли,\nно зато кое-что по дороге нашли.\nСпрятали там же, в Красном Лесу. \nПамятка — спуститься с горки,\nподарочек под ёлкой,\nно следить за волшебными зверями.</rus>
+  </string>
+  <string id="red_forest_secret_0003_name">
+    <rus>Рюкзак у дороги</rus>
+  </string>
+  <string id="red_forest_secret_0003_description">
+    <rus>Не повезло мне.\nТакой хабар пришлось в пеньке оставить.\nМесто ненадёжное. Того и гляди, сопрут.</rus>
+  </string>
+  <string id="red_forest_secret_0004_name">
+    <rus>Тайник в Красном Лесу</rus>
+  </string>
+  <string id="red_forest_secret_0004_description">
+    <rus>Место одно нашёл, очень хорошее.\nЗапрятал под берёзой.\nХрен кто найдёт.</rus>
+  </string>
+  <string id="red_forest_secret_0005_name">
+    <rus>Хабар в лесу</rus>
+  </string>
+  <string id="red_forest_secret_0005_description">
+    <rus>В Красном Лесу, в камнях, \nспрятал кое-что ценное.\nНастанет время рвать из Зоны,\nне забыть бы забрать.</rus>
+  </string>
+  <string id="red_forest_secret_0006_name">
+    <rus>Хабар в шахте</rus>
+  </string>
+  <string id="red_forest_secret_0006_description">
+    <rus>Нашли мёртвого сталкера.\nВ рюкзаке у него было много ценного.\nВсё не унесли,\nчасть в схроне за камнями оставили.</rus>
+  </string>
+  <string id="red_forest_secret_0007_name">
+    <rus>Рюкзачок под камнями</rus>
+  </string>
+  <string id="red_forest_secret_0007_description">
+    <rus>Знаю одно место, говорят,\nтам много всего хорошего схоронено.\nНадо бы наведаться.</rus>
+  </string>
+  <string id="red_forest_secret_0008_name">
+    <rus>Схрон охотника</rus>
+  </string>
+  <string id="red_forest_secret_0008_description">
+    <rus>Мне охотник один перед смертью\nпро свой хабарок в Красном Лесу рассказал.\nПрохрипел что-то о трёх камнях и помер.\nНадо бы это место найти...</rus>
+  </string>
+  <string id="red_forest_secret_0009_name">
+    <rus>Схрон в лесу</rus>
+  </string>
+  <string id="red_forest_secret_0009_description">
+    <rus>Вот же тогда повезло!\nСтолько хабара набрали, \nчто всё не унесли даже.\nТам же и оставили:\nв лесу, у дерева под горкой.</rus>
+  </string>
+  <string id="red_forest_secret_0010_name">
+    <rus>Тайник в лесу</rus>
+  </string>
+  <string id="red_forest_secret_0010_description">
+    <rus>Хорошо мы тогда \nодного сталкера потрясли.\nХабарок у него был что надо. \nНе забыть бы, где рюкзак заложили:\nворота — камень — берёза — \nот неё на севере, в кустах.</rus>
+  </string>
+  <string id="red_forest_secret_0011_name">
+    <rus>Хабар Васьки</rus>
+  </string>
+  <string id="red_forest_secret_0011_description">
+    <rus>Погиб Васька.\nНу, выпьем за него, за дружбана моего.\nЯ с него всё ценное снял \nи оставил в запорожце.\nНе смог...</rus>
+  </string>
+  <string id="red_forest_secret_0012_name">
+    <rus>Хабар счастливчиков</rus>
+  </string>
+  <string id="red_forest_secret_0012_description">
+    <rus>Бывает и на нашей улице праздник.\nСловили хороший куш.\nХабарок пока припрятали в вагонетке.</rus>
+  </string>
+  <string id="red_forest_secret_0013_name">
+    <rus>Скрытое место в лесу</rus>
+  </string>
+  <string id="red_forest_secret_0013_description">
+    <rus>Вот что делать?\nЗапрятал укромно хабар в Красном Лесу — \nв пеньке среди деревьев.\nА теперь второй месяц забрать не могу.\nТо хворь, то дела.</rus>
+  </string>
+  <string id="red_forest_secret_0014_name">
+    <rus>Тайник мастера</rus>
+  </string>
+  <string id="red_forest_secret_0014_description">
+    <rus>Сбросил рюкзак около холма, у камней.\nНе очень ценное, но всё же...</rus>
+  </string>
+</string_table>

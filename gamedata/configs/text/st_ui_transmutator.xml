@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="anomaly_prefix_text">
+    <rus>Аномалия: </rus>
+  </string>
+  <string id="brew_need_middle_text">
+    <rus> еще нужно: </rus>
+  </string>
+  <string id="brew_need_prefix_text">
+    <rus>Для варки </rus>
+  </string>
+  <string id="brew_removes_anomaly_suffix_text">
+    <rus>: удалит аномалию</rus>
+  </string>
+  <string id="brew_time_prefix_text">
+    <rus>Время варки </rus>
+  </string>
+  <string id="brew_time_separator_text">
+    <rus>: </rus>
+  </string>
+  <string id="exit_button_text">
+    <rus>Выход</rus>
+  </string>
+  <string id="start_button_text">
+    <rus>Запуск</rus>
+  </string>
+  <string id="time_day_suffix_text">
+    <rus> дн </rus>
+  </string>
+  <string id="time_hour_suffix_text">
+    <rus> час </rus>
+  </string>
+  <string id="time_min_suffix_text">
+    <rus> мин</rus>
+  </string>
+</string_table>

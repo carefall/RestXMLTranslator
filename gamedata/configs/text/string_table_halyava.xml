@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <string id="st_halyava_dc_intro_1">
+        <rus>Ну как у нас тут дела?</rus>
+    </string>
+    <string id="st_halyava_dc_intro_2">
+        <rus>Как обстановка у нас тут?</rus>
+    </string>
+    <string id="st_halyava_dc_intro_3">
+        <rus>Как дела? Какие новости?</rus>
+    </string>
+    <string id="st_halyava_dc_intro_4">
+        <rus>Как дела наши продвигаются?</rus>
+    </string>
+    <string id="st_halyava_dc_circumstances">
+        <rus>Обстоятельства у нас вот какие</rus>
+    </string>
+    <string id="st_halyava_dc_guard_prefix">
+        <rus>На охране у нас сейчас</rus>
+    </string>
+    <string id="st_halyava_dc_guard_cost_prefix">
+        <rus>расходы на неё составляют</rus>
+    </string>
+    <string id="st_halyava_dc_guard_cost_day">
+        <rus>До конца дня затраты составят</rus>
+    </string>
+    <string id="st_halyava_dc_guard_empty">
+        <rus>никого нет, поэтому расходов, соответственно, тоже сейчаc никаких нет</rus>
+    </string>
+    <string id="st_halyava_dc_base_open">
+        <rus>база сейчас открыта для гостей</rus>
+    </string>
+    <string id="st_halyava_dc_base_closed">
+        <rus>база сейчас закрыта для народа</rus>
+    </string>
+    <string id="st_halyava_dc_rep_awful">
+        <rus>Репутация базы просто ужасная, нас люди боятся и нашу базу считают проклятым местом</rus>
+    </string>
+    <string id="st_halyava_dc_rep_bad">
+        <rus>Репутация базы плохая, люди остерегаются нас</rus>
+    </string>
+    <string id="st_halyava_dc_rep_poor">
+        <rus>Наша репутация не самая лучшая. О нас поговаривают дурные вести</rus>
+    </string>
+    <string id="st_halyava_dc_rep_unknown">
+        <rus>Мы сейчас малоизвестны. О нашем существовании почти никто не знает</rus>
+    </string>
+    <string id="st_halyava_dc_rep_rumors">
+        <rus>О нас ходят неплохие слухи. Похоже, что мы на правильном пути</rus>
+    </string>
+    <string id="st_halyava_dc_rep_praised">
+        <rus>О нас хорошо отзываются, люди непрочь заглянуть к нам по пути</rus>
+    </string>
+    <string id="st_halyava_dc_rep_flawless">
+        <rus>Наша репутация безупречна, нас считают одной из наиболее безопасных баз в этой округе</rus>
+    </string>
+    <string id="st_halyava_dc_supplies_none">
+        <rus>больше не осталось</rus>
+    </string>
+    <string id="st_halyava_dc_supplies_enough">
+        <rus>пока достаточно</rus>
+    </string>
+    <string id="st_halyava_dc_money_balance">
+        <rus>На нашем счету сейчас</rus>
+    </string>
+    <string id="st_halyava_dc_money_profit">
+        <rus>За последний час прибыль составила</rus>
+    </string>
+    <string id="st_halyava_dc_money_guard">
+        <rus>За охрану платим в час</rus>
+    </string>
+    <string id="st_halyava_dc_money_supplies">
+        <rus>Припасов у нас</rus>
+    </string>
+    <string id="st_halyava_dc_money_forecast">
+        <rus>К концу дня ожидаем баланс, равный</rus>
+    </string>
+    <string id="st_halyava_dc_rub">
+        <rus>руб</rus>
+    </string>
+    <string id="st_halyava_dc_per_hour">
+        <rus>в час</rus>
+    </string>
+    <string id="st_halyava_f_vova_find_alive_1">
+        <rus>ВОВА ВИСТ: наш разведчик </rus>
+    </string>
+    <string id="st_halyava_f_vova_find_alive_2">
+        <rus> сообщил, что видел мужика из списка, которого зовут </rus>
+    </string>
+    <string id="st_halyava_f_vova_find_alive_4">
+        <rus> его засекли последний раз. Парень жив-здоров. Так что отчитываюсь заказчику, что задание выполнено.</rus>
+    </string>
+    <string id="st_halyava_f_vova_find_dead_1">
+        <rus>ВОВА ВИСТ: наш разведчик </rus>
+    </string>
+    <string id="st_halyava_f_vova_find_dead_2">
+        <rus> сообщил, что нашёл мёртвым мужика из списка, которого зовут </rus>
+    </string>
+    <string id="st_halyava_f_vova_find_dead_4">
+        <rus> там его тело находится. Да, парень погиб. Так что отчитываюсь заказчику, что задание выполнено.</rus>
+    </string>
+    <string id="st_halyava_f_payments_pending">
+        <rus>Мы ожидаем следующие выплаты: \n \n</rus>
+    </string>
+    <string id="st_halyava_f_scare_target_dead_1">
+        <rus>ХАЛЯВА: Меченый, я получил сообщение, что наша цель: </rus>
+    </string>
+    <string id="st_halyava_f_scare_target_dead_2">
+        <rus> мертва. Мы должны были ему только здоровье подпортить, а не убивать... Я сообщу заказчику. Боюсь, что это ударит по репутации нашей базы.</rus>
+    </string>
+    <string id="st_halyava_f_kill_target_dead_1">
+        <rus>ХАЛЯВА: Меченый, у меня появилась информация, что наша цель: </rus>
+    </string>
+    <string id="st_halyava_f_kill_target_dead_2">
+        <rus> - мертва. Не знаю, чьих рук дело, но по факту - задание выполнено.</rus>
+    </string>
+    <string id="st_halyava_f_scare_target_dead_short_1">
+        <rus>ХАЛЯВА: Меченый, я получил сообщение, что наша цель: </rus>
+    </string>
+    <string id="st_halyava_f_scare_target_dead_short_2">
+        <rus> мертва. Мы должны были ему только здоровье подпортить, а не убивать...</rus>
+    </string>
+    <string id="st_halyava_f_target_fallback">
+        <rus>цель</rus>
+    </string>
+    <string id="st_halyava_f_task_title_work">
+        <rus>Работа от </rus>
+    </string>
+    <string id="st_halyava_f_task_title_order">
+        <rus>Заказ от </rus>
+    </string>
+    <string id="st_halyava_f_task_title_request">
+        <rus>Просьба от </rus>
+    </string>
+    <string id="st_halyava_f_task_title_application">
+        <rus>Заявка от </rus>
+    </string>
+    <string id="st_halyava_f_task_title_message">
+        <rus>Сообщение от </rus>
+    </string>
+    <string id="st_halyava_f_art_fire_tears">
+        <rus>"Слёзы огня"</rus>
+    </string>
+    <string id="st_halyava_f_art_babka">
+        <rus>"Бусы прабабки"</rus>
+    </string>
+    <string id="st_halyava_f_art_black_tears">
+        <rus>"Чёрные слёзы"</rus>
+    </string>
+    <string id="st_halyava_f_art_babka_burer">
+        <rus>"Бусы прабабки бюрера"</rus>
+    </string>
+    <string id="st_halyava_f_reward_money_prefix">
+        <rus>. Гонорар за работу обещают в </rus>
+    </string>
+    <string id="st_halyava_f_reward_money_suffix">
+        <rus> рублей</rus>
+    </string>
+    <string id="st_halyava_f_reward_art_prefix">
+        <rus>. Гонорар за работу обещают артефактом: </rus>
+    </string>
+    <string id="st_halyava_f_dlg_work_available">
+        <rus>Есть работа для нас?</rus>
+    </string>
+    <string id="st_halyava_f_dlg_no_work">
+        <rus>Нет, на данный момент к нам никто ещё не обращался</rus>
+    </string>
+    <string id="st_halyava_f_dlg_tell_more">
+        <rus>, расскажи подробней.</rus>
+    </string>
+    <string id="st_halyava_f_dlg_take_task">
+        <rus>Берём это задание.</rus>
+    </string>
+    <string id="st_halyava_f_dlg_accept_notify">
+        <rus>Хорошо, я сообщу заказчику, что мы взялись за задание. Имя цели будет в сводке, которую у меня можно запросить.</rus>
+    </string>
+    <string id="st_halyava_f_dlg_reject_task">
+        <rus>Нет, это задание брать не будем.</rus>
+    </string>
+    <string id="st_halyava_f_dlg_current_tasks">
+        <rus>Дай сводку по текущим заданиям.</rus>
+    </string>
+    <string id="st_halyava_f_dlg_no_accepted">
+        <rus>Никаких заданий мы пока не брали.</rus>
+    </string>
+    <string id="st_halyava_f_dlg_rewards_summary">
+        <rus>Дай сводку по доходам за наши выполненные задания.</rus>
+    </string>
+    <string id="st_halyava_f_dlg_no_completed">
+        <rus>Сейчас нет выполненных заданий, за которые мы ожидали бы оплату.</rus>
+    </string>
+    <string id="st_halyava_f_dlg_talk_arts">
+        <rus>Поговорим об артефактах.</rus>
+    </string>
+    <string id="st_halyava_f_dlg_listening">
+        <rus>Слушаю.</rus>
+    </string>
+    <string id="st_halyava_f_dlg_which_arts">
+        <rus>Какие артефакты сейчас есть в нашем хранилище?</rus>
+    </string>
+    <string id="st_halyava_f_dlg_no_arts">
+        <rus>Сейчас у нас на хранении нет никаких артов.</rus>
+    </string>
+    <string id="st_halyava_f_arts_storage_prefix">
+        <rus>В нашем распоряжении следующие артефакты: \n \n</rus>
+    </string>
+    <string id="st_halyava_f_rewards_prefix">
+        <rus>доступные награды: \n \n</rus>
+    </string>
+    <string id="st_halyava_f_tasks_hint_prefix">
+        <rus>Не забывай, что мы можем с помощью разведчиков Вовы Виста вычислить местонахождение цели. Чем больше разведчиков - тем выше шансы найти цель. Итак:\n \n</rus>
+    </string>
+    <string id="st_halyava_f_otvet_offer_prefix">
+        <rus>Да, кое что есть. Максимум я буду готов принять до пяти предложений от заказчиков. В конце каждого дня заказы будут аннулироваться, если мы их не возьмём. \n \n</rus>
+    </string>
+    <string id="st_halyava_f_otvet_show_prefix">
+        <rus>Смотри, вот что сейчас мы имеем:\n \n</rus>
+    </string>
+    <string id="st_halyava_f_target_name_label">
+        <rus> Имя цели: </rus>
+    </string>
+    <string id="st_halyava_f_target_seen_label">
+        <rus>. На момент взятия задания его видели </rus>
+    </string>
+    <string id="st_halyava_tbl_of_locations_val_baza_bandits_text1">
+        <rus>, у нас на базе</rus>
+    </string>
+    <string id="st_halyava_tbl_of_locations_val_baza_bandits_text2">
+        <rus>, идёт к нам на базу</rus>
+    </string>
+    <string id="st_halyava_tbl_of_locations_esc_farm_lager_text1">
+        <rus>, на заданной позиции</rus>
+    </string>
+    <string id="st_halyava_tbl_of_locations_esc_farm_lager_text2">
+        <rus>, заданная локация: Кордон</rus>
+    </string>
+    <string id="st_halyava_tbl_of_locations_gar_smart_garage_text1">
+        <rus>, заданная локация: Свалка</rus>
+    </string>
+    <string id="st_halyava_tbl_of_locations_agr2_st_factory_text1">
+        <rus>, заданная локация: Агропром</rus>
+    </string>
+    <string id="st_halyava_tbl_of_locations_yan_st_stalker3_text1">
+        <rus>, заданная локация: Янтарь</rus>
+    </string>
+    <string id="st_halyava_tbl_of_locations_mil_freedom_text1">
+        <rus>, заданная локация: Милитари</rus>
+    </string>
+    <string id="st_halyava_tip_about_problem_text1">
+        <rus>Дорога была небезопасной, и в пути вы попали под обстрел. Машина получила сильные повреждения. Нажми \&quot;Esc\&quot;, чтобы продолжить.</rus>
+    </string>
+    <string id="st_halyava_rate_names_novice_text1">
+        <rus>%c[255,0,255,4]новичок%c[default]</rus>
+    </string>
+    <string id="st_halyava_rate_names_experienced_text1">
+        <rus>%c[255,255,230,0]опытный%c[default]</rus>
+    </string>
+    <string id="st_halyava_rate_names_veteran_text1">
+        <rus>%c[255,255,140,0]ветеран%c[default]</rus>
+    </string>
+    <string id="st_halyava_rate_names_master_text1">
+        <rus>%c[255,255,0,0]мастер%c[default]</rus>
+    </string>
+    <string id="st_halyava_send_tip_text1">
+        <rus>: Ресурсами затарился, тащу на базу </rus>
+    </string>
+    <string id="st_halyava_send_tip_text2">
+        <rus> кг. всякого добра.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text3">
+        <rus> кг. медпрепаратов.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text4">
+        <rus>: Всё, Серому ресурсы передал, деньги забрал. Возвращаюсь.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text5">
+        <rus>: Вернулся домой после задания, меня не тревожить пока, буду отдыхать.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text6">
+        <rus>: Так, я отправляюсь за торговыми ресурсами, взял с собой </rus>
+    </string>
+    <string id="st_halyava_send_tip_text7">
+        <rus> р. с нашего бюджета. </rus>
+    </string>
+    <string id="st_halyava_send_tip_text8">
+        <rus>: Так, я отправляюсь за медресурсами, взял с собой </rus>
+    </string>
+    <string id="st_halyava_send_tip_text9">
+        <rus>: Так, я отправляюсь с артефактом на задание. Пожелайте мне удачи.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text10">
+        <rus>: Так, я отправляюсь в Лощину с ресурсами, встречайте. Тащу с собой </rus>
+    </string>
+    <string id="st_halyava_send_tip_text11">
+        <rus> кг. ресурсов.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text12">
+        <rus>Вова Вист: я завербовал нового разведчика, это </rus>
+    </string>
+    <string id="st_halyava_map_spot_text1">
+        <rus>Разведчик: </rus>
+    </string>
+    <string id="st_halyava_ochen_davno_pozitsiyu_ustanovit_ne_poluchaetsya_text1">
+        <rus>очень давно, позицию установить не получается.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text13">
+        <rus>ВОВА ВИСТ: я потерял связь с разведчиком - </rus>
+    </string>
+    <string id="st_halyava_send_tip_text14">
+        <rus>. Похоже, что парень погиб. Последний раз его сигнал был </rus>
+    </string>
+    <string id="st_halyava_send_tip_text15">
+        <rus>ВОВА ВИСТ: от нас ушел </rus>
+    </string>
+    <string id="st_halyava_send_tip_text16">
+        <rus> из-за того, что у нас не хватает денег на оплату разведчикам.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text17">
+        <rus>ВОВА ВИСТ: Меченый, наш разведчик </rus>
+    </string>
+    <string id="st_halyava_s_yantarya_peredayot_chto_u_nego_est_vazhnaya_in_text1">
+        <rus> с Янтаря передаёт, что у него есть важная информация про какую-то новую аномалию. Просит тебя дойти до него. Постарайся, как время будет.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text18">
+        <rus>ЗАЧИСЛЕНИЕ СРЕДСТВ: перевод </rus>
+    </string>
+    <string id="st_halyava_send_tip_text19">
+        <rus> руб. от Сахарова за охрану.</rus>
+    </string>
+    <string id="st_halyava_dlg_text1">
+        <rus>Есть что-нибудь для меня?</rus>
+    </string>
+    <string id="st_halyava_dlg_text2">
+        <rus>Есть по деньгам что-нибудь для меня?</rus>
+    </string>
+    <string id="st_halyava_dlg_text3">
+        <rus>Нет, сейчас для тебя ничего нету.</rus>
+    </string>
+    <string id="st_halyava_dlg_text4">
+        <rus>Да, у меня отложена для тебя твоя доля от дохода базы. Тут сейчас </rus>
+    </string>
+    <string id="st_halyava_dlg_text5">
+        <rus> руб. Заберёшь? </rus>
+    </string>
+    <string id="st_halyava_dlg_text6">
+        <rus>Давай.</rus>
+    </string>
+    <string id="st_halyava_dlg_text7">
+        <rus>Нет, пускай поднакопится, потом возьму.</rus>
+    </string>
+    <string id="st_halyava_dlg_text8">
+        <rus>Верни всё обратно на счёт базы, я вроде пока при деньгах.</rus>
+    </string>
+    <string id="st_halyava_na_ohrane_u_nas_seychas_text1">
+        <rus>На охране у нас сейчас </rus>
+    </string>
+    <string id="st_halyava_rashody_na_ohranu_sostavlyayut_text1">
+        <rus>расходы на охрану составляют </rus>
+    </string>
+    <string id="st_halyava_rub_v_chas_do_kontsa_dnya_zatraty_sostavyat_text1">
+        <rus> руб. в час. До конца дня затраты составят </rus>
+    </string>
+    <string id="st_halyava_rub_text1">
+        <rus> руб.</rus>
+    </string>
+    <string id="st_halyava_nikogo_net_poetomu_rashodov_sootvetstvenno_tozhe_text1">
+        <rus>никого нет, поэтому расходов, соответственно, тоже сейчаc никаких нет.</rus>
+    </string>
+    <string id="st_halyava_u_menya_ostayotsya_ochen_malo_meditsinskih_prepa_text1">
+        <rus>У меня остаётся очень мало медицинских препаратов и средств первой помощи. Скоро курьера попрошу сходить за поставкой.</rus>
+    </string>
+    <string id="st_halyava_u_menya_ostalos_ochen_malo_meditsinskih_preparat_text1">
+        <rus>У меня осталось очень мало медицинских препаратов, нужно срочно закупаться, но денег нам пока не хватает. Нужно 10000 руб.</rus>
+    </string>
+    <string id="st_halyava_ostalos_ochen_malo_meditsinskih_preparatov_vot_o_text1">
+        <rus>Осталось очень мало медицинских препаратов, вот ожидаю курьера, чтобы попросить его сходить за новой партией.</rus>
+    </string>
+    <string id="st_halyava_poka_vsyo_horosho_meditsinskih_zapasov_hvataet_text1">
+        <rus>Пока всё хорошо. Медицинских запасов хватает.</rus>
+    </string>
+    <string id="st_halyava_build_text_text1">
+        <rus>Обстоятельства у нас вот какие. </rus>
+    </string>
+    <string id="st_halyava_build_text_artem_text1">
+        <rus>Дела у меня вот какие: </rus>
+    </string>
+    <string id="st_halyava_produkty_zakanchivayutsya_no_ya_uzhe_soobschil_f_text1">
+        <rus>продукты заканчиваются, но я уже сообщил Филу, вот ожидаю поставок.</rus>
+    </string>
+    <string id="st_halyava_produkty_zakanchivayutsya_no_kurer_uzhe_otpravil_text1">
+        <rus>продукты заканчиваются, но курьер уже отправился за поставками. Ожидаем прибытие в скором времени.</rus>
+    </string>
+    <string id="st_halyava_produkty_zakanchivayutsya_a_kurera_poka_net_zhdy_text1">
+        <rus>продукты заканчиваются, а курьера пока нет. Ждём его, чтобы отправить за поставками.</rus>
+    </string>
+    <string id="st_halyava_produktov_poka_hvataet_torgovlya_potihonku_idyot_text1">
+        <rus>продуктов пока хватает, торговля потихоньку идёт.</rus>
+    </string>
+    <string id="st_halyava_neizvestno_text1">
+        <rus> неизвестно.</rus>
+    </string>
+    <string id="st_halyava_nuzhno_srochno_resursy_popolnyat_tolko_v_byudzhe_text1">
+        <rus> Нужно срочно ресурсы пополнять, только в бюджете денег нет. Как будут - сразу курьера отправляю за ресурсами.</rus>
+    </string>
+    <string id="st_halyava_nash_kurer_seychas_otpravilsya_za_postavkami_ozh_text1">
+        <rus> Наш курьер сейчас отправился за поставками, ожидаем.</rus>
+    </string>
+    <string id="st_halyava_zhdu_kogda_vernyotsya_kurer_chtoby_otpravit_ego_text1">
+        <rus> Жду, когда вернётся курьер, чтобы отправить его за ресурсами.</rus>
+    </string>
+    <string id="st_halyava_skoro_kurera_otpravlyu_za_postavkami_text1">
+        <rus> Скоро курьера отправлю за поставками.</rus>
+    </string>
+    <string id="st_halyava_ochen_malo_text1">
+        <rus>очень мало. </rus>
+    </string>
+    <string id="st_halyava_ostalos_malovato_no_poka_est_text1">
+        <rus>осталось маловато, но пока есть. </rus>
+    </string>
+    <string id="st_halyava_poka_dostatochno_text1">
+        <rus>пока достаточно. </rus>
+    </string>
+    <string id="st_halyava_potihonku_rabotaem_pribyl_s_torgovli_za_posledni_text1">
+        <rus>Потихоньку работаем. Прибыль с торговли за последний час составляет: </rus>
+    </string>
+    <string id="st_halyava_rub_torgovyh_resursov_text1">
+        <rus> руб. Торговых ресурсов </rus>
+    </string>
+    <string id="st_halyava_nasha_baza_seychas_otkryta_dlya_posetiteley_text1">
+        <rus>Наша база сейчас открыта для посетителей. </rus>
+    </string>
+    <string id="st_halyava_nasha_baza_seychas_zakryta_dlya_postoronnih_text1">
+        <rus>Наша база сейчас закрыта для посторонних. </rus>
+    </string>
+    <string id="st_halyava_nash_schyot_pust_text1">
+        <rus>Наш счёт пуст. </rus>
+    </string>
+    <string id="st_halyava_na_nashem_schetu_text1">
+        <rus>На нашем счету </rus>
+    </string>
+    <string id="st_halyava_rub_text2">
+        <rus> руб. </rus>
+    </string>
+    <string id="st_halyava_torgovets_soobschal_chto_u_nego_voznikli_trudnos_text1">
+        <rus>Торговец сообщал, что у него возникли трудности с ресурсами, нужно у него уточнить. </rus>
+    </string>
+    <string id="st_halyava_kurer_na_baze_zanimaetsya_svoimi_delami_text1">
+        <rus>Курьер на базе, занимается своими делами. </rus>
+    </string>
+    <string id="st_halyava_kurer_idyot_domoy_zakupilsya_na_text1">
+        <rus>Курьер идёт домой. Закупился на </rus>
+    </string>
+    <string id="st_halyava_kg_resursov_dlya_torgovli_text1">
+        <rus> кг ресурсов для торговли. </rus>
+    </string>
+    <string id="st_halyava_kurer_idyot_domoy_zakupilsya_meditsinskimi_resur_text1">
+        <rus>Курьер идёт домой. Закупился медицинскими ресурсами на </rus>
+    </string>
+    <string id="st_halyava_kg_text1">
+        <rus> кг. </rus>
+    </string>
+    <string id="st_halyava_kurer_na_zadanii_vzyal_s_soboy_text1">
+        <rus>Курьер на задании. Взял с собой </rus>
+    </string>
+    <string id="st_halyava_rub_iz_nashego_byudzheta_text1">
+        <rus> руб. из нашего бюджета. </rus>
+    </string>
+    <string id="st_halyava_seychas_on_text1">
+        <rus> Сейчас он </rus>
+    </string>
+    <string id="st_halyava_kurer_seychas_nahoditsya_text1">
+        <rus>Курьер сейчас находится </rus>
+    </string>
+    <string id="st_halyava_rub_v_chas_dohody_za_chas_sostavili_text1">
+        <rus> руб. в час. Доходы за час составили </rus>
+    </string>
+    <string id="st_halyava_rub_itogo_k_kontsu_dnya_nash_balans_ozhidaetsya_text1">
+        <rus> руб. Итого к концу дня наш баланс ожидается примерно равный </rus>
+    </string>
+    <string id="st_halyava_tormozami_v_rul_nachinaet_bit_v_tselom_ehat_mozh_text1">
+        <rus>тормозами. В руль начинает бить. В целом ехать можно, но неприятно и даже опасно.</rus>
+    </string>
+    <string id="st_halyava_amortizatorami_na_kazhdoy_kochke_budto_palkoy_po_text1">
+        <rus>амортизаторами. На каждой кочке будто палкой по жопе бить будет. Не критично, но приятного мало.</rus>
+    </string>
+    <string id="st_halyava_dvornikami_chtoto_s_trapetsiey_pohozhe_zaedayut_text1">
+        <rus>дворниками. Что-то с трапецией, похоже, заедают они иногда.</rus>
+    </string>
+    <string id="st_halyava_zazhiganiem_mozhet_byt_toplivnyy_nasos_ili_eschy_text1">
+        <rus>зажиганием. Может быть, топливный насос или ещё чего хуже, не знаю. Пока заводить получается, но нужен ремонт.</rus>
+    </string>
+    <string id="st_halyava_dvizhkom_indikator_gorit_a_dvizhok_protraivaet_b_text1">
+        <rus>движком. Индикатор горит, а движок протраивает. Боюсь, что машина скоро встанет. Но ехать пока можно.</rus>
+    </string>
+    <string id="st_halyava_korobkoy_ili_s_kulisoy_ne_poymu_pervaya_i_zadnya_text1">
+        <rus>коробкой. Или с кулисой, не пойму. Первая и задняя вообще не втыкаются практически. Очень трудно так ехать, но при желании возможно.</rus>
+    </string>
+    <string id="st_halyava_motorom_on_bolshe_ne_zavoditsya_vrode_i_pytaetsy_text1">
+        <rus>мотором. Он больше не заводится. Вроде и пытается, но чуть-чуть схватывает и всё. Так что мы пока не на ходу, нужен ремонт.</rus>
+    </string>
+    <string id="st_halyava_korobkoy_kulisu_dyorgayu_mashine_pofig_ni_odna_p_text1">
+        <rus>коробкой. Кулису дёргаю - машине пофиг. Ни одна передача не втыкается. Так что приплыли, нужно капиталить коробку, машина не на ходу.</rus>
+    </string>
+    <string id="st_halyava_rulevoy_reykoy_pohozhe_rul_krutish_v_storonu_a_k_text1">
+        <rus>рулевой рейкой, похоже. Руль крутишь в сторону, а колёса на месте остаются. Сам понимаешь, машина не на ходу в таком состоянии.</rus>
+    </string>
+    <string id="st_halyava_kamaz_polnostyu_v_ispravnom_sostoyanii_text1">
+        <rus>КАМАЗ полностью в исправном состоянии.</rus>
+    </string>
+    <string id="st_halyava_u_mashiny_problemy_s_text1">
+        <rus>У машины проблемы с </rus>
+    </string>
+    <string id="st_halyava_topliva_bolshe_poloviny_text1">
+        <rus> Топлива больше половины.</rus>
+    </string>
+    <string id="st_halyava_topliva_menshe_poloviny_text1">
+        <rus> Топлива меньше половины.</rus>
+    </string>
+    <string id="st_halyava_vnimanie_popytka_udalit_obekt_ne_sootvetstvuyusc_text1">
+        <rus>ВНИМАНИЕ! Попытка удалить объект, не соответствующий спейс рестриктору! %s</rus>
+    </string>
+    <string id="st_halyava_tak_text1">
+        <rus>Так, </rus>
+    </string>
+    <string id="st_halyava_remontirovat_mashinu_uzhe_nechem_nuzhny_remkompl_text1">
+        <rus>ремонтировать машину уже нечем. Нужны ремкомплекты и запчасти.</rus>
+    </string>
+    <string id="st_halyava_remki_eschyo_est_no_uzhe_malovato_text1">
+        <rus>ремки ещё есть, но уже маловато.</rus>
+    </string>
+    <string id="st_halyava_zapchastey_i_remkomplektov_vpolne_dostatochno_text1">
+        <rus>запчастей и ремкомплектов вполне достаточно.</rus>
+    </string>
+    <string id="st_halyava_mashina_poka_na_hodu_mozhno_ehat_text1">
+        <rus> Машина пока на ходу, можно ехать.</rus>
+    </string>
+    <string id="st_halyava_mashina_poka_ne_na_hodu_uehat_kudato_ne_poluchit_text1">
+        <rus> Машина пока не на ходу, уехать куда-то не получится.</rus>
+    </string>
+    <string id="st_halyava_ischi_text1">
+        <rus>Ищи </rus>
+    </string>
+    <string id="st_halyava_novichkov_shans_verbovki_c255255128128nizkiy_text1">
+        <rus>новичков (шанс вербовки: %c[255,255,128,128]низкий).</rus>
+    </string>
+    <string id="st_halyava_novichkov_shans_verbovki_c255160160160sredniy_text1">
+        <rus>новичков (шанс вербовки: %c[255,160,160,160]средний).</rus>
+    </string>
+    <string id="st_halyava_novichkov_shans_verbovki_c255168227185horoshiy_text1">
+        <rus>новичков (шанс вербовки: %c[255,168,227,185]хороший).</rus>
+    </string>
+    <string id="st_halyava_novichkov_shans_verbovki_c255128255128otlichnyy_text1">
+        <rus>новичков (шанс вербовки: %c[255,128,255,128]отличный).</rus>
+    </string>
+    <string id="st_halyava_opytnyh_shans_verbovki_c25525500ochen_nizkiy_text1">
+        <rus>опытных (шанс вербовки: %c[255,255,0,0]очень низкий).</rus>
+    </string>
+    <string id="st_halyava_opytnyh_shans_verbovki_c255255128128nizkiy_text1">
+        <rus>опытных (шанс вербовки: %c[255,255,128,128]низкий).</rus>
+    </string>
+    <string id="st_halyava_opytnyh_shans_verbovki_c255160160160sredniy_text1">
+        <rus>опытных (шанс вербовки: %c[255,160,160,160]средний).</rus>
+    </string>
+    <string id="st_halyava_opytnyh_shans_verbovki_c255168227185horoshiy_text1">
+        <rus>опытных (шанс вербовки: %c[255,168,227,185]хороший).</rus>
+    </string>
+    <string id="st_halyava_veteranov_shans_verbovki_c25525500nulevoy_text1">
+        <rus>ветеранов (шанс вербовки: %c[255,255,0,0]нулевой).</rus>
+    </string>
+    <string id="st_halyava_veteranov_shans_verbovki_c25525500ochen_nizkiy_text1">
+        <rus>ветеранов (шанс вербовки: %c[255,255,0,0]очень низкий).</rus>
+    </string>
+    <string id="st_halyava_veteranov_shans_verbovki_c255160160160sredniy_text1">
+        <rus>ветеранов (шанс вербовки: %c[255,160,160,160]средний).</rus>
+    </string>
+    <string id="st_halyava_masterov_shans_verbovki_c25525500nulevoy_text1">
+        <rus>мастеров (шанс вербовки: %c[255,255,0,0]нулевой).</rus>
+    </string>
+    <string id="st_halyava_masterov_shans_verbovki_c25525500ochen_nizkiy_text1">
+        <rus>мастеров (шанс вербовки: %c[255,255,0,0]очень низкий).</rus>
+    </string>
+    <string id="st_halyava_masterov_shans_verbovki_c255255128128nizkiy_text1">
+        <rus>мастеров (шанс вербовки: %c[255,255,128,128]низкий).</rus>
+    </string>
+    <string id="st_halyava_intro_phrase_vist_text1">
+        <rus>Поговорим о наших делах.</rus>
+    </string>
+    <string id="st_halyava_na_vsyakiy_sluchay_vkrattse_obrisuyu_rasklady_ch_text1">
+        <rus>На всякий случай, вкратце обрисую расклады: чем выше репутация базы, тем больше шанс нанять более опытного человека, но и платить такому нужно будет больше. При этом каждый убитый разведчик плохо сказывается на репутации базы. Также на нашей машине лучше не ехать туда, куда дорога сейчас небезопасна. И не забывай - если не платить разведчикам, то они сразу уйдут, в Зоне забесплатно мало что бывает.</rus>
+    </string>
+    <string id="st_halyava_dlg_text9">
+        <rus>Вербовка и безопасность.</rus>
+    </string>
+    <string id="st_halyava_dlg_text10">
+        <rus>Дай сводку по расходам.</rus>
+    </string>
+    <string id="st_halyava_dlg_text11">
+        <rus>Обсудим подбор людей.</rus>
+    </string>
+    <string id="st_halyava_dlg_text12">
+        <rus>Кто нам нужен? Чем выше репутация базы, тем легче мне вербовать более опытных людей.</rus>
+    </string>
+    <string id="st_halyava_dlg_text13">
+        <rus>К сожалению, на данный момент наша репутация слишком низкая, мы не сможем никого завербовать.</rus>
+    </string>
+    <string id="st_halyava_dlg_text14">
+        <rus>Больше никого не вербуем.</rus>
+    </string>
+    <string id="st_halyava_dlg_text15">
+        <rus>Понял, будем искать.</rus>
+    </string>
+    <string id="st_halyava_dlg_text16">
+        <rus>Понял.</rus>
+    </string>
+    <string id="st_halyava_dlg_text17">
+        <rus>Дай сводку по нашим подконтрольным зонам.</rus>
+    </string>
+    <string id="st_halyava_dlg_text18">
+        <rus>Определимся с направлением разведчиков.</rus>
+    </string>
+    <string id="st_halyava_dlg_text19">
+        <rus>Кого куда отправить? Не забывай, что менее опытных ребят лучше далеко не посылать, не выживут. Чем дальше на север, тем опытнее нужен боец, либо несколько менее опытных, чтобы дорога стала безопасной.</rus>
+    </string>
+    <string id="st_halyava_dlg_text20">
+        <rus>Управлять на данный момент некем.</rus>
+    </string>
+    <string id="st_halyava_dlg_text21">
+        <rus>Отбой.</rus>
+    </string>
+    <string id="st_halyava_dlg_text22">
+        <rus>Куда его направить?</rus>
+    </string>
+    <string id="st_halyava_dlg_text23">
+        <rus>На Кордон.</rus>
+    </string>
+    <string id="st_halyava_dlg_text24">
+        <rus>На Свалку.</rus>
+    </string>
+    <string id="st_halyava_dlg_text25">
+        <rus>На Агропром.</rus>
+    </string>
+    <string id="st_halyava_dlg_text26">
+        <rus>На Янтарь.</rus>
+    </string>
+    <string id="st_halyava_dlg_text27">
+        <rus>На Армейские Склады.</rus>
+    </string>
+    <string id="st_halyava_dlg_text28">
+        <rus>На базу.</rus>
+    </string>
+    <string id="st_halyava_dlg_text29">
+        <rus>Я передумал.</rus>
+    </string>
+    <string id="st_halyava_dlg_text30">
+        <rus>Понял, отправляем</rus>
+    </string>
+    <string id="st_halyava_dlg_text31">
+        <rus>Дай краткую сводку по ситуации в Зоне.</rus>
+    </string>
+    <string id="st_halyava_dlg_text32">
+        <rus>Я насчёт заданий для разведчиков.</rus>
+    </string>
+    <string id="st_halyava_dlg_text33">
+        <rus>Хочу дать задание разведчикам.</rus>
+    </string>
+    <string id="st_halyava_dlg_text34">
+        <rus>Есть новости какие-нибудь от ребят?</rus>
+    </string>
+    <string id="st_halyava_dlg_text35">
+        <rus>На данный момент нет никаких новостей.</rus>
+    </string>
+    <string id="st_halyava_dlg_text36">
+        <rus>Какое задание им объявить?</rus>
+    </string>
+    <string id="st_halyava_dlg_text37">
+        <rus>Разведчиков сейчас нет, задание выдавать некому.</rus>
+    </string>
+    <string id="st_halyava_dlg_text38">
+        <rus>Пусть ищут топливо для машины.</rus>
+    </string>
+    <string id="st_halyava_dlg_text39">
+        <rus>Пусть ищут ремнаборы и запчасти для машины.</rus>
+    </string>
+    <string id="st_halyava_dlg_text40">
+        <rus>Нужно, чтобы твои парни отыскали вот этих людей: </rus>
+    </string>
+    <string id="st_halyava_dlg_text41">
+        <rus>и прислали их местоположение.</rus>
+    </string>
+    <string id="st_halyava_dlg_text42">
+        <rus>Хорошо, я разошлю всем новое задание.</rus>
+    </string>
+    <string id="st_halyava_dlg_text43">
+        <rus>Хорошо, я разошлю всем новое задание. Если будет какая-то информация, то мы сообщим.</rus>
+    </string>
+    <string id="st_halyava_dlg_text44">
+        <rus>На счёт экипировки и снаряжения.</rus>
+    </string>
+    <string id="st_halyava_dlg_text45">
+        <rus>Слушаю. На всякий случай обрисую ситуацию. У нашего торговца на складе мы арендуем уголок для разведчиков, там шмотки в продажу не идут. Ячейки с оружием ограничены 10-ю штуками, то есть максимум про запас мы можем держать не более 10 стволов. Каких - решать тебе. Что принесёшь, то разведчикам и можно будет выдать на руки. Только пистолеты не тащи, с ними особо далеко не уйдешь. Также для нас выделен второй ящик для разной всячины из списка аптечек и еды. Чем заполнять ящик - решать тебе. А я же по умолчанию буду стараться распределять ресурсы между разведчиками так, чтобы у них было больше шансов остаться живыми. Еда помогает пацанам если и не залечить раны, то немного восстановить силы. Оружие, аптечки и еду для разведчиков принимаю я, можешь таскать это всё ко мне. Только не неси хлам, чтобы у пацанов пушки не клинили в самый ответственный момент, ладно? Нужны целые пушки. То, что хочешь передать нам - возьми в руки и дай мне поглядеть, чтоб сюрпризов потом не оказалось. По рукам?</rus>
+    </string>
+    <string id="st_halyava_dlg_text46">
+        <rus>Что сейчас у нас на складе?</rus>
+    </string>
+    <string id="st_halyava_dlg_text47">
+        <rus>Сейчас у нас для разведчиков ничего нет.</rus>
+    </string>
+    <string id="st_halyava_dlg_text48">
+        <rus>Хочу отдать ствол для разведчиков.</rus>
+    </string>
+    <string id="st_halyava_dlg_text49">
+        <rus>Это мы всегда рады принять! Чем жертвуешь?</rus>
+    </string>
+    <string id="st_halyava_dlg_text50">
+        <rus>У нас не осталось свободных ячеек на складе под пушки. Схорони её пока где-нибудь и позже приноси.</rus>
+    </string>
+    <string id="st_halyava_dlg_text51">
+        <rus>Передумал.</rus>
+    </string>
+    <string id="st_halyava_dlg_text52">
+        <rus>Вот, посмотри на </rus>
+    </string>
+    <string id="st_halyava_dlg_text53">
+        <rus>Отлично, передам пушку на склад.</rus>
+    </string>
+    <string id="st_halyava_dlg_text54">
+        <rus>Хочу передать еды для разведчиков.</rus>
+    </string>
+    <string id="st_halyava_dlg_text55">
+        <rus>Хорошо. Что отдаёшь?</rus>
+    </string>
+    <string id="st_halyava_dlg_text56">
+        <rus>Колбасу, 1 палку.</rus>
+    </string>
+    <string id="st_halyava_dlg_text57">
+        <rus>Колбасу, 3 палки.</rus>
+    </string>
+    <string id="st_halyava_dlg_text58">
+        <rus>Колбасу, 5 палок.</rus>
+    </string>
+    <string id="st_halyava_dlg_text59">
+        <rus>Наверное как от сердца оторвал? Шучу. Передам на склад.</rus>
+    </string>
+    <string id="st_halyava_dlg_text60">
+        <rus>Хорошо, передам на склад.</rus>
+    </string>
+    <string id="st_halyava_dlg_text61">
+        <rus>Отлично, передам на склад.</rus>
+    </string>
+    <string id="st_halyava_dlg_text62">
+        <rus>Консервы, 1 банку.</rus>
+    </string>
+    <string id="st_halyava_dlg_text63">
+        <rus>Консервы, 3 банки.</rus>
+    </string>
+    <string id="st_halyava_dlg_text64">
+        <rus>Консервы, 5 банок.</rus>
+    </string>
+    <string id="st_halyava_dlg_text65">
+        <rus>Хлеб, 1 батон.</rus>
+    </string>
+    <string id="st_halyava_dlg_text66">
+        <rus>Хлеб, 3 батона.</rus>
+    </string>
+    <string id="st_halyava_dlg_text67">
+        <rus>Хлеб, 5 батонов.</rus>
+    </string>
+    <string id="st_halyava_dlg_text68">
+        <rus>Хочу передать медикоментов для разведчиков.</rus>
+    </string>
+    <string id="st_halyava_dlg_text69">
+        <rus>Брат, это очень нужная вещь! Чем больше - тем лучше. Каких аптечек и сколько хочешь нам отдать?</rus>
+    </string>
+    <string id="st_halyava_dlg_text70">
+        <rus>%c[255,255,0,25]Простую аптечку.</rus>
+    </string>
+    <string id="st_halyava_dlg_text71">
+        <rus>%c[255,255,0,25]3 простых аптечки.</rus>
+    </string>
+    <string id="st_halyava_dlg_text72">
+        <rus>%c[255,255,0,25]5 простых аптечек</rus>
+    </string>
+    <string id="st_halyava_dlg_text73">
+        <rus>%c[255,109,136,255]Армейскую аптечку.</rus>
+    </string>
+    <string id="st_halyava_dlg_text74">
+        <rus>%c[255,109,136,255]3 армейских аптечки.</rus>
+    </string>
+    <string id="st_halyava_dlg_text75">
+        <rus>%c[255,109,136,255]5 армейских аптечек</rus>
+    </string>
+    <string id="st_halyava_dlg_text76">
+        <rus>%c[255,255,244,37]Научную аптечку.</rus>
+    </string>
+    <string id="st_halyava_dlg_text77">
+        <rus>%c[255,255,244,37]3 научных аптечки.</rus>
+    </string>
+    <string id="st_halyava_dlg_text78">
+        <rus>%c[255,255,244,37]5 научных аптечек</rus>
+    </string>
+    <string id="st_halyava_dlg_text79">
+        <rus>Ок, передам на склад.</rus>
+    </string>
+    <string id="st_halyava_dlg_text80">
+        <rus>Снарядим разведчиков?</rus>
+    </string>
+    <string id="st_halyava_dlg_text81">
+        <rus>Сейчас у нас нет разведчиков.</rus>
+    </string>
+    <string id="st_halyava_dlg_text82">
+        <rus>Давай. Не забывай, что вручить снарягу мы можем только тем пацанам, которые сейчас на базе, пока они не ушли по заданиям.</rus>
+    </string>
+    <string id="st_halyava_dlg_text83">
+        <rus>Снаряжай пацанов по своему усмотрению.</rus>
+    </string>
+    <string id="st_halyava_dlg_text84">
+        <rus>Пока ничего никому не выдаём.</rus>
+    </string>
+    <string id="st_halyava_dlg_text85">
+        <rus>Вернёмся к этому разговору позже.</rus>
+    </string>
+    <string id="st_halyava_dlg_text86">
+        <rus>Сейчас у парня следующая снаряга: </rus>
+    </string>
+    <string id="st_halyava_dlg_text87">
+        <rus>\\nЧем его снарядим?</rus>
+    </string>
+    <string id="st_halyava_dlg_text88">
+        <rus>Выдай ему пушку.</rus>
+    </string>
+    <string id="st_halyava_dlg_text89">
+        <rus>Выдай ему пушку и провизию, укомплектуй по полной.</rus>
+    </string>
+    <string id="st_halyava_dlg_text90">
+        <rus>Выдай ему только еду и медикаменты.</rus>
+    </string>
+    <string id="st_halyava_dlg_text91">
+        <rus>Хорошо, вооружим его.</rus>
+    </string>
+    <string id="st_halyava_dlg_text92">
+        <rus>Хорошо, укомплектую его максимально, насколько возможно.</rus>
+    </string>
+    <string id="st_halyava_dlg_text93">
+        <rus>Хорошо, выдам ему пакет провизии.</rus>
+    </string>
+    <string id="st_halyava_niz_oruzhiya_u_nego_s_soboy_text1">
+        <rus>\\nИз оружия у него с собой: </rus>
+    </string>
+    <string id="st_halyava_nichego_net_text1">
+        <rus>ничего нет</rus>
+    </string>
+    <string id="st_halyava_niz_medikamentov_u_nego_text1">
+        <rus>\\nИз медикаментов у него: </rus>
+    </string>
+    <string id="st_halyava_c25501280mozhem_snaryadit_text1">
+        <rus>%c[255,0,128,0]Можем  снарядить.</rus>
+    </string>
+    <string id="st_halyava_c25512800paren_eschyo_ne_doshyol_do_bazy_text1">
+        <rus>%c[255,128,0,0]Парень ещё не дошёл до базы.</rus>
+    </string>
+    <string id="st_halyava_c25512800uzhe_ushyol_na_zadanie_text1">
+        <rus>%c[255,128,0,0]Уже ушёл на задание.</rus>
+    </string>
+    <string id="st_halyava_zdorov_text1">
+        <rus>Здоров.</rus>
+    </string>
+    <string id="st_halyava_legko_ranen_text1">
+        <rus>Легко ранен.</rus>
+    </string>
+    <string id="st_halyava_ranen_text1">
+        <rus>Ранен.</rus>
+    </string>
+    <string id="st_halyava_tyazhelo_ranen_text1">
+        <rus>Тяжело ранен.</rus>
+    </string>
+    <string id="st_halyava_na_sklade_u_nas_seychas_text1">
+        <rus> На складе у нас сейчас </rus>
+    </string>
+    <string id="st_halyava_c25525500iz_oruzhiyacdefault_nichego_net_text1">
+        <rus>%c[255,255,0,0]Из оружия%c[default] ничего нет.</rus>
+    </string>
+    <string id="st_halyava_n_c25525500iz_oruzhiyacdefault_text1">
+        <rus>\\n %c[255,255,0,0]Из оружия%c[default]: </rus>
+    </string>
+    <string id="st_halyava_n_c2552552550iz_edycdefault_nichego_net_text1">
+        <rus> \\n %c[255,255,255,0]Из еды%c[default] ничего нет.</rus>
+    </string>
+    <string id="st_halyava_n_c2552552550iz_edycdefault_banok_konserv_text1">
+        <rus>\\n %c[255,255,255,0]Из еды%c[default] банок консерв: </rus>
+    </string>
+    <string id="st_halyava_batonov_text1">
+        <rus>, батонов: </rus>
+    </string>
+    <string id="st_halyava_palok_kolbasy_text1">
+        <rus>, палок колбасы: </rus>
+    </string>
+    <string id="st_halyava_n_c2550128255iz_medikomentovcdefault_nichego_net_text1">
+        <rus> \\n %c[255,0,128,255]Из медикоментов%c[default] ничего нет.</rus>
+    </string>
+    <string id="st_halyava_n_c2550128255iz_medikomentovcdefault_prostyh_apt_text1">
+        <rus>\\n %c[255,0,128,255]Из медикоментов%c[default] простых аптечек: </rus>
+    </string>
+    <string id="st_halyava_armeyskih_aptechek_text1">
+        <rus>, армейских аптечек: </rus>
+    </string>
+    <string id="st_halyava_nauchnyh_aptechek_text1">
+        <rus>, научных аптечек: </rus>
+    </string>
+    <string id="st_halyava_etot_stvol_nam_by_prigodilsya_n_text1">
+        <rus> - этот ствол нам бы пригодился. \\n</rus>
+    </string>
+    <string id="st_halyava_stvol_uzhe_noshenyy_mozhet_podvesti_v_kakoyto_mo_text1">
+        <rus> - ствол уже ношеный, может подвести в какой-то момент. Его взять не могу.\\n</rus>
+    </string>
+    <string id="st_halyava_stvol_uzhe_noshenyy_mozhet_podvesti_v_kakoyto_mo_text2">
+        <rus> - ствол уже ношеный, может подвести в какой-то момент. Его взять не могу.</rus>
+    </string>
+    <string id="st_halyava_chto_gotov_otdat_text1">
+        <rus> Что готов отдать?</rus>
+    </string>
+    <string id="st_halyava_i_text1">
+        <rus> и </rus>
+    </string>
+    <string id="st_halyava_tolko_text1">
+        <rus>только </rus>
+    </string>
+    <string id="st_halyava_oshibka_soobschite_v_diskord_razrabotchikam_text1">
+        <rus>ОШИБКА! СООБЩИТЕ В ДИСКОРД РАЗРАБОТЧИКАМ!!!!</rus>
+    </string>
+    <string id="st_halyava_soobschil_chto_vypolnil_tvoyo_zadanie_tebe_nuzhn_text1">
+        <rus> сообщил, что выполнил твоё задание. Тебе нужно дойти до него за подробностями.</rus>
+    </string>
+    <string id="st_halyava_nichego_net_text2">
+        <rus>Ничего нет.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text20">
+        <rus>ВОВА ВИСТ: Меченый, </rus>
+    </string>
+    <string id="st_halyava_send_tip_text21">
+        <rus> разведчик </rus>
+    </string>
+    <string id="st_halyava_send_tip_text22">
+        <rus> сообщил, что выполнил твоё задание. Загляни к нему, как будешь мимо проходить.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text23">
+        <rus> сообщил, что прямо сейчас цель из списка - </rus>
+    </string>
+    <string id="st_halyava_send_tip_text24">
+        <rus> находится прям рядом с ним, нужно поспешить. </rus>
+    </string>
+    <string id="st_halyava_send_tip_text25">
+        <rus>, нужно тебе поторопиться туда, пока цель не ушла.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text26">
+        <rus> сообщил, что наткнулся на труп нашей цели - </rus>
+    </string>
+    <string id="st_halyava_send_tip_text27">
+        <rus>, Как-то так.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text28">
+        <rus> его засекли последний раз. Точнее локации нет. Разведчик - новичок, поэтому больше инфы нету.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text29">
+        <rus> сообщил, что видел труп мужика из списка, которого зовут </rus>
+    </string>
+    <string id="st_halyava_send_tip_text30">
+        <rus> тело находится. Точнее локации нет. Разведчик - новичок, поэтому больше инфы нету.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text31">
+        <rus> сообщил, что прямо сейчас наткнулся на труп нашей цели - </rus>
+    </string>
+    <string id="st_halyava_send_tip_text32">
+        <rus>. Так что мужик мёртв. </rus>
+    </string>
+    <string id="st_halyava_send_tip_text33">
+        <rus>, там это случилось.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text34">
+        <rus> передаёт, что где-то недалеко от него крутился мужик из списка, которого зовут </rus>
+    </string>
+    <string id="st_halyava_send_tip_text35">
+        <rus>, где-то там. Наш парень говорит, что цель не могла уйти дальше километра от него. Нужно поторопиться.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text36">
+        <rus> передаёт, что где-то недалеко от него умер мужик, имя которого совпадает с нашей целью - </rus>
+    </string>
+    <string id="st_halyava_send_tip_text37">
+        <rus>, где-то там. Наш парень говорит, что ничего поделать не мог, мудику было не помочь.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text38">
+        <rus> сообщил, что прямо сейчас стоит возле трупа нашей цели - </rus>
+    </string>
+    <string id="st_halyava_send_tip_text39">
+        <rus>, находится прям рядом с ним. </rus>
+    </string>
+    <string id="st_halyava_send_tip_text40">
+        <rus>, так что как-то так.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text41">
+        <rus> передаёт, что у него есть инфа по челу из списка целей, которого зовут </rus>
+    </string>
+    <string id="st_halyava_send_tip_text42">
+        <rus>, именно там последний раз была наша цель. Нужно поторопиться, пока цель не ушла.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text43">
+        <rus> передаёт, что нашу цель, которого зовут </rus>
+    </string>
+    <string id="st_halyava_send_tip_text44">
+        <rus> грохнули. </rus>
+    </string>
+    <string id="st_halyava_send_tip_text45">
+        <rus>, там труп.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text46">
+        <rus> сообщил, что прямо сейчас стоит возле трупа нашей цели, которого зовут </rus>
+    </string>
+    <string id="st_halyava_send_tip_text47">
+        <rus>, там трупешник был найден.</rus>
+    </string>
+    <string id="st_halyava_send_tip_text48">
+        <rus> передаёт, что не так давно видел цель из списка, которого зовут </rus>
+    </string>
+    <string id="st_halyava_send_tip_text49">
+        <rus>, там его засекли. Наш мужик даже смог выяснить, что цель </rus>
+    </string>
+    <string id="st_halyava_send_tip_text50">
+        <rus> передаёт, что не так давно видел труп нашей цели, которого звали </rus>
+    </string>
+    <string id="st_halyava_send_tip_text51">
+        <rus>, там трупешник лежал.</rus>
+    </string>
+    <string id="st_halyava_dvigaetsya_v_konkretnoe_mesto_text1">
+        <rus>двигается в конкретное место. </rus>
+    </string>
+    <string id="st_halyava_tuda_on_napravlyaetsya_text1">
+        <rus> - туда он направляется.</rus>
+    </string>
+    <string id="st_halyava_planiruet_tam_nahoditsya_eschyo_primerno_text1">
+        <rus>планирует там находиться ещё примерно </rus>
+    </string>
+    <string id="st_halyava_ch_text1">
+        <rus> ч.</rus>
+    </string>
+    <string id="st_halyava_planiruet_votvot_pokinut_tochku_esli_on_tebe_nuz_text1">
+        <rus>планирует вот-вот покинуть точку. Если он тебе нужен, то надо бежать туда прямо сейчас.</rus>
+    </string>
+    <string id="st_halyava_ni_s_kem_kontakt_ne_podderzhivaet_nikomu_ne_govo_text1">
+        <rus>ни с кем контакт не поддерживает, никому не говорит, куда направляется.</rus>
+    </string>
+    <string id="st_halyava_dlg_text94">
+        <rus>Привет. Есть что-нибудь для меня?</rus>
+    </string>
+    <string id="st_halyava_dlg_text95">
+        <rus>Давай, спасибо!</rus>
+    </string>
+    <string id="st_halyava_dlg_text96">
+        <rus>Давай потом, сейчас на это нет времени.</rus>
+    </string>
+    <string id="st_halyava_privet_da_mne_tut_udalos_nadybat_kanistru_s_benz_text1">
+        <rus>Привет! Да. Мне тут удалось надыбать канистру с бензином, держи!</rus>
+    </string>
+    <string id="st_halyava_privet_da_mne_tut_udalos_nadybat_remkomplekty_de_text1">
+        <rus>Привет! Да. Мне тут удалось надыбать ремкомплекты, держи!</rus>
+    </string>
+    <string id="st_halyava_novostey_nikakih_netu_text1">
+        <rus>Новостей никаких нету.</rus>
+    </string>
+    <string id="st_halyava_oshibka_soobschi_razrabotchikam_kod_funktsii_bui_text1">
+        <rus>ОШИБКА! СООБЩИ РАЗРАБОТЧИКАМ! КОД функции build_dark_scout_dialog_complite</rus>
+    </string>
+    <string id="st_halyava_no_on_zabral_predoplatu_so_snaryagoy_i_samovolno_text1">
+        <rus>, но он забрал предоплату со снарягой и самовольно выключил рацию и геопозицию в ПДА. Подозреваю, что он решил нас кинуть</rus>
+    </string>
+    <string id="st_halyava_no_paren_poka_ne_vyhodit_na_svyaz_text1">
+        <rus>, но парень пока не выходит на связь.</rus>
+    </string>
+    <string id="st_halyava_po_poslednim_dannym_vot_chto_imeemn_text1">
+        <rus>По последним данным, вот что имеем:\\n</rus>
+    </string>
+    <string id="st_halyava_na_dannyy_moment_razveddannyh_u_nas_net_text1">
+        <rus>На данный момент разведданных у нас нет.</rus>
+    </string>
+    <string id="st_halyava_po_kordonu_text1">
+        <rus>По Кордону: </rus>
+    </string>
+    <string id="st_halyava_vozle_zhd_mosta_neskolko_raz_nablyudali_banditov_text1">
+        <rus>возле ж/д моста несколько раз наблюдали бандитов, ситуация там сейчас неспокойная, </rus>
+    </string>
+    <string id="st_halyava_vozle_severnogo_kpp_krutilis_marodyory_navodyat_text1">
+        <rus>возле северного КПП крутились мародёры, наводят суету, </rus>
+    </string>
+    <string id="st_halyava_v_rayone_zheleznodorozhnogo_mosta_krutyatsya_text1">
+        <rus>в районе железнодорожного моста крутятся </rus>
+    </string>
+    <string id="st_halyava_voennyh_text1">
+        <rus> военных, </rus>
+    </string>
+    <string id="st_halyava_v_ostalnom_vsyo_spokoyno_text1">
+        <rus> в остальном всё спокойно. </rus>
+    </string>
+    <string id="st_halyava_npo_svalke_text1">
+        <rus>\\nПо Свалке: </rus>
+    </string>
+    <string id="st_halyava_vozle_dorogi_na_agroprom_seychas_nespokoyno_byli_text1">
+        <rus>Возле дороги на Агропром сейчас неспокойно, были замечены вооружённые неизвестные люди. </rus>
+    </string>
+    <string id="st_halyava_v_rayone_zhd_tonnelya_kakoyto_dvizhnyak_byli_zam_text1">
+        <rus>В районе ж/д тоннеля какой-то движняк, были замечены военные и мародёры. </rus>
+    </string>
+    <string id="st_halyava_npo_agropromu_text1">
+        <rus>\\nПо Агропрому: </rus>
+    </string>
+    <string id="st_halyava_vozle_spuska_v_podvaly_agroproma_zamecheny_neizv_text1">
+        <rus>Возле спуска в подвалы Агропрома замечены неизвестные вооружённые люди. </rus>
+    </string>
+    <string id="st_halyava_za_predelami_kompleksa_nii_vdol_dorog_byli_zamec_text1">
+        <rus>За пределами комплекса НИИ, вдоль дорог, были замечены патрули военных. </rus>
+    </string>
+    <string id="st_halyava_npo_armeyskim_skladam_text1">
+        <rus>\\nПо Армейским Складам: </rus>
+    </string>
+    <string id="st_halyava_na_barere_silno_svobodovtsev_potrepalo_tak_chto_text1">
+        <rus>На \&quot;Барьере\&quot; сильно \&quot;свободовцев\&quot; потрепало, так что там сейчас небезопасно. </rus>
+    </string>
+    <string id="st_halyava_na_barere_u_svobodovtsev_poka_poryadok_prohod_po_text1">
+        <rus>На \&quot;Барьере\&quot; у \&quot;свободовцев\&quot; пока порядок, проход под их контролем. </rus>
+    </string>
+    <string id="st_halyava_nayomniki_eschyo_byli_zamecheny_vedut_sebya_pass_text1">
+        <rus>Наёмники ещё были замечены, ведут себя пассивно, пока что. </rus>
+    </string>
+    <string id="st_halyava_npo_yantaryu_text1">
+        <rus>\\nПо Янтарю: </rus>
+    </string>
+    <string id="st_halyava_bunker_uchyonyh_seychas_pod_ohranoy_znachit_situ_text1">
+        <rus> Бункер учёных сейчас под охраной, значит, ситуация вокруг более-менее спокойная. </rus>
+    </string>
+    <string id="st_halyava_bunker_uchyonyh_seychas_bez_ohrany_tak_chto_tam_text1">
+        <rus> Бункер учёных сейчас без охраны, так что там довольно опасно. Яйцеголовые и носа боятся высунуть наружу. </rus>
+    </string>
+    <string id="st_halyava_gdeto_nedaleko_ot_bunkera_byli_zamecheny_zombi_i_text1">
+        <rus> Где-то недалеко от бункера были замечены зомби, их вопли, кажется, слышали со стороны упавшего вертолёта. </rus>
+    </string>
+    <string id="st_halyava_nna_etom_poka_vsyo_text1">
+        <rus>\\nНа этом пока всё.</rus>
+    </string>
+    <string id="st_halyava_na_dannyy_moment_rashodov_u_nas_net_text1">
+        <rus>На данный момент расходов у нас нет.</rus>
+    </string>
+    <string id="st_halyava_rashody_na_razvedchikov_po_poslednim_podschyotam_text1">
+        <rus>Расходы на разведчиков по последним подсчётам составляют </rus>
+    </string>
+    <string id="st_halyava_rub_v_chas_esli_platit_budet_nechem_to_my_srazu_text1">
+        <rus> руб. в час. Если платить будет нечем, то мы сразу же потеряем нанятых людей.</rus>
+    </string>
+    <string id="st_halyava_na_dannyy_moment_net_informatsii_o_bezopasnyh_me_text1">
+        <rus>На данный момент нет информации о безопасных местах.</rus>
+    </string>
+    <string id="st_halyava_kordon_text1">
+        <rus>Кордон: </rus>
+    </string>
+    <string id="st_halyava_svalka_text1">
+        <rus>Свалка: </rus>
+    </string>
+    <string id="st_halyava_agroprom_text1">
+        <rus>Агропром: </rus>
+    </string>
+    <string id="st_halyava_yantar_text1">
+        <rus>Янтарь: </rus>
+    </string>
+    <string id="st_halyava_armeyskie_sklady_text1">
+        <rus>Армейские Склады: </rus>
+    </string>
+    <string id="st_halyava_c25525500nizkayacdefault_text1">
+        <rus>%c[255,255,0,0]низкая.%c[default] </rus>
+    </string>
+    <string id="st_halyava_c2552552300srednyayacdefault_text1">
+        <rus>%c[255,255,230,0]средняя.%c[default] </rus>
+    </string>
+    <string id="st_halyava_c25502554vysokayacdefault_text1">
+        <rus>%c[255,0,255,4]высокая.%c[default] </rus>
+    </string>
+    <string id="st_halyava_nashih_lyudey_text1">
+        <rus>наших людей - </rus>
+    </string>
+    <string id="st_halyava_bezopasnost_dorogi_text1">
+        <rus>, безопасность дороги - </rus>
+    </string>
+</string_table>

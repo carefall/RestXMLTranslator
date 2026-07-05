@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="ui_inv_actor_rad_unit">
+    <rus>Ки</rus>
+    <eng>Ci</eng>
+  </string>
+  <string id="Test_Font_String">
+    <rus>Test_Font_String Тестовая строка ТЕСТОВАЯ СТРОКА 1234567890</rus>
+    <eng>Test_Font_String Тестовая строка ТЕСТОВАЯ СТРОКА 1234567890</eng>
+  </string>
+  <string id="ui_firemod_auto_desc">
+    <rus>(A)</rus>
+    <eng>(A)</eng>
+  </string>
+  <string id="ui_firemod_1_desc">
+    <rus>(1)</rus>
+    <eng>(1)</eng>
+  </string>
+  <string id="ui_firemod_2_desc">
+    <rus>(2)</rus>
+    <eng>(2)</eng>
+  </string>
+  <string id="ui_firemod_3_desc">
+    <rus>(3)</rus>
+    <eng>(3)</eng>
+  </string>
+  <string id="st_ac_overfull">
+    <rus>Переполнен</rus>
+    <eng>Overfilled</eng>
+  </string>
+  <string id="st_ac_plus1">
+    <rus>Полный + 1</rus>
+    <eng>Full + 1</eng>
+  </string>
+  <string id="st_ac_gl">
+    <rus>Полный</rus>
+    <eng>Full</eng>
+  </string>
+  <string id="st_ac_just_one">
+    <rus>Только один</rus>
+    <eng>Single round only</eng>
+  </string>
+  <string id="st_ac_full">
+    <rus>Полный магазин</rus>
+    <eng>Full magazine</eng>
+  </string>
+  <string id="st_ac_nearly_full">
+    <rus>Почти полный</rus>
+    <eng>Nearly full</eng>
+  </string>
+  <string id="st_ac_more_half">
+    <rus>Больше половины</rus>
+    <eng>More than half</eng>
+  </string>
+  <string id="st_ac_about_half">
+    <rus>Половина магазина</rus>
+    <eng>Half magazine</eng>
+  </string>
+  <string id="st_ac_less_half">
+    <rus>Меньше половины</rus>
+    <eng>Less than half</eng>
+  </string>
+  <string id="st_ac_near_empty">
+    <rus>Почти пустой магазин</rus>
+    <eng>Nearly empty magazine</eng>
+  </string>
+  <string id="st_ac_empty">
+    <rus>Пустой магазин</rus>
+    <eng>Empty magazine</eng>
+  </string>
+  <string id="st_ac_jammed">
+    <rus>Оружие заклинило</rus>
+    <eng>Weapon jammed</eng>
+  </string>
+  <string id="st_ac_noMag">
+    <rus>Магазин отсутствует</rus>
+    <eng>No magazine</eng>
+  </string>
+  <string id="st_ac_noAmmo">
+    <rus>Не использует боеприпасы!</rus>
+    <eng>Does not use ammunition!</eng>
+  </string>
+  <string id="kb_wpn_checkammo">
+    <rus>Проверить количество патронов</rus>
+    <eng>Check ammunition count</eng>
+  </string>
+  <string id="ui_mm_aim_toggle">
+    <rus>Прицеливание удерживанием\нажатием</rus>
+    <eng>Aim toggle mode</eng>
+  </string>
+  <string id="ui_mm_switch_slot">
+    <rus>Переключение слота колесиком мыши</rus>
+    <eng>Switch weapons with mouse wheel</eng>
+  </string>
+  <string id="ui_mm_font_scale_x">
+    <rus>Ширина шрифтов</rus>
+    <eng>Font width</eng>
+  </string>
+  <string id="ui_mm_font_scale_y">
+    <rus>Высота шрифтов</rus>
+    <eng>Fonts height</eng>
+  </string>
+  <string id="descr_velocity">
+    <rus>Скорость пули</rus>
+    <eng>Bullet velocity</eng>
+  </string>
+  <string id="descr_ms">
+    <rus>м/с</rus>
+    <eng>m/s</eng>
+  </string>
+  <string id="descr_shoots">
+    <rus>выстр.</rus>
+    <eng>shots</eng>
+  </string>
+  <string id="descr_dispersion">
+    <rus>Кучность</rus>
+    <eng>Spread</eng>
+  </string>
+  <string id="descr_cam_dispersion">
+    <rus>Отдача</rus>
+    <eng>Recoil</eng>
+  </string>
+  <string id="descr_resource">
+    <rus>Ресурс</rus>
+    <eng>Durability</eng>
+  </string>
+  <string id="descr_armor">
+    <rus>Бронебойность</rus>
+    <eng>Armor penetration</eng>
+  </string>
+  <string id="descr_ballistic">
+    <rus>Замедление пули</rus>
+    <eng>Bullet slowdown</eng>
+  </string>
+  <string id="descr_bullet_speed">
+    <rus>Скорость пули</rus>
+    <eng>Bullet speed</eng>
+  </string>
+  <string id="descr_accuracy">
+    <rus>Кучность</rus>
+    <eng>Accuracy</eng>
+  </string>
+  <string id="random_reward_trader_stock_string">
+    <rus>Предметы торговца</rus>
+    <eng>Trader stock</eng>
+  </string>
+  <string id="random_reward_your_reward_string">
+    <rus>Ваша награда</rus>
+    <eng>Your reward</eng>
+  </string>
+  <string id="random_reward_choose_item_string">
+    <rus>Выберите предмет</rus>
+    <eng>Select an item</eng>
+  </string>
+  <string id="random_reward_your_reward_is_string">
+    <rus>Ваша награда:</rus>
+    <eng>Your reward:</eng>
+  </string>
+  <string id="random_reward_take_items_string">
+    <rus>Взять вещи</rus>
+    <eng>Take items</eng>
+  </string>
+  <string id="random_reward_take_money_string">
+    <rus>Взять деньги</rus>
+    <eng>Take money</eng>
+  </string>
+  <string id="rub_string">
+    <rus>р.</rus>
+    <eng>rub.</eng>
+  </string>
+  <string id="ui_rr_over_item_count">
+    <rus>Вы не можете взять больше трёх предметов в качестве награды.</rus>
+    <eng>You cannot take more than three items as a reward.</eng>
+  </string>
+  <string id="ui_rr_no_money">
+    <rus>Вы превысили денежный лимит для награды.</rus>
+    <eng>You have exceeded the money limit for the reward.</eng>
+  </string>
+  <string id="st_rq_empty_slot">
+    <rus>Пусто</rus>
+    <eng>Empty</eng>
+  </string>
+  <string id="st_rq_unknown_slot">
+    <rus>Неизвестно</rus>
+    <eng>Unknown</eng>
+  </string>
+  <string id="st_rq_knife_title">
+    <rus>Нож</rus>
+    <eng>Knife</eng>
+  </string>
+  <string id="st_rq_secondary_title">
+    <rus>Второстепенное</rus>
+    <eng>Secondary</eng>
+  </string>
+  <string id="st_rq_primary_title">
+    <rus>Основное</rus>
+    <eng>Main</eng>
+  </string>
+  <string id="st_rq_grenade_title">
+    <rus>Гранаты</rus>
+    <eng>Grenades</eng>
+  </string>
+  <string id="st_rq_binoculars_title">
+    <rus>Бинокль</rus>
+    <eng>Binoculars</eng>
+  </string>
+  <string id="st_rq_bolts_title">
+    <rus>Болт</rus>
+    <eng>Bolts</eng>
+  </string>
+  <string id="ui_mcm_targetID_unknown">
+    <rus>Неизвестный</rus>
+    <eng>Unknown</eng>
+  </string>
+  <string id="ui_mcm_targetID_scan">
+    <rus>Сканирование...</rus>
+    <eng>Scanning...</eng>
+  </string>
+  <string id="st_car_fuel">
+    <rus>заправить машину</rus>
+    <eng>refuel vehicle</eng>
+  </string>
+  <string id="st_car_repair">
+    <rus>отремонтировать машину</rus>
+    <eng>repair vehicle</eng>
+  </string>
+</string_table>

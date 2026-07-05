@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="fir_text1">
+    <rus>Ну, погреемся...</rus>
+  </string>
+  <string id="fir_text10">
+    <rus>Под костёр да гитарку бы - атмосфера!</rus>
+  </string>
+  <string id="fir_text2">
+    <rus>Главное, чтобы зверьё костёр не привлёк.</rus>
+  </string>
+  <string id="fir_text3">
+    <rus>Да будет свет...</rus>
+  </string>
+  <string id="fir_text4">
+    <rus>Время сделать паузу...</rus>
+  </string>
+  <string id="fir_text5">
+    <rus>Время передохнуть...</rus>
+  </string>
+  <string id="fir_text6">
+    <rus>Ох и устал я с дороги...</rus>
+  </string>
+  <string id="fir_text7">
+    <rus>Эх, сальца бы хорошего сейчас... С чёрным хлебушком свежим да с чесночком!</rus>
+  </string>
+  <string id="fir_text8">
+    <rus>Эх, накатить, что ли, с устатку...</rus>
+  </string>
+  <string id="fir_text9">
+    <rus>Хорошо, тепло сейчас будет...</rus>
+  </string>
+  <string id="hands_busy_text">
+    <rus>Руки заняты</rus>
+  </string>
+  <string id="light_fire_text">
+    <rus>Разжечь</rus>
+  </string>
+</string_table>

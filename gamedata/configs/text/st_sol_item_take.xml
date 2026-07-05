@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="access_code_found_text">
+    <rus>Найдена информация о коде доступа.</rus>
+  </string>
+  <string id="prap_ask_text1">
+    <rus>А что у вас там за дела намечаются?</rus>
+  </string>
+  <string id="prap_ask_text2">
+    <rus>Что за дела у вас намечаются, мужики?</rus>
+  </string>
+  <string id="prap_call_text1">
+    <rus>Меченый, приём. Будешь на Свалке - подходи, дело есть.</rus>
+  </string>
+  <string id="prap_call_text2">
+    <rus>Меченый, это Прапор. Будешь на Свалке - подойди. Есть разговор.</rus>
+  </string>
+  <string id="prap_refuse_text1">
+    <rus>Не твоё дело.</rus>
+  </string>
+  <string id="prap_refuse_text2">
+    <rus>Тебя это не касается.</rus>
+  </string>
+  <string id="steel_case_received_text">
+    <rus>Получен предмет: стальной кейс.</rus>
+  </string>
+  <string id="teleport_base_in_disabled_text">
+    <rus>Телепорт на входе в базу отключён.</rus>
+  </string>
+  <string id="teleport_base_out_disabled_text">
+    <rus>Телепорт на выходе из базы отключён.</rus>
+  </string>
+  <string id="teleport_lever_disabled_text">
+    <rus>Телепорт, блокирующий рычаг, отключён.</rus>
+  </string>
+  <string id="video_cassette_found_text">
+    <rus>Найдена видеокассета.</rus>
+  </string>
+  <string id="zone_deactivated_text">
+    <rus>Аномальная зона деактивирована.</rus>
+  </string>
+</string_table>

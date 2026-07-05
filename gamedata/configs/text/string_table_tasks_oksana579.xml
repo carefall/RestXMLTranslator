@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="back_child_anomaly_name">
+    <rus>Первый контакт</rus>
+  </string>
+  <string id="back_child_anomaly_name_1">
+    <rus>Наладить контакт</rus>
+  </string>
+  <string id="talk_about_semetskiy_agreement_4_name">
+    <rus>Назад в настоящее</rus>
+  </string>
+  <string id="talk_about_semetskiy_agreement_4_name_1">
+    <rus>Посоветоваться с Бродягой</rus>
+  </string>
+  <string id="back_to_past_name">
+    <rus>Назад в прошлое</rus>
+  </string>
+  <string id="back_to_past_name_1">
+    <rus>Найти телепорт в гастрономе</rus>
+  </string>
+  <string id="back_to_past_name_2">
+    <rus>Войти в телепорт</rus>
+  </string>
+  <string id="back_to_past_name_3">
+    <rus>Ждать телепорт</rus>
+  </string>
+  <string id="back_to_past_name_4">
+    <rus>Отговорить Дранчука</rus>
+  </string>
+  <string id="back_to_past_name_5">
+    <rus>Поговорить с Бродягой</rus>
+  </string>
+  <string id="talk_about_semetskiy_agreement_3_name">
+    <rus>Годовой отчёт</rus>
+  </string>
+  <string id="talk_about_semetskiy_agreement_3_name_1">
+    <rus>Посоветоваться с Бродягой</rus>
+  </string>
+  <string id="shadow_on_fence_name">
+    <rus>Тень на плетень</rus>
+  </string>
+  <string id="shadow_on_fence_name_1">
+    <rus>Раскопать могилу</rus>
+  </string>
+  <string id="shadow_on_fence_name_2">
+    <rus>Найти зацепку</rus>
+  </string>
+  <string id="shadow_on_fence_name_3">
+    <rus>Поговорить с Земляком</rus>
+  </string>
+  <string id="talk_about_semetskiy_agreement_2_name">
+    <rus>Загадочный консультант</rus>
+  </string>
+  <string id="talk_about_semetskiy_agreement_2_name_1">
+    <rus>Посоветоваться с Бродягой</rus>
+  </string>
+  <string id="talk_persuade_arena_man_name">
+    <rus>Тихим шёпотом</rus>
+  </string>
+  <string id="talk_persuade_arena_man_name_1">
+    <rus>Подговорить Арни</rus>
+  </string>
+  <string id="talk_persuade_arena_man_name_2">
+    <rus>Вычислить Белого Ворона</rus>
+  </string>
+  <string id="talk_persuade_arena_man_name_3">
+    <rus>Успокоить Арни</rus>
+  </string>
+  <string id="talk_granting_third_wish_name">
+    <rus>Третье желание</rus>
+  </string>
+  <string id="talk_granting_third_wish_name_1">
+    <rus>Перехватить Семецкого</rus>
+  </string>
+  <string id="find_nanosuit_parts_map_name">
+    <rus>Тайна Коллекционера</rus>
+  </string>
+  <string id="find_nanosuit_parts_map_name_1">
+    <rus>Найти части карты и нанокостюм</rus>
+  </string>
+  <string id="find_nanosuit_parts_map_name_2">
+    <rus>Найти все части карты</rus>
+  </string>
+  <string id="find_nanosuit_parts_map_name_3">
+    <rus>Разгадать шифр</rus>
+  </string>
+  <string id="find_nanosuit_parts_map_name_4">
+    <rus>Забрать нанокостюм</rus>
+  </string>
+  <string id="quest_tidy_sum_name">
+    <rus>Кругленькая сумма</rus>
+  </string>
+  <string id="quest_tidy_sum_name_1">
+    <rus>Принести деньги Сахарову</rus>
+  </string>
+  <string id="quest_general_cleaning_name">
+    <rus>Генеральная уборка</rus>
+  </string>
+  <string id="quest_general_cleaning_name_1">
+    <rus>Найти часть карты</rus>
+  </string>
+  <string id="quest_general_cleaning_name_2">
+    <rus>Поговорить с Сахаровым</rus>
+  </string>
+  <string id="quest_general_cleaning_name_3">
+    <rus>Ударить зомбика прикладом</rus>
+  </string>
+  <string id="quest_general_cleaning_name_4">
+    <rus>Привести клиента в точку эксперимента</rus>
+  </string>
+  <string id="quest_general_cleaning_name_5">
+    <rus>Доложить Сахарову</rus>
+  </string>
+  <string id="talk_about_semetskiy_agreement_name">
+    <rus>Присядем на дорожку</rus>
+  </string>
+  <string id="talk_about_semetskiy_agreement_name_1">
+    <rus>Посоветоваться с Бродягой</rus>
+  </string>
+  <string id="find_the_nanosuit_name">
+    <rus>Одень на последний день</rus>
+  </string>
+  <string id="find_the_nanosuit_name_1">
+    <rus>Найти нанокостюм</rus>
+  </string>
+  <string id="win_honor_board_name">
+    <rus>Герой "Арены"</rus>
+  </string>
+  <string id="win_honor_board_name_1">
+    <rus>Сделать Борова героем "Арены"</rus>
+  </string>
+  <string id="talk_semetskiy_about_agreement_name">
+    <rus>Легенда Зоны</rus>
+  </string>
+  <string id="talk_semetskiy_about_agreement_name_1">
+    <rus>Перехватить Семецкого</rus>
+  </string>
+  <string id="talk_semetskiy_about_agreement_name_2">
+    <rus>Найти Юрия Семецкого</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name">
+    <rus>Неупокоенные души</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name_1">
+    <rus>Продать души</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name_2">
+    <rus>Найти простую "Душу"</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name_3">
+    <rus>Продать простую "Душу"</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name_4">
+    <rus>Найти "Каплю Души"</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name_5">
+    <rus>Продать "Каплю Души"</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name_6">
+    <rus>Найти "Огненную Душу"</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name_7">
+    <rus>Продать "Огненную Душу"</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name_8">
+    <rus>Найти "Кристальную душу"</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name_9">
+    <rus>Продать "Кристальную душу"</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name_10">
+    <rus>Найти "Кристальную душу Бенгала"</rus>
+  </string>
+  <string id="vagabond_soul_buyer_name_11">
+    <rus>Продать "Кристальную душу Бенгала"</rus>
+  </string>
+  <string id="invincible_boss_dwarf_name">
+    <rus>Непобедимый</rus>
+  </string>
+  <string id="invincible_boss_dwarf_name_1">
+    <rus>Победить босса</rus>
+  </string>
+  <string id="invincible_boss_dwarf_name_2">
+    <rus>Победить ужасное чудовище</rus>
+  </string>
+  <string id="two_comrades_served_name">
+    <rus>Служили два товарища</rus>
+  </string>
+  <string id="two_comrades_served_name_1">
+    <rus>Найти способ открыть дверь</rus>
+  </string>
+  <string id="two_comrades_served_name_2">
+    <rus>Поговорить с Кузнецовым</rus>
+  </string>
+  <string id="two_comrades_served_name_3">
+    <rus>Взять коробку</rus>
+  </string>
+  <string id="two_comrades_served_name_4">
+    <rus>Выложить коробку у двери</rus>
+  </string>
+  <string id="two_comrades_served_name_5">
+    <rus>Открыть коробку</rus>
+  </string>
+  <string id="two_comrades_served_name_6">
+    <rus>Предъявить Кузнецову</rus>
+  </string>
+  <string id="two_comrades_served_name_7">
+    <rus>Найти фомку</rus>
+  </string>
+  <string id="two_comrades_served_name_8">
+    <rus>Взломать дверь</rus>
+  </string>
+  <string id="anthology_of_sound_name">
+    <rus>Антология звука</rus>
+  </string>
+  <string id="anthology_of_sound_name_1">
+    <rus>Найти микрофон Тридогнайту</rus>
+  </string>
+  <string id="anthology_of_sound_name_2">
+    <rus>Обследовать блокпост</rus>
+  </string>
+  <string id="anthology_of_sound_name_3">
+    <rus>Принести микрофон Тридогнайту</rus>
+  </string>
+  <string id="last_order_rifle_name">
+    <rus>Последний заказ Ивана Денисовича</rus>
+  </string>
+  <string id="last_order_rifle_name_1">
+    <rus>Последний заказ</rus>
+  </string>
+  <string id="last_order_rifle_name_2">
+    <rus>Осмотреть сумку</rus>
+  </string>
+  <string id="last_order_rifle_name_3">
+    <rus>Найти Изделие №1</rus>
+  </string>
+  <string id="last_order_rifle_name_4">
+    <rus>Поговорить с наёмниками</rus>
+  </string>
+  <string id="last_order_rifle_name_5">
+    <rus>Напасть на след</rus>
+  </string>
+  <string id="last_order_rifle_name_6">
+    <rus>Найти все изделия и чертежи</rus>
+  </string>
+  <string id="last_order_rifle_name_7">
+    <rus>Поговорить с Долговязым</rus>
+  </string>
+  <string id="last_order_rifle_name_8">
+    <rus>Дождаться окончания работы</rus>
+  </string>
+  <string id="last_order_rifle_name_9">
+    <rus>Забрать готовый продукт</rus>
+  </string>
+  <string id="conversations_in_skadovsk_name">
+    <rus>Испорченный телефон</rus>
+  </string>
+  <string id="conversations_in_skadovsk_name_1">
+    <rus>Разговоры на Юпитере</rus>
+  </string>
+  <string id="conversations_in_skadovsk_name_2">
+    <rus>Найти информацию</rus>
+  </string>
+  <string id="conversations_in_skadovsk_name_3">
+    <rus>Найти Тридогнайта в путепроводе</rus>
+  </string>
+  <string id="conversations_in_skadovsk_name_4">
+    <rus>Провести Тридогнайта к переходу на Юпитер</rus>
+  </string>
+  <string id="conversations_in_skadovsk_name_5">
+    <rus>Выбраться на свежий воздух</rus>
+  </string>
+  <string id="conversations_in_skadovsk_name_6">
+    <rus>Переговорить с Тридогнайтом</rus>
+  </string>
+  <string id="conversations_in_skadovsk_name_7">
+    <rus>Дойти до башни на станции Янов</rus>
+  </string>
+  <string id="conversations_in_skadovsk_name_8">
+    <rus>Поговорить с Тридогнайтом</rus>
+  </string>
+  <string id="by_trial_and_error_name">
+    <rus>Методом тыка</rus>
+  </string>
+  <string id="by_trial_and_error_name_1">
+    <rus>Найти причину сбоя</rus>
+  </string>
+  <string id="by_trial_and_error_name_2">
+    <rus>Уничтожить глушилку</rus>
+  </string>
+  <string id="by_trial_and_error_name_3">
+    <rus>Дождаться выброса</rus>
+  </string>
+  <string id="by_trial_and_error_name_4">
+    <rus>Доложить о результатах Доценту</rus>
+  </string>
+  <string id="reason_for_failure_name">
+    <rus>Причина сбоя</rus>
+  </string>
+  <string id="reason_for_failure_name_1">
+    <rus>Поговорить с Доцентом</rus>
+  </string>
+  <string id="voices_from_underworld_name">
+    <rus>Голоса из преисподней</rus>
+  </string>
+  <string id="voices_from_underworld_name_1">
+    <rus>Найти все записи</rus>
+  </string>
+  <string id="voices_from_underworld_name_2">
+    <rus>Найду ли я другие диктофоны?</rus>
+  </string>
+  <string id="escape_lattice_scammer_name">
+    <rus>Погоня в крови</rus>
+  </string>
+  <string id="escape_lattice_scammer_name_1">
+    <rus>Вычислить вора в Лощине</rus>
+  </string>
+  <string id="escape_lattice_scammer_name_2">
+    <rus>Осмотреть тело охранника</rus>
+  </string>
+  <string id="escape_lattice_scammer_name_3">
+    <rus>Догнать Разбойника</rus>
+  </string>
+  <string id="escape_lattice_scammer_name_4">
+    <rus>Прижмурить негодяя</rus>
+  </string>
+  <string id="foks_base_scammer_name">
+    <rus>Вор вне закона</rus>
+  </string>
+  <string id="foks_base_scammer_name_1">
+    <rus>Вычислить вора на базе</rus>
+  </string>
+  <string id="foks_base_scammer_name_2">
+    <rus>Переговорить с Филом</rus>
+  </string>
+  <string id="foks_base_scammer_name_3">
+    <rus>Вычислить вора</rus>
+  </string>
+  <string id="foks_base_scammer_name_4">
+    <rus>Проследить за вором</rus>
+  </string>
+  <string id="foks_base_scammer_name_5">
+    <rus>Вывести вора на чистую воду</rus>
+  </string>
+  <string id="foks_base_scammer_name_6">
+    <rus>Пустить в расход разбойника</rus>
+  </string>
+  <string id="foks_base_scammer_name_7">
+    <rus>Посадить разбойника в подвал</rus>
+  </string>
+  <string id="foks_base_scammer_name_8">
+    <rus>Поговорить с Филом</rus>
+  </string>
+  <string id="behind_mask_death_name">
+    <rus>За маской смерти</rus>
+  </string>
+  <string id="behind_mask_death_name_1">
+    <rus>Проследить за Жабой</rus>
+  </string>
+  <string id="behind_mask_death_name_2">
+    <rus>Следовать за Серёгой</rus>
+  </string>
+  <string id="behind_mask_death_name_3">
+    <rus>Осмотреть подвал</rus>
+  </string>
+  <string id="behind_mask_death_name_4">
+    <rus>Изничтожить Жабу</rus>
+  </string>
+  <string id="behind_mask_death_name_5">
+    <rus>Найти ключ от холодильника</rus>
+  </string>
+  <string id="behind_mask_death_name_6">
+    <rus>Поговорить с пленником</rus>
+  </string>
+  <string id="behind_mask_death_name_7">
+    <rus>Поговорить с Серёгой</rus>
+  </string>
+  <string id="permanent_manager_name">
+    <rus>Бессменный заведующий</rus>
+  </string>
+  <string id="permanent_manager_name_1">
+    <rus>Осмотреть гастроном</rus>
+  </string>
+  <string id="permanent_manager_name_2">
+    <rus>Поговорить с Серёгой</rus>
+  </string>
+  <string id="friendly_family_name">
+    <rus>Дружная семейка</rus>
+  </string>
+  <string id="friendly_family_name_1">
+    <rus>Изничтожить семейку</rus>
+  </string>
+  <string id="friendly_family_name_2">
+    <rus>Изничтожить семейку контролёров</rus>
+  </string>
+  <string id="friendly_family_name_3">
+    <rus>Поговорить с Серёгой</rus>
+  </string>
+  <string id="controlled_ward_name">
+    <rus>Подконтрольный подопечный</rus>
+  </string>
+  <string id="controlled_ward_name_1">
+    <rus>Найти подопечного</rus>
+  </string>
+  <string id="controlled_ward_name_2">
+    <rus>Изничтожить контролёра и подопечного</rus>
+  </string>
+  <string id="controlled_ward_name_3">
+    <rus>Поговорить с Серёгой</rus>
+  </string>
+  <string id="for_sake_catchphrase_name">
+    <rus>Ради красного словца</rus>
+  </string>
+  <string id="for_sake_catchphrase_name_1">
+    <rus>Найти красный мозг</rus>
+  </string>
+  <string id="for_sake_catchphrase_name_2">
+    <rus>В одиночку изничтожить контролёра</rus>
+  </string>
+  <string id="for_sake_catchphrase_name_3">
+    <rus>Поговорить с Серёгой</rus>
+  </string>
+  <string id="paratrooper_red_mold_name">
+    <rus>Красная плесень</rus>
+  </string>
+  <string id="paratrooper_red_mold_name_1">
+    <rus>Найти красный мозг</rus>
+  </string>
+  <string id="paratrooper_red_mold_name_2">
+    <rus>Принести мозг Серёге</rus>
+  </string>
+  <string id="checkpoint_controller_name">
+    <rus>Контролёрный пункт пропуска</rus>
+  </string>
+  <string id="checkpoint_controller_name_1">
+    <rus>Найти красный мозг</rus>
+  </string>
+  <string id="checkpoint_controller_name_2">
+    <rus>Следовать за Серёгой</rus>
+  </string>
+  <string id="checkpoint_controller_name_3">
+    <rus>Изничтожить контролёра</rus>
+  </string>
+  <string id="checkpoint_controller_name_4">
+    <rus>Поговорить с Серёгой</rus>
+  </string>
+  <string id="grandma_arrived_name">
+    <rus>Бабушка приехала</rus>
+  </string>
+  <string id="grandma_arrived_name_1">
+    <rus>Найти Чёрного Доктора</rus>
+  </string>
+  <string id="grandma_arrived_name_2">
+    <rus>Подобрать приборчик</rus>
+  </string>
+  <string id="grandma_arrived_name_3">
+    <rus>Отключить броню у охраны Клёнова</rus>
+  </string>
+  <string id="grandma_arrived_name_4">
+    <rus>Поговорить с Клёновым</rus>
+  </string>
+  <string id="behind_scenes_struggle_name">
+    <rus>Закулисная борьба</rus>
+  </string>
+  <string id="behind_scenes_struggle_name_1">
+    <rus>Поговорить с сапсанами</rus>
+  </string>
+  <string id="behind_scenes_struggle_name_2">
+    <rus>Найти Михалыча</rus>
+  </string>
+  <string id="behind_scenes_struggle_name_3">
+    <rus>Найти Трофимыча</rus>
+  </string>
+  <string id="behind_scenes_struggle_name_4">
+    <rus>Забрать приборы отключения</rus>
+  </string>
+  <string id="behind_scenes_struggle_name_5">
+    <rus>Получить информацию о Чёрном Докторе</rus>
+  </string>
+  <string id="atthe_crossroads_name">
+    <rus>На перепутье</rus>
+  </string>
+  <string id="atthe_crossroads_name_1">
+    <rus>Отремонтировать броню</rus>
+  </string>
+  <string id="atthe_crossroads_name_2">
+    <rus>Показать броню Хакеру</rus>
+  </string>
+  <string id="atthe_crossroads_name_3">
+    <rus>Показать броню Чёрному Доктору</rus>
+  </string>
+  <string id="atthe_crossroads_name_4">
+    <rus>Забрать отремонтированную броню</rus>
+  </string>
+  <string id="last_moment_commander_name">
+    <rus>Есть только миг</rus>
+  </string>
+  <string id="last_moment_commander_name_1">
+    <rus>Осмотреть место гибели Палыча</rus>
+  </string>
+  <string id="last_moment_commander_name_2">
+    <rus>Осмотреть местность</rus>
+  </string>
+  <string id="last_moment_commander_name_3">
+    <rus>Отключить антенну</rus>
+  </string>
+  <string id="ways_of_the_lord_name">
+    <rus>Пути Господни</rus>
+  </string>
+  <string id="ways_of_the_lord_name_1">
+    <rus>Узнать о судьбе Саныча</rus>
+  </string>
+  <string id="ways_of_the_lord_name_2">
+    <rus>Получить информацию</rus>
+  </string>
+  <string id="aggressive_environment_name">
+    <rus>Агрессивная среда</rus>
+  </string>
+  <string id="aggressive_environment_name_1">
+    <rus>Обследовать водоём</rus>
+  </string>
+  <string id="aggressive_environment_name_2">
+    <rus>Получить информацию</rus>
+  </string>
+  <string id="aggressive_environment_name_3">
+    <rus>Найти улику</rus>
+  </string>
+  <string id="aggressive_environment_name_4">
+    <rus>Поговорить с Хакером</rus>
+  </string>
+  <string id="comrade_from_afghan_name">
+    <rus>Товарищ по Афгану</rus>
+  </string>
+  <string id="comrade_from_afghan_name_1">
+    <rus>Разыскать Трофимыча</rus>
+  </string>
+  <string id="strange_device_name">
+    <rus>Странный прибор</rus>
+  </string>
+  <string id="strange_device_name_1">
+    <rus>Забрать прибор</rus>
+  </string>
+  <string id="strange_device_name_2">
+    <rus>Забрать странный прибор</rus>
+  </string>
+  <string id="life_full_swing_name">
+    <rus>Жизнь бьёт ключом</rus>
+  </string>
+  <string id="life_full_swing_name_1">
+    <rus>Получить остальные ключи</rus>
+  </string>
+  <string id="life_full_swing_name_2">
+    <rus>Найти все ключи</rus>
+  </string>
+  <string id="life_full_swing_name_3">
+    <rus>Получить экзоскелет ЧД</rus>
+  </string>
+  <string id="satellites_antennas_name">
+    <rus>Спутники по жизни</rus>
+  </string>
+  <string id="satellites_antennas_name_1">
+    <rus>Обследовать болота</rus>
+  </string>
+  <string id="satellites_antennas_name_2">
+    <rus>Получить информацию</rus>
+  </string>
+  <string id="satellites_antennas_name_3">
+    <rus>Найти зацепку</rus>
+  </string>
+  <string id="satellites_antennas_name_4">
+    <rus>Освободить пленника</rus>
+  </string>
+  <string id="satellites_antennas_name_5">
+    <rus>Взять ключ</rus>
+  </string>
+  <string id="amateur_it_specialist_name">
+    <rus>Самопальный айтишник</rus>
+  </string>
+  <string id="amateur_it_specialist_name_1">
+    <rus>Переговорить с айтишником</rus>
+  </string>
+  <string id="supplies_of_sedoy_name">
+    <rus>Перевозчик по вызову</rus>
+  </string>
+  <string id="supplies_of_sedoy_name_1">
+    <rus>Переговорить с Седым</rus>
+  </string>
+  <string id="hunting_worse_bondage_name">
+    <rus>Охота пуще неволи</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_1">
+    <rus>Охота на оленя</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_2">
+    <rus>Следовать за собакой</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_3">
+    <rus>Поговорить с Дэном</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_4">
+    <rus>Найти Крысобоя</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_5">
+    <rus>Найти Живопыру</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_6">
+    <rus>Найти Репейника</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_7">
+    <rus>Найти Костолома</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_8">
+    <rus>Следовать за собакой и найти Чертоглота</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_9">
+    <rus>Следовать за собакой и найти Дена</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_10">
+    <rus>Поговорить и следовать за Дэном — не стрелять</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_11">
+    <rus>Отбиться от фантомов</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_12">
+    <rus>Перехитрить оленя</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_13">
+    <rus>Подобрать рога</rus>
+  </string>
+  <string id="hunting_worse_bondage_name_14">
+    <rus>Рассказать про охоту Захару</rus>
+  </string>
+  <string id="hanter_footprints_name">
+    <rus>След в след</rus>
+  </string>
+  <string id="hanter_footprints_name_1">
+    <rus>Найти охотников</rus>
+  </string>
+  <string id="hanter_footprints_name_2">
+    <rus>Осмотреть лагерь в Красном Лесу</rus>
+  </string>
+  <string id="hanter_footprints_name_3">
+    <rus>Осмотреть лагерь в Мёртвом городе</rus>
+  </string>
+  <string id="hanter_footprints_name_4">
+    <rus>Осмотреть лагерь на Затоне</rus>
+  </string>
+  <string id="hanter_footprints_name_5">
+    <rus>Поговорить с Дэном в лагере</rus>
+  </string>
+  <string id="magic_cube_name">
+    <rus>Магический кубик</rus>
+  </string>
+  <string id="magic_cube_name_1">
+    <rus>Найти Кубик Рубика</rus>
+  </string>
+  <string id="magic_cube_name_2">
+    <rus>Принести кубик Хакеру</rus>
+  </string>
+  <string id="over_airwaves_name">
+    <rus>По эфирным волнам</rus>
+  </string>
+  <string id="over_airwaves_name_1">
+    <rus>Найти три дискеты</rus>
+  </string>
+  <string id="over_airwaves_name_2">
+    <rus>Принести дискеты Хакеру</rus>
+  </string>
+  <string id="glare_on_water_2_name">
+    <rus>Блики на воде</rus>
+  </string>
+  <string id="glare_on_water_2_name_1">
+    <rus>Установить антенны</rus>
+  </string>
+  <string id="glare_on_water_2_name_2">
+    <rus>Установить Антенну №1 на Болотах</rus>
+  </string>
+  <string id="glare_on_water_2_name_3">
+    <rus>Установить Антенну №2 в Восточной Припяти</rus>
+  </string>
+  <string id="glare_on_water_2_name_4">
+    <rus>Установить Антенну №3 на Юпитере</rus>
+  </string>
+  <string id="glare_on_water_2_name_5">
+    <rus>Установить Антенну №4 в Красном Лесу</rus>
+  </string>
+  <string id="glare_on_water_2_name_6">
+    <rus>Установить Антенну №5 на Затоне</rus>
+  </string>
+  <string id="glare_on_water_2_name_7">
+    <rus>Обрадовать Беса</rus>
+  </string>
+  <string id="glare_on_water_1_name">
+    <rus>Интересная штуковина</rus>
+  </string>
+  <string id="glare_on_water_1_name_1">
+    <rus>Поговорить с Бесом</rus>
+  </string>
+  <string id="glare_on_water_1_name_2">
+    <rus>Загрузить антенны в рюкзак</rus>
+  </string>
+  <string id="glare_on_water_1_name_3">
+    <rus>Поговорить с Хакером</rus>
+  </string>
+  <string id="no_honor_board_name">
+    <rus>Фото на память</rus>
+  </string>
+  <string id="no_honor_board_name_1">
+    <rus>Оформить фотку Борова</rus>
+  </string>
+  <string id="no_honor_board_name_2">
+    <rus>Поднять фотку Борова</rus>
+  </string>
+  <string id="no_honor_board_name_3">
+    <rus>Повесить фотку на доску "Арены"</rus>
+  </string>
+  <string id="holy_bastards_name">
+    <rus>Святые неугодники</rus>
+  </string>
+  <string id="holy_bastards_name_1">
+    <rus>Уничтожить бандитов в церкви</rus>
+  </string>
+  <string id="death_truck_name">
+    <rus>Грузовик смерти</rus>
+  </string>
+  <string id="death_truck_name_1">
+    <rus>Обследовать место крушения</rus>
+  </string>
+  <string id="ghost_dark_valley_name">
+    <rus>Призрак Тёмной Долины</rus>
+  </string>
+  <string id="ghost_dark_valley_name_1">
+    <rus>Найти части тела Корефана</rus>
+  </string>
+  <string id="ghost_dark_valley_name_2">
+    <rus>Найти часть тела Корефана на Янтаре</rus>
+  </string>
+  <string id="ghost_dark_valley_name_3">
+    <rus>Принести останки к алтарю</rus>
+  </string>
+  <string id="ghost_dark_valley_name_4">
+    <rus>Найти часть тела Корефана на Радаре</rus>
+  </string>
+  <string id="ghost_dark_valley_name_5">
+    <rus>Поговорить с Болотным Доктором</rus>
+  </string>
+  <string id="ghost_dark_valley_name_6">
+    <rus>Найти часть тела Корефана в Шахте</rus>
+  </string>
+  <string id="ghost_dark_valley_name_7">
+    <rus>Найти часть тела Корефана на Юпитере</rus>
+  </string>
+  <string id="ghost_dark_valley_name_8">
+    <rus>Найти часть тела Корефана в Красном Лесу</rus>
+  </string>
+  <string id="ghost_dark_valley_name_9">
+    <rus>Поговорить с Дьяком</rus>
+  </string>
+  <string id="ghost_dark_valley_name_10">
+    <rus>Найти часть тела Корефана в Старой Деревне</rus>
+  </string>
+  <string id="ghost_dark_valley_name_11">
+    <rus>Утихомирить Корефана</rus>
+  </string>
+  <string id="ghost_dark_valley_name_12">
+    <rus>Перенести Корефана к месту похорон</rus>
+  </string>
+  <string id="ghost_dark_valley_name_13">
+    <rus>Дождаться Дьяка</rus>
+  </string>
+  <string id="ghost_dark_valley_name_14">
+    <rus>Взять лопату и похоронить Корефана</rus>
+  </string>
+  <string id="secret_tanker_name">
+    <rus>Одинокий заправщик</rus>
+  </string>
+  <string id="secret_tanker_name_1">
+    <rus>Проверить в полночь заправку</rus>
+  </string>
+  <string id="gentleman_unknown_name">
+    <rus>Джентльмен Неизвестность</rus>
+  </string>
+  <string id="gentleman_unknown_name_1">
+    <rus>Найти Хакера</rus>
+  </string>
+  <string id="gentleman_unknown_name_2">
+    <rus>Поговорить с Халявой</rus>
+  </string>
+  <string id="gentleman_unknown_name_3">
+    <rus>Проверить тоннель на Ростоке</rus>
+  </string>
+  <string id="gentleman_unknown_name_4">
+    <rus>Поговорить с Костей</rus>
+  </string>
+  <string id="gentleman_unknown_name_5">
+    <rus>Опять найти Хакера</rus>
+  </string>
+  <string id="gentleman_unknown_name_6">
+    <rus>Уничтожить антенну</rus>
+  </string>
+  <string id="museum_alienation_name">
+    <rus>Музей отчуждения</rus>
+  </string>
+  <string id="museum_alienation_name_1">
+    <rus>Создать музей</rus>
+  </string>
+  <string id="museum_alienation_name_2">
+    <rus>Оформить дикого кабана</rus>
+  </string>
+  <string id="museum_alienation_name_3">
+    <rus>Оформить кровососа-убийцу</rus>
+  </string>
+  <string id="museum_alienation_name_4">
+    <rus>Оформить свино-плоть</rus>
+  </string>
+  <string id="museum_alienation_name_5">
+    <rus>Оформить одичалого пса</rus>
+  </string>
+  <string id="museum_alienation_name_6">
+    <rus>Оформить библиотекаря</rus>
+  </string>
+  <string id="museum_alienation_name_7">
+    <rus>Оформить медведя-людоеда</rus>
+  </string>
+  <string id="museum_alienation_name_8">
+    <rus>Оформить красного бюрера</rus>
+  </string>
+  <string id="museum_alienation_name_9">
+    <rus>Оформить крупную химеру</rus>
+  </string>
+  <string id="museum_alienation_name_10">
+    <rus>Оформить дьявольского кота</rus>
+  </string>
+  <string id="museum_alienation_name_11">
+    <rus>Оформить пси-собаку</rus>
+  </string>
+  <string id="museum_alienation_name_12">
+    <rus>Оформить чёрного тушкана</rus>
+  </string>
+  <string id="museum_alienation_name_13">
+    <rus>Оформить ластонога</rus>
+  </string>
+  <string id="museum_alienation_name_14">
+    <rus>Оформить подземного паука</rus>
+  </string>
+  <string id="museum_alienation_name_15">
+    <rus>Оформить контролёра</rus>
+  </string>
+  <string id="museum_alienation_name_16">
+    <rus>Оформить псевдогиганта</rus>
+  </string>
+  <string id="museum_alienation_name_17">
+    <rus>Оформить болотного снорка</rus>
+  </string>
+  <string id="museum_alienation_name_18">
+    <rus>Оформить полтергейста</rus>
+  </string>
+  <string id="carry_me_deer_name">
+    <rus>Неси меня олень</rus>
+  </string>
+  <string id="carry_me_deer_name_1">
+    <rus>Найти уникального оленя</rus>
+  </string>
+  <string id="carry_me_deer_name_2">
+    <rus>Прикоснуться к оленю на Неразведанной Земле</rus>
+  </string>
+  <string id="carry_me_deer_name_3">
+    <rus>Спросить про оленя у Захара</rus>
+  </string>
+  <string id="carry_me_deer_name_4">
+    <rus>Спросить про оленя у Сепатора</rus>
+  </string>
+  <string id="carry_me_deer_name_5">
+    <rus>Прикоснуться к оленю на АТП</rus>
+  </string>
+  <string id="carry_me_deer_name_6">
+    <rus>Спросить про оленя у Дэна</rus>
+  </string>
+  <string id="carry_me_deer_name_7">
+    <rus>Прикоснуться к оленю на Болоте</rus>
+  </string>
+  <string id="carry_me_deer_name_8">
+    <rus>Уничтожить кровососов</rus>
+  </string>
+  <string id="fight_with_shadow_name">
+    <rus>Бой с Тенью</rus>
+  </string>
+  <string id="fight_with_shadow_name_1">
+    <rus>Изгнать Тень Монолита</rus>
+  </string>
+  <string id="fight_with_shadow_name_2">
+    <rus>Услышать и разбить кристаллы</rus>
+  </string>
+  <string id="fight_with_shadow_name_3">
+    <rus>Разрушить кристалл Тени Монолита</rus>
+  </string>
+  <string id="car_fuel_done_name">
+    <rus>Экстренная заправка</rus>
+  </string>
+  <string id="car_fuel_done_name_1">
+    <rus>Отдать топливо Жеке</rus>
+  </string>
+  <string id="roadside_check_name">
+    <rus>Проверка на дорогах</rus>
+  </string>
+  <string id="roadside_check_name_1">
+    <rus>Наладить связь в Лощине</rus>
+  </string>
+  <string id="roadside_check_name_2">
+    <rus>Доехать до Бара</rus>
+  </string>
+  <string id="roadside_check_name_3">
+    <rus>Поговорить с Петренко</rus>
+  </string>
+  <string id="roadside_check_name_4">
+    <rus>Убрать оппонента</rus>
+  </string>
+  <string id="roadside_check_name_5">
+    <rus>Доехать до Лощины</rus>
+  </string>
+  <string id="roadside_check_name_6">
+    <rus>Поговорить с Серым</rus>
+  </string>
+  <string id="field_kitchen_name">
+    <rus>Полевая кухня</rus>
+  </string>
+  <string id="field_kitchen_name_1">
+    <rus>Принести необходимое</rus>
+  </string>
+  <string id="field_kitchen_name_2">
+    <rus>Притащить кабана на кухню</rus>
+  </string>
+  <string id="field_kitchen_name_3">
+    <rus>Пометить воз дров</rus>
+  </string>
+  <string id="field_kitchen_name_4">
+    <rus>Пометить бочку для воды</rus>
+  </string>
+  <string id="field_kitchen_name_5">
+    <rus>Пометить водонагреватель</rus>
+  </string>
+  <string id="field_kitchen_name_6">
+    <rus>Пометить умывальник</rus>
+  </string>
+  <string id="field_kitchen_name_7">
+    <rus>Пометить вертел</rus>
+  </string>
+  <string id="field_kitchen_name_8">
+    <rus>Поговорить с Кулинаром</rus>
+  </string>
+  <string id="miracle_pills_name">
+    <rus>Чудесные пилюли</rus>
+  </string>
+  <string id="miracle_pills_name_1">
+    <rus>Принести необходимое</rus>
+  </string>
+  <string id="miracle_pills_name_2">
+    <rus>Найти необходимые препараты</rus>
+  </string>
+  <string id="miracle_pills_name_3">
+    <rus>Вернуться к доку</rus>
+  </string>
+  <string id="merchants_order_name">
+    <rus>Артефакты на базу</rus>
+  </string>
+  <string id="merchants_order_name_1">
+    <rus>Принести необходимое</rus>
+  </string>
+  <string id="merchants_order_name_2">
+    <rus>Найти необходимые предметы</rus>
+  </string>
+  <string id="merchants_order_name_3">
+    <rus>Вернуться к Филу</rus>
+  </string>
+  <string id="silence_library_name">
+    <rus>Тишина в библиотеке</rus>
+  </string>
+  <string id="silence_library_name_1">
+    <rus>Принести книги</rus>
+  </string>
+  <string id="silence_library_name_2">
+    <rus>Найти книгу охранника</rus>
+  </string>
+  <string id="silence_library_name_3">
+    <rus>Найти мешок книг</rus>
+  </string>
+  <string id="silence_library_name_4">
+    <rus>Вернуться к Лису</rus>
+  </string>
+  <string id="powder_keg_name">
+    <rus>На пороховой бочке</rus>
+  </string>
+  <string id="powder_keg_name_1">
+    <rus>Проверить место сигнала</rus>
+  </string>
+  <string id="clear_zombieland_name">
+    <rus>Прогулка в Зомбилэнд</rus>
+  </string>
+  <string id="clear_zombieland_name_1">
+    <rus>Зачистить Зомбилэнд</rus>
+  </string>
+  <string id="clear_zombieland_name_2">
+    <rus>Вернуться к Хакеру</rus>
+  </string>
+  <string id="find_hacker_name">
+    <rus>Взломщик от Бога</rus>
+  </string>
+  <string id="find_hacker_name_1">
+    <rus>Найти Хакера</rus>
+  </string>
+  <string id="find_hacker_name_2">
+    <rus>Приманить аномалию "Лифт"</rus>
+  </string>
+  <string id="find_hacker_name_3">
+    <rus>Включить антенну</rus>
+  </string>
+  <string id="stop_grabbing_name">
+    <rus>Хватит хватать Наташу</rus>
+  </string>
+  <string id="stop_grabbing_name_1">
+    <rus>Удалить "Хваталки"</rus>
+  </string>
+  <string id="stop_grabbing_name_2">
+    <rus>Найти страницы дневника</rus>
+  </string>
+  <string id="stop_grabbing_name_3">
+    <rus>Поговорить с Угрюмым</rus>
+  </string>
+  <string id="stop_grabbing_name_4">
+    <rus>Найти комплект взрывчатки</rus>
+  </string>
+  <string id="stop_grabbing_name_5">
+    <rus>Заминировать "Хваталки"</rus>
+  </string>
+  <string id="stop_grabbing_name_6">
+    <rus>Активировать взрывчатку</rus>
+  </string>
+  <string id="stop_grabbing_name_7">
+    <rus>Найти "Соцветие хваталки"</rus>
+  </string>
+  <string id="stop_grabbing_name_8">
+    <rus>Сварить артефакт "Оазис"</rus>
+  </string>
+  <string id="stop_grabbing_name_9">
+    <rus>Обезвредить пять "Хваталок"</rus>
+  </string>
+  <string id="sentence_goblin_name">
+    <rus>Смертный приговор</rus>
+  </string>
+  <string id="sentence_goblin_name_1">
+    <rus>Помочь убрать Гоблина</rus>
+  </string>
+  <string id="sentence_goblin_name_2">
+    <rus>Помочь Наташе убрать Гоблина</rus>
+  </string>
+  <string id="family_relics_name">
+    <rus>Семейные реликвии</rus>
+  </string>
+  <string id="family_relics_name_1">
+    <rus>Найти все реликвии</rus>
+  </string>
+  <string id="family_relics_name_2">
+    <rus>Найти три иконы</rus>
+  </string>
+  <string id="family_relics_name_3">
+    <rus>Найти охотничий нож</rus>
+  </string>
+  <string id="family_relics_name_4">
+    <rus>Найти планшет</rus>
+  </string>
+  <string id="family_relics_name_5">
+    <rus>Найти шахматы</rus>
+  </string>
+  <string id="family_relics_name_6">
+    <rus>Найти фотографию</rus>
+  </string>
+  <string id="family_relics_name_7">
+    <rus>Найти лошадку</rus>
+  </string>
+  <string id="family_relics_name_8">
+    <rus>Найти золотые часы</rus>
+  </string>
+  <string id="family_relics_name_9">
+    <rus>Найти картину</rus>
+  </string>
+  <string id="family_relics_name_10">
+    <rus>Принести реликвии домой</rus>
+  </string>
+  <string id="collection_coins_name">
+    <rus>Золотая коллекция</rus>
+  </string>
+  <string id="collection_coins_name_1">
+    <rus>Попытаться найти коллекцию</rus>
+  </string>
+  <string id="collection_coins_name_2">
+    <rus>Найти украденные монеты</rus>
+  </string>
+  <string id="collection_coins_name_3">
+    <rus>Принести монеты домой</rus>
+  </string>
+  <string id="personal_belongings_name">
+    <rus>Наташа-растеряша</rus>
+  </string>
+  <string id="personal_belongings_name_1">
+    <rus>Попытаться найти вещи</rus>
+  </string>
+  <string id="personal_belongings_name_2">
+    <rus>Найти утерянные вещи</rus>
+  </string>
+  <string id="personal_belongings_name_3">
+    <rus>Принести их домой</rus>
+  </string>
+  <string id="consumer_society_name">
+    <rus>Общество потребления</rus>
+  </string>
+  <string id="consumer_society_name_1">
+    <rus>Найти предметы быта</rus>
+  </string>
+  <string id="consumer_society_name_2">
+    <rus>Обустроить жилище</rus>
+  </string>
+  <string id="past_remnants_name">
+    <rus>Пережитки прошлого</rus>
+  </string>
+  <string id="past_remnants_name_1">
+    <rus>Найти предметы быта</rus>
+  </string>
+  <string id="past_remnants_name_2">
+    <rus>Обустроить жилище</rus>
+  </string>
+  <string id="demand_entertainments_name">
+    <rus>Не хлебом единым</rus>
+  </string>
+  <string id="demand_entertainments_name_1">
+    <rus>Найти предметы быта</rus>
+  </string>
+  <string id="demand_entertainments_name_2">
+    <rus>Обустроить жилище</rus>
+  </string>
+  <string id="lunch_break_name">
+    <rus>Обеденный перерыв</rus>
+  </string>
+  <string id="lunch_break_name_1">
+    <rus>Найти столовые приборы</rus>
+  </string>
+  <string id="lunch_break_name_2">
+    <rus>Обустроить жилище</rus>
+  </string>
+  <string id="pieces_furniture_name">
+    <rus>Эксклюзивный антураж</rus>
+  </string>
+  <string id="pieces_furniture_name_1">
+    <rus>Найти нужные предметы</rus>
+  </string>
+  <string id="pieces_furniture_name_2">
+    <rus>Найти предметы мебели</rus>
+  </string>
+  <string id="pieces_furniture_name_3">
+    <rus>Обустроить жилище</rus>
+  </string>
+  <string id="homemade_pies_name">
+    <rus>Домашние пирожки</rus>
+  </string>
+  <string id="homemade_pies_name_1">
+    <rus>Найти нужные предметы</rus>
+  </string>
+  <string id="homemade_pies_name_2">
+    <rus>Обустроить жилище</rus>
+  </string>
+  <string id="nostalgia_past_name">
+    <rus>Ностальгия по прошлому</rus>
+  </string>
+  <string id="nostalgia_past_name_1">
+    <rus>Обустроить своё жилище</rus>
+  </string>
+  <string id="home_hut_name">
+    <rus>Домашний очаг</rus>
+  </string>
+  <string id="home_hut_name_1">
+    <rus>Осмотреть 2-ой этаж дома на базе "Чистого неба"</rus>
+  </string>
+  <string id="home_hut_name_2">
+    <rus>Поговорить с главным на базе "Чистого неба"</rus>
+  </string>
+  <string id="sexual_beauty_name">
+    <rus>Припятская пленница</rus>
+  </string>
+  <string id="sexual_beauty_name_1">
+    <rus>Начать поиск пленницы</rus>
+  </string>
+  <string id="sexual_beauty_name_2">
+    <rus>Найти припятскую пленницу</rus>
+  </string>
+  <string id="sexual_beauty_name_3">
+    <rus>Проинформировать Акима</rus>
+  </string>
+  <string id="chess_sexual_maniac_name">
+    <rus>Журнальный работяга</rus>
+  </string>
+  <string id="chess_sexual_maniac_name_1">
+    <rus>Найти журналы для Акима</rus>
+  </string>
+  <string id="chess_sexual_maniac_name_2">
+    <rus>Найти все журналы "Плейбой"</rus>
+  </string>
+  <string id="chess_sexual_maniac_name_3">
+    <rus>Принести журналы Акиму</rus>
+  </string>
+  <string id="dark_tunnel_rats_name">
+    <rus>Сталкер - Проводник</rus>
+  </string>
+  <string id="dark_tunnel_rats_name_1">
+    <rus>Освободить тайный проход</rus>
+  </string>
+  <string id="dark_tunnel_rats_name_2">
+    <rus>Поговорить с Проводником</rus>
+  </string>
+  <string id="dark_tunnel_rats_name_3">
+    <rus>Найти обрез</rus>
+  </string>
+  <string id="dark_tunnel_rats_2_name">
+    <rus>Тоннельные крысы</rus>
+  </string>
+  <string id="dark_tunnel_rats_2_name_1">
+    <rus>Освободить тайный проход</rus>
+  </string>
+  <string id="dark_tunnel_rats_2_name_2">
+    <rus>Очистить тоннель</rus>
+  </string>
+  <string id="back_child_anomaly_2_name">
+    <rus>Второй контакт</rus>
+  </string>
+  <string id="back_child_anomaly_2_name_1">
+    <rus>Показать ствол ребёнку</rus>
+  </string>
+  <string id="dangerous_quagmire_name">
+    <rus>Опасная трясина</rus>
+  </string>
+  <string id="dangerous_quagmire_name_1">
+    <rus>Осмотреть лежбище</rus>
+  </string>
+  <string id="dangerous_quagmire_name_2">
+    <rus>Найти останки в воде</rus>
+  </string>
+  <string id="dangerous_quagmire_name_3">
+    <rus>Показать мешок Свиблову</rus>
+  </string>
+  <string id="mirror_man_name">
+    <rus>Зеркальный человек</rus>
+  </string>
+  <string id="mirror_man_name_1">
+    <rus>Поговорить с Бродягой</rus>
+  </string>
+  <string id="talk_spirit_of_lake_hermit_name">
+    <rus>Байки у костра</rus>
+  </string>
+  <string id="talk_spirit_of_lake_hermit_name_1">
+    <rus>Поговорить с Отшельником</rus>
+  </string>
+  <string id="worshipper_lake_spirit_name">
+    <rus>Идолопоклонник</rus>
+  </string>
+  <string id="worshipper_lake_spirit_name_1">
+    <rus>Осмотреть местность</rus>
+  </string>
+  <string id="worshipper_lake_spirit_name_2">
+    <rus>Показать рог ребёнку</rus>
+  </string>
+  <string id="battle_lake_spirit_name">
+    <rus>Боевой тондем</rus>
+  </string>
+  <string id="battle_lake_spirit_name_1">
+    <rus>Победить духа озера</rus>
+  </string>
+  <string id="battle_lake_spirit_name_2">
+    <rus>Бросить рог в омут</rus>
+  </string>
+  <string id="battle_lake_spirit_name_3">
+    <rus>Поговорить с мальчиком</rus>
+  </string>
+  <string id="god_given_expert_name">
+    <rus>Знаток от Бога</rus>
+  </string>
+  <string id="god_given_expert_name_1">
+    <rus>Показать корпус Хакеру</rus>
+  </string>
+
+</string_table>

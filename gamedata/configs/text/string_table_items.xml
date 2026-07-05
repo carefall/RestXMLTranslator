@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="item test1">
+    <rus>Это тестовая строка для вещмешка</rus>
+  </string>
+  <string id="item test2">
+    <rus>Это ещё одна тестовая строка для вещмешка</rus>
+  </string>
+  <string id="item_case_esc_desc">
+    <rus>Кейс с документами. Сделан из огнеупорного материала.</rus>
+  </string>
+  <string id="item_decoder_desc">
+    <rus>Нечто вроде мощной электронной отмычки. Похоже, что она создавалась с целью взломать какой-то специфический электронный замок. Как ни странно, конструкция не подразумевает универсальности — отмычка создавалась для конкретного замка, и она не способна взламывать какие-либо другие коды.</rus>
+  </string>
+  <string id="item_decoder_name">
+    <rus>Декодер</rus>
+  </string>
+  <string id="item_detector_yantar_desc">
+    <rus>Устройство для замеров пси-излучения.</rus>
+  </string>
+  <string id="item_detector_yantar_name">
+    <rus>Сенсор ПП-4А</rus>
+  </string>
+  <string id="item_doc_x16_desc">
+    <rus>Полиэтиленовый файл с документами. Без учёной степени по биологии сложно что-то в них понять.</rus>
+  </string>
+  <string id="item_doc_x16_name">
+    <rus>Документы из лаборатории Х-16</rus>
+  </string>
+  <string id="item_doc_x18_desc">
+    <rus>Толстая стопка научных бумаг. Сплошные термины, формулы и диаграммы. Ясно написано лишь одно странное словосочетание — "Народная Солянка".</rus>
+  </string>
+  <string id="item_doc_x18p1_name">
+    <rus>Документы из лаборатории Х-18, часть 1</rus>
+  </string>
+  <string id="item_doc_x18p2_name">
+    <rus>Документы из лаборатории Х-18, часть 2</rus>
+  </string>
+  <string id="item_doc_x18p3_name">
+    <rus>Документы из лаборатории Х-18, часть 3</rus>
+  </string>
+  <string id="item_doc_x18p4_name">
+    <rus>Документы из лаборатории Х-18</rus>
+  </string>
+  <string id="item_doc_x18p5_name">
+    <rus>Документы из лаборатории Х-18, часть 5</rus>
+  </string>
+  <string id="item_docs_hiden_pri_desc">
+    <rus>Потёртая рукопись в кожаной обложке. Написана самим Стрелком. Судя по заглавиям, в ней раскрываются некоторые загадки Зоны.</rus>
+  </string>
+  <string id="item_docs_hiden_pri_name">
+    <rus>Документы из Припяти</rus>
+  </string>
+  <string id="item_dynamite_esc_desc">
+    <rus>Тяжёлый деревянный ящик с надписями "Взрывоопасно" на нескольких языках.</rus>
+  </string>
+  <string id="item_dynamite_esc_name">
+    <rus>Ящик с динамитом</rus>
+  </string>
+  <string id="item_flash_crazy_mil_desc">
+    <rus>Флеш-диск — удобное устройство для переноса информации.</rus>
+  </string>
+  <string id="item_flash_crazy_mil_name">
+    <rus>Флешка сумасшедшего</rus>
+  </string>
+  <string id="item_flash_eco_rost_desc">
+    <rus>Флеш-диск — удобное устройство для переноса информации.</rus>
+  </string>
+  <string id="item_flash_eco_rost_name">
+    <rus>Флешка профессора Круглова</rus>
+  </string>
+  <string id="item_flash_esc_desc">
+    <rus>Флеш-диск — удобное устройство для переноса информации.</rus>
+  </string>
+  <string id="item_flash_esc_name">
+    <rus>Флешка пленного</rus>
+  </string>
+  <string id="item_flash_gslinger_agro_desc">
+    <rus>Флеш-диск — удобное устройство для переноса информации.</rus>
+  </string>
+  <string id="item_flash_gslinger_agro_name">
+    <rus>Флешка Стрелка</rus>
+  </string>
+  <string id="item_key_x18_desc">
+    <rus>Электронный ключ от подземной лаборатории Х-18.</rus>
+  </string>
+  <string id="item_key_x18_name">
+    <rus>Ключ Борова</rus>
+  </string>
+  <string id="item_krot_flash">
+    <rus>Флешка Крота</rus>
+  </string>
+  <string id="item_pda_lucky_desc">
+    <rus>Карманный персональный компьютер. Незаменимое устройство в Зоне.</rus>
+  </string>
+  <string id="item_pda_lucky_name">
+    <rus>КПК Счастливчика</rus>
+  </string>
+  <string id="item_pda_tiran_desc">
+    <rus>Карманный персональный компьютер. Незаменимое устройство в Зоне.</rus>
+  </string>
+  <string id="item_pda_tiran_name">
+    <rus>КПК Тирана</rus>
+  </string>
+  <string id="item_quest_case_02_desc">
+    <rus>Кейс с документами. Сделан из огнеупорного материала.</rus>
+  </string>
+  <string id="item_quest_case_02_name">
+    <rus>Документы военных из НИИ "Агропром"</rus>
+  </string>
+  <string id="item_case_esc_name">
+    <rus>Документы с блокпоста</rus>
+  </string>
+  <string id="biorad_prototip_desc">
+    <rus>Прототип биорадара, разработанный учёными.</rus>
+  </string>
+  <string id="yan_bad_psy_helmet_desc">
+    <rus>Ненастроенный прототип, разработанный учёными для защиты от пси-излучения.</rus>
+  </string>
+  <string id="biorad_prototip_name">
+    <rus>Прототип биорадара</rus>
+  </string>
+  <string id="yan_bad_psy_helmet_name">
+    <rus>Ненастроенный пси-шлем</rus>
+  </string>
+  <string id="yan_good_psy_helmet_desc">
+    <rus>Настроенный прототип, разработанный учёными для защиты от пси-излучения.</rus>
+  </string>
+  <string id="yan_good_psy_helmet_name">
+    <rus>Настроенный пси-шлем</rus>
+  </string>
+  <string id="documents">
+    <rus>Информация по телепортам</rus>
+  </string>
+  <string id="teleport_document">
+    <rus>Ручной телепортатор с расширенными функциями. Активация прибора происходит только при наличии артефакта "Батарейка", "Лунный свет" и "Чёрная энергия".</rus>
+  </string>
+</string_table>

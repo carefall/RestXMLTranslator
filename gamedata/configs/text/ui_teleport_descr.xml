@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="tp_msg_overload">
+    <rus>Телепорт недоступен — слишком большой перегруз!</rus>
+    <eng>Teleport is unavailable — too much weight!</eng>
+  </string>
+  <string id="tp_msg_block_temp">
+    <rus>Временный сбой! Попробуйте позже.</rus>
+    <eng>Temporary malfunction! Try again later.</eng>
+  </string>
+  <string id="tp_msg_surge">
+    <rus>Выброс — телепорт временно недоступен.</rus>
+    <eng>An emission is ongoing — teleport is temporarily unavailable.</eng>
+  </string>
+  <string id="tp_teleportator_point_added">
+    <rus>В телепортатор добавлена точка: </rus>
+    <eng>Teleport point added: </eng>
+  </string>
+  <string id="tp_art_required">
+    <rus>Требуется артефакт </rus>
+    <eng>Artifact required </eng>
+  </string>
+  <string id="tp_art_or">
+    <rus> или </rus>
+    <eng> or </eng>
+  </string>
+  <string id="tp_err_title">
+    <rus>Ошибка</rus>
+    <eng>Error</eng>
+  </string>
+  <string id="tp_err_coord_x">
+    <rus>Ошибка в координате X</rus>
+    <eng>Error in X coordinate</eng>
+  </string>
+  <string id="tp_err_coord_y">
+    <rus>Ошибка в координате Y</rus>
+    <eng>Error in Y coordinate</eng>
+  </string>
+  <string id="tp_err_coord_z">
+    <rus>Ошибка в координате Z</rus>
+    <eng>Error in Z coordinate</eng>
+  </string>
+  <string id="tp_err_select_art">
+    <rus>Выберите артефакт вверху</rus>
+    <eng>Select an artifact above</eng>
+  </string>
+  <string id="tp_err_level_coords">
+    <rus>Ошибка в координатах уровня</rus>
+    <eng>Level coordinates error</eng>
+  </string>
+  <string id="ex_hoard_loc_1">
+    <rus>Харона</rus>
+    <eng>of Kharon</eng>
+  </string>
+  <string id="ex_hoard_loc_2">
+    <rus>на АТП</rus>
+    <eng>at Motor Depot</eng>
+  </string>
+  <string id="ex_hoard_loc_3">
+    <rus>в Тёмной Долине</rus>
+    <eng>in Dark Valley</eng>
+  </string>
+  <string id="ex_hoard_loc_4">
+    <rus>на ЧАЭС-1</rus>
+    <eng>at CNPP-1</eng>
+  </string>
+  <string id="ex_hoard_loc_5">
+    <rus>в лаборатории X-16</rus>
+    <eng>in Lab X-16</eng>
+  </string>
+  <string id="ex_hoard_loc_6">
+    <rus>в Красном Лесу</rus>
+    <eng>in Red Forest</eng>
+  </string>
+  <string id="ex_hoard_loc_7">
+    <rus>на Дикой Территории</rus>
+    <eng>at Wild Territory</eng>
+  </string>
+  <string id="ex_hoard_loc_8">
+    <rus>в Старой Деревне</rus>
+    <eng>in Old Village</eng>
+  </string>
+  <string id="ex_hoard_loc_9">
+    <rus>в Лиманске</rus>
+    <eng>in Limansk</eng>
+  </string>
+  <string id="ex_hoard_loc_10">
+    <rus>на ЧАЭС-2</rus>
+    <eng>at CNPP-2</eng>
+  </string>
+  <string id="ex_hoard_loc_11">
+    <rus>с телепортом</rus>
+    <eng>with a teleport</eng>
+  </string>
+  <string id="ex_hoard_loc_12">
+    <rus>"Монолита"</rus>
+    <eng>"Monolith"</eng>
+  </string>
+  <string id="ex_hoard_task_title">
+    <rus>Тайник </rus>
+    <eng>Stash </eng>
+  </string>
+  <string id="ex_hoard_task_desc">
+    <rus>Найти тайник </rus>
+    <eng>Find stash </eng>
+  </string>
+</string_table>

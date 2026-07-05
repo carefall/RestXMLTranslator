@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!--=================================================================================================================-->
+<!--                                                                                                                 -->
+<!--    Original Author(s) : NLTP_ASHES                                                                              -->
+<!--    Edited : 18/05/2026 by NEMRUDE                                                                               -->
+<!--    Date : 27/02/2026                                                                                            -->
+<!--    Ported by NEMRUDE: 17/05/2026                                                                                -->
+<!--    License : Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)          -->
+<!--                                                                                                                 -->
+<!--    Translation file for the Nanosuit addon.                                                                     -->
+<!--                                                                                                                 -->
+<!--=================================================================================================================-->
+<string_table>
+    <string id="st_nanosuit_binoculars_mode">
+        <rus>РЕЖИМ</rus>
+    </string>
+    <string id="st_nanosuit_binoculars_zoom">
+        <rus>ЗУМ</rus>
+    </string>
+</string_table>

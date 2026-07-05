@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="pri_bus_station_zone_hint">
+    <rus>Автобусная станция</rus>
+  </string>
+  <string id="pri_hotel_zone_hint">
+    <rus>Гостиница</rus>
+  </string>
+  <string id="pri_monolith_base_zone_hint">
+    <rus>База "Монолита"</rus>
+  </string>
+  <string id="pri_stadium_zone_hint">
+    <rus>Стадион</rus>
+  </string>
+</string_table>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="ui_map_desc_mp_agroprom_large">
+    <rus>Странное место. Безмолвное здание наверняка хранит свои тайны, но не оно влечет сюда сталкеров, а артефакты, щедро рождающиеся в этом районе. Тут можно разжиться неплохими артефактами, а можно легко расстаться с жизнью... Будь быстр и точен, и удача непременно улыбнется именно тебе.</rus>
+    <eng>A strange place. The silent building has its share of secrets, but the stalkers are drawn to the numerous artifacts that can be found here, despite the danger. Quick moves and accurate shots will make you Lady Luck's favorite stalker.</eng>
+  </string>
+  <string id="ui_map_desc_mp_agroprom_short">
+    <rus>Странное место. Безмолвное здание наверняка хранит свои тайны, но не оно влечет сюда сталкеров, а артефакты, щедро рождающиеся в этом районе...</rus>
+    <eng>A strange place. The silent building has its share of secrets, but the stalkers are drawn to the numerous artifacts that can be found here, despite the danger.</eng>
+  </string>
+  <string id="ui_map_desc_mp_atp_large">
+    <rus>Автобусно-троллейбусный парк, расположенный в предбаннике Зоны. Замерли навсегда трактора, автобусы и грузовики...Артефактов замечено не было, но это место популярно среди опытных сталкеров, которые отстреливают новичков и забирают у них то немногое, что у них есть. Ищи укрытия в домах и за техникой, остерегайся врагов на крышах.</rus>
+    <eng>The bus and trolley park is the Zone's lobby. Tractors, buses and trucks have stopped in their tracks forever. No artifacts have ever been reported, but the place is popular with experienced stalkers who hunt down rookies and grab what they can. Take cover in buildings and behind various equipment and watch out for enemies up on the roofs.</eng>
+  </string>
+  <string id="ui_map_desc_mp_atp_short">
+    <rus>Автобусно-троллейбусный парк, расположенный в предбаннике Зоны. Замерли навсегда трактора, автобусы и грузовики...</rus>
+    <eng>The bus and trolley park is the Zone's lobby. Tractors, buses and trucks have stopped in their tracks forever.</eng>
+  </string>
+  <string id="ui_map_desc_mp_bath_large">
+    <rus>Загадочное место, обладающее странным притяжением... Бассейн для экспериментов, кем и для чего построенный навсегда останется тайной. Артефактов тут нет, поэтому сталкеров сюда могу привлечь разве что остатки диковинных агрегатов и приборов. Внимательно следи за крышами и помни, что уровень радиации тут чрезмерно высок.</rus>
+    <eng>This mysterious place holds a strange attraction for people. Who built that experimental pool and what for - that will forever remain a secret. No artifacts are to be found here. Only the remnants of strange machines and devices attract stalkers here. Keep your eyes on the roofs and remember that the radiation level is extremely high in this area.</eng>
+  </string>
+  <string id="ui_map_desc_mp_bath_short">
+    <rus>Загадочное место, обладающее странным притяжением... Бассейн для экспериментов, кем и для чего построенный навсегда останется тайной.</rus>
+    <eng>This mysterious place holds a strange attraction for people. Who built that experimental pool and what for - that will forever remain a secret.</eng>
+  </string>
+  <string id="ui_map_desc_mp_factory_large">
+    <rus>Мрачный, заброшенный заводик. Сколько сталкеров тут полегло, не счесть. Аномалий там всяких очень много, однако, притягивает это место сталкеров, как магнит. А все потому, что артефактами ценными тут разжиться... Осторожно, радиация!</rus>
+    <eng>A gloomy abandoned factory. There is no telling how many stalkers have found their demise in these walls. All kinds of anomalies abound and it still draws stalkers in like a magnet, since valuable artifacts can be found here. But watch out for the radiation levels!</eng>
+  </string>
+  <string id="ui_map_desc_mp_factory_short">
+    <rus>Мрачный, заброшенный заводик. Сколько сталкеров тут полегло, не счесть.</rus>
+    <eng>A gloomy abandoned factory. There is no telling how many stalkers have found their demise in these walls.</eng>
+  </string>
+  <string id="ui_map_desc_mp_garbage_large">
+    <rus>Это часть большой вонючей свалки, куда после аварии в 86 году свозили горы радиоактивного мусора... разбитые краны, техника... Можно найти останки старых построек и огромный ангар... Всё это недалеко от входа в Зону, и артефактов тут достаточно много, что и привлекает сюда сталкеров, которые ищут легкой наживы.</rus>
+    <eng>This is a section of the huge dump where mountains of radioactive trash were brought after the disaster in '86... things like dilapidated cranes, hardware, and so on. You can find some remnants of old facilities and a huge hangar. All this is close to the entrance to the Zone and many artifacts are lying around. That's what brings in stalkers looking for easy pickings.</eng>
+  </string>
+  <string id="ui_map_desc_mp_garbage_short">
+    <rus>Это часть большой вонючей свалки, куда после аварии в 86 году свозили горы радиоактивного мусора... разбитые краны, техника...</rus>
+    <eng>This is a section of the huge dump where mountains of radioactive trash were brought after the disaster in '86... things like dilapidated cranes, hardware, and so on</eng>
+  </string>
+  <string id="ui_map_desc_mp_lost_village_large">
+    <rus>Покинутая, забытая богом деревья в глубине Зоны. Небольшое, мелкое ржавое озеро, заполненное останками машин, внушает какой-то подсознательный страх перед действительностью Зоны. Опасайся снайперов, но помни, Зона любит смелых.</rus>
+    <eng>A deserted, godforsaken village deep inside the Zone. The small, shallow, rusty-colored lake filled with car wrecks breeds a subconscious fear in the hearts of the Zone's explorers. Beware of snipers, but keep in mind that the Zone favors the brave.</eng>
+  </string>
+  <string id="ui_map_desc_mp_lost_village_short">
+    <rus>Покинутая, забытая богом деревья в глубине Зоны. Небольшое, мелкое ржавое озеро, заполненное останками машин, внушает какой-то подсознательный страх перед действительностью Зоны.</rus>
+    <eng>A deserted, godforsaken village deep inside the Zone. The small, shallow, rusty-colored lake filled with car wrecks breeds a subconscious fear in the hearts of the Zone's explorers.</eng>
+  </string>
+  <string id="ui_map_desc_mp_military_1_large">
+    <rus>Заброшенная армейская база — навсегда застывшие грузовики и БТРы, разрушенный штаб и казармы. Однако эта пустынность и заброшенность обманчива — тут настоящий "Клондайк артефактов", поэтому враг может ожидать тебя где угодно...Докажи, что ты — лучший!</rus>
+    <eng>A disaffected army base with broken-down trucks and APCs left to rot, some barracks, and a ruined command center. But it's not what it seems. The base is rich in artifacts and the enemy can be hiding behind every corner. Prove your mettle and collect the reward!</eng>
+  </string>
+  <string id="ui_map_desc_mp_military_1_short">
+    <rus>Заброшенная армейская база — навсегда застывшие грузовики и БТРы, разрушенный штаб и казармы.</rus>
+    <eng>A disaffected army base with broken-down trucks and APCs left to rot, some barracks, and a ruined command center.</eng>
+  </string>
+  <string id="ui_map_desc_mp_military_2_large">
+    <rus>Эта старая деревенька — место жуткое и гиблое. Но раз уж рискнул добраться сюда, будь готовым получить пулю в лоб. Тут ты нигде не можешь чувствовать себя в безопасности, да хранят тебя оптика и глушитель.</rus>
+    <eng>This old village is a sinister place and a death-trap. But, if you've come this far despite all the risks, be prepared to die a sudden death. Since no place is safe here, may your scope and your silencer keep you in one piece.</eng>
+  </string>
+  <string id="ui_map_desc_mp_military_2_short">
+    <rus>Эта старая деревенька — место жуткое и гиблое. Но раз уж рискнул добраться сюда, будь готовым получить пулю в лоб.</rus>
+    <eng>This old village is a sinister place and a death-trap. But, if you've come this far despite all the risks, be prepared to die a sudden death.</eng>
+  </string>
+  <string id="ui_map_desc_mp_prypiat_large">
+    <rus>Город Припять, бывшее место проживания работников АЭС, вернее, то, что от него осталось. Руины этого индустриального скелета таят в себе вполне реальную опасность. Здесь следует по-настоящему беречь свою жизнь.</rus>
+    <eng>The city of Pripyat is the former residence of the workers of NPP, or what's left of it. The ruins of this industrial skeleton contain quite an immediate danger. You truly need to guard your life here.</eng>
+  </string>
+  <string id="ui_map_desc_mp_prypiat_short">
+    <rus>Город Припять неподалёку от АЭС — наследие чернобыльской катастрофы.</rus>
+    <eng>The city of Pripyat isn't far from NPP - the heirloom of the Chernobyl catastrophe.</eng>
+  </string>
+  <string id="ui_map_desc_mp_railraod_short">
+    <rus>Небольшая железнодорожная станция при заводе "Росток".</rus>
+    <eng>A small railroad station at the factory Rostok.</eng>
+  </string>
+  <string id="ui_map_desc_mp_railroad_large">
+    <rus>Небольшая железнодорожная станция при заводе "Росток". Проржавевшие вагоны и тепловозы теперь стоят на вечном приколе. Множество артефактов приманивает сюда отчаянных сталкеров со всей Зоны.</rus>
+    <eng>A small railroad station at the factory Rostok. The rusted train cars and diesel locomotives now stand at an eternal fork in the road. The many artifacts found here lure in desperate stalkers from all over the Zone.</eng>
+  </string>
+  <string id="ui_map_desc_mp_rostok_large">
+    <rus>Этот завод под грудами металла и за стенами бетона хранит какое-то особенное молчание. В прошлом веке здесь кипел рабочий процесс, трудящиеся спешили на смену под лозунги громкоговорителей... Но теперь завод отработал своё.</rus>
+    <eng>Under heaps of metal and behind walls of concrete, this factory holds a special kind of silence. Last century, it bustled of activity with the workers hurrying to their shift with slogans booming from the loudspeakers...But now the factory has done its share of work.</eng>
+  </string>
+  <string id="ui_map_desc_mp_rostok_short">
+    <rus>Заброшенный старый завод под грудами металла и за стенами бетона хранит глубокое молчание.</rus>
+    <eng>The abandoned factory holds a deep silence under heaps of metal and behind walls of concrete.</eng>
+  </string>
+  <string id="ui_map_desc_mp_workshop_large">
+    <rus>Окраина завода "Росток" до прихода "Долга". Мрачные места, однако, очень богатые на артефакты. Пустые ангары и склады таят в себе опасность на каждом шагу. Будь предельно осторожен и чаще обращай внимание на белую башню...</rus>
+    <eng>The outskirts of the Rostok factory before Duty's arrival. This dilapidated area is nonetheless very rich in artifacts. The empty hangars and warehouses teem with a hundred dangers every step of the way. Be extremely careful and keep a close watch on the white tower.</eng>
+  </string>
+  <string id="ui_map_desc_mp_workshop_short">
+    <rus>Окраина завода "Росток" до прихода "Долга". Мрачные места, однако, очень богатые на артефакты.</rus>
+    <eng>The outskirts of the Rostok factory before Duty's arrival. This dilapidated area is nonetheless very rich in artifacts.</eng>
+  </string>
+</string_table>

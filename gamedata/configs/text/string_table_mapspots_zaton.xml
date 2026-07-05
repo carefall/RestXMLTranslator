@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="zat_remont_hint">
+    <rus>Земснаряд</rus>
+  </string>
+  <string id="amerika_find_hint">
+    <rus>Пещера</rus>
+  </string>
+  <string id="broadway_meet_hint">
+    <rus>Главарь бандитов</rus>
+  </string>
+  <string id="planer_hint">
+    <rus>Сигнал беспилотника</rus>
+  </string>
+  <string id="bandbarmen_tri_hint">
+    <rus>Пещера</rus>
+  </string>
+  <string id="obsled_barza_zaton_hint">
+    <rus>Провожатый</rus>
+  </string>
+
+</string_table>

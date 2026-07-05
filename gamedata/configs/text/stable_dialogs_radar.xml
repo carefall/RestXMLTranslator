@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="rad_chief_start_dialog_0">
+    <rus>Здорово!</rus>
+  </string>
+  <string id="rad_chief_start_dialog_100">
+    <rus>Привет!</rus>
+  </string>
+  <string id="rad_find_deputy_dialog_1_0">
+    <rus>Где деньги за задание?</rus>
+  </string>
+  <string id="rad_find_deputy_dialog_1_100">
+    <rus>Найди моего помощника, и будут тебе деньги!</rus>
+  </string>
+  <string id="rad_find_deputy_dialog_1_1000">
+    <rus>Хорошо, но на этот раз чтоб без обмана!</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_1_0">
+    <rus>Кто ты?</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_1_10">
+    <rus>Леха Челюсть звать меня! А эти бродяги — моя бригада!</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_1_100">
+    <rus>Что ты и твои люди здесь делаете?</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_1_20">
+    <rus>Я и мои ребята отдыхаем тут! Как отдохнём, пойдём в Припять!</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_2_0">
+    <rus>Что тебе известно о Припяти?</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_2_10">
+    <rus>Знаю, что это старый заброшенный город эпохи коммунизма! Это из истории! \nДумаю, сейчас он кишит монстрами и толпами "монолитовцев"! Те кто туда отправился до меня, не вернулись! \n</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_2_100">
+    <rus>Думаешь, там очень опасно?</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_2_20">
+    <rus>Нет сомнений, так как пока что те, кто туда отправился, обратно не вернулись.</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_3_0">
+    <rus>Ты военных видел поблизости?</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_3_10">
+    <rus>Не, военных я не видел, давно они мне не попадались.</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_3_100">
+    <rus>Может, военных сталкеров встречал?</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_3_20">
+    <rus>По слухам, они где-то на самом Радаре появились, ну там, где антенны! Как они отключились, много кто пошёл к Радару и дальше к Припяти! Как мы тут появились, сутки как мы здесь торчим, никто не появился. Наверно, кто-то дорогу перекрыл сюда.</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_3_200">
+    <rus>Думаешь, путь на Радар перекрыли военные?</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_3_30">
+    <rus>Не думаю, что военные, давно я их не видел, но вот военные сталкеры точно могли! Они не шутят, уж очень они жёсткие парни, действуют быстро и слаженно, странно, что сюда дорогу они раньше не прикрыли!</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_3_300">
+    <rus>Почему они к Припяти не пошли или не перекрыли дорогу на неё?</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_3_40">
+    <rus>Не знаю, может, боятся или готовятся к чему-то, остаётся догадываться, что у них на уме.</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_4_0">
+    <rus>Может, у тебя есть задание?</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_4_10">
+    <rus>Ну, есть одно, но оно очень непростое, возьмёшься?</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_4_100">
+    <rus>Да, меня не испугать такой формулировкой.</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_4_101">
+    <rus>Нет, ну его, некогда мне!</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_4_11">
+    <rus>Понимаю, я сам боюсь, предпочитаю денег потратить и послать вместо себя или своих людей кого-то!</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_4_20">
+    <rus>Ну вот и хорошо! \nЗадание такое, найди моих разведчиков, Лома и Бревно! Они отправились в Припять, я решил не идти как остальные сломя голову в пасть тигра, а послал своих лучших ребят! \nНайди их живыми и приведи сюда, ну а если они погибли принеси мне их оружие! \nВыполнишь задание получишь 2000 деревянными!</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_4_200">
+    <rus>Хорошо, по рукам!</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_4_201">
+    <rus>Мало денег даёшь, давай 4000 деревянных и по рукам, идёт?</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_4_21">
+    <rus>Это всё, что я тебе могу предложить за это задание!</rus>
+  </string>
+  <string id="rad_find_stalkers_dialog_4_30">
+    <rus>Отлично, жду тебя здесь!</rus>
+  </string>
+  <string id="rad_found_deputy_dialog_1_0">
+    <rus>Задание выполнено!</rus>
+  </string>
+  <string id="rad_found_deputy_dialog_1_100">
+    <rus>Отлично, давай его КПК!</rus>
+  </string>
+  <string id="rad_found_deputy_dialog_1_1000">
+    <rus>Держи, давай деньги!</rus>
+  </string>
+  <string id="rad_found_deputy_dialog_1_1100">
+    <rus>Наглое кидалово, если учесть что у него ничего не было!</rus>
+  </string>
+  <string id="rad_found_deputy_dialog_1_1200">
+    <rus>Я тебя сейчас замочу!</rus>
+  </string>
+  <string id="rad_found_deputy_dialog_1_1300">
+    <rus>Попадешься мне ещё! Убью!</rus>
+  </string>
+  <string id="rad_found_deputy_dialog_1_1400">
+    <rus>Ладно, я понимаю, удачи!</rus>
+  </string>
+  <string id="rad_found_deputy_dialog_1_200">
+    <rus>Я тебе ничего не могу дать, денег нет. Если хочешь, можешь оставить его барахло.</rus>
+  </string>
+  <string id="rad_found_deputy_dialog_1_300">
+    <rus>Денег нет! Свободен!</rus>
+  </string>
+  <string id="rad_found_deputy_dialog_2_0">
+    <rus>Я ещё не нашёл его!</rus>
+  </string>
+  <string id="rad_found_deputy_dialog_2_10">
+    <rus>Найди его быстрее, если хочешь получить свои деньги!</rus>
+  </string>
+  <string id="rad_found_stalkers_dialog_1_0">
+    <rus>Я нашёл твоих ребят, они погибли, вот их оружие!</rus>
+  </string>
+  <string id="rad_found_stalkers_dialog_1_100">
+    <rus>Спасибо, значит, они погибли... Думаю, тогда нет смысла идти в Припять, по крайней мере пока что. Одна проблема остаётся, я не могу отдать тебе деньги за задание. Мой заместитель, пропал и с ним все деньги!</rus>
+  </string>
+  <string id="rad_found_stalkers_dialog_1_1001">
+    <rus>Хорошо, я его найду! Скажи мне где его искать? И не вздумай меня кинуть на этот раз!</rus>
+  </string>
+  <string id="rad_found_stalkers_dialog_1_200">
+    <rus>Я думаю, он не ушёл далеко, он может быть, дай я тебе на карте отмечу, здесь или здесь! Как найдёшь его верни его сюда, или его КПК!</rus>
+  </string>
+  <string id="rad_found_stalkers_dialog_1_2000">
+    <rus>Хорошо, жди меня!</rus>
+  </string>
+  <string id="rad_found_stalkers_dialog_2_0">
+    <rus>Я ещё не нашёл их.</rus>
+  </string>
+  <string id="rad_found_stalkers_dialog_2_10">
+    <rus>Разыщи их побыстрее! Я не могу тут ждать вечно! Удачи!</rus>
+  </string>
+</string_table>

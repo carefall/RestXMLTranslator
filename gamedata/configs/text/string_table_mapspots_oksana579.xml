@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="god_given_expert_hint">
+    <rus>Хакер</rus>
+  </string>
+  <string id="battle_lake_spirit_hint">
+    <rus>Омут</rus>
+  </string>
+  <string id="worshipper_lake_spirit_hint">
+    <rus>Место поклонения</rus>
+  </string>
+  <string id="mirror_man_hint">
+    <rus>Зеркальный человек</rus>
+  </string>
+  <string id="dangerous_quagmire_hint">
+    <rus>Лежбище</rus>
+  </string>
+  <string id="dark_tunnel_rats_2_hint">
+    <rus>Тоннель</rus>
+  </string>
+  <string id="talk_about_semetskiy_agreement_4_hint">
+    <rus>Зеркальный человек</rus>
+  </string>
+  <string id="back_to_past_hint">
+    <rus>Телепорт в прошлое</rus>
+  </string>
+  <string id="black_stalker_soul_hint">
+    <rus>Скупщик душ</rus>
+  </string>
+  <string id="shadow_on_fence_hint">
+    <rus>Место захоронения</rus>
+  </string>
+  <string id="quest_general_cleaning_hint_1">
+    <rus>Место поиска зомбированного</rus>
+  </string>
+  <string id="quest_general_cleaning_hint_2">
+    <rus>Место эксперимента</rus>
+  </string>
+  <string id="talk_semetskiy_about_agreement_hint">
+    <rus>Место медитации</rus>
+  </string>
+  <string id="vagabond_soul_buyer_hint">
+    <rus>Место трагедии</rus>
+  </string>
+  <string id="two_comrades_served_hint">
+    <rus>Место установки</rus>
+  </string>
+  <string id="anthology_of_sound_hint">
+    <rus>Военный блокпост</rus>
+  </string>
+  <string id="last_order_rifle_hint">
+    <rus>Лагерь наёмников</rus>
+  </string>
+  <string id="conversations_in_skadovsk_hint_1">
+    <rus>Рощица</rus>
+  </string>
+  <string id="conversations_in_skadovsk_hint_2">
+    <rus>Башня</rus>
+  </string>
+  <string id="by_trial_and_error_hint">
+    <rus>Перекрёсток</rus>
+  </string>
+  <string id="escape_lattice_scammer_hint_1">
+    <rus>Тело охранника</rus>
+  </string>
+  <string id="escape_lattice_scammer_hint_2">
+    <rus>Лежбище Разбойника</rus>
+  </string>
+  <string id="permanent_manager_hint">
+    <rus>Гастроном</rus>
+  </string>
+  <string id="friendly_family_hint">
+    <rus>Водонапорная башня</rus>
+  </string>
+  <string id="controlled_ward_hint">
+    <rus>Вертолёт</rus>
+  </string>
+  <string id="for_sake_catchphrase_hint">
+    <rus>Жилище особи</rus>
+  </string>
+  <string id="grandma_arrived_hint">
+    <rus>Пещера</rus>
+  </string>
+  <string id="last_moment_commander_hint">
+    <rus>Прототип антенны</rus>
+  </string>
+  <string id="ways_of_the_lord_hint">
+    <rus>Зимовка</rus>
+  </string>
+  <string id="aggressive_environment_hint_1">
+    <rus>Мост через водоём</rus>
+  </string>
+  <string id="aggressive_environment_hint_2">
+    <rus>Пещера</rus>
+  </string>
+  <string id="satellites_antennas_hint_1">
+    <rus>Строительная площадка</rus>
+  </string>
+  <string id="satellites_antennas_hint_2">
+    <rus>Данные накопителя</rus>
+  </string>
+  <string id="satellites_antennas_hint_3">
+    <rus>Мстительный хутор</rus>
+  </string>
+  <string id="hunting_worse_bondage_hint_1">
+    <rus>Стоянка разведчиков</rus>
+  </string>
+  <string id="hunting_worse_bondage_hint_2">
+    <rus>Место охоты</rus>
+  </string>
+  <string id="hunting_worse_bondage_hint_3">
+    <rus>Охотники</rus>
+  </string>
+  <string id="hanter_footprints_hint">
+    <rus>Лагерь охотников</rus>
+  </string>
+  <string id="search_location_hint">
+    <rus>Место поиска</rus>
+  </string>
+  <string id="glare_on_water_2_hint">
+    <rus>Место установки</rus>
+  </string>
+  <string id="ghost_dark_valley_hint_1">
+    <rus>Мысли Корефана</rus>
+  </string>
+  <string id="ghost_dark_valley_hint_2">
+    <rus>Осязание Корефана</rus>
+  </string>
+  <string id="ghost_dark_valley_hint_3">
+    <rus>Интуиция Корефана</rus>
+  </string>
+  <string id="ghost_dark_valley_hint_4">
+    <rus>Чувства Корефана</rus>
+  </string>
+  <string id="gentleman_unknown_hint_1">
+    <rus>Место встречи</rus>
+  </string>
+  <string id="gentleman_unknown_hint_2">
+    <rus>Сигнал КПК Хакера</rus>
+  </string>
+  <string id="gentleman_unknown_hint_3">
+    <rus>Уничтожить антенну</rus>
+  </string>
+  <string id="carry_me_deer_hint">
+    <rus>Лидер охотников</rus>
+  </string>
+  <string id="field_kitchen_hint_1">
+    <rus>Полевая кухня</rus>
+  </string>
+  <string id="field_kitchen_hint_2">
+    <rus>Воз дров</rus>
+  </string>
+  <string id="field_kitchen_hint_3">
+    <rus>Ёмкость для воды</rus>
+  </string>
+  <string id="field_kitchen_hint_4">
+    <rus>Водонагреватель</rus>
+  </string>
+  <string id="field_kitchen_hint_5">
+    <rus>Умывальник</rus>
+  </string>
+  <string id="field_kitchen_hint_6">
+    <rus>Вертел</rus>
+  </string>
+  <string id="field_kitchen_hint_7">
+    <rus>Заведующий буфетом</rus>
+  </string>
+  <string id="miracle_pills_hint">
+    <rus>Госпиталь</rus>
+  </string>
+  <string id="merchants_order_hint">
+    <rus>Военный лагерь</rus>
+  </string>
+  <string id="silence_library_hint_1">
+    <rus>Книга охранника</rus>
+  </string>
+  <string id="silence_library_hint_2">
+    <rus>Мешок книг</rus>
+  </string>
+  <string id="powder_keg_hint">
+    <rus>Сигнал ПДА</rus>
+  </string>
+  <string id="clear_zombieland_hint">
+    <rus>Зомбилэнд</rus>
+  </string>
+  <string id="publicity_material_0_hint">
+    <rus>Прерванная трапеза</rus>
+  </string>
+  <string id="publicity_material_1_hint">
+    <rus>След за углом туалета</rus>
+  </string>
+  <string id="publicity_material_2_hint">
+    <rus>Личная гигиена лаборанта</rus>
+  </string>
+  <string id="publicity_material_3_hint">
+    <rus>Убойная ночлежка</rus>
+  </string>
+  <string id="publicity_material_4_hint">
+    <rus>Тёткина недвижимость</rus>
+  </string>
+  <string id="publicity_material_5_hint">
+    <rus>Бункерные крысы</rus>
+  </string>
+  <string id="publicity_material_6_hint">
+    <rus>Старая квартира</rus>
+  </string>
+  <string id="collection_coin_1_name">
+    <rus>Картёжник</rus>
+  </string>
+  <string id="collection_coin_2_name">
+    <rus>Кидала</rus>
+  </string>
+  <string id="collection_coin_3_name">
+    <rus>Карманник</rus>
+  </string>
+  <string id="collection_coin_4_name">
+    <rus>Собутыльник</rus>
+  </string>
+  <string id="collection_coin_5_name">
+    <rus>Стрелочник</rus>
+  </string>
+  <string id="collection_coin_6_name">
+    <rus>Вертухай</rus>
+  </string>
+  <string id="collection_coin_7_name">
+    <rus>Шнырь</rus>
+  </string>
+  <string id="collection_coin_8_name">
+    <rus>Фармазон</rus>
+  </string>
+  <string id="collection_coin_9_name">
+    <rus>Фуфлыжник</rus>
+  </string>
+  <string id="collection_coin_10_name">
+    <rus>Шестёрка</rus>
+  </string>
+  <string id="collection_coin_11_name">
+    <rus>Мухрыга</rus>
+  </string>
+  <string id="family_relics_1_hint">
+    <rus>Святые угодники</rus>
+  </string>
+  <string id="family_relics_2_hint">
+    <rus>Охота пуще неволи</rus>
+  </string>
+  <string id="family_relics_3_hint">
+    <rus>Военная стратегия</rus>
+  </string>
+  <string id="family_relics_4_hint">
+    <rus>Шахматная мысль</rus>
+  </string>
+  <string id="family_relics_5_hint">
+    <rus>Строительный вагончик</rus>
+  </string>
+  <string id="family_relics_6_hint">
+    <rus>Тёмная лошадка</rus>
+  </string>
+  <string id="family_relics_7_hint">
+    <rus>Ценители прекрасного</rus>
+  </string>
+  <string id="dark_killer_cave_signal_hint">
+    <rus>Сигнал из пещеры</rus>
+  </string>
+  <string id="opponent_petrenko_hint">
+    <rus>Оппонент Петренко</rus>
+  </string>
+  <string id="ritual_place_hint">
+    <rus>Место ритуала</rus>
+  </string>
+  <string id="funeral_place_hint">
+    <rus>Место похорон</rus>
+  </string>
+  <string id="kalugin_comrade_hint">
+    <rus>Соратник Калугина</rus>
+  </string>
+  <string id="spawn_boat_hint">
+    <rus>Катер</rus>
+  </string>
+  <string id="dog_hanter_ralf_hint">
+    <rus>Ральф</rus>
+  </string>
+
+</string_table>

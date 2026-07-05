@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="actor_btn_hint">
+    <rus>Центрировать на Меченом</rus>
+    <eng>Center on actor</eng>
+  </string>
+  <string id="add_spot_btn_hint">
+    <rus>Добавить новую отметку</rus>
+    <eng>Add new marker</eng>
+  </string>
+  <string id="Contacts">
+    <rus>Контакты</rus>
+    <eng>Contacts</eng>
+  </string>
+  <string id="Encyclopedia">
+    <rus>Справка</rus>
+    <eng>Encyclopedia</eng>
+  </string>
+  <string id="global_map_btn_hint">
+    <rus>На карту Зоны</rus>
+    <eng>To map of the Zone</eng>
+  </string>
+  <string id="level_changer_invitation">
+    <rus>Перейти на другую территорию?</rus>
+    <eng>Move to next level?</eng>
+  </string>
+  <string id="Name">
+    <rus>Имя</rus>
+    <eng>Name</eng>
+  </string>
+  <string id="pda_btn_accomplished">
+    <rus>Выполнено</rus>
+    <eng>Completed</eng>
+  </string>
+  <string id="pda_btn_accomplished_hint">
+    <rus>Показать выполненные задания</rus>
+    <eng>Show completed tasks</eng>
+  </string>
+  <string id="pda_btn_active">
+    <rus>Активно</rus>
+    <eng>Active</eng>
+  </string>
+  <string id="pda_btn_active_hint">
+    <rus>Показать активные задания</rus>
+    <eng>Show active tasks</eng>
+  </string>
+  <string id="pda_btn_contacts">
+    <rus>Контакты</rus>
+    <eng>Contacts</eng>
+  </string>
+  <string id="pda_btn_contacts_hint">
+    <rus>Показать список контактов сталкеров</rus>
+    <eng>Show stalker contact list</eng>
+  </string>
+  <string id="pda_btn_diary">
+    <rus>Журнал</rus>
+    <eng>Diary</eng>
+  </string>
+  <string id="pda_btn_diary_hint">
+    <rus>Показать дневник игрока</rus>
+    <eng>Show player's diary</eng>
+  </string>
+  <string id="pda_btn_encyclopedia">
+    <rus>Справка</rus>
+    <eng>Encyclopedia</eng>
+  </string>
+  <string id="pda_btn_encyclopedia_hint">
+    <rus>Показать информацию о Зоне</rus>
+    <eng>Show the Zone encyclopedia</eng>
+  </string>
+  <string id="pda_btn_failed">
+    <rus>Провалено</rus>
+    <eng>Failed</eng>
+  </string>
+  <string id="pda_btn_failed_hint">
+    <rus>Показать проваленные задания</rus>
+    <eng>Show failed tasks</eng>
+  </string>
+  <string id="pda_btn_info">
+    <rus>Информация</rus>
+    <eng>Information</eng>
+  </string>
+  <string id="pda_btn_journal">
+    <rus>Журнал</rus>
+    <eng>Log</eng>
+  </string>
+  <string id="pda_btn_journal_hint">
+    <rus>Показать записи игрока</rus>
+    <eng>Show player's entries</eng>
+  </string>
+  <string id="pda_btn_map">
+    <rus>План</rus>
+    <eng>Map</eng>
+  </string>
+  <string id="pda_btn_map_hint">
+    <rus>Показать карту Зоны</rus>
+    <eng>Show map of the Zone</eng>
+  </string>
+  <string id="pda_btn_news">
+    <rus>История</rus>
+    <eng>Message history</eng>
+  </string>
+  <string id="pda_btn_news_hint">
+    <rus>Показать историю сообщений</rus>
+    <eng>Show message history</eng>
+  </string>
+  <string id="pda_btn_dialogs">
+    <rus>Диалоги</rus>
+    <eng>Dialogs</eng>
+  </string>
+  <string id="pda_btn_dialogs_hint">
+    <rus>Показать историю общения</rus>
+    <eng>Show message history</eng>
+  </string>
+  <string id="pda_btn_off_hint">
+    <rus>Выключить</rus>
+    <eng>Turn off</eng>
+  </string>
+  <string id="pda_btn_own">
+    <rus>Свои</rus>
+    <eng>My own</eng>
+  </string>
+  <string id="pda_btn_own_hint">
+    <rus>Показать свои отметки на карте</rus>
+    <eng>Show my markers on the map</eng>
+  </string>
+  <string id="pda_btn_quests">
+    <rus>Задачи</rus>
+    <eng>Tasks</eng>
+  </string>
+  <string id="pda_btn_quests_hint">
+    <rus>Показать информацию по квестам</rus>
+    <eng>Show quest information</eng>
+  </string>
+  <string id="pda_btn_ranking">
+    <rus>Ранги</rus>
+    <eng>Ranking</eng>
+  </string>
+  <string id="pda_btn_ranking_hint">
+    <rus>Показать рейтинг лучших сталкеров</rus>
+    <eng>Show top stalker rankings</eng>
+  </string>
+  <string id="pda_btn_reputation">
+    <rus>Репутация</rus>
+    <eng>Reputation</eng>
+  </string>
+  <string id="pda_btn_statistics">
+    <rus>Данные</rus>
+    <eng>Statistics</eng>
+  </string>
+  <string id="pda_btn_statistics_hint">
+    <rus>Показать статистику по прохождению</rus>
+    <eng>Show progress statistics</eng>
+  </string>
+  <string id="pda_edit_user_task_btn_hint">
+    <rus>Редактировать описание</rus>
+    <eng>Edit description</eng>
+  </string>
+  <string id="pda_remove_btn_hint">
+    <rus>Удалить отметку</rus>
+    <eng>Delete marker</eng>
+  </string>
+  <string id="pda_show_descr_btn_hint">
+    <rus>Перейти</rus>
+    <eng>Go</eng>
+  </string>
+  <string id="pda_show_location_btn_hint">
+    <rus>Показывать отметки на карте</rus>
+    <eng>Show markers on the map</eng>
+  </string>
+  <string id="pda_show_pointer_btn_hint">
+    <rus>Сделать отметку активной</rus>
+    <eng>Activate marker</eng>
+  </string>
+  <string id="pda_switch_description_btn_hint">
+    <rus>Переключить карта/текст</rus>
+    <eng>Toggle map/text</eng>
+  </string>
+  <string id="Rank">
+    <rus>Ранг</rus>
+    <eng>Rank</eng>
+  </string>
+  <string id="remove_spot_btn_hint">
+    <rus>Удалить отметку</rus>
+    <eng>Delete marker</eng>
+  </string>
+  <string id="st_detail_list_for_artefacts">
+    <rus>Добытые артефакты</rus>
+    <eng>Won artifacts</eng>
+  </string>
+  <string id="st_detail_list_for_community_relations">
+    <rus>Отношения с группировками</rus>
+    <eng>Relations with factions</eng>
+  </string>
+  <string id="st_detail_list_for_monsterkills">
+    <rus>Убитые мутанты</rus>
+    <eng>Killed mutants</eng>
+  </string>
+  <string id="st_detail_list_for_quests">
+    <rus>Выполненные квесты</rus>
+    <eng>Completed quests</eng>
+  </string>
+  <string id="st_detail_list_for_stalkerkills">
+    <rus>Убитые сталкеры</rus>
+    <eng>Killed stalkers</eng>
+  </string>
+  <string id="st_map_actor">
+    <rus>Меченый</rus>
+    <eng>This is you</eng>
+  </string>
+  <string id="st_news">
+    <rus>Новость</rus>
+    <eng>News</eng>
+  </string>
+  <string id="st_pda_artefacts">
+    <rus>Артефакты</rus>
+    <eng>Artifacts</eng>
+  </string>
+  <string id="st_pda_detail_info">
+    <rus>Подробная информация</rus>
+    <eng>Detailed information</eng>
+  </string>
+  <string id="st_pda_monster_kills">
+    <rus>Убито мутантов</rus>
+    <eng>Killed mutants</eng>
+  </string>
+  <string id="st_pda_player_statistic">
+    <rus>Статистика игрока</rus>
+    <eng>Player stats</eng>
+  </string>
+  <string id="st_pda_quest_complete">
+    <rus>Выполнено квестов</rus>
+    <eng>Completed quests</eng>
+  </string>
+  <string id="st_pda_stalker_kills">
+    <rus>Убито сталкеров</rus>
+    <eng>Killed stalkers</eng>
+  </string>
+  <string id="st_pda_statistic_reputation">
+    <rus>Репутация:</rus>
+    <eng>Reputation:</eng>
+  </string>
+  <string id="st_pda_statistic_score">
+    <rus>Статистика</rus>
+    <eng>Statistics</eng>
+  </string>
+  <string id="st_pda_task_detail_information">
+    <rus>Подробная информация о задании</rus>
+    <eng>Detailed task information</eng>
+  </string>
+  <string id="st_pda_top20">
+    <rus>Лучшая 20-ка сталкеров</rus>
+    <eng>Top 20 stalkers</eng>
+  </string>
+  <string id="st_pda_total">
+    <rus>Всего</rus>
+    <eng>Total</eng>
+  </string>
+  <string id="st_tip">
+    <rus>Сообщение</rus>
+    <eng>Message</eng>
+  </string>
+  <string id="Tasks">
+    <rus>Задания</rus>
+    <eng>Tasks</eng>
+  </string>
+  <string id="Time">
+    <rus>Время</rus>
+    <eng>Time</eng>
+  </string>
+  <string id="zoom_in_btn_hint">
+    <rus>Увеличить масштаб</rus>
+    <eng>Zoom in</eng>
+  </string>
+  <string id="zoom_out_btn_hint">
+    <rus>Уменьшить масштаб</rus>
+    <eng>Zoom out</eng>
+  </string>
+  <string id="st_detail_list_for_foo">
+    <rus>Статистика</rus>
+    <eng>Statistics</eng>
+  </string>
+  <string id="st_pda_amount">
+    <rus>количество</rus>
+    <eng>amount</eng>
+  </string>
+  <string id="st_pda_rating">
+    <rus>баллы</rus>
+    <eng>Points</eng>
+  </string>
+  <string id="st_pda_exp">
+    <rus>Опыт</rus>
+    <eng>Experience</eng>
+  </string>
+  <string id="st_detail_list_for_exp">
+    <rus>Полученный опыт</rus>
+    <eng>Gained Experience</eng>
+  </string>
+  <string id="exp_surge_n">
+    <rus>Выбросов</rus>
+    <eng>Emissions</eng>
+  </string>
+  <string id="exp_running_treasure">
+    <rus>Перемещающихся тайников</rus>
+    <eng>Moving stashes</eng>
+  </string>
+  <string id="exp_monster_microquest">
+    <rus>Наградных мутантов</rus>
+    <eng>Bounty mutants</eng>
+  </string>
+  <string id="exp_friends_healed">
+    <rus>Вылечено друзей</rus>
+    <eng>Friends healed</eng>
+  </string>
+  <string id="exp_enemies_healed">
+    <rus>Вылечено врагов</rus>
+    <eng>Enemies healed</eng>
+  </string>
+  <string id="st_pda_artefacts_made">
+    <rus>Сварено артефактов</rus>
+    <eng>Artifacts transmuted</eng>
+  </string>
+  <string id="st_detail_list_for_artefacts_made">
+    <rus>Сваренные артефакты</rus>
+    <eng>Transmuted artifacts</eng>
+  </string>
+  <string id="st_ui_pda_actor_box">
+    <rus>Личный ящик</rus>
+    <eng>Personal box</eng>
+  </string>
+</string_table>

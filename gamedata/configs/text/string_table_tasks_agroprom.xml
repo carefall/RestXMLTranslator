@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="agr_find_ghost">
+    <rus>Судьба Призрака</rus>
+  </string>
+  <string id="agr_find_ghost_text">
+    <rus>Узнать судьбу Призрака</rus>
+  </string>
+  <string id="agr_gunslinger_cache">
+    <rus>Тайник Стрелка</rus>
+  </string>
+  <string id="agr_help_krot">
+    <rus>Выручить Крота</rus>
+  </string>
+  <string id="agr_help_krot_0">
+    <rus>Помочь Кроту отбиться от военных</rus>
+  </string>
+  <string id="agr_help_krot_1">
+    <rus>Уничтожить военных</rus>
+  </string>
+  <string id="agr_help_krot_2">
+    <rus>Спасти Крота</rus>
+  </string>
+  <string id="agr_help_stalkers">
+    <rus>Своевременная помощь</rus>
+  </string>
+  <string id="agr_help_stalkers_0">
+    <rus>Помочь сталкерам отбиться от военных</rus>
+  </string>
+  <string id="agr_help_stalkers_1">
+    <rus>Уничтожить военных</rus>
+  </string>
+  <string id="agr_help_stalkers_2">
+    <rus>Помочь сталкерам отбиться от военных</rus>
+  </string>
+  <string id="agr_krot">
+    <rus>Встретиться со сталкерами</rus>
+  </string>
+  <string id="agr_meet_krot_band">
+    <rus>Информация о Стрелке</rus>
+  </string>
+  <string id="agr_meet_krot_band_0">
+    <rus>Получить от Крота информацию</rus>
+  </string>
+  <string id="agr_meet_krot_band_1">
+    <rus>Встретиться с группой Крота</rus>
+  </string>
+  <string id="agr_meet_krot_band_2">
+    <rus>Получить информацию от Крота</rus>
+  </string>
+  <string id="agroprom_find_gunslinger_cache">
+    <rus>Тайник группировки Стрелка</rus>
+  </string>
+  <string id="agroprom_find_gunslinger_cache_0">
+    <rus>Найти тайник группировки Стрелка</rus>
+  </string>
+  <string id="agroprom_find_gunslinger_cache_1">
+    <rus>Найти тайник</rus>
+  </string>
+  <string id="agroprom_find_gunslinger_cache_2">
+    <rus>Найти в тайнике информацию о Стрелке</rus>
+  </string>
+  <string id="agroprom_find_gunslinger_cache_3">
+    <rus>Выбраться из тайника</rus>
+  </string>
+  <string id="agroprom_find_stalker_phantom">
+    <rus>Поиск Призрака</rus>
+  </string>
+  <string id="agroprom_find_stalker_phantom_0">
+    <rus>Призрак знает, где Стрелок</rus>
+  </string>
+  <string id="agroprom_get_military_documents">
+    <rus>Документы военных</rus>
+  </string>
+  <string id="agroprom_get_military_documents_0">
+    <rus>НИИ "Агропром"</rus>
+  </string>
+  <string id="agroprom_get_military_documents_1">
+    <rus>Выкрасть военные документы</rus>
+  </string>
+  <string id="agroprom_get_military_documents_2">
+    <rus>Отнести документы Бармену</rus>
+  </string>
+</string_table>

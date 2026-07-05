@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="gar_car_graveyard_quest">
+    <rus>Призыв о помощи</rus>
+  </string>
+  <string id="gar_defend_garbage">
+    <rus>Уничтожить рейд бандитов</rus>
+  </string>
+  <string id="gar_dialog_hellcar">
+    <rus>Предложить свою помощь лидеру нейтралов</rus>
+  </string>
+  <string id="gar_dialog_hellcar_1">
+    <rus>Предложить свою помощь Бесу</rus>
+  </string>
+  <string id="gar_hellcar_alive">
+    <rus>Поговорить с Бесом</rus>
+  </string>
+  <string id="gar_help_dymon">
+    <rus>Бандитский рейд</rus>
+  </string>
+  <string id="gar_help_tunnel_newbie">
+    <rus>Помочь новичку со Cвалки</rus>
+  </string>
+  <string id="gar_kill_bandits">
+    <rus>Уничтожить рейд бандитов</rus>
+  </string>
+  <string id="gar_kill_boars">
+    <rus>Дикие кабаны</rus>
+  </string>
+  <string id="gar_kill_boars_1">
+    <rus>Убить кабанов</rus>
+  </string>
+  <string id="gar_kill_boars_2">
+    <rus>Поговорить с командиром заставы</rus>
+  </string>
+  <string id="gar_kill_boars_descr">
+    <rus>"Долг": "Всем приём, говорит застава "Долга" на Свалке. Из Тёмной Долины по направлению к Бару идёт волна мутантов. Всем, кто поможет отстрелять нечисть, признательность с нашей стороны гарантируем. Слово "Долга"".</rus>
+  </string>
+  <string id="gar_kill_boars_main">
+    <rus>Квест для прохода на территорию Бара</rus>
+  </string>
+  <string id="garbage_meet_stalker_1">
+    <rus>Узнать у Серого о Стрелке</rus>
+  </string>
+  <string id="graveyard_raid_text">
+    <rus>Бес: "Бандитское отродье пытается получить контроль над Свалкой. Здесь полчаса назад была драка. Троих уродов мы положили. Остальные братки отступили, но явно вот-вот вернутся с подкреплением. Нас мало, и лишний ствол не помешает. Если поможешь нам уничтожить их подкрепление, то я в долгу не останусь".</rus>
+  </string>
+  <string id="help_for_neitrals_text">
+    <rus>На кладбище машин произошла перестрелка между нейтралами и бандитами. Нейтралы отбились, но зовут на помощь.</rus>
+  </string>
+</string_table>

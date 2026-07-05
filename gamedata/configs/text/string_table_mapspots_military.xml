@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="mil_cap_hint">
+    <rus>Поговорить с командиром "Барьера"</rus>
+  </string>
+  <string id="mil_courier_hint1">
+    <rus>Проследить за стукачом</rus>
+  </string>
+  <string id="mil_courier_hint2">
+    <rus>Дождаться вызова стукачом информатора</rus>
+  </string>
+  <string id="mil_courier_hint3">
+    <rus>Убить стукача</rus>
+  </string>
+  <string id="mil_courier_hint4">
+    <rus>Убить информатора</rus>
+  </string>
+  <string id="mil_crazy_hint">
+    <rus>Взять флешку у сумасшедшего сталкера</rus>
+  </string>
+  <string id="mil_dolg_khutor">
+    <rus>Хутор "Долга"</rus>
+  </string>
+  <string id="mil_freedom_sniper">
+    <rus>Убить снайпера</rus>
+  </string>
+  <string id="mil_hunters_hint1">
+    <rus>Поговорить с Угрюмым</rus>
+  </string>
+  <string id="mil_hunters_hint2">
+    <rus>Вернуться к Скряге</rus>
+  </string>
+  <string id="mil_kill_dolg_hint">
+    <rus>Уничтожить отряд "Долга"</rus>
+  </string>
+  <string id="mil_kill_lukash_hint">
+    <rus>Убить Лукаша</rus>
+  </string>
+  <string id="mil_miser_hint">
+    <rus>Скряга</rus>
+  </string>
+  <string id="mil_report_to_max_hint">
+    <rus>Доложить Максу</rus>
+  </string>
+  <string id="mil_return_to_lukash_hint">
+    <rus>Доложить Лукашу</rus>
+  </string>
+  <string id="mil_return_to_max_hint">
+    <rus>Отдать флешку Максу</rus>
+  </string>
+  <string id="mil_rg6_hint1">
+    <rus>Найти повара на базе "Свободы"</rus>
+  </string>
+  <string id="mil_rg6_hint2">
+    <rus>Поговорить с поваром</rus>
+  </string>
+  <string id="mil_rg6_hint3">
+    <rus>Забрать РГ-6 из схрона в деревне</rus>
+  </string>
+  <string id="mil_watertower_hint">
+    <rus>Водонапорная башня</rus>
+  </string>
+</string_table>

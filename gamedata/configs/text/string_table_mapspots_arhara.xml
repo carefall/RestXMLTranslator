@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="talk_bar_gavr_osvi_hint">
+    <rus>Возможное местонахождение наёмника</rus>
+  </string>
+  <string id="first_contacts_hint">
+    <rus>Место поиска</rus>
+  </string>
+  <string id="talk_otez_pantera_task_hint">
+    <rus>Деревня новичков</rus>
+  </string>
+  <string id="anomalous_funnel_hint">
+    <rus>Аномалия</rus>
+  </string>
+  <string id="strange_detector_hint">
+    <rus>Дом с телепортом</rus>
+  </string>
+  <string id="kluk_simple_movements_hint_1">
+    <rus>КПП на бетонке</rus>
+  </string>
+  <string id="kluk_simple_movements_hint_2">
+    <rus>Третий генератор</rus>
+  </string>
+  <string id="talk_muha_new_task_hint_1">
+    <rus>Место крушения вертолёта</rus>
+  </string>
+  <string id="talk_muha_new_task_hint_2">
+    <rus>Пещера</rus>
+  </string>
+  <string id="kvest_saxar_telep_hint">
+    <rus>Место поиска</rus>
+  </string>
+  <string id="war_parley_hint">
+    <rus>Место встречи</rus>
+  </string>
+  <string id="sahar_sumka_hint_1">
+    <rus>Военный с сумкой Сахарова</rus>
+  </string>
+  <string id="sahar_sumka_hint_2">
+    <rus>Местонахождение сумки</rus>
+  </string>
+  <string id="ugrum_plaer_hint">
+    <rus>Часовой базы Свободы</rus>
+  </string>
+  <string id="obmorok_meeting_place_hint">
+    <rus>Место встречи с Обмороком</rus>
+  </string>
+
+  <string id="marsh_provodnik_hint">
+    <rus>Ориентировка на переход в Деревню</rus>
+  </string>
+  <string id="x_ray_antenna_hint">
+    <rus>Ориентировка на сигнал пси-антенны</rus>
+  </string>
+  <string id="kluk_chaes2_hint">
+    <rus>Клык должен быть где-то тут</rus>
+  </string>
+  <string id="city_starshoy_hint">
+    <rus>Деревня нейтралов</rus>
+  </string>
+  <string id="tema_likvidator_hint">
+    <rus>Дозорные сталкеры</rus>
+  </string>
+  <string id="norman_dark_hut_hint">
+    <rus>"Тёмный хутор"</rus>
+  </string>
+  <string id="sych_prizrak_hint">
+    <rus>Сыч и группа Призрака</rus>
+  </string>
+  <string id="parfum_zaton_sms_hint">
+    <rus>Место отправки СМС от Парфюмера</rus>
+  </string>
+  <string id="brodway_camp_hint">
+    <rus>лагерь Бродвея</rus>
+  </string>
+  <string id="gulden_stalker_hint">
+    <rus>Примерное местонахождение сталкера</rus>
+  </string>
+
+</string_table>

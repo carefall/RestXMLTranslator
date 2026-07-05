@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="mil_lukash_find_dinamit_hint_1">
+    <rus>Динамит был в лагере новичков</rus>
+  </string>
+  <string id="mil_lukash_find_dinamit_hint_2">
+    <rus>Перемычка</rus>
+  </string>
+  <string id="yan_scientist_find_case_hint">
+    <rus>Предполагаемое место документов</rus>
+  </string>
+  <string id="agr_krot_PDA_hint">
+    <rus>Предполагаемое логово карлика</rus>
+  </string>
+  <string id="agr_ratcatcher_name">
+    <rus>Дезертир</rus>
+  </string>
+  <string id="box_kalmyak_hint">
+    <rus>Рюкзак Калмыка</rus>
+  </string>
+  <string id="kalmyak_hint">
+    <rus>Предположительное местонахождение \nКалмыка</rus>
+  </string>
+  <string id="braad_controller_hint">
+    <rus>Предположительное местонахождение \nконтролёра</rus>
+  </string>
+  <string id="braad_monolith_hint">
+    <rus>Предполагаемое местонахождение \n"монолитовцев" №</rus>
+  </string>
+  <string id="unique_pseudogiant_hint">
+    <rus>Уникальный псевдогигант</rus>
+  </string>
+  <string id="braad_set_tunel_hint">
+    <rus>Заброшенная шахта</rus>
+  </string>
+  <string id="map_spot_guider_text">
+    <rus>Проводник</rus>
+  </string>
+  <string id="map_spot_mechanic_text">
+    <rus>Механик</rus>
+  </string>
+  <string id="map_spot_trader_text">
+    <rus>Торговец</rus>
+  </string>
+
+</string_table>

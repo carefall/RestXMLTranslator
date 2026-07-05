@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <!-- Выронил артефакт -->
+    <string id="art_drop_text_1">
+        <rus>\n%c[255,255,255,1]Вот мля...</rus>
+    </string>
+    <string id="art_drop_text_2">
+        <rus>\n%c[255,255,255,1]Выронил...</rus>
+    </string>
+    <string id="art_drop_text_3">
+        <rus>\n%c[255,255,255,1]Бьётся, сука!</rus>
+    </string>
+    <string id="art_drop_text_4">
+        <rus>\n%c[255,255,255,1]Ах, чёрт!</rus>
+    </string>
+    <string id="art_drop_text_5">
+        <rus>\n%c[255,255,255,1]Твою мать!</rus>
+    </string>
+
+    <!-- Ударило артефактом, когда ГГ без костюма -->
+    <string id="not_outf_text_1">
+        <rus>\n%c[255,255,255,1]Неплохо бы надеть костюм.</rus>
+    </string>
+    <string id="not_outf_text_2">
+        <rus>\n%c[255,255,255,1]Без костюма очень больно...</rus>
+    </string>
+    <string id="not_outf_text_3">
+        <rus>\n%c[255,255,255,1]Надень костюм, прежде чем трогать!</rus>
+    </string>
+    <string id="not_outf_text_4">
+        <rus>\n%c[255,255,255,1]Нужно надеть костюм.</rus>
+    </string>
+    <string id="not_outf_text_5">
+        <rus>\n%c[255,255,255,1]Не трогай арты без костюма!</rus>
+    </string>  
+  
+</string_table>

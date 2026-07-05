@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="st_ns_ogsr_title">
+    <rus>NS OGSR</rus>
+    <eng>NS OGSR</eng>
+  </string>
+  <string id="st_ns_ogsr_head_project">
+    <rus>Руководитель проекта, работа с локациями</rus>
+    <eng>Project lead, level design</eng>
+  </string>
+  <string id="st_ns_ogsr_d1m0n">
+    <rus>D1m0n</rus>
+    <eng>D1m0n</eng>
+  </string>
+  <string id="st_ns_ogsr_head_engine_adapt">
+    <rus>Первоначальная адаптация на ОГСР, помощь с движком</rus>
+    <eng>Initial adaptation to OGSR, engine assistance</eng>
+  </string>
+  <string id="st_ns_ogsr_krodin">
+    <rus>KRodin</rus>
+    <eng>KRodin</eng>
+  </string>
+  <string id="st_ns_ogsr_head_icons_configs">
+    <rus>Иконки, конфиги, скрипты, квесты, автор ГИДа</rus>
+    <eng>Icons, configs, scripts, quests, guide author</eng>
+  </string>
+  <string id="st_ns_ogsr_nemrude">
+    <rus>NEMRUDE</rus>
+    <eng>NEMRUDE</eng>
+  </string>
+  <string id="st_ns_ogsr_head_scripts_quests">
+    <rus>Скрипты, конфиги, квесты</rus>
+    <eng>Scripts, configs, quests</eng>
+  </string>
+  <string id="st_ns_ogsr_mole51">
+    <rus>mole51venomous</rus>
+    <eng>mole51venomous</eng>
+  </string>
+  <string id="st_ns_ogsr_head_scripts">
+    <rus>Скрипты и конфиги</rus>
+    <eng>Scripts and configs</eng>
+  </string>
+  <string id="st_ns_ogsr_matvey_klimovskiy">
+    <rus>Матвей Климовский aka LawfullEvilDev</rus>
+    <eng>Matvey Klimovskiy aka LawfullEvilDev</eng>
+  </string>
+  <string id="st_ns_ogsr_head_engine_scripts">
+    <rus>Движок, скрипты</rus>
+    <eng>Engine, scripts</eng>
+  </string>
+  <string id="st_ns_ogsr_joye">
+    <rus>joye_ramone</rus>
+    <eng>joye_ramone</eng>
+  </string>
+  <string id="st_ns_ogsr_head_npc_logic">
+    <rus>Логика НПС, скрипты, квесты</rus>
+    <eng>NPC logic, scripts, quests</eng>
+  </string>
+  <string id="st_ns_ogsr_aster">
+    <rus>Aster</rus>
+    <eng>Aster</eng>
+  </string>
+  <string id="st_ns_ogsr_head_weapons">
+    <rus>Оружейка, скрипты, квесты</rus>
+    <eng>Weapons, scripts, quests</eng>
+  </string>
+  <string id="st_ns_ogsr_laucer">
+    <rus>laucer</rus>
+    <eng>laucer</eng>
+  </string>
+  <string id="st_ns_ogsr_head_story">
+    <rus>Работа над сюжетом, логика, квесты, диалоги, новые персонажи</rus>
+    <eng>Story work, logic, quests, dialogues, new characters</eng>
+  </string>
+  <string id="st_ns_ogsr_zizon">
+    <rus>Zizon975</rus>
+    <eng>Zizon975</eng>
+  </string>
+  <string id="st_ns_ogsr_head_ui_hud">
+    <rus>Интерфейс и HUD</rus>
+    <eng>Interface and HUD</eng>
+  </string>
+  <string id="st_ns_ogsr_vitaliy">
+    <rus>Vitaliy_Mecheniy_Mecheniy</rus>
+    <eng>Vitaliy_Mecheniy_Mecheniy</eng>
+  </string>
+  <string id="st_ns_ogsr_head_icons_models">
+    <rus>Иконки, модели и текстуры</rus>
+    <eng>Icons, models and textures</eng>
+  </string>
+  <string id="st_ns_ogsr_dog19601">
+    <rus>dog19601</rus>
+    <eng>dog19601</eng>
+  </string>
+  <string id="st_ns_ogsr_head_icons">
+    <rus>Иконки и текстуры</rus>
+    <eng>Icons and textures</eng>
+  </string>
+  <string id="st_ns_ogsr_malyar">
+    <rus>Bald_Panda</rus>
+    <eng>Bald_Panda</eng>
+  </string>
+  <string id="st_ns_ogsr_head_weapons_models">
+    <rus>Оружейка, модели и анимации</rus>
+    <eng>Weapons, models and animations</eng>
+  </string>
+  <string id="st_ns_ogsr_c510new">
+    <rus>c510new (Ivan)</rus>
+    <eng>c510new (Ivan)</eng>
+  </string>
+  <string id="st_ns_ogsr_head_story_texts">
+    <rus>Правки по сюжету, конфиги, тексты</rus>
+    <eng>Story edits, configs, texts</eng>
+  </string>
+  <string id="st_ns_ogsr_alexmanleo">
+    <rus>ALEXMANLEO</rus>
+    <eng>ALEXMANLEO</eng>
+  </string>
+  <string id="st_ns_ogsr_head_texts">
+    <rus>Работа с текстами</rus>
+    <eng>Text work</eng>
+  </string>
+  <string id="st_ns_ogsr_mechanic">
+    <rus>Механик-вредитель</rus>
+    <eng>Mechanic-vreditel</eng>
+  </string>
+  <string id="st_ns_ogsr_head_sound">
+    <rus>Звук</rus>
+    <eng>Sound</eng>
+  </string>
+  <string id="st_ns_ogsr_petrov">
+    <rus>petrov0805</rus>
+    <eng>petrov0805</eng>
+  </string>
+  <string id="st_ns_ogsr_head_help">
+    <rus>Также помогали</rus>
+    <eng>Also helped</eng>
+  </string>
+  <string id="st_ns_ogsr_prxphet">
+    <rus>prxphet — скрипты, движок</rus>
+    <eng>prxphet — scripts, engine</eng>
+  </string>
+  <string id="st_ns_ogsr_dennis_chikin">
+    <rus>dennis_chikin — скрипты</rus>
+    <eng>dennis_chikin — scripts</eng>
+  </string>
+  <string id="st_ns_ogsr_danila">
+    <rus>danila — анимации и модели оружия, локации</rus>
+    <eng>danila — weapon animations and models, levels</eng>
+  </string>
+  <string id="st_ns_ogsr_theshmuga">
+    <rus>TheShmuga — текстуры и модели оружия</rus>
+    <eng>TheShmuga — weapon textures and models</eng>
+  </string>
+  <string id="st_ns_ogsr_imcrazyhoudini">
+    <rus>imcrazyhoudini — локации</rus>
+    <eng>imcrazyhoudini — levels</eng>
+  </string>
+  <string id="st_ns_ogsr_zloydyed">
+    <rus>Злой дед — скрипты, движок и шейдеры</rus>
+    <eng>"" — scripts,. engine and shaders</eng>
+  </string>
+  <string id="st_ns_ogsr_xottab">
+    <rus>Xottab_DUTY — движок</rus>
+    <eng>Xottab_DUTY — engine</eng>
+  </string>
+  <string id="st_ns_ogsr_vlagan">
+    <rus>VlaGan — консультации по движку</rus>
+    <eng>VlaGan — engine consulting</eng>
+  </string>
+  <string id="st_ns_ogsr_fed">
+    <rus>fED — адаптация CGIM, шейдеры</rus>
+    <eng>fED — CGIM adaptation, shaders</eng>
+  </string>
+  <string id="st_ns_ogsr_shadowman">
+    <rus>Shadowman — скрипты</rus>
+    <eng>Shadowman — scripts</eng>
+  </string>
+  <string id="st_ns_ogsr_serget">
+    <rus>SergeT — консультации, правки по сюжету, тестирование</rus>
+    <eng>SergeT — consulting, story edits, testing</eng>
+  </string>
+  <string id="st_ns_ogsr_bfg">
+    <rus>BFG — консультации, тестирование</rus>
+    <eng>BFG — consulting, testing</eng>
+  </string>
+  <string id="st_ns_ogsr_head_voice">
+    <rus>Озвучивание</rus>
+    <eng>Voice acting</eng>
+  </string>
+  <string id="st_ns_ogsr_voice_marked">
+    <rus>Меченый (Стрелок) — Артур Марлужоков</rus>
+    <eng>The Marked One (Strelok) — Artur Marluzhokov</eng>
+  </string>
+  <string id="st_ns_ogsr_voice_natasha">
+    <rus>Наташа — Юлия Кошелева</rus>
+    <eng>Natalia — Yulia Kosheleva</eng>
+  </string>
+  <string id="st_ns_ogsr_head_testers">
+    <rus>Тестеры и кураторы</rus>
+    <eng>Testers and curators</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_vundukot">
+    <rus>Вундукот</rus>
+    <eng>""</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_vidokas666">
+    <rus>vidokas666</rus>
+    <eng>vidokas666</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_amateur">
+    <rus>amateur</rus>
+    <eng>amateur</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_a185">
+    <rus>a185</rus>
+    <eng>a185</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_walet">
+    <rus>walet</rus>
+    <eng>walet</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_elrik">
+    <rus>elrik</rus>
+    <eng>elrik</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_pz3">
+    <rus>Pz_3</rus>
+    <eng>Pz_3</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_walonson">
+    <rus>walonson</rus>
+    <eng>walonson</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_mechanic">
+    <rus>Механик-вредитель</rus>
+    <eng>Mechanic-vreditel</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_vano">
+    <rus>Вано Сусанин</rus>
+    <eng>""</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_ictefouru">
+    <rus>IcteFourU</rus>
+    <eng>IcteFourU</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_carefall">
+    <rus>carefall</rus>
+    <eng>carefall</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_ushiza">
+    <rus>Ushiza</rus>
+    <eng>Ushiza</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_zloidima">
+    <rus>Злой Дима</rus>
+    <eng>""</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_danila">
+    <rus>danila</rus>
+    <eng>danila</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_exdemoder">
+    <rus>exDeMODER</rus>
+    <eng>exDeMODER</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_milovidniy">
+    <rus>MiлoviдNый</rus>
+    <eng>""</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_aleksandr">
+    <rus>Александр К.</rus>
+    <eng>""</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_chapayev">
+    <rus>Chapayev</rus>
+    <eng>Chapayev</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_dzhonni">
+    <rus>dzhonni0675</rus>
+    <eng>dzhonni0675</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_shurai">
+    <rus>Shurai344</rus>
+    <eng>Shurai344</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_alanwake">
+    <rus>Alan Wake</rus>
+    <eng>Alan Wake</eng>
+  </string>
+  <string id="st_ns_ogsr_tester_others">
+    <rus>и другие...</rus>
+    <eng>and others...</eng>
+  </string>
+</string_table>

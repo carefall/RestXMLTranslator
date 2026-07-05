@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="atp_for_test22">
+    <rus>АТП</rus>
+  </string>
+  <string id="peshera">
+    <rus>Пещера</rus>
+  </string>
+  <string id="puzir">
+    <rus>Забытый Лес</rus>
+  </string>
+  <string id="av_peshera">
+    <rus>Лабиринт</rus>
+  </string>
+  <string id="aver">
+    <rus>Неразведанная Земля</rus>
+  </string>
+  <string id="marsh">
+    <rus>Болота</rus>
+  </string>
+  <string id="lost_village">
+    <rus>Старая Деревня</rus>
+  </string>
+  <string id="red_forest">
+    <rus>Красный Лес</rus>
+  </string>
+  <string id="warlab">
+    <rus>Военная Лаборатория</rus>
+  </string>
+  <string id="generators">
+    <rus>Генераторы</rus>
+  </string>
+  <string id="hospital">
+    <rus>Госпиталь</rus>
+  </string>
+  <string id="limansk">
+    <rus>Лиманск</rus>
+  </string>
+  <string id="dead_city">
+    <rus>Мёртвый Город</rus>
+  </string>
+  <string id="jupiter">
+    <rus>Юпитер</rus>
+  </string>
+  <string id="zaton">
+    <rus>Затон</rus>
+  </string>
+  <string id="pripyat">
+    <rus>Восточная часть Припяти</rus>
+  </string>
+  <string id="jupiter_underground">
+    <rus>Путепровод Юпитера</rus>
+  </string>
+  <string id="labx8">
+    <rus>Лаборатория Х-8</rus>
+  </string>
+  <string id="mine">
+    <rus>Шахта</rus>
+  </string>
+  <string id="la15_darkscape">
+    <rus>Лощина</rus>
+  </string>
+  <string id="l01_escape">
+    <rus>Кордон</rus>
+  </string>
+  <string id="l02_garbage">
+    <rus>Свалка</rus>
+  </string>
+  <string id="l03_agroprom">
+    <rus>Агропром</rus>
+  </string>
+  <string id="l04_darkvalley">
+    <rus>Тёмная Долина</rus>
+  </string>
+  <string id="l05_bar">
+    <rus>Бар</rus>
+  </string>
+  <string id="l06_rostok">
+    <rus>Дикая Территория</rus>
+  </string>
+  <string id="l07_military">
+    <rus>Армейские Склады</rus>
+  </string>
+  <string id="l08_yantar">
+    <rus>Янтарь</rus>
+  </string>
+  <string id="l10_radar">
+    <rus>Радар</rus>
+  </string>
+  <string id="l11_pripyat">
+    <rus>Припять</rus>
+  </string>
+  <string id="l12_stancia">
+    <rus>ЧАЭС-1</rus>
+  </string>
+  <string id="l12_stancia_2">
+    <rus>ЧАЭС-2</rus>
+  </string>
+
+  <string id="l03u_agr_underground">
+    <rus>Подземелье НИИ "Агропром"</rus>
+  </string>
+  <string id="l04u_labx18">
+    <rus>Лаборатория X-18</rus>
+  </string>
+  <string id="l08u_brainlab">
+    <rus>Лаборатория X-16</rus>
+  </string>
+  <string id="l10u_bunker">
+    <rus>Лаборатория X-10</rus>
+  </string>
+  <string id="l12u_sarcofag">
+    <rus>Саркофаг</rus>
+  </string>
+  <string id="l12u_control_monolith">
+    <rus>Контроль Монолита</rus>
+  </string>
+</string_table>

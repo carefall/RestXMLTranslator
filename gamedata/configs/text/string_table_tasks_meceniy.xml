@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="teleporter_name">
+    <rus>Телепортёр</rus>
+  </string>
+  <string id="teleporter_name_1">
+    <rus>Найти УРТ и принести Кресту</rus>
+  </string>
+  <string id="teleporter_name_2">
+    <rus>Найти телепортёр</rus>
+  </string>
+  <string id="teleporter_name_3">
+    <rus>Принести телепортёр Кресту</rus>
+  </string>
+  <string id="qeast_b_name">
+    <rus>"Аномальные бизоны"</rus>
+  </string>
+  <string id="qeast_b_name_1">
+    <rus>Найти 6 "Аномальных Бизонов" для Креста</rus>
+  </string>
+  <string id="qeast_b_name_2">
+    <rus>Найти пушки</rus>
+  </string>
+  <string id="qeast_b_name_3">
+    <rus>Принести пушки Кресту</rus>
+  </string>
+  <string id="qeast_q_1_name">
+    <rus>Крестовый поход</rus>
+  </string>
+  <string id="qeast_q_1_name_1">
+    <rus>Найти 15 артов для Креста</rus>
+  </string>
+  <string id="qeast_q_1_name_2">
+    <rus>Найти 15 артов</rus>
+  </string>
+  <string id="qeast_q_1_name_3">
+    <rus>Принести 15 артов Кресту</rus>
+  </string>
+  <string id="doc_tvar_name">
+    <rus>Каждой твари по части</rus>
+  </string>
+  <string id="doc_tvar_name_1">
+    <rus>Найти "каждой твари по части"</rus>
+  </string>
+  <string id="doc_tvar_name_2">
+    <rus>Принести "каждой твари по части" Акиму</rus>
+  </string>
+  <string id="doc_4_name">
+    <rus>Часть документов №4</rus>
+  </string>
+  <string id="doc_4_name_1">
+    <rus>Найти документы №4, 4 костюма и ПДА</rus>
+  </string>
+  <string id="doc_4_name_2">
+    <rus>Найти старые документы №4, 4 костюма и ПДА</rus>
+  </string>
+  <string id="doc_4_name_3">
+    <rus>Принести старые документы №4, 4 костюма и ПДА Акиму</rus>
+  </string>
+  <string id="doc_3_name">
+    <rus>Часть документов №3</rus>
+  </string>
+  <string id="doc_3_name_1">
+    <rus>Найти старые документы №3 для Акима</rus>
+  </string>
+  <string id="doc_3_name_2">
+    <rus>Найти старые документы №3</rus>
+  </string>
+  <string id="doc_3_name_3">
+    <rus>Принести старые документы №3 Акиму</rus>
+  </string>
+  <string id="doc_2_name">
+    <rus>Часть документов №2</rus>
+  </string>
+  <string id="doc_2_name_1">
+    <rus>Найти старые документы №2 для Акима</rus>
+  </string>
+  <string id="doc_2_name_2">
+    <rus>Найти старые документы №2</rus>
+  </string>
+  <string id="doc_2_name_3">
+    <rus>Принести старые документы №2 Акиму</rus>
+  </string>
+  <string id="doc_name">
+    <rus>Часть документов №1</rus>
+  </string>
+  <string id="doc_name_1">
+    <rus>Найти старые документы для Акима</rus>
+  </string>
+  <string id="doc_name_2">
+    <rus>Найти старые документы</rus>
+  </string>
+  <string id="doc_name_3">
+    <rus>Принести старые документы Акиму</rus>
+  </string>
+  <string id="hand_zombie_name">
+    <rus>Ручки шаловливые</rus>
+  </string>
+  <string id="hand_zombie_name_1">
+    <rus>Принести 10 рук зомби Акиму</rus>
+  </string>
+  <string id="hand_zombie_name_2">
+    <rus>Найти 10 рук зомби</rus>
+  </string>
+
+</string_table>

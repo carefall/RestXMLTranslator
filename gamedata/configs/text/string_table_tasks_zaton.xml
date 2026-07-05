@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="zat_shturm_name">
+    <rus>Последний бой</rus>
+  </string>
+  <string id="zat_shturm_name_1">
+    <rus>Покончить с кланом "Последний день"</rus>
+  </string>
+  <string id="zat_shturm_name_2">
+    <rus>Пробиться к дверям лаборатории</rus>
+  </string>
+  <string id="zat_shturm_name_3">
+    <rus>Уничтожить активатор порталов</rus>
+  </string>
+  <string id="zat_kluk_name">
+    <rus>Мафия бессмертна</rus>
+  </string>
+  <string id="zat_kluk_name_1">
+    <rus>Встретиться с Клыком на заправке</rus>
+  </string>
+  <string id="zat_kluk_name_2">
+    <rus>Встретиться с Клыком</rus>
+  </string>
+  <string id="zat_bland_name">
+    <rus>Земля круглая</rus>
+  </string>
+  <string id="zat_bland_name_1">
+    <rus>Встретиться с Блендом</rus>
+  </string>
+  <string id="zat_remont_name">
+    <rus>Замаслить ремонтника Сержа</rus>
+  </string>
+  <string id="zat_remont_name_1">
+    <rus>Найти масло ремонтнику Сержу</rus>
+  </string>
+  <string id="zat_remont_name_2">
+    <rus>Найти масло</rus>
+  </string>
+  <string id="zat_remont_name_3">
+    <rus>Принести масло Сержу</rus>
+  </string>
+  <string id="amerika_find_name">
+    <rus>Выжившие военные</rus>
+  </string>
+  <string id="amerika_find_name_1">
+    <rus>Найти выживших военных</rus>
+  </string>
+  <string id="baza_zlobnuy_name">
+    <rus>Добро с кулаками</rus>
+  </string>
+  <string id="baza_zlobnuy_name_1">
+    <rus>Встретиться со Злобным</rus>
+  </string>
+  <string id="elza_vstrecha2_name">
+    <rus>Разговор с Эльзой</rus>
+  </string>
+  <string id="elza_vstrecha2_name_1">
+    <rus>Поговорить с Эльзой</rus>
+  </string>
+  <string id="elza_vstrecha2_name_2">
+    <rus>Поговорить с Эльзой Сахаровой</rus>
+  </string>
+  <string id="mg_kod_name">
+    <rus>Код железного леса</rus>
+  </string>
+  <string id="mg_kod_name_1">
+    <rus>Найти код</rus>
+  </string>
+  <string id="mg_kod_name_2">
+    <rus>Найти код в штабе МГ</rus>
+  </string>
+  <string id="mg_kod_name_3">
+    <rus>Поговорить с Эльзой</rus>
+  </string>
+  <string id="mg_kod_name_4">
+    <rus>Попробовать активировать пульт</rus>
+  </string>
+  <string id="iskra_meet_name">
+    <rus>Искромётное освобождение</rus>
+  </string>
+  <string id="iskra_meet_name_1">
+    <rus>Освободить Искру</rus>
+  </string>
+  <string id="iskra_meet_name_2">
+    <rus>Следовать за Гульденом на базу "Последнего дня"</rus>
+  </string>
+  <string id="iskra_meet_name_3">
+    <rus>Прикрыть отход группы</rus>
+  </string>
+  <string id="iskra_meet_name_4">
+    <rus>Добраться до пещеры с Берни</rus>
+  </string>
+  <string id="iskra_meet_name_5">
+    <rus>Поговорить с Берни</rus>
+  </string>
+  <string id="iskra_meet_name_6">
+    <rus>Поговорить с Гульденом</rus>
+  </string>
+  <string id="iskra_meet_name_7">
+    <rus>Добраться до "Изумрудного"</rus>
+  </string>
+  <string id="iskra_meet_name_8">
+    <rus>Поговорить с Искрой</rus>
+  </string>
+  <string id="gulden_naiti_name">
+    <rus>Диалог с Гульденом</rus>
+  </string>
+  <string id="gulden_naiti_name_1">
+    <rus>Найти Гульдена</rus>
+  </string>
+  <string id="gulden_naiti_name_2">
+    <rus>Поговорить с Гульденом о базе</rus>
+  </string>
+  <string id="berny_free_name">
+    <rus>Под лежачий камень</rus>
+  </string>
+  <string id="berny_free_name_1">
+    <rus>Освободить пленника из-под завала</rus>
+  </string>
+  <string id="berny_free_name_2">
+    <rus>Поговорить с Берни</rus>
+  </string>
+  <string id="garbage_factory_name">
+    <rus>Очистные сооружения</rus>
+  </string>
+  <string id="garbage_factory_name_1">
+    <rus>Исследовать мусорный завод</rus>
+  </string>
+  <string id="bar_super_havchik_name">
+    <rus>Бар на Скадовске</rus>
+  </string>
+  <string id="bar_super_havchik_name_1">
+    <rus>Зайти в бар</rus>
+  </string>
+  <string id="broadway_meet_name">
+    <rus>Летающий остров</rus>
+  </string>
+  <string id="broadway_meet_name_1">
+    <rus>"Летающий остров"</rus>
+  </string>
+  <string id="broadway_meet_name_2">
+    <rus>Поговорить с Дедом на Скадовске</rus>
+  </string>
+  <string id="broadway_meet_name_3">
+    <rus>Найти Бродвея</rus>
+  </string>
+  <string id="broadway_meet_name_4">
+    <rus>Получить фото с упавшего вертолёта</rus>
+  </string>
+  <string id="broadway_meet_name_5">
+    <rus>Получить фото с вертолёта разведчика</rus>
+  </string>
+  <string id="skarabey_naiti_name">
+    <rus>Охотничий лагерь</rus>
+  </string>
+  <string id="skarabey_naiti_name_1">
+    <rus>Встретиться с охотниками</rus>
+  </string>
+  <string id="skarabey_naiti_name_2">
+    <rus>Найти охотника Скарабея и поговорить с ним</rus>
+  </string>
+  <string id="sosych_say_name">
+    <rus>Девиантное поведение</rus>
+  </string>
+  <string id="sosych_say_name_1">
+    <rus>Устранить кровососа</rus>
+  </string>
+  <string id="sosych_say_name_2">
+    <rus>Рассказать о результате Охотнику</rus>
+  </string>
+  <string id="planer_name">
+    <rus>Воздушная тревога</rus>
+  </string>
+  <string id="planer_name_1">
+    <rus>Найти место падения</rus>
+  </string>
+  <string id="planer_name_2">
+    <rus>Сбить беспилотник</rus>
+  </string>
+  <string id="planer_name_3">
+    <rus>Найти информацию с беспилотника</rus>
+  </string>
+  <string id="planer_name_4">
+    <rus>Вернуться к Берни</rus>
+  </string>
+  <string id="bandbarmen_tri_name">
+    <rus>Бинокль в помощь</rus>
+  </string>
+  <string id="bandbarmen_tri_name_1">
+    <rus>Обнаружить и выследить воришку</rus>
+  </string>
+  <string id="bandbarmen_tri_name_2">
+    <rus>Занять позицию на мостике</rus>
+  </string>
+  <string id="bandbarmen_tri_name_3">
+    <rus>Расколоть ворюгу</rus>
+  </string>
+  <string id="bandbarmen_tri_name_4">
+    <rus>Рассказать Карагёзу о слежке за вором</rus>
+  </string>
+  <string id="sos_say_name">
+    <rus>Погоня за мышью</rus>
+  </string>
+  <string id="sos_say_name_1">
+    <rus>Найти хозяина мыши</rus>
+  </string>
+  <string id="sos_say_name_2">
+    <rus>Сообщить о результате Охотнику</rus>
+  </string>
+  <string id="oboity_saharovih_name">
+    <rus>Поработать почтальоном</rus>
+  </string>
+  <string id="oboity_saharovih_name_1">
+    <rus>Передать новости Сахарову</rus>
+  </string>
+  <string id="oboity_saharovih_name_2">
+    <rus>Передать Сахарову весточку от жены</rus>
+  </string>
+  <string id="podst_bandit_name">
+    <rus>Фатальная разведка</rus>
+  </string>
+  <string id="podst_bandit_name_1">
+    <rus>Навредить бандитам</rus>
+  </string>
+  <string id="staraya_posudina_name">
+    <rus>Стрелка на барже</rus>
+  </string>
+  <string id="staraya_posudina_name_1">
+    <rus>Поговорить с главарём бандитов</rus>
+  </string>
+  <string id="obsled_barza_zaton_name">
+    <rus>Старая баржа</rus>
+  </string>
+  <string id="obsled_barza_zaton_name_1">
+    <rus>Проверить баржу</rus>
+  </string>
+  <string id="obsled_barza_zaton_name_2">
+    <rus>Поговорить с Карагёзом</rus>
+  </string>
+  <string id="obsled_barza_zaton_name_3">
+    <rus>Поговорить с провожатым</rus>
+  </string>
+  <string id="obsled_barza_zaton_name_4">
+    <rus>Посмотреть, что творится на барже</rus>
+  </string>
+  <string id="obsled_barza_zaton_name_5">
+    <rus>Уничтожить летучих мышей</rus>
+  </string>
+  <string id="sosolov_pribor_name">
+    <rus>Приборчик для кровососолова</rus>
+  </string>
+  <string id="sosolov_pribor_name_1">
+    <rus>Найти приборчик с датчиком</rus>
+  </string>
+  <string id="sosolov_pribor_name_2">
+    <rus>Исследовать упавший вертолёт</rus>
+  </string>
+  <string id="sosolov_pribor_name_3">
+    <rus>Вернуть прибор Охотнику на кровососов</rus>
+  </string>
+  <string id="sosolov_naiti_name">
+    <rus>Странный Охотник</rus>
+  </string>
+  <string id="sosolov_naiti_name_1">
+    <rus>Найти странного Охотника</rus>
+  </string>
+  <string id="antenna_sbor_name">
+    <rus>Запчасти для антенны</rus>
+  </string>
+  <string id="antenna_sbor_name_1">
+    <rus>Узнать о запчастях для антенны</rus>
+  </string>
+  <string id="antenna_sbor_name_2">
+    <rus>Поговорить с главарём бандитов на барже</rus>
+  </string>
+  <string id="antenna_sbor_name_3">
+    <rus>Найти нужные для сбора элементы</rus>
+  </string>
+  <string id="antenna_sbor_name_4">
+    <rus>Принести кондёры и транзисторы Киту</rus>
+  </string>
+  <string id="antenna_sbor_name_5">
+    <rus>Поговорить с Бородой</rus>
+  </string>
+  <string id="idti_k_borode_name">
+    <rus>Бородатый хозяин</rus>
+  </string>
+  <string id="idti_k_borode_name_1">
+    <rus>Переговорить с Бородой</rus>
+  </string>
+
+</string_table>

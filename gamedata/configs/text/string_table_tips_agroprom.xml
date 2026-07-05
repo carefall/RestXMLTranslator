@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="tips_agr_krot_sos">
+    <rus>Мужики, все кто меня слышат, помогите! Военные прижали нас на фабрике.</rus>
+  </string>
+  <string id="tips_agr_krot_sos1">
+    <rus>Легавые зажали меня во дворе. Помогайте, братцы!</rus>
+  </string>
+  <string id="tips_agr_krot_sos2">
+    <rus>Всех моих уже положили!</rus>
+  </string>
+  <string id="tips_agr_stalker_help_1">
+    <rus>...</rus>
+  </string>
+  <string id="tips_agr_stalker_help_2">
+    <rus>...</rus>
+  </string>
+  <string id="tips_agr_trader_documents">
+    <rus>Меченый, давай ноги в руки и смывайся, военные не дадут тебе просто так уйти. Я сообщил о тебе Бармену — он должен договориться с "долговцами", чтобы тебя пропустили.</rus>
+  </string>
+  <string id="tips_captain_name">
+    <rus>Капитан Максименко</rus>
+  </string>
+  <string id="ghost_tips">
+    <rus>Стрелок, у меня хреновые новости. Клык погиб. Тебя не застал. Зря ты один к центру пошёл. Впрочем, дело хозяйское. У кого и где тебя искать знаю. Призрак.</rus>
+  </string>
+</string_table>

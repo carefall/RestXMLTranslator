@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="gar_angar">
+    <rus>Заброшенный ангар</rus>
+  </string>
+  <string id="gar_bandit_agr">
+    <rus>Лагерь бандитов на выходе с Агропрома</rus>
+  </string>
+  <string id="gar_bandit_post">
+    <rus>Укрепрайон бандитов по дороге на Агропром</rus>
+  </string>
+  <string id="gar_bandits_leader">
+    <rus>Рейд бандитов, возглавляемый паханом</rus>
+  </string>
+  <string id="gar_boars_nest">
+    <rus>Скопление кабанов</rus>
+  </string>
+  <string id="gar_car_graveyard">
+    <rus>Кладбище брошенной техники</rus>
+  </string>
+  <string id="gar_dogs_in_forest">
+    <rus>Лес, в котором много собак</rus>
+  </string>
+  <string id="gar_dolg_blokpost">
+    <rus>Блокпост "Долга" по дороге к Бару</rus>
+  </string>
+  <string id="gar_hellcar">
+    <rus>Группа сталкеров нейтралов зовёт на помощь</rus>
+  </string>
+  <string id="gar_newbie">
+    <rus>Новичок, испуганный и уставший</rus>
+  </string>
+  <string id="gar_secret1">
+    <rus>Тайник, оставленный новичком</rus>
+  </string>
+  <string id="gar_seriy">
+    <rus>Группа Серого</rus>
+  </string>
+  <string id="gar_swamp">
+    <rus>Гримпенская трясина</rus>
+  </string>
+  <string id="gar_trash1">
+    <rus>Кучи мусора с аномалиями и артефактами</rus>
+  </string>
+  <string id="gar_tunnel">
+    <rus>Железнодорожный тоннель</rus>
+  </string>
+  <string id="gar_wounded_help">
+    <rus>Сигнал СОС; очевидно, раненый сталкер</rus>
+  </string>
+</string_table>

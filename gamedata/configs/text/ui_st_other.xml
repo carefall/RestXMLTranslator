@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="id_mp_money">
+    <rus>Деньги</rus>
+    <eng>Money</eng>
+  </string>
+  <string id="mm_mp_pda_hunt">
+    <rus>Бонус за КПК</rus>
+    <eng>PDA bonus</eng>
+  </string>
+  <string id="st_drink">
+    <rus>выпить</rus>
+    <eng>drink</eng>
+  </string>
+  <string id="st_mp_direct_ip">
+    <rus>Прямой IP</rus>
+    <eng>Direct IP</eng>
+  </string>
+  <string id="ui_mm_default">
+    <rus>По умолчанию</rus>
+    <eng>Default</eng>
+  </string>
+  <string id="ui_mm_ingame">
+    <rus>Визуальное представление</rus>
+    <eng>Check ingame</eng>
+  </string>
+  <string id="ui_pda_details">
+    <rus># /детали</rus>
+    <eng># /details</eng>
+  </string>
+  <string id="ui_st_btn_cancel">
+    <rus>Отмена</rus>
+    <eng>Cancel</eng>
+  </string>
+  <string id="ui_st_btn_no">
+    <rus>Нет</rus>
+    <eng>No</eng>
+  </string>
+  <string id="ui_st_btn_ok">
+    <rus>ОК</rus>
+    <eng>OK</eng>
+  </string>
+  <string id="ui_st_btn_yes">
+    <rus>Да</rus>
+    <eng>Yes</eng>
+  </string>
+  <string id="ui_st_cant_run_r2">
+    <rus>Вы не можете запустить второй тип освещения на Вашем компьютере</rus>
+    <eng>You can't run Render 2 on your PC</eng>
+  </string>
+  <string id="ui_st_conn_invalid_host">
+    <rus>Ошибка соединения: неверный хост</rus>
+    <eng>Connection error: Invalid host</eng>
+  </string>
+  <string id="ui_st_conn_invalid_pass">
+    <rus>Ошибка соединения: неверный пароль</rus>
+    <eng>Connection error: Invalid password</eng>
+  </string>
+  <string id="ui_st_conn_rejected_server">
+    <rus>Ошибка соединения: соединение прервано сервером</rus>
+    <eng>Connection error: connection rejected by server</eng>
+  </string>
+  <string id="ui_st_conn_sess_full">
+    <rus>Ошибка соединения: сервер заполнен</rus>
+    <eng>Connection error: session is full</eng>
+  </string>
+  <string id="ui_st_days">
+    <rus>дн.</rus>
+    <eng>Days</eng>
+  </string>
+  <string id="ui_st_error">
+    <rus>Ошибка</rus>
+    <eng>Error</eng>
+  </string>
+  <string id="ui_st_file_exist_owerwrite_q">
+    <rus>Файл с таким именем уже существует. Перезаписать?</rus>
+    <eng>The file with this name already exists. Do you want to overwrite it?</eng>
+  </string>
+  <string id="ui_st_file_name_is_empty">
+    <rus>Имя файла пустое</rus>
+    <eng>The file name is empty</eng>
+  </string>
+  <string id="ui_st_hours">
+    <rus>час.</rus>
+    <eng>hr.</eng>
+  </string>
+  <string id="ui_st_leave">
+    <rus>Уйти</rus>
+    <eng>Leave</eng>
+  </string>
+  <string id="ui_st_mins">
+    <rus>мин.</rus>
+    <eng>mins</eng>
+  </string>
+  <string id="ui_st_months">
+    <rus>мес.</rus>
+    <eng>months</eng>
+  </string>
+  <string id="ui_st_params">
+    <rus>Параметры защиты</rus>
+    <eng>Parameters</eng>
+  </string>
+  <string id="ui_st_secs">
+    <rus>сек.</rus>
+    <eng>sec.</eng>
+  </string>
+  <string id="ui_st_select_one_map">
+    <rus>Пожалуйста, выберите хотя бы одну карту</rus>
+    <eng>Please select at least one map</eng>
+  </string>
+  <string id="ui_st_take_all">
+    <rus>Взять всё</rus>
+    <eng>Take all</eng>
+  </string>
+  <string id="ui_st_take_container">
+    <rus>Поднять рюкзак</rus>
+    <eng>Pickup backpack</eng>
+  </string>
+  <string id="ui_st_description">
+    <rus>Описание</rus>
+    <eng>Description</eng>
+  </string>
+  <string id="ui_st_time_remains">
+    <rus>Осталось</rus>
+    <eng>Remaining</eng>
+  </string>
+  <string id="ui_st_trade">
+    <rus>Торговать</rus>
+    <eng>Trade</eng>
+  </string>
+  <string id="ui_st_voting_disabled">
+    <rus>Голосование отключено</rus>
+    <eng>Voting is disabled</eng>
+  </string>
+  <string id="ui_st_want_to_leave_game_q">
+    <rus>Вы действительно хотите покинуть игру?</rus>
+    <eng>Do you really want to leave the game?</eng>
+  </string>
+  <string id="ui_st_your_items">
+    <rus>Вещи Меченого</rus>
+    <eng>Your items</eng>
+  </string>
+  <string id="st_level">
+    <rus>Уровень</rus>
+    <eng>Level</eng>
+  </string>
+  <string id="st_opening_stream">
+    <rus>Открытие потока</rus>
+    <eng>Opening stream</eng>
+  </string>
+  <string id="st_loading_cform">
+    <rus>Загрузка формы объектов</rus>
+    <eng>Loading CFORM</eng>
+  </string>
+  <string id="st_prefetching_objects">
+    <rus>Кэширование объектов</rus>
+    <eng>Prefetching objects</eng>
+  </string>
+  <string id="st_creating_new_game">
+    <rus>Создание новой игры</rus>
+    <eng>Creating new game</eng>
+  </string>
+  <string id="st_loading_alife_simulator">
+    <rus>Загрузка симуляции жизни</rus>
+    <eng>SERVER: Loading alife simulator</eng>
+  </string>
+  <string id="st_server_connecting">
+    <rus>Соединяемся</rus>
+    <eng>SERVER: Connecting</eng>
+  </string>
+  <string id="st_loading_saved_game">
+    <rus>Загрузка игры</rus>
+    <eng>Loading saved game</eng>
+  </string>
+  <string id="st_validating_cdkey">
+    <rus>Проверка ключа</rus>
+    <eng>Validating CD Key</eng>
+  </string>
+  <string id="st_loading_ai_objects">
+    <rus>Загрузка ИИ объектов</rus>
+    <eng>Loading AI objects</eng>
+  </string>
+  <string id="st_client_connecting_to">
+    <rus>Соединение с</rus>
+    <eng>CLIENT: Connecting to</eng>
+  </string>
+  <string id="st_client_spawning">
+    <rus>Создание</rus>
+    <eng>CLIENT: Spawning</eng>
+  </string>
+  <string id="st_loading_textures">
+    <rus>Загрузка текстур</rus>
+    <eng>Loading textures</eng>
+  </string>
+  <string id="st_client_synchronising">
+    <rus>Синхронизация</rus>
+    <eng>CLIENT: Synchronizing</eng>
+  </string>
+  <string id="st_server_starting">
+    <rus>Старт</rus>
+    <eng>SERVER: Starting</eng>
+  </string>
+  <string id="st_loading_shaders">
+    <rus>Загрузка шейдеров</rus>
+    <eng>Loading shaders</eng>
+  </string>
+  <string id="st_loading_geometry">
+    <rus>Загрузка геометрии</rus>
+    <eng>Loading geometry</eng>
+  </string>
+  <string id="st_loading_spatial_db">
+    <rus>Загрузка базы пространств</rus>
+    <eng>Loading spatial-DB</eng>
+  </string>
+  <string id="st_loading_details">
+    <rus>Загрузка детальных объектов</rus>
+    <eng>Loading details</eng>
+  </string>
+  <string id="st_loading_sectors_portals">
+    <rus>Загрузка секторов и порталов</rus>
+    <eng>Loading sectors and portals</eng>
+  </string>
+  <string id="ui_st_conn_version_differs">
+    <rus>Ошибка соединения: Отличаются версии</rus>
+    <eng>Connection error: Different version.</eng>
+  </string>
+  <string id="ui_st_conn_cdkey_invalid">
+    <rus>Ошибка соединения: Неверный CD-Key</rus>
+    <eng>Connection error: Invalid CD-Key.</eng>
+  </string>
+  <string id="ui_st_conn_cdkey_in_use">
+    <rus>Ошибка соединения: Такой CD-Key уже используется</rus>
+    <eng>Connection error: CD-Key already in use.</eng>
+  </string>
+  <string id="ui_st_conn_cdkey_disabled">
+    <rus>Ошибка соединения: Ваш CD-Key заблокирован; свяжитесь со службой поддержки</rus>
+    <eng>Connection error: Your CD-Key is disabled. Contact customer's service.</eng>
+  </string>
+  <string id="ui_st_conn_new_patch">
+    <rus>Доступен новый патч. \nВерсия: %s\n %s\nХотите загрузить его сейчас?</rus>
+    <eng>New patch is available.\n Version: %s\n Location: %s\nDo you want to download it now?</eng>
+  </string>
+  <string id="ui_st_conn_no_new_patch">
+    <rus>Нет новых патчей</rus>
+    <eng>No new patches available now</eng>
+  </string>
+  <string id="ui_mm_delete_existing_file_q">
+    <rus>Вы действительно хотите удалить файл?</rus>
+    <eng>You really want to delete file?</eng>
+  </string>
+  <string id="st_game_paused">
+    <rus>Пауза</rus>
+    <eng>Pause</eng>
+  </string>
+  <string id="st_bolt">
+    <rus>Болт</rus>
+    <eng>Bolt</eng>
+  </string>
+  <string id="enc_st_bolt">
+    <rus>Обычный ржавый болт, который часто используют новички и опытные сталкеры, чтобы проложить путь через поля аномалий.</rus>
+    <eng>An ordinary rusty bolt commonly used by both rookie and veteran stalkers to probe a safe path through anomaly fields.</eng>
+  </string>
+  <string id="spec_bolt">
+    <rus>Аномальный болт</rus>
+    <eng>Anomalous Bolt</eng>
+  </string>
+  <string id="enc_spec_bolt">
+    <rus>Ржавый болт, который, проложив путь через поля аномалий, приобрёл непонятные аномальные свойства.</rus>
+    <eng>A rusty bolt that has acquired strange anomalous properties after repeatedly passing through anomaly fields.</eng>
+  </string>
+  <string id="st_items">
+    <rus>Предметы</rus>
+    <eng>Items</eng>
+  </string>
+  <string id="st_video">
+    <rus>Видео</rus>
+    <eng>Video</eng>
+  </string>
+  <string id="st_audio">
+    <rus>Звук</rus>
+    <eng>Audio</eng>
+  </string>
+  <string id="st_game">
+    <rus>Игра</rus>
+    <eng>Game</eng>
+  </string>
+  <string id="st_controll">
+    <rus>Управление</rus>
+    <eng>Controls</eng>
+  </string>
+  <string id="ui_st_connecting_to_masterserver">
+    <rus>Присоединение к мастер-серверу</rus>
+    <eng>Connecting to master server</eng>
+  </string>
+  <string id="mp_only_one_voting">
+    <rus>Разрешено только одно активное голосование</rus>
+    <eng>Only one vote can be active at a time.</eng>
+  </string>
+  <string id="ui_st_patch_download_success">
+    <rus>Патч успешно скачан. Установить?</rus>
+    <eng>Patch downloaded successfully. Install now?</eng>
+  </string>
+  <string id="ui_st_patch_download_error">
+    <rus>Невозможно скачать патч.</rus>
+    <eng>Unable to download the patch.</eng>
+  </string>
+  <string id="ui_st_load_game_confirm">
+    <rus>Загрузка игры приведёт к потере несохранённых данных. Желаете продолжить?</rus>
+    <eng>Loading a saved game will discard unsaved progress. Continue?</eng>
+  </string>
+  <string id="ui_st_invalid_saved_game">
+    <rus>Не совпадает версия сохранённой игры, или сохранённая игра испорчена.</rus>
+    <eng>The save game version is incompatible or the save is corrupted.</eng>
+  </string>
+  <string id="ui_st_invalid_death_stat_down_up">
+    <rus>Количество смертей на повышение сложности не может быть больше или равно количеству смертей на понижение сложности.</rus>
+    <eng>The number of deaths required to increase difficulty cannot be greater than or equal to the number required to decrease it.</eng>
+  </string>
+  <string id="ui_st_invalid_blow_time_basis">
+    <rus>Время между выбросами вне допустимого диапазона</rus>
+    <eng>Emission interval is outside the allowed range.</eng>
+  </string>
+  <string id="st_pda_change_spot_hint">
+    <rus>Изменить текст метки</rus>
+    <eng>Edit marker text</eng>
+  </string>
+  <string id="st_pda_delete_spot">
+    <rus>Удалить метку</rus>
+    <eng>Delete marker</eng>
+  </string>
+  <string id="st_move">
+    <rus>перенести</rus>
+    <eng>move</eng>
+  </string>
+  <string id="st_move_all">
+    <rus>перенести все</rus>
+    <eng>move all</eng>
+  </string>
+  <string id="st_move_to_slot_0">
+    <rus>переместить в ножевой слот</rus>
+    <eng>move to knife slot</eng>
+  </string>
+  <string id="st_move_to_slot_1">
+    <rus>переместить в пистолетный слот</rus>
+    <eng>move to pistol slot</eng>
+  </string>
+  <string id="st_move_to_slot_2">
+    <rus>переместить в большой оружейный слот</rus>
+    <eng>move to primary weapon slot</eng>
+  </string>
+  <string id="st_move_to_slot_13">
+    <rus>переместить в средний оружейный слот</rus>
+    <eng>move to secondary weapon slot</eng>
+  </string>
+  <string id="st_move_to_slot_10">
+    <rus>переместить в первый слот детекторов</rus>
+    <eng>move to first detector slot</eng>
+  </string>
+  <string id="st_move_to_slot_11">
+    <rus>переместить во второй слот детекторов</rus>
+    <eng>move to second detector slot</eng>
+  </string>
+  <string id="st_move_to_slot_12">
+    <rus>переместить в третий слот детекторов</rus>
+    <eng>move to third detector slot</eng>
+  </string>
+  <string id="st_attach_addon_to_wpn_in_slot_1">
+    <rus>прикрепить %s к %s в первом слоте</rus>
+    <eng>attach %s to %s in the first slot</eng>
+  </string>
+  <string id="st_attach_addon_to_wpn_in_slot_2">
+    <rus>прикрепить %s к %s в третьем слоте</rus>
+    <eng>attach %s to %s in the third slot</eng>
+  </string>
+  <string id="st_attach_addon_to_wpn_in_slot_13">
+    <rus>прикрепить %s к %s во втором слоте</rus>
+    <eng>attach %s to %s in the second slot</eng>
+  </string>
+  <string id="st_press_any_key">
+    <rus>Нажмите любую клавишу для перехода к игре</rus>
+    <eng>Press any key to continue</eng>
+  </string>
+  <string id="ui_st_money_descr">
+    <rus>RU</rus>
+    <eng>RU</eng>
+  </string>
+  <string id="ui_firemod_auto_desc">
+    <rus>A</rus>
+    <eng>A</eng>
+  </string>
+  <string id="ui_firemod_1_desc">
+    <rus>1</rus>
+    <eng>1</eng>
+  </string>
+  <string id="ui_firemod_2_desc">
+    <rus>2</rus>
+    <eng>2</eng>
+  </string>
+  <string id="ui_firemod_3_desc">
+    <rus>3</rus>
+    <eng>3</eng>
+  </string>
+  <string id="st_rubles">
+    <rus>рублей</rus>
+    <eng>rubles</eng>
+  </string>
+  <string id="st_guider_escape">
+    <rus>На Кордон. "Деревня новичков".</rus>
+    <eng>To Cordon. "Rookie Village".</eng>
+  </string>
+  <string id="st_guider_garbage">
+    <rus>На Свалку. Депо.</rus>
+    <eng>To Garbage. Depot.</eng>
+  </string>
+  <string id="st_guider_agroprom">
+    <rus>На Агропром. Территория НИИ.</rus>
+    <eng>To Agroprom. Research Institute.</eng>
+  </string>
+  <string id="st_guider_darkvalley">
+    <rus>В Тёмную Долину. Остановка рядом с фабрикой.</rus>
+    <eng>To Dark Valley. Bus stop near the factory.</eng>
+  </string>
+  <string id="st_guider_bar">
+    <rus>На территорию Бара.</rus>
+    <eng>To the Bar.</eng>
+  </string>
+  <string id="st_guider_yantar">
+    <rus>На Янтарь. Бункер учёных.</rus>
+    <eng>To Yantar. Scientists' bunker.</eng>
+  </string>
+  <string id="st_guider_military">
+    <rus>На Армейские Склады. База "Свободы".</rus>
+    <eng>To Army Warehouses. Freedom base.</eng>
+  </string>
+  <string id="st_guider_l11_pripyat">
+    <rus>В Припять. ДК "Энергетик".</rus>
+    <eng>To Pripyat. Energetik Palace of Culture.</eng>
+  </string>
+  <string id="st_guider_atp">
+    <rus>На АТП. Лагерь сталкеров.</rus>
+    <eng>To the Motor Depot. Stalker camp.</eng>
+  </string>
+  <string id="st_guider_puzir">
+    <rus>В Забытый Лес. Стоянка сталкеров.</rus>
+    <eng>To Forgotten Forest. Stalker camp.</eng>
+  </string>
+  <string id="st_guider_aver">
+    <rus>На Неразведанную Землю. "Зимовье".</rus>
+    <eng>To Undiscovered Land. "Winter Camp".</eng>
+  </string>
+  <string id="st_guider_limansk">
+    <rus>В Лиманск. Блокпост "Свободы".</rus>
+    <eng>To Limansk. Freedom checkpoint.</eng>
+  </string>
+  <string id="st_guider_generators">
+    <rus>На Генераторы. Хутор сталкеров.</rus>
+    <eng>To Generators. Stalker farmstead.</eng>
+  </string>
+  <string id="st_guider_red_forest">
+    <rus>В Красный Лес. Пристанище сталкеров.</rus>
+    <eng>To Red Forest. Stalker hideout.</eng>
+  </string>
+  <string id="st_guider_lost_village">
+    <rus>В Старую Деревню.</rus>
+    <eng>To Old Village.</eng>
+  </string>
+  <string id="st_guider_marsh">
+    <rus>На Болота. База "Чистого неба".</rus>
+    <eng>To Swamps. Clear Sky base.</eng>
+  </string>
+  <string id="st_guider_zaton">
+    <rus>На Затон. Лесопилка.</rus>
+    <eng>To Zaton. Sawmill.</eng>
+  </string>
+  <string id="st_guider_jupiter">
+    <rus>На Юпитер. Станция "Янов".</rus>
+    <eng>To Jupiter. Yanov Station.</eng>
+  </string>
+  <string id="st_guider_pripyat">
+    <rus>В Восточную Припять. Прачечная.</rus>
+    <eng>To Eastern Pripyat. Laundry.</eng>
+  </string>
+  <string id="st_guider_darkscape">
+    <rus>В Лощину. Деревня сталкеров.</rus>
+    <eng>To Darkscape. Stalker village.</eng>
+  </string>
+  <string id="st_guider_radar">
+    <rus>На Радар. Стоянка сталкеров.</rus>
+    <eng>To Radar. Stalker camp.</eng>
+  </string>
+  <string id="st_barter_menu_title">
+    <rus>Бартер меню</rus>
+    <eng>Barter Menu</eng>
+  </string>
+  <string id="st_barter_menu_tab_menu">
+    <rus>Меню</rus>
+    <eng>Menu</eng>
+  </string>
+  <string id="st_barter_menu_description">
+    <rus>Описание</rus>
+    <eng>Description</eng>
+  </string>
+  <string id="st_barter_menu_tab_barter">
+    <rus>Бартер</rus>
+    <eng>Barter</eng>
+  </string>
+  <string id="st_barter_menu_item_name">
+    <rus>Наименование</rus>
+    <eng>Item</eng>
+  </string>
+  <string id="st_barter_menu_item_count">
+    <rus>В инвентаре</rus>
+    <eng>In Inventory</eng>
+  </string>
+  <string id="st_barter_menu_ratio">
+    <rus>Соотношение</rus>
+    <eng>Exchange Ratio</eng>
+  </string>
+  <string id="st_barter_menu_exchange">
+    <rus>Обменять</rus>
+    <eng>Exchange</eng>
+  </string>
+  <string id="st_barter_menu_cancel">
+    <rus>Отмена</rus>
+    <eng>Cancel</eng>
+  </string>
+  <string id="st_repair_menu_title">
+    <rus>Ремонт/Апгрейд</rus>
+    <eng>Repair/Upgrade</eng>
+  </string>
+  <string id="st_repair_menu_tab_repair">
+    <rus>Ремонт</rus>
+    <eng>Repair</eng>
+  </string>
+  <string id="st_repair_menu_tab_upgrade">
+    <rus>Апгрейд</rus>
+    <eng>Upgrade</eng>
+  </string>
+  <string id="st_repair_menu_tab_orders">
+    <rus>Заказы</rus>
+    <eng>Orders</eng>
+  </string>
+  <string id="st_repair_menu_btn_close">
+    <rus>Закрыть</rus>
+    <eng>Close</eng>
+  </string>
+  <string id="st_repair_menu_btn_repair">
+    <rus>В ремонт</rus>
+    <eng>Repair</eng>
+  </string>
+  <string id="st_repair_menu_btn_cancel">
+    <rus>Отмена</rus>
+    <eng>Cancel</eng>
+  </string>
+  <string id="st_repair_menu_btn_upgrade">
+    <rus>Улучшить</rus>
+    <eng>Upgrade</eng>
+  </string>
+  <string id="st_repair_menu_btn_order">
+    <rus>Заказать</rus>
+    <eng>Order</eng>
+  </string>
+  <string id="st_repair_menu_parts">
+    <rus>Запчасти</rus>
+    <eng>Parts</eng>
+  </string>
+  <string id="st_repair_menu_cost">
+    <rus>Стоимость</rus>
+    <eng>Cost</eng>
+  </string>
+  <string id="st_repair_menu_total">
+    <rus>Сумма</rus>
+    <eng>Total</eng>
+  </string>
+  <string id="st_repair_menu_work_time">
+    <rus>Время работы ~</rus>
+    <eng>Work time ~</eng>
+  </string>
+  <string id="st_dsh_backpack_title">
+    <rus>Рюкзак</rus>
+    <eng>Backpack</eng>
+  </string>
+  <string id="st_dsh_backpack_inventory">
+    <rus>Инвентарь</rus>
+    <eng>Inventory</eng>
+  </string>
+  <string id="st_dsh_backpack_search">
+    <rus>Поиск:</rus>
+    <eng>Search:</eng>
+  </string>
+  <string id="st_dsh_backpack_btn_transfer">
+    <rus>Перенести (X)</rus>
+    <eng>Transfer (X)</eng>
+  </string>
+  <string id="st_dsh_backpack_btn_transfer_all">
+    <rus>Перенести всё (Z)</rus>
+    <eng>Transfer All (Z)</eng>
+  </string>
+  <string id="st_dsh_backpack_show">
+    <rus>Показывать</rus>
+    <eng>Show</eng>
+  </string>
+  <string id="st_dsh_backpack_filter_all">
+    <rus>Всё</rus>
+    <eng>All</eng>
+  </string>
+  <string id="st_dsh_backpack_filter_weapons">
+    <rus>Оружие</rus>
+    <eng>Weapons</eng>
+  </string>
+  <string id="st_dsh_backpack_filter_ammo">
+    <rus>Патроны</rus>
+    <eng>Ammunition</eng>
+  </string>
+  <string id="st_dsh_backpack_filter_grenades">
+    <rus>Гранаты</rus>
+    <eng>Grenades</eng>
+  </string>
+  <string id="st_dsh_backpack_filter_attachments">
+    <rus>Обвесы</rus>
+    <eng>Attachments</eng>
+  </string>
+  <string id="st_dsh_backpack_filter_armor">
+    <rus>Броня</rus>
+    <eng>Armor</eng>
+  </string>
+  <string id="st_dsh_backpack_filter_artefacts">
+    <rus>Артефакты</rus>
+    <eng>Artifacts</eng>
+  </string>
+  <string id="st_dsh_backpack_filter_food">
+    <rus>Еда</rus>
+    <eng>Food</eng>
+  </string>
+  <string id="st_dsh_backpack_filter_medicine">
+    <rus>Медицина</rus>
+    <eng>Medicine</eng>
+  </string>
+  <string id="st_dsh_backpack_filter_mutant_parts">
+    <rus>Части мутантов</rus>
+    <eng>Mutant Parts</eng>
+  </string>
+  <string id="st_dsh_backpack_filter_misc">
+    <rus>Остальное</rus>
+    <eng>Miscellaneous</eng>
+  </string>
+  <string id="st_dsh_backpack_sort">
+    <rus>Сортировать</rus>
+    <eng>Sort</eng>
+  </string>
+  <string id="st_dsh_backpack_sort_default">
+    <rus>По умолчанию</rus>
+    <eng>Default</eng>
+  </string>
+  <string id="st_dsh_backpack_sort_name_asc">
+    <rus>По названию +</rus>
+    <eng>Name ^</eng>
+  </string>
+  <string id="st_dsh_backpack_sort_name_desc">
+    <rus>По названию -</rus>
+    <eng>Name v</eng>
+  </string>
+  <string id="st_dsh_backpack_sort_condition_asc">
+    <rus>По состоянию +</rus>
+    <eng>Condition ^</eng>
+  </string>
+  <string id="st_dsh_backpack_sort_condition_desc">
+    <rus>По состоянию -</rus>
+    <eng>Condition v</eng>
+  </string>
+  <string id="st_dsh_backpack_sort_count_asc">
+    <rus>По количеству +</rus>
+    <eng>Quantity ^</eng>
+  </string>
+  <string id="st_dsh_backpack_sort_count_desc">
+    <rus>По количеству -</rus>
+    <eng>Quantity v</eng>
+  </string>
+  <string id="addons_prefix_text">
+    <rus>Аддоны: </rus>
+    <eng>Attachments: </eng>
+  </string>
+  <string id="gl_addon_text">
+    <rus>подствол </rus>
+    <eng>grenade launcher </eng>
+  </string>
+  <string id="installed_text">
+    <rus>Установлен</rus>
+    <eng>Installed</eng>
+  </string>
+  <string id="magazine_prefix_text">
+    <rus>Магазина: </rus>
+    <eng>Magazine: </eng>
+  </string>
+  <string id="no_text">
+    <rus>Нет</rus>
+    <eng>No</eng>
+  </string>
+  <string id="none_text">
+    <rus>нет</rus>
+    <eng>none</eng>
+  </string>
+  <string id="price_prefix_text">
+    <rus>Цена: </rus>
+    <eng>Price: </eng>
+  </string>
+  <string id="scope_addon_text">
+    <rus>прицел </rus>
+    <eng>scope </eng>
+  </string>
+  <string id="silencer_addon_text">
+    <rus>глушитель </rus>
+    <eng>silencer </eng>
+  </string>
+  <string id="slot_extra_text">
+    <rus>дополнительний </rus>
+    <eng>extra </eng>
+  </string>
+  <string id="slot_pistol_text">
+    <rus>пистолетный </rus>
+    <eng>pistol </eng>
+  </string>
+  <string id="slot_prefix_text">
+    <rus>Слот: </rus>
+    <eng>Slot: </eng>
+  </string>
+  <string id="slot_primary_text">
+    <rus>основной </rus>
+    <eng>primary </eng>
+  </string>
+  <string id="total_common_text">
+    <rus>Общий</rus>
+    <eng>Total</eng>
+  </string>
+  <string id="st_loading_level">
+    <rus>Идёт загрузка уровня...</rus>
+    <eng>Loading level...</eng>
+  </string>
+  <string id="st_handradio_title">
+    <rus>Рация</rus>
+    <eng>Radio</eng>
+  </string>
+  <string id="st_handradio_actions">
+    <rus>Ваши действия:</rus>
+    <eng>Your actions:</eng>
+  </string>
+  <string id="st_handradio_common_channel">
+    <rus>Слушать общий канал</rus>
+    <eng>Listen to common channel</eng>
+  </string>
+  <string id="st_handradio_companion_follow">
+    <rus>Подозвать напарника к себе</rus>
+    <eng>Call companion to your position</eng>
+  </string>
+  <string id="st_handradio_companion_wait">
+    <rus>Приказать напарнику оставаться на месте</rus>
+    <eng>Order companion to stay</eng>
+  </string>
+  <string id="st_handradio_companion_hide">
+    <rus>Приказать напарнику спрятаться</rus>
+    <eng>Order companion to hide</eng>
+  </string>
+  <string id="st_gps_dots_title">
+    <rus>Активация GPS</rus>
+    <eng>GPS Activation</eng>
+  </string>
+  <string id="st_gps_dots_activate">
+    <rus>Активировать GPS маячок?</rus>
+    <eng>Activate GPS beacon?</eng>
+  </string>
+  <string id="st_gps_dots_cancel">
+    <rus>Не надо</rus>
+    <eng>Cancel</eng>
+  </string>
+  <string id="st_gps_dots_label">
+    <rus>Текст для GPS метки:</rus>
+    <eng>GPS marker text:</eng>
+  </string>
+  <string id="st_gps_dots_set">
+    <rus>Установить</rus>
+    <eng>Set</eng>
+  </string>
+  <string id="st_gps_dots_yes">
+    <rus>Да</rus>
+    <eng>Yes</eng>
+  </string>
+  <string id="st_position_informer_level">
+    <rus>Уровень -</rus>
+    <eng>Level -</eng>
+  </string>
+  <string id="st_position_informer_game_vertex">
+    <rus>Вертекс игры -</rus>
+    <eng>Game Vertex -</eng>
+  </string>
+  <string id="st_position_informer_level_vertex">
+    <rus>Вертекс уровня -</rus>
+    <eng>Level Vertex -</eng>
+  </string>
+  <string id="st_position_informer_position">
+    <rus>Позиция -</rus>
+    <eng>Position -</eng>
+  </string>
+  <string id="st_position_informer_direction">
+    <rus>Поворот -</rus>
+    <eng>Direction -</eng>
+  </string>
+  <string id="st_position_informer_show">
+    <rus>Показать</rus>
+    <eng>Show</eng>
+  </string>
+  <string id="st_position_informer_exit">
+    <rus>Выход</rus>
+    <eng>Exit</eng>
+  </string>
+  <string id="st_position_informer_save">
+    <rus>Сохранить</rus>
+    <eng>Save</eng>
+  </string>
+  <string id="st_position_informer_save_prompt">
+    <rus>Данные о позиции можно сохранить, введите имя!</rus>
+    <eng>Enter a name to save the position data.</eng>
+  </string>
+  <string id="st_position_informer_name">
+    <rus>Имя -</rus>
+    <eng>Name -</eng>
+  </string>
+  <string id="st_ui_sleep_dialog_caption">
+    <rus>Время для сна и восстановления сил...</rus>
+    <eng>Time to sleep and recover...</eng>
+  </string>
+  <string id="st_ui_art_box_close">
+    <rus>Закрыть</rus>
+    <eng>Close</eng>
+  </string>
+  <string id="st_cheat_menu_title">
+    <rus>Спавн-меню</rus>
+    <eng>Spawn Menu</eng>
+  </string>
+  <string id="st_cheat_menu_search_all">
+    <rus>Искать везде</rus>
+    <eng>Search Everywhere</eng>
+  </string>
+  <string id="st_cheat_menu_sort">
+    <rus>Сортировать:</rus>
+    <eng>Sort:</eng>
+  </string>
+  <string id="st_cheat_menu_sort_name">
+    <rus>по имени</rus>
+    <eng>by name</eng>
+  </string>
+  <string id="st_cheat_menu_sort_section">
+    <rus>по секции</rus>
+    <eng>by section</eng>
+  </string>
+  <string id="st_cheat_menu_category_weapons">
+    <rus>Оружие</rus>
+    <eng>Weapons</eng>
+  </string>
+  <string id="st_cheat_menu_category_ammo">
+    <rus>Боеприпасы</rus>
+    <eng>Ammunition</eng>
+  </string>
+  <string id="st_cheat_menu_category_attachments">
+    <rus>Навесы</rus>
+    <eng>Attachments</eng>
+  </string>
+  <string id="st_cheat_menu_category_outfits">
+    <rus>Костюмы</rus>
+    <eng>Outfits</eng>
+  </string>
+  <string id="st_cheat_menu_category_artefacts">
+    <rus>Артефакты</rus>
+    <eng>Artifacts</eng>
+  </string>
+  <string id="st_cheat_menu_category_food">
+    <rus>Съедобное</rus>
+    <eng>Food</eng>
+  </string>
+  <string id="st_cheat_menu_category_items">
+    <rus>Предметы</rus>
+    <eng>Items</eng>
+  </string>
+  <string id="st_cheat_menu_category_quest">
+    <rus>Квестовые</rus>
+    <eng>Quest Items</eng>
+  </string>
+  <string id="st_cheat_menu_category_npc">
+    <rus>НПС</rus>
+    <eng>NPCs</eng>
+  </string>
+  <string id="st_cheat_menu_category_monsters">
+    <rus>Монстры</rus>
+    <eng>Monsters</eng>
+  </string>
+  <string id="st_cheat_menu_category_anomalies">
+    <rus>Аномалии</rus>
+    <eng>Anomalies</eng>
+  </string>
+  <string id="st_cheat_menu_category_misc">
+    <rus>Разное</rus>
+    <eng>Miscellaneous</eng>
+  </string>
+  <string id="st_cheat_menu_btn_find">
+    <rus>Найти</rus>
+    <eng>Find</eng>
+  </string>
+  <string id="st_cheat_menu_btn_delete">
+    <rus>Удалить</rus>
+    <eng>Delete</eng>
+  </string>
+  <string id="st_cheat_menu_btn_backpack">
+    <rus>В рюкзак</rus>
+    <eng>To Backpack</eng>
+  </string>
+  <string id="st_cheat_menu_btn_exit">
+    <rus>Выход</rus>
+    <eng>Exit</eng>
+  </string>
+  <string id="st_cheat_menu_description">
+    <rus>Описание</rus>
+    <eng>Description</eng>
+  </string>
+  <string id="st_cheat_menu_actor_params">
+    <rus>Параметры ГГ (в %):</rus>
+    <eng>Player Parameters (%):</eng>
+  </string>
+  <string id="st_cheat_menu_health">
+    <rus>Здоровье:</rus>
+    <eng>Health:</eng>
+  </string>
+  <string id="st_cheat_menu_radiation">
+    <rus>Радиация:</rus>
+    <eng>Radiation:</eng>
+  </string>
+  <string id="st_cheat_menu_psy_health">
+    <rus>Пси-здоровье:</rus>
+    <eng>Psy Health:</eng>
+  </string>
+  <string id="st_cheat_menu_stamina">
+    <rus>Выносливость:</rus>
+    <eng>Stamina:</eng>
+  </string>
+  <string id="st_cheat_menu_btn_ok">
+    <rus>OK</rus>
+    <eng>OK</eng>
+  </string>
+  <string id="st_cheat_menu_infoportions">
+    <rus>Инфопоршни</rus>
+    <eng>Info Portions</eng>
+  </string>
+  <string id="st_exo_btn_notify">
+    <rus>Уведомления</rus>
+    <eng>Notifications</eng>
+  </string>
+  <string id="st_exo_btn_autoheal">
+    <rus>Автолечение</rus>
+    <eng>Auto Heal</eng>
+  </string>
+  <string id="st_exo_btn_autorad">
+    <rus>Анти-радиация</rus>
+    <eng>Anti-Radiation</eng>
+  </string>
+  <string id="st_exo_btn_autopsy">
+    <rus>Пси-защита</rus>
+    <eng>Psy Protection</eng>
+  </string>
+  <string id="st_exo_btn_autopower">
+    <rus>Восст. энергии</rus>
+    <eng>Energy Recovery</eng>
+  </string>
+  <string id="st_exo_btn_quit">
+    <rus>Выход</rus>
+    <eng>Exit</eng>
+  </string>
+  <string id="st_rq_active_item_title">
+    <rus>Активный предмет</rus>
+    <eng>Active Item</eng>
+  </string>
+  <string id="st_rq_addons_title">
+    <rus>Аддоны</rus>
+    <eng>Attachments</eng>
+  </string>
+  <string id="st_rq_ammo_title">
+    <rus>Патроны</rus>
+    <eng>Ammunition</eng>
+  </string>
+  <string id="st_rq_detach_suffix">
+    <rus> (снять)</rus>
+    <eng> (detach)</eng>
+  </string>
+  <string id="st_rq_gl_title">
+    <rus>ПГ</rus>
+    <eng>GL</eng>
+  </string>
+  <string id="st_rq_grenade_title">
+    <rus>Граната</rus>
+    <eng>Grenade</eng>
+  </string>
+  <string id="st_rq_grenades_title">
+    <rus>Гранаты</rus>
+    <eng>Grenades</eng>
+  </string>
+  <string id="st_rq_loadout_title">
+    <rus>Боезапас</rus>
+    <eng>Loadout</eng>
+  </string>
+  <string id="st_rq_magazine_title">
+    <rus>Магазин</rus>
+    <eng>Magazine</eng>
+  </string>
+  <string id="st_rq_scope_detach_title">
+    <rus>Прицел (снять)</rus>
+    <eng>Scope (detach)</eng>
+  </string>
+  <string id="st_rq_scope_title">
+    <rus>Прицел</rus>
+    <eng>Scope</eng>
+  </string>
+  <string id="st_rq_silencer_title">
+    <rus>Глушитель</rus>
+    <eng>Suppressor</eng>
+  </string>
+  <string id="st_rq_supply_title">
+    <rus>Снабжение</rus>
+    <eng>Supplies</eng>
+  </string>
+  <string id="no_recipes_text">
+    <rus>Рецепты отсутствуют</rus>
+    <eng>No recipes available</eng>
+  </string>
+</string_table>

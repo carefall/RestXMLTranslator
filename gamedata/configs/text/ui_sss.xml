@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <!-- Rain Settings -->
+  <string id="ssfx_rain_module_ssfx_rain_main_quality_mcm">
+    <rus>Качество рендеринга</rus>
+    <eng>Rendering quality</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_quality_mcm_desc">
+    <rus>[Низкое] Стандартный рендеринг. [Среднее] Стандартный рендеринг + правки некорректной обработки. [Высокое] Полноценная обработка с дополнительной обработкой отражений</rus>
+    <eng>[Low] Standard rendering. [Medium] Standard rendering + fixes for incorrect processing. [High] Full processing with additional reflection handling</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_speed_mcm">
+    <rus>Скорость</rus>
+    <eng>Speed</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_speed_mcm_desc">
+    <rus>Скорость падения капель</rus>
+    <eng>Raindrop fall speed</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_len_mcm">
+    <rus>Длина</rus>
+    <eng>Length</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_len_mcm_desc">
+    <rus>Длина капли дождя</rus>
+    <eng>Raindrop length</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_width_mcm">
+    <rus>Ширина</rus>
+    <eng>Width</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_width_mcm_desc">
+    <rus>Ширина капли дождя</rus>
+    <eng>Raindrop width</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_alpha_mcm">
+    <rus>Прозрачность</rus>
+    <eng>Opacity</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_alpha_mcm_desc">
+    <rus>Общая прозрачность капель</rus>
+    <eng>Overall raindrop transparency</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_brightness_mcm">
+    <rus>Яркость</rus>
+    <eng>Brightness</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_brightness_mcm_desc">
+    <rus>Насколько ярким будет базовый цвет капли</rus>
+    <eng>How bright the base raindrop color is</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_refraction_mcm">
+    <rus>Преломление</rus>
+    <eng>Refraction</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_refraction_mcm_desc">
+    <rus>Насколько интенсивным будет эффект преломления</rus>
+    <eng>Intensity of refraction effect</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_reflection_mcm">
+    <rus>Отражение</rus>
+    <eng>Reflection</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_reflection_mcm_desc">
+    <rus>Прозрачность эффекта отражения</rus>
+    <eng>Transparency of reflection effect</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_splash_alpha_mcm">
+    <rus>Прозрачность брызг</rus>
+    <eng>Splash opacity</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_splash_alpha_mcm_desc">
+    <rus>Насколько прозрачными будут брызги от капель дождя</rus>
+    <eng>How transparent rain splashes are</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_splash_refraction_mcm">
+    <rus>Преломление брызг</rus>
+    <eng>Splash refraction</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_main_splash_refraction_mcm_desc">
+    <rus>Интенсивность преломления брызг от капель</rus>
+    <eng>Refraction intensity of raindrop splashes</eng>
+  </string>
+  <!-- Rain Footsteps Settings -->
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_main_vol_mcm">
+    <rus>Общая громкость</rus>
+    <eng>Master volume</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_main_vol_mcm_desc">
+    <rus>Общая громкость шагов</rus>
+    <eng>Overall footstep volume</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_vol_rnd_mcm">
+    <rus>Вариация громкости</rus>
+    <eng>Volume variation</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_vol_rnd_mcm_desc">
+    <rus>Добавляет вариативность громкости шагов</rus>
+    <eng>Adds variation to footstep volume</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_multi_no_rain_mcm">
+    <rus>Множитель громкости без дождя</rus>
+    <eng>Volume multiplier (no rain)</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_multi_no_rain_mcm_desc">
+    <rus>Множитель громкости, когда дождь не идёт, но всё ещё мокро</rus>
+    <eng>Volume multiplier when there is no rain but surfaces are still wet</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_multi_walk_mcm">
+    <rus>Множитель громкости при ходьбе</rus>
+    <eng>Walking volume multiplier</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_multi_walk_mcm_desc">
+    <rus>Множитель громкости во время ходьбы</rus>
+    <eng>Volume multiplier while walking</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_multi_run_mcm">
+    <rus>Множитель громкости при беге</rus>
+    <eng>Running volume multiplier</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_multi_run_mcm_desc">
+    <rus>Множитель громкости во время бега</rus>
+    <eng>Volume multiplier while running</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_jump_vol_mcm">
+    <rus>Громкость прыжка</rus>
+    <eng>Jump volume</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_jump_vol_mcm_desc">
+    <rus>Сила звукового эффекта при прыжке</rus>
+    <eng>Sound intensity when jumping</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_land_vol_mcm">
+    <rus>Громкость приземления</rus>
+    <eng>Landing volume</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_footsteps_land_vol_mcm_desc">
+    <rus>Сила звукового эффекта приземления</rus>
+    <eng>Landing sound intensity</eng>
+  </string>
+  <!-- Raindrops Settings -->
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_density_mcm">
+    <rus>Частота</rus>
+    <eng>Density</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_density_mcm_desc">
+    <rus>Частота и размер капель</rus>
+    <eng>Drop frequency and size</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_reflection_str_mcm">
+    <rus>Интенсивность отражений</rus>
+    <eng>Reflection intensity</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_reflection_str_mcm_desc">
+    <rus>Интенсивность отражений капель дождя</rus>
+    <eng>Rain drop reflection intensity</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_refraction_str_mcm">
+    <rus>Интенсивность преломления</rus>
+    <eng>Refraction intensity</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_refraction_str_mcm_desc">
+    <rus>Интенсивность преломления капель дождя</rus>
+    <eng>Rain drop refraction intensity</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_animation_speed_mcm">
+    <rus>Скорость анимации</rus>
+    <eng>Animation speed</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_animation_speed_mcm_desc">
+    <rus>Скорость анимации капель</rus>
+    <eng>Drop animation speed</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_buildup_mcm">
+    <rus>Скорость появления</rus>
+    <eng>Build-up speed</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_buildup_mcm_desc">
+    <rus>Настройка скорости появления капель на руках/оружии</rus>
+    <eng>Controls how fast droplets appear on hands/weapons</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_drying_mcm">
+    <rus>Скорость высыхания</rus>
+    <eng>Drying speed</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_drying_mcm_desc">
+    <rus>Настройка скорости пропадания капель</rus>
+    <eng>Controls how fast droplets disappear</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_size_mcm">
+    <rus>Размер</rus>
+    <eng>Size</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_size_mcm_desc">
+    <rus>Величина капли</rus>
+    <eng>Drop size</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_gloss_mcm">
+    <rus>Блеск</rus>
+    <eng>Gloss</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_gloss_mcm_desc">
+    <rus>Интенсивность блеска капель</rus>
+    <eng>Drop gloss intensity</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_extra_gloss_mcm">
+    <rus>Дополнительный блеск</rus>
+    <eng>Extra gloss</eng>
+  </string>
+  <string id="ssfx_rain_module_ssfx_rain_hud_raindrops_extra_gloss_mcm_desc">
+    <rus>Настройка дополнительного блеска рук/оружия во время дождя</rus>
+    <eng>Extra hand/weapon gloss during rain</eng>
+  </string>
+  <!-- Shadow Cascades Settings -->
+  <string id="shw_cascades_title">
+    <rus>Настройки каскада теней</rus>
+    <eng>Shadow cascade settings</eng>
+  </string>
+  <string id="shw_cascades_size_1_mcm">
+    <rus>Размер ближних каскадов</rus>
+    <eng>Near cascade size</eng>
+  </string>
+  <string id="shw_cascades_size_1_mcm_desc">
+    <rus>Меньший размер — лучше качество теней от солнца</rus>
+    <eng>Smaller size improves sun shadow quality</eng>
+  </string>
+  <string id="shw_cascades_size_2_mcm">
+    <rus>Размер средних каскадов</rus>
+    <eng>Mid cascade size</eng>
+  </string>
+  <string id="shw_cascades_size_2_mcm_desc">
+    <rus>Меньший размер — лучше качество теней от солнца</rus>
+    <eng>Smaller size improves sun shadow quality</eng>
+  </string>
+  <string id="shw_cascades_size_3_mcm">
+    <rus>Размер дальних каскадов</rus>
+    <eng>Far cascade size</eng>
+  </string>
+  <string id="shw_cascades_size_3_mcm_desc">
+    <rus>Настройка для финального рендеринга теней. Чем выше показатель — тем больше нагрузка на систему</rus>
+    <eng>Final shadow rendering setting. Higher values increase system load</eng>
+  </string>
+  <string id="shw_cascades_grass_shw_quality_mcm">
+    <rus>Качество теней от травы</rus>
+    <eng>Grass shadow quality</eng>
+  </string>
+  <string id="shw_cascades_grass_shw_quality_mcm_desc">
+    <rus>[Низкие] Тени от травы будут только на ближней дистанции. Стандартный рендеринг Anomaly. [Средние] Тени будут на ближней и средней дистанциях. [Высокие] Тени будут на всех каскадах и при использовании объёмных солнечных лучей. [Ультра] Тени от травы будут при любом типе освещения</rus>
+    <eng>[Low] Grass shadows only at close range. [Medium] Close and mid range shadows. [High] Shadows on all cascades with volumetric sun rays. [Ultra] Grass shadows under all lighting conditions</eng>
+  </string>
+  <string id="ui_mcm_lst_shw_cascades_low">
+    <rus>Низкие (стандарт Anomaly)</rus>
+    <eng>Low (Anomaly default)</eng>
+  </string>
+  <string id="ui_mcm_lst_shw_cascades_medium">
+    <rus>Средние</rus>
+    <eng>Medium</eng>
+  </string>
+  <string id="ui_mcm_lst_shw_cascades_high">
+    <rus>Высокие</rus>
+    <eng>High</eng>
+  </string>
+  <string id="ui_mcm_lst_shw_cascades_ultra">
+    <rus>Ультра (большая нагрузка на систему)</rus>
+    <eng>Ultra (high system load)</eng>
+  </string>
+  <string id="shw_cascades_grass_shw_distance_mcm">
+    <rus>Дистанция отрисовки теней от травы (тени от солнца)</rus>
+    <eng>Grass shadow render distance (sun shadows)</eng>
+  </string>
+  <string id="shw_cascades_grass_shw_distance_mcm_desc">
+    <rus>Этот показатель меняет дистанцию отрисовки теней травы от солнечного света. Имеет процентное отношение с дистанцией прорисовки травы. Меньше значение — меньше нагрузка на систему</rus>
+    <eng>Controls grass shadow draw distance from sunlight. Scales with grass render distance. Lower values reduce performance cost</eng>
+  </string>
+  <string id="shw_cascades_grass_shw_nondir_maxdistance_mcm">
+    <rus>Дистанция прорисовки теней от травы</rus>
+    <eng>Grass non-directional shadow distance</eng>
+  </string>
+  <string id="shw_cascades_grass_shw_nondir_maxdistance_mcm_desc">
+    <rus>[Только для «Ультра»] Этот показатель влияет на отрисовку теней при непрямом освещении. Меньше значение — меньше нагрузка на систему. При низких значениях тени могут не отрисовываться</rus>
+    <eng>[Ultra only] Affects indirect lighting shadows. Lower values reduce performance cost. Too low may disable shadows</eng>
+  </string>
+  <!-- Interactive Grass Settings -->
+  <string id="inter_grass_title">
+    <rus>Настройки коллизии травы</rus>
+    <eng>Grass collision settings</eng>
+  </string>
+  <string id="inter_grass_enable_mcm">
+    <rus>Включено</rus>
+    <eng>Enabled</eng>
+  </string>
+  <string id="inter_grass_enable_mcm_desc">
+    <rus>[ТРЕБУЕТСЯ ПЕРЕЗАПУСК] Включение/выключение коллизии</rus>
+    <eng>[RESTART REQUIRED] Enables/disables collision</eng>
+  </string>
+  <string id="inter_grass_max_entities_mcm">
+    <rus>Максимальное кол-во срабатываний</rus>
+    <eng>Maximum interaction count</eng>
+  </string>
+  <string id="inter_grass_max_entities_mcm_desc">
+    <rus>[ТРЕБУЕТСЯ ПЕРЕЗАПУСК] Максимальное кол-во единовременных срабатываний. Выше значение – больше нагрузка на систему</rus>
+    <eng>[RESTART REQUIRED] Maximum simultaneous interactions. Higher values increase performance cost</eng>
+  </string>
+  <string id="inter_grass_max_distance_mcm">
+    <rus>Максимальная дистанция</rus>
+    <eng>Maximum distance</eng>
+  </string>
+  <string id="inter_grass_max_distance_mcm_desc">
+    <rus>Максимальное расстояние срабатывания</rus>
+    <eng>Maximum interaction distance</eng>
+  </string>
+  <string id="inter_grass_enable_player_mcm">
+    <rus>Распространяется на игрока</rus>
+    <eng>Affects player</eng>
+  </string>
+  <string id="inter_grass_enable_player_mcm_desc">
+    <rus>Включить/Выключить реакцию травы на игрока</rus>
+    <eng>Enables/disables grass reaction to player</eng>
+  </string>
+  <string id="inter_grass_enable_mutants_mcm">
+    <rus>Ударная волна от мутантов</rus>
+    <eng>Mutant shockwave interaction</eng>
+  </string>
+  <string id="inter_grass_enable_mutants_mcm_desc">
+    <rus>Включить/Выключить реакцию травы на топот псевдогиганта или способности бюрера</rus>
+    <eng>Enables/disables grass reaction to pseudogiant stomps or burer abilities</eng>
+  </string>
+  <string id="inter_grass_radius_mcm">
+    <rus>Радиус изгиба</rus>
+    <eng>Bend radius</eng>
+  </string>
+  <string id="inter_grass_radius_mcm_desc">
+    <rus>Настройка радиуса изгиба травы, когда по ней ходит игрок</rus>
+    <eng>Radius of grass bending when the player walks through it</eng>
+  </string>
+  <string id="inter_grass_horizontal_str_mcm">
+    <rus>Горизонтальная интенсивность</rus>
+    <eng>Horizontal intensity</eng>
+  </string>
+  <string id="inter_grass_horizontal_str_mcm_desc">
+    <rus>Настройка горизонтальной деформации травы при столкновении с игроком</rus>
+    <eng>Horizontal deformation strength when interacting with player</eng>
+  </string>
+  <string id="inter_grass_vertical_str_mcm">
+    <rus>Вертикальная интенсивность</rus>
+    <eng>Vertical intensity</eng>
+  </string>
+  <string id="inter_grass_vertical_str_mcm_desc">
+    <rus>Настройка вертикальной деформации травы при столкновении с игроком</rus>
+    <eng>Vertical deformation strength when interacting with player</eng>
+  </string>
+  <string id="inter_grass_explosions_str_mcm">
+    <rus>Интенсивность реакции на взрывы</rus>
+    <eng>Explosion reaction intensity</eng>
+  </string>
+  <string id="inter_grass_explosions_str_mcm_desc">
+    <rus>Настройка общей интенсивности реакции травы на взрывы/волны от ударов мутантов</rus>
+    <eng>Overall grass reaction intensity to explosions and mutant shockwaves</eng>
+  </string>
+  <string id="inter_grass_explosions_speed_mcm">
+    <rus>Скорость распространения</rus>
+    <eng>Propagation speed</eng>
+  </string>
+  <string id="inter_grass_explosions_speed_mcm_desc">
+    <rus>Настройка скорости распространения ударной волны по траве</rus>
+    <eng>Speed of shockwave propagation through grass</eng>
+  </string>
+  <string id="inter_grass_shooting_str_mcm">
+    <rus>Реакция на выстрел</rus>
+    <eng>Shooting reaction</eng>
+  </string>
+  <string id="inter_grass_shooting_str_mcm_desc">
+    <rus>Интенсивность реакции травы на выстрелы</rus>
+    <eng>Grass reaction intensity to gunfire</eng>
+  </string>
+  <string id="inter_grass_shooting_range_mcm">
+    <rus>Расстояние от выстрела</rus>
+    <eng>Shooting distance range</eng>
+  </string>
+  <string id="inter_grass_shooting_range_mcm_desc">
+    <rus>Расстояние реагирования травы на выстрел</rus>
+    <eng>Distance at which grass reacts to gunfire</eng>
+  </string>
+  <string id="inter_grass_enable_anomalies_mcm">
+    <rus>Интерактивные аномалии</rus>
+    <eng>Interactive anomalies</eng>
+  </string>
+  <string id="inter_grass_enable_anomalies_mcm_desc">
+    <rus>Включает/Выключает взаимодействие травы с аномалиями</rus>
+    <eng>Enables/disables grass interaction with anomalies</eng>
+  </string>
+  <string id="inter_grass_anomalies_distance_mcm">
+    <rus>Максимальная дистанция срабатывания</rus>
+    <eng>Maximum trigger distance</eng>
+  </string>
+  <string id="inter_grass_anomalies_distance_mcm_desc">
+    <rus>Дальность срабатывания влияния аномалий на траву</rus>
+    <eng>Distance at which anomalies affect grass</eng>
+  </string>
+  <!-- Flora Fixes Settings -->
+  <string id="florafixes_sss_int_mcm">
+    <rus>Подповерхностное рассеивание</rus>
+    <eng>Subsurface scattering</eng>
+  </string>
+  <string id="florafixes_sss_int_mcm_desc">
+    <rus>Интенсивность подповерхностного рассеивания</rus>
+    <eng>Subsurface scattering intensity</eng>
+  </string>
+  <string id="florafixes_sss_color_mcm">
+    <rus>Цветность подповерхностного рассеивания</rus>
+    <eng>Subsurface scattering color influence</eng>
+  </string>
+  <string id="florafixes_sss_color_mcm_desc">
+    <rus>Уровень влияния цвета солнца на цвет рассеивания: 1.0 = 100% цвета солнца</rus>
+    <eng>Sun color influence on scattering (1.0 = 100%)</eng>
+  </string>
+  <string id="florafixes_grass_specular_mcm">
+    <rus>Отражение света на сухой траве</rus>
+    <eng>Dry grass specular</eng>
+  </string>
+  <string id="florafixes_grass_specular_mcm_desc">
+    <rus>Настройка отражения света для сухой травы. Стоит аккуратнее подходить к настройке и изменять небольшими шагами</rus>
+    <eng>Specular reflection on dry grass. Adjust carefully in small steps</eng>
+  </string>
+  <string id="florafixes_grass_specular_wet_mcm">
+    <rus>Отражение света на мокрой траве</rus>
+    <eng>Wet grass specular</eng>
+  </string>
+  <string id="florafixes_grass_specular_wet_mcm_desc">
+    <rus>Настройка отражения света для мокрой травы. Стоит аккуратнее подходить к настройке и изменять небольшими шагами</rus>
+    <eng>Specular reflection on wet grass. Adjust carefully in small steps</eng>
+  </string>
+  <string id="florafixes_trees_specular_mcm">
+    <rus>Отражение света на сухих кустах и деревьях</rus>
+    <eng>Dry foliage specular</eng>
+  </string>
+  <string id="florafixes_trees_specular_mcm_desc">
+    <rus>Настройка отражения света на сухих листьях и кустах. Стоит аккуратнее подходить к настройке и изменять небольшими шагами</rus>
+    <eng>Specular reflection on dry leaves and bushes. Adjust carefully in small steps</eng>
+  </string>
+  <string id="florafixes_trees_specular_wet_mcm">
+    <rus>Отражение света на мокрых кустах и деревьях</rus>
+    <eng>Wet foliage specular</eng>
+  </string>
+  <string id="florafixes_trees_specular_wet_mcm_desc">
+    <rus>Настройка отражения света на мокрых кустах и деревьях. Стоит аккуратнее подходить к настройке и изменять небольшими шагами</rus>
+    <eng>Specular reflection on wet foliage. Adjust carefully in small steps</eng>
+  </string>
+  <!-- Gloss Settings -->
+  <string id="ssfx_wetness_ssfx_gloss_min_gloss_mcm">
+    <rus>Минимальный уровень</rus>
+    <eng>Minimum level</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_gloss_min_gloss_mcm_desc">
+    <rus>Основной показатель блеска. Если "Автонастройка блеска" отключена — этот показатель будет статичным</rus>
+    <eng>Base gloss level. Static if auto-gloss is disabled</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_gloss_max_gloss_mcm">
+    <rus>Максимальный уровень</rus>
+    <eng>Maximum level</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_gloss_max_gloss_mcm_desc">
+    <rus>Когда "Автонастройка блеска" включена — этот показатель будет применён при максимальном уровне намокания</rus>
+    <eng>Applied at maximum wetness when auto-gloss is enabled</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_gloss_auto_gloss_mcm">
+    <rus>Автонастройка блеска</rus>
+    <eng>Auto gloss</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_gloss_auto_gloss_mcm_desc">
+    <rus>Автоматическая подстройка блеска. Варьируется между минимальным и максимальным уровнями, в зависимости от степени намокания</rus>
+    <eng>Automatically adjusts gloss between min and max based on wetness</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_gloss_auto_gloss_max_mcm">
+    <rus>Уровень влияния автонастройки блеска</rus>
+    <eng>Auto gloss influence</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_gloss_auto_gloss_max_mcm_desc">
+    <rus>Влияние на максимальный уровень блеска при включенной автонастройке: 0 = 0%, 1 = 100%</rus>
+    <eng>Influence on max gloss when auto-gloss is enabled (0–1 range)</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_gloss_specular_int_mcm">
+    <rus>Интенсивность отражения света</rus>
+    <eng>Specular intensity</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_gloss_specular_int_mcm_desc">
+    <rus>Настройка интенсивности светоотражения</rus>
+    <eng>Light reflection intensity</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_gloss_specular_color_mcm">
+    <rus>Цветность светоотражения</rus>
+    <eng>Specular color</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_gloss_specular_color_mcm_desc">
+    <rus>Уровень насыщенности светоотражения</rus>
+    <eng>Specular saturation level</eng>
+  </string>
+  <!-- Намокание поверхностей — настройки -->
+  <string id="ssfx_wetness_ssfx_wet_surf_buildup_speed_mcm">
+    <rus>Скорость намокания</rus>
+    <eng>Wetness buildup speed</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_buildup_speed_mcm_desc">
+    <rus>Настройка скорости проявления эффекта намокания и появления луж</rus>
+    <eng>Speed of wetness and puddle formation</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_dry_speed_mcm">
+    <rus>Скорость высыхания</rus>
+    <eng>Drying speed</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_dry_speed_mcm_desc">
+    <rus>Настройка скорости высыхания. Чем выше показатель — тем быстрее пропадёт эффект намокания и лужи</rus>
+    <eng>Higher values make wetness and puddles disappear faster</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_ripples_size_mcm">
+    <rus>Рябь от дождя</rus>
+    <eng>Rain ripple size</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_ripples_size_mcm_desc">
+    <rus>Размер ряби от капель дождя</rus>
+    <eng>Size of rain ripples</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_ripples_speed_mcm">
+    <rus>Скорость ряби</rus>
+    <eng>Ripple speed</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_ripples_speed_mcm_desc">
+    <rus>Настройка скорости анимации ряби на воде/лужах. Прямая зависимость от силы дождя</rus>
+    <eng>Animation speed of water/puddle ripples (depends on rain intensity)</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_ripples_min_speed_mcm">
+    <rus>Минимальная скорость анимации</rus>
+    <eng>Minimum ripple speed</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_ripples_min_speed_mcm_desc">
+    <rus>Настройка минимального показателя скорости анимации ряби от капель</rus>
+    <eng>Minimum ripple animation speed</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_ripples_intensity_mcm">
+    <rus>Интенсивность ряби</rus>
+    <eng>Ripple intensity</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_ripples_intensity_mcm_desc">
+    <rus>Настройка интенсивности отображения ряби от капель дождя</rus>
+    <eng>Strength of rain ripple effect</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_waterfall_size_mcm">
+    <rus>Размер капли дождя</rus>
+    <eng>Raindrop size</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_waterfall_size_mcm_desc">
+    <rus>Чем выше показатель — тем больше размер капли</rus>
+    <eng>Larger values increase raindrop size</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_waterfall_speed_mcm">
+    <rus>Скорость дождя</rus>
+    <eng>Rain speed</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_waterfall_speed_mcm_desc">
+    <rus>Настройка скорости падения капли дождя. Имеет зависимость от базового показателя в конфиге погоды</rus>
+    <eng>Rain drop fall speed (depends on weather config)</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_waterfall_min_speed_mcm">
+    <rus>Минимальная скорость падения капель</rus>
+    <eng>Minimum raindrop speed</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_waterfall_min_speed_mcm_desc">
+    <rus>Ниже этого показателя скорость опускаться не будет</rus>
+    <eng>Lower limit for raindrop fall speed</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_waterfall_intensity_mcm">
+    <rus>Интенсивность дождя</rus>
+    <eng>Rain intensity</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_waterfall_intensity_mcm_desc">
+    <rus>Общая интенсивность эффекта дождя</rus>
+    <eng>Overall rain effect intensity</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_cover_res_mcm">
+    <rus>Качество эффекта дождя</rus>
+    <eng>Rain effect quality</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_cover_res_mcm_desc">
+    <rus>Общее разрешение падающих капель и брызг при попадании на землю. Чем выше показатель — тем выразительнее дождь, но больше нагрузка на систему</rus>
+    <eng>Resolution of rain particles and splashes. Higher values increase visual quality and performance cost</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_cover_distance_mcm">
+    <rus>Дистанция прорисовки дождя</rus>
+    <eng>Rain render distance</eng>
+  </string>
+  <string id="ssfx_wetness_ssfx_wet_surf_cover_distance_mcm_desc">
+    <rus>Насколько далеко дождь будет рендериться. Выше показатель — больше нагрузка на систему</rus>
+    <eng>Distance at which rain is rendered. Higher values increase performance cost</eng>
+  </string>
+  <!-- Resolution Combobox -->
+  <string id="ui_mcm_lst_ssfx_cover_64">
+    <rus>64</rus>
+    <eng>64</eng>
+  </string>
+  <string id="ui_mcm_lst_ssfx_cover_128">
+    <rus>128 (рекомендовано)</rus>
+    <eng>128 (recommended)</eng>
+  </string>
+  <string id="ui_mcm_lst_ssfx_cover_256">
+    <rus>256</rus>
+    <eng>256</eng>
+  </string>
+  <string id="ui_mcm_lst_ssfx_cover_512">
+    <rus>512</rus>
+    <eng>512</eng>
+  </string>
+  <string id="ui_mcm_lst_ssfx_cover_1024">
+    <rus>1024</rus>
+    <eng>1024</eng>
+  </string>
+  <string id="ui_mcm_lst_ssfx_cover_2048">
+    <rus>2048</rus>
+    <eng>2048</eng>
+  </string>
+</string_table>

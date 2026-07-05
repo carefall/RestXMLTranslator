@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="st_activate_artefact">
+    <rus>активировать артефакт</rus>
+    <eng>activate artifact</eng>
+  </string>
+  <string id="st_attach_gl_to_rifle">
+    <rus>приcоединить гранатомёт к винтовке</rus>
+    <eng>attach grenade launcher to rifle</eng>
+  </string>
+  <string id="st_attach_scope_to_pistol">
+    <rus>присоединить прицел к пистолету</rus>
+    <eng>attach scope to pistol</eng>
+  </string>
+  <string id="st_attach_scope_to_rifle">
+    <rus>присоединить прицел к винтовке</rus>
+    <eng>attach scope to rifle</eng>
+  </string>
+  <string id="st_attach_silencer_to_pistol">
+    <rus>присоединить глушитель к пистолету</rus>
+    <eng>attach silencer to pistol</eng>
+  </string>
+  <string id="st_attach_silencer_to_rifle">
+    <rus>присоединить глушитель к винтовке</rus>
+    <eng>attach silencer to rifle</eng>
+  </string>
+  <string id="st_base_cost">
+    <rus>цена</rus>
+    <eng>price</eng>
+  </string>
+  <string id="st_condition">
+    <rus>состояние</rus>
+    <eng>condition</eng>
+  </string>
+  <string id="st_detach_gl">
+    <rus>отсоединить гранатомёт</rus>
+    <eng>dismount grenade launcher</eng>
+  </string>
+  <string id="st_detach_scope">
+    <rus>отсоединить прицел</rus>
+    <eng>dismount scope</eng>
+  </string>
+  <string id="st_detach_silencer">
+    <rus>отсоединить глушитель</rus>
+    <eng>dismount silencer</eng>
+  </string>
+  <string id="st_dress_outfit">
+    <rus>надеть костюм</rus>
+    <eng>put on the suit</eng>
+  </string>
+  <string id="st_dress_helmet">
+    <rus>надеть шлем</rus>
+    <eng>put on the helmet</eng>
+  </string>
+  <string id="st_dress_backpack">
+    <rus>надеть рюкзак</rus>
+    <eng>put on the backpack</eng>
+  </string>
+  <string id="st_drop">
+    <rus>выложить</rus>
+    <eng>drop</eng>
+  </string>
+  <string id="st_drop_all">
+    <rus>выложить всё</rus>
+    <eng>drop everything</eng>
+  </string>
+  <string id="st_eat">
+    <rus>съесть</rus>
+    <eng>eat</eng>
+  </string>
+  <string id="st_move_on_belt">
+    <rus>повесить на пояс</rus>
+    <eng>attach to belt</eng>
+  </string>
+  <string id="st_move_on_beltAmmo">
+    <rus>повесить на пояс</rus>
+    <eng>attach to belt</eng>
+  </string>
+  <string id="st_move_to_bag">
+    <rus>убрать в подсумок</rus>
+    <eng>move to backpack</eng>
+  </string>
+  <string id="st_move_to_backpack">
+    <rus>убрать в рюкзак</rus>
+    <eng>move to pouch</eng>
+  </string>
+  <string id="st_move_to_slot">
+    <rus>переместить в слот</rus>
+    <eng>move to slot</eng>
+  </string>
+  <string id="st_sell_item">
+    <rus>продать предмет</rus>
+    <eng>sell item</eng>
+  </string>
+  <string id="st_undress_outfit">
+    <rus>снять костюм</rus>
+    <eng>take off the suit</eng>
+  </string>
+  <string id="st_undress_helmet">
+    <rus>снять шлем</rus>
+    <eng>take off the helmet</eng>
+  </string>
+  <string id="st_undress_backpack">
+    <rus>снять рюкзак</rus>
+    <eng>take off the backpack</eng>
+  </string>
+  <string id="st_open_backpack">
+    <rus>открыть рюкзак</rus>
+    <eng>open backpack</eng>
+  </string>
+  <string id="st_unload_magazine">
+    <rus>разрядить</rus>
+    <eng>unload</eng>
+  </string>
+  <string id="st_detach_magazine">
+    <rus>отсоединить магазин</rus>
+    <eng>detach magazine</eng>
+  </string>
+  <string id="st_use">
+    <rus>использовать</rus>
+    <eng>use</eng>
+  </string>
+  <string id="ruck_overflow">
+    <rus>рюкзак переполнен</rus>
+    <eng>the backpack is full</eng>
+  </string>
+  <string id="st_weight">
+    <rus>вес</rus>
+    <eng>weight</eng>
+  </string>
+  <string id="ui_inv_accuracy">
+    <rus>Точность</rus>
+    <eng>Accuracy</eng>
+  </string>
+  <string id="ui_inv_bag">
+    <rus>Рюкзак</rus>
+    <eng>Backpack</eng>
+  </string>
+  <string id="ui_inv_belt">
+    <rus>Пояс</rus>
+    <eng>Belt</eng>
+  </string>
+  <string id="ui_inv_beltAmmo">
+    <rus>Пояс</rus>
+    <eng>Belt</eng>
+  </string>
+  <string id="ui_inv_cancel">
+    <rus>Отмена</rus>
+    <eng>Cancel</eng>
+  </string>
+  <string id="ui_inv_clear">
+    <rus>Очистить</rus>
+    <eng>Clear</eng>
+  </string>
+  <string id="ui_inv_damage">
+    <rus>Убойность</rus>
+    <eng>Damage</eng>
+  </string>
+  <string id="ui_inv_description">
+    <rus>Описание</rus>
+    <eng>Description</eng>
+  </string>
+  <string id="ui_inv_drop">
+    <rus>Выложить</rus>
+    <eng>Take out</eng>
+  </string>
+  <string id="ui_inv_equipment">
+    <rus>Оборудование</rus>
+    <eng>Equipment</eng>
+  </string>
+  <string id="ui_inv_exit">
+    <rus>Выход</rus>
+    <eng>Exit</eng>
+  </string>
+  <string id="ui_inv_granades_rifle">
+    <rus>Купить гранаты для подствольника (E)</rus>
+    <eng>Buy grenades for the launcher (E)</eng>
+  </string>
+  <string id="ui_inv_handling">
+    <rus>Надёжность</rus>
+    <eng>Handling</eng>
+  </string>
+  <string id="ui_inv_heavy_weapons">
+    <rus>Тяжёлое</rus>
+    <eng>Heavy</eng>
+  </string>
+  <string id="ui_inv_items_list">
+    <rus>Список вещей</rus>
+    <eng>List of items</eng>
+  </string>
+  <string id="ui_inv_money">
+    <rus>Деньги</rus>
+    <eng>Money</eng>
+  </string>
+  <string id="ui_inv_ok">
+    <rus>OK</rus>
+    <eng>OK</eng>
+  </string>
+  <string id="ui_inv_outfit_burn_protection">
+    <rus>Ожог</rus>
+    <eng>Burn</eng>
+  </string>
+  <string id="ui_inv_outfit_chemical_burn_protection">
+    <rus>Хим ожог</rus>
+    <eng>Chemical burn</eng>
+  </string>
+  <string id="ui_inv_outfit_explosion_protection">
+    <rus>Взрыв</rus>
+    <eng>Explosion</eng>
+  </string>
+  <string id="ui_inv_outfit_fire_wound_protection">
+    <rus>Пулестойкость</rus>
+    <eng>Bulletproof cap</eng>
+  </string>
+  <string id="ui_inv_outfit_params">
+    <rus>Параметры</rus>
+    <eng>Parameters</eng>
+  </string>
+  <string id="ui_inv_outfit_radiation_protection">
+    <rus>Радиозащита</rus>
+    <eng>Radiation</eng>
+  </string>
+  <string id="ui_inv_outfit_shock_protection">
+    <rus>Электрошок</rus>
+    <eng>Electric shock</eng>
+  </string>
+  <string id="ui_inv_outfit_strike_protection">
+    <rus>Удар</rus>
+    <eng>Impact</eng>
+  </string>
+  <string id="ui_inv_outfit_telepatic_protection">
+    <rus>Телепатия</rus>
+    <eng>Telepathy</eng>
+  </string>
+  <string id="ui_inv_outfit_wound_protection">
+    <rus>Разрыв</rus>
+    <eng>Rupture</eng>
+  </string>
+  <string id="ui_inv_outfits">
+    <rus>Костюмы</rus>
+    <eng>Suits</eng>
+  </string>
+  <string id="ui_inv_personal">
+    <rus>Параметры здоровья</rus>
+    <eng>Suit</eng>
+  </string>
+  <string id="ui_inv_pistols">
+    <rus>Пистолеты</rus>
+    <eng>Pistols</eng>
+  </string>
+  <string id="ui_inv_primary_weapons">
+    <rus>Основное</rus>
+    <eng>Primary</eng>
+  </string>
+  <string id="ui_inv_rate_of_fire">
+    <rus>Боевая скорострельность</rus>
+    <eng>Rate of fire</eng>
+  </string>
+  <string id="ui_inv_rest">
+    <rus>Отдохнуть</rus>
+    <eng>Rest</eng>
+  </string>
+  <string id="ui_inv_rifles">
+    <rus>Автоматы</rus>
+    <eng>Assault rifles</eng>
+  </string>
+  <string id="ui_inv_shop">
+    <rus>Магазин</rus>
+    <eng>Shop</eng>
+  </string>
+  <string id="ui_inv_shotguns">
+    <rus>Ружья</rus>
+    <eng>Shotguns</eng>
+  </string>
+  <string id="ui_inv_sniper_rifles">
+    <rus>Снайперское</rus>
+    <eng>Sniper</eng>
+  </string>
+  <string id="ui_inv_time">
+    <rus>Время</rus>
+    <eng>Time</eng>
+  </string>
+  <string id="ui_inv_total_money">
+    <rus>Всего денег</rus>
+    <eng>Total money</eng>
+  </string>
+  <string id="ui_inv_weight">
+    <rus>Вес</rus>
+    <eng>Wgt.</eng>
+  </string>
+  <string id="ui_inv_volume">
+    <rus>Объём</rus>
+    <eng>Vol.</eng>
+  </string>
+  <string id="ui_inv_ammo_pistol">
+    <rus>Купить базовые патроны для пистолета (Q)</rus>
+    <eng>Buy basic ammo for pistol (Q)</eng>
+  </string>
+  <string id="ui_inv_ammo_rifle">
+    <rus>Купить патроны для винтовки (W)</rus>
+    <eng>Buy ammo for rifle (W)</eng>
+  </string>
+  <string id="ui_inv_granadelauncher_rifle">
+    <rus>Купить подствольник для винтовки (D)</rus>
+    <eng>Buy grenade launcher for rifle (D)</eng>
+  </string>
+  <string id="ui_inv_granades">
+    <rus>Гранаты</rus>
+    <eng>Grenades</eng>
+  </string>
+  <string id="ui_inv_scope_rifle">
+    <rus>Купить оптический прицел для винтовки (S)</rus>
+    <eng>Buy optic scope for rifle (S)</eng>
+  </string>
+  <string id="ui_inv_silencer_pistol">
+    <rus>Купить глушитель для пистолета (A)</rus>
+    <eng>Buy silencer for pistol (A)</eng>
+  </string>
+  <string id="ui_inv_silencer_rifle">
+    <rus>Купить глушитель для винтовки (F)</rus>
+    <eng>Buy silencer for rifle (F)</eng>
+  </string>
+  <string id="ui_inv_last_buy">
+    <rus>Купить последний приобретённый набор</rus>
+    <eng>Buy previous set</eng>
+  </string>
+  <string id="ui_inv_sell_items(X)">
+    <rus>Продать все вещи из рюкзака (X)</rus>
+    <eng>Sell all items from backpack (X)</eng>
+  </string>
+  <string id="ui_st_preset_stored_to">
+    <rus>Приобретённый набор сохранён как</rus>
+    <eng>Purchased set saved as</eng>
+  </string>
+  <string id="ui_inv_preset1(F1)">
+    <rus>Набор 1 (F1)</rus>
+    <eng>Preset 1 (F1)</eng>
+  </string>
+  <string id="ui_inv_preset2(F2)">
+    <rus>Набор 2 (F2)</rus>
+    <eng>Preset 2 (F2)</eng>
+  </string>
+  <string id="ui_inv_preset3(F3)">
+    <rus>Набор 3 (F3)</rus>
+    <eng>Preset 3 (F3)</eng>
+  </string>
+  <string id="ui_inv_last_buy(F4)">
+    <rus>Предыдущий (F4)</rus>
+    <eng>Last items (F4)</eng>
+  </string>
+  <string id="ui_inv_default(F5)">
+    <rus>Стартовый (F5)</rus>
+    <eng>Default items (F5)</eng>
+  </string>
+  <string id="ui_st_preset_def">
+    <rus>Стартовый набор</rus>
+    <eng>Default items</eng>
+  </string>
+  <string id="ui_inv_reset_items(C)">
+    <rus>Очистить (C)</rus>
+    <eng>Reset items (C)</eng>
+  </string>
+  <string id="ui_inv_cant_buy_item">
+    <rus>Невозможно купить оружие</rus>
+    <eng>Can't buy item</eng>
+  </string>
+  <string id="ui_inv_rank_restr">
+    <rus>Ограничение по рангу</rus>
+    <eng>Rank restriction</eng>
+  </string>
+  <string id="ui_inv_not_enought_money">
+    <rus>Недостаточно денег</rus>
+    <eng>Insufficient money</eng>
+  </string>
+  <string id="ui_inv_count_restr">
+    <rus>Ограничение по количеству</rus>
+    <eng>Amount restrictions</eng>
+  </string>
+  <string id="ui_inv_has">
+    <rus>сейчас</rus>
+    <eng>is now</eng>
+  </string>
+  <string id="ui_inv_need">
+    <rus>необходимо</rus>
+    <eng>required</eng>
+  </string>
+  <string id="ui_inv_you_already_have">
+    <rus>Уже есть</rus>
+    <eng>You already have</eng>
+  </string>
+  <string id="ui_st_err_gs_not_available">
+    <rus>Онлайн услуги S.T.A.L.K.E.R. недоступны.</rus>
+    <eng>Online Services for S.T.A.L.K.E.R. are not available.</eng>
+  </string>
+  <string id="ui_st_err_sb_master_server_conn_fail">
+    <rus>Невозможно присоединиться к мастер-серверу</rus>
+    <eng>Unable to connect to master server</eng>
+  </string>
+  <string id="item_teleportator_empty">
+    <rus>Нет записанных точек.</rus>
+    <eng>No saved destinations.</eng>
+  </string>
+  <string id="ui_load_terr">
+    <rus>Территория</rus>
+    <eng>Area</eng>
+  </string>
+  <string id="armor_threshold_text">
+    <rus>Порог брони</rus>
+    <eng>Armor Threshold</eng>
+  </string>
+  <string id="bulletproof_body_text">
+    <rus>Пулестойкость (Т-Г-К)</rus>
+    <eng>Bullet Resistance (T-A-L)</eng>
+  </string>
+  <string id="bulletproof_head_text">
+    <rus>Пулестойкость (Г)</rus>
+    <eng>Bullet Resistance (H)</eng>
+  </string>
+  <string id="characteristics_title_text">
+    <rus>Характеристики</rus>
+    <eng>Characteristics</eng>
+  </string>
+  <string id="quick_action_hint_text">
+    <rus>F1-F8 для назначения быстрого действия</rus>
+    <eng>Press F1-F8 to assign a quick action</eng>
+  </string>
+  <string id="stamina_cost_text">
+    <rus>Расход выносливости</rus>
+    <eng>Stamina Cost</eng>
+  </string>
+  <string id="total_common_text">
+    <rus>Общий</rus>
+    <eng>Overall</eng>
+  </string>
+  <string id="unit_kg_text">
+    <rus> кг</rus>
+    <eng> kg</eng>
+  </string>
+  <string id="unit_ki_text">
+    <rus>Ки</rus>
+    <eng>Ci</eng>
+  </string>
+  <string id="unit_sec_text">
+    <rus> сек</rus>
+    <eng> sec</eng>
+  </string>
+</string_table>

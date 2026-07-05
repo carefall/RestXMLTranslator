@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="the_razors_edge_name">
+    <rus>По лезвию бритвы</rus>
+  </string>
+  <string id="the_razors_edge_name_1">
+    <rus>Вычислить Кота</rus>
+  </string>
+  <string id="the_razors_edge_name_2">
+    <rus>Следовать за Шёпотом</rus>
+  </string>
+  <string id="the_razors_edge_name_3">
+    <rus>Переждать атаку</rus>
+  </string>
+  <string id="the_razors_edge_name_4">
+    <rus>Поговорить с Шёпотом после боя</rus>
+  </string>
+  <string id="red_forest_shepot_name">
+    <rus>Приманка резидента</rus>
+  </string>
+  <string id="red_forest_shepot_name_1">
+    <rus>Прийти на встречу с резидентом</rus>
+  </string>
+  <string id="red_forest_shepot_name_2">
+    <rus>Встретиться с Шёпотом</rus>
+  </string>
+  <string id="their_interests_2_name">
+    <rus>Серьёзный разговор</rus>
+  </string>
+  <string id="their_interests_2_name_1">
+    <rus>Поговорить с Шёпотом</rus>
+  </string>
+  <string id="their_interests_name">
+    <rus>Свои интересы</rus>
+  </string>
+  <string id="their_interests_name_1">
+    <rus>Поговорить с Котом</rus>
+  </string>
+  <string id="air_raid_alarm_name">
+    <rus>Воздушная тревога</rus>
+  </string>
+  <string id="air_raid_alarm_name_1">
+    <rus>Уничтожить вертолёт</rus>
+  </string>
+  <string id="need_info_about_shepot_2_name">
+    <rus>Тюремный посетитель</rus>
+  </string>
+  <string id="need_info_about_shepot_2_name_1">
+    <rus>Проведать Шёпота</rus>
+  </string>
+  <string id="bar_talk_voronin_name">
+    <rus>Ожидание смерти подобно</rus>
+  </string>
+  <string id="bar_talk_voronin_name_1">
+    <rus>Получить информацию у Воронина</rus>
+  </string>
+  <string id="bar_talk_voronin_name_2">
+    <rus>Подождать сообщение от Воронина</rus>
+  </string>
+  <string id="foxes_hunting_2_name">
+    <rus>Охота на лис продолжается</rus>
+  </string>
+  <string id="foxes_hunting_2_name_1">
+    <rus>Вычислить агентов</rus>
+  </string>
+  <string id="foxes_hunting_2_name_2">
+    <rus>Забрать девайс у Шёпота</rus>
+  </string>
+  <string id="foxes_hunting_2_name_3">
+    <rus>Найти двух беглецов</rus>
+  </string>
+  <string id="foxes_hunting_2_name_4">
+    <rus>Найти второго беглеца</rus>
+  </string>
+  <string id="foxes_hunting_name">
+    <rus>Охота на лис</rus>
+  </string>
+  <string id="foxes_hunting_name_1">
+    <rus>Запеленговать агента</rus>
+  </string>
+  <string id="foxes_hunting_name_2">
+    <rus>Вернуться к Лукашу</rus>
+  </string>
+  <string id="foxes_hunting_name_3">
+    <rus>Поделиться информацией с Лукашем</rus>
+  </string>
+  <string id="pripyt_talk_shepot_name">
+    <rus>Планы резидента</rus>
+  </string>
+  <string id="pripyt_talk_shepot_name_1">
+    <rus>Прийти на встречу с резидентом</rus>
+  </string>
+  <string id="pripyt_talk_shepot_name_2">
+    <rus>Встретиться с Шёпотом</rus>
+  </string>
+  <string id="pripyt_talk_shepot_name_3">
+    <rus>Слушать Шёпота</rus>
+  </string>
+  <string id="pripyt_talk_shepot_name_4">
+    <rus>Подслушать разговор агентов</rus>
+  </string>
+  <string id="pripyt_talk_shepot_name_5">
+    <rus>Прокачать ситуацию</rus>
+  </string>
+  <string id="pripyt_talk_shepot_name_6">
+    <rus>Переговорить с Котом</rus>
+  </string>
+  <string id="pripyt_talk_shepot_name_7">
+    <rus>Поговорить с Шёпотом</rus>
+  </string>
+  <string id="pripyt_talk_shepot_name_8">
+    <rus>Выйти на Лукаша</rus>
+  </string>
+  <string id="sources_of_information_4_name">
+    <rus>Секретные материалы</rus>
+  </string>
+  <string id="sources_of_information_4_name_1">
+    <rus>Найти информацию по агентам</rus>
+  </string>
+  <string id="sources_of_information_4_name_2">
+    <rus>Поговорить с Шёпотом после боя</rus>
+  </string>
+  <string id="sources_of_information_4_name_3">
+    <rus>Найти источники информации</rus>
+  </string>
+  <string id="sources_of_information_3_name">
+    <rus>Средоточие сведений</rus>
+  </string>
+  <string id="sources_of_information_3_name_1">
+    <rus>Найти информацию по агентам</rus>
+  </string>
+  <string id="sources_of_information_3_name_2">
+    <rus>Поговорить с Шёпотом</rus>
+  </string>
+  <string id="sources_of_information_3_name_3">
+    <rus>Найти источники информации</rus>
+  </string>
+  <string id="sources_of_information_2_name">
+    <rus>Накопители данных</rus>
+  </string>
+  <string id="sources_of_information_2_name_1">
+    <rus>Найти информацию по агентам</rus>
+  </string>
+  <string id="sources_of_information_2_name_2">
+    <rus>Найти источники информации</rus>
+  </string>
+  <string id="sources_of_information_name">
+    <rus>Источники информации</rus>
+  </string>
+  <string id="sources_of_information_name_1">
+    <rus>Найти информацию по агентам</rus>
+  </string>
+  <string id="sources_of_information_name_2">
+    <rus>Найти источники информации</rus>
+  </string>
+  <string id="sources_of_information_name_3">
+    <rus>Поговорить с Наташей</rus>
+  </string>
+  <string id="shepot_need_reshenie_name">
+    <rus>Ответственное решение</rus>
+  </string>
+  <string id="shepot_need_reshenie_name_1">
+    <rus>Принять итоговое решение</rus>
+  </string>
+  <string id="need_info_about_shepot_name">
+    <rus>Волк в овечьей шкуре</rus>
+  </string>
+  <string id="need_info_about_shepot_name_1">
+    <rus>Перетереть с Шёпотом</rus>
+  </string>
+  <string id="random_agent_pda_name">
+    <rus>Мелкие сошки</rus>
+  </string>
+  <string id="random_agent_pda_name_1">
+    <rus>Получить нужную информацию</rus>
+  </string>
+  <string id="random_agent_die_name">
+    <rus>Чужие среди своих</rus>
+  </string>
+  <string id="random_agent_die_name_1">
+    <rus>Найти и уничтожить кураторов</rus>
+  </string>
+  <string id="random_agent_die_name_2">
+    <rus>Выйти на первого куратора</rus>
+  </string>
+  <string id="random_agent_die_name_3">
+    <rus>Выйти на второго куратора</rus>
+  </string>
+  <string id="random_agent_die_name_4">
+    <rus>Выйти на третьего куратора</rus>
+  </string>
+  <string id="random_agent_die_name_5">
+    <rus>Выйти на четвёртого куратора</rus>
+  </string>
+  <string id="random_agent_die_name_6">
+    <rus>Докопаться до истины</rus>
+  </string>
+  <string id="pri_sam_shepot_name">
+    <rus>Возвращение резидента</rus>
+  </string>
+  <string id="pri_sam_shepot_name_1">
+    <rus>Прийти на встречу с агентом</rus>
+  </string>
+  <string id="pri_sam_shepot_name_2">
+    <rus>Поговорить с Наташей про агента</rus>
+  </string>
+  <string id="pri_sam_shepot_name_3">
+    <rus>Поговорить с агентом</rus>
+  </string>
+  <string id="need_info_voronin_name">
+    <rus>Неприятный разговор</rus>
+  </string>
+  <string id="need_info_voronin_name_1">
+    <rus>Узнать подробности у Воронина</rus>
+  </string>
+
+</string_table>

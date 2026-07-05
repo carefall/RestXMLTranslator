@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="bar_rostok">
+    <rus>Дикая Территория — Росток</rus>
+  </string>
+  <string id="general_complete_task">
+    <rus>Задание выполнено:</rus>
+  </string>
+  <string id="general_fail_task">
+    <rus>Задание провалено:</rus>
+  </string>
+  <string id="general_help">
+    <rus>Срочно нужна аптечка, помираю!!!</rus>
+  </string>
+  <string id="general_in_item">
+    <rus>Получен предмет:</rus>
+  </string>
+  <string id="general_in_money">
+    <rus>Получены деньги:</rus>
+  </string>
+  <string id="general_new_diary">
+    <rus>Новая запись в дневнике.</rus>
+  </string>
+  <string id="general_new_encyclopedy">
+    <rus>Новая статья в энциклопедии.</rus>
+  </string>
+  <string id="general_new_task">
+    <rus>Новое задание:</rus>
+  </string>
+  <string id="general_out_item">
+    <rus>Потерян предмет:</rus>
+  </string>
+  <string id="general_out_money">
+    <rus>Потеряны деньги:</rus>
+  </string>
+  <string id="general_update_task">
+    <rus>Задание обновлено:</rus>
+  </string>
+  <string id="to_aes">
+    <rus>На ЧАЭС</rus>
+  </string>
+  <string id="to_agroprom">
+    <rus>На Агропром</rus>
+  </string>
+  <string id="to_agroprom_underground">
+    <rus>В Катакомбы</rus>
+  </string>
+  <string id="to_bar">
+    <rus>На территорию Бара</rus>
+  </string>
+  <string id="to_darkvalley">
+    <rus>В Тёмную Долину</rus>
+  </string>
+  <string id="to_escape">
+    <rus>На Кордон</rus>
+  </string>
+  <string id="to_garbage">
+    <rus>На Свалку</rus>
+  </string>
+  <string id="to_military">
+    <rus>На Склады</rus>
+  </string>
+  <string id="to_pripyat">
+    <rus>В Припять</rus>
+  </string>
+  <string id="to_radar">
+    <rus>На Радар</rus>
+  </string>
+  <string id="to_rostok">
+    <rus>На Дикую Территорию</rus>
+  </string>
+  <string id="to_yantar">
+    <rus>На Янтарь</rus>
+  </string>
+  <string id="st_helmet_countdown">
+    <rus>Отключение защиты</rus>
+  </string>
+  <string id="st_psy_danger">
+    <rus>Критический уровень пси-излучения. Немедленно покиньте опасную зону.</rus>
+  </string>
+  <string id="st_radiation_danger">
+    <rus>Опасный уровень радиации. Необходима защита.</rus>
+  </string>
+  <string id="st_found_new_pda">
+    <rus>Найдена информация.</rus>
+  </string>
+  <string id="to_sarcofag">
+    <rus>В Саркофаг</rus>
+  </string>
+  <string id="to_stancia_2">
+    <rus>На ЧАЭС-2</rus>
+  </string>
+  <string id="to_marsh">
+    <rus>На Болота</rus>
+  </string>
+  <string id="to_puzir">
+    <rus>В Забытый Лес</rus>
+  </string>
+  <string id="to_peshera">
+    <rus>В Пещеру</rus>
+  </string>
+  <string id="to_labirint">
+    <rus>В Лабиринт</rus>
+  </string>
+  <string id="to_aver">
+    <rus>На Неразведанную Землю</rus>
+  </string>
+  <string id="to_warlab">
+    <rus>В Варлаб</rus>
+  </string>
+  <string id="to_atp">
+    <rus>На АТП</rus>
+  </string>
+  <string id="to_dead_city">
+    <rus>В Мёртвый Город</rus>
+  </string>
+  <string id="to_red_forest">
+    <rus>В Красный Лес</rus>
+  </string>
+  <string id="to_lost_village">
+    <rus>В Старую Деревню</rus>
+  </string>
+  <string id="to_generators">
+    <rus>На Генераторы</rus>
+  </string>
+  <string id="to_limansk">
+    <rus>В Лиманск</rus>
+  </string>
+  <string id="to_hospital">
+    <rus>В Госпиталь</rus>
+  </string>
+  <string id="to_brainlab">
+    <rus>В Лабораторию Х-16</rus>
+  </string>
+  <string id="to_zaton">
+    <rus>На Затон</rus>
+  </string>
+  <string id="to_x10">
+    <rus>В Лабораторию Х-10</rus>
+  </string>
+  <string id="to_labx8">
+    <rus>В Лабораторию Х-8</rus>
+  </string>
+  <string id="to_opr">
+    <rus>В Восточную часть Припяти</rus>
+  </string>
+  <string id="to_puteprovod">
+    <rus>В Путепровод Юпитера</rus>
+  </string>
+  <string id="to_jupiter">
+    <rus>На Юпитер</rus>
+  </string>
+  <string id="art_found">
+    <rus>Артефакт</rus>
+  </string>
+</string_table>

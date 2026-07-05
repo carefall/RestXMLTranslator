@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="flame_reload_1">
+    <rus>Ты говорил, что можешь перезарядить огнемёт? Думаю, сейчас самое время это сделать.</rus>
+  </string>
+  <string id="flame_reload_2">
+    <rus>Ага, могу. Горючку нашёл? Или мне самому придётся мучиться? Предупреждаю: если я всё сам буду искать, это тебе обойдётся в 30000. Да и на трезвую голову может не получиться... Так что бутылочку водки тоже прихвати!</rus>
+  </string>
+  <string id="flame_reload_3">
+    <rus>Опять водка?! Нет уж, обойдёшься. И с деньгами сейчас напряг... Как-нибудь без огнемёта проживу.</rus>
+  </string>
+  <string id="flame_reload_4">
+    <rus>Сколько ж ты можешь выпить?.. На, держи. И горючку я добыл. Только давай быстрее.</rus>
+  </string>
+  <string id="flame_reload_5">
+    <rus>Минут 30 подождать придётся...</rus>
+  </string>
+  <string id="flame_reload_6">
+    <rus>Ладно. Но учти, я спешу.</rus>
+  </string>
+  <string id="flame_reload_7">
+    <rus>Нет, ничего я не нашёл. Вот, бери 30000 и пузырь. Шустрей работай только!</rus>
+  </string>
+  <string id="flame_reload_8">
+    <rus>Так... Спасибо. Ну, думаю, тебе стоит зайти через денёк.</rus>
+  </string>
+  <string id="flame_reload_9">
+    <rus>Ни фига себе! Денёк... Спасибо, мастер... по литрболу... Счастливо!</rus>
+  </string>
+  <string id="flame_reload_10">
+    <rus>Что там с заправкой моего огнемёта?</rus>
+  </string>
+  <string id="flame_reload_11">
+    <rus>Всё в лучшем виде! Иначе я и не делаю! Забирай.</rus>
+  </string>
+  <string id="flame_reload_12">
+    <rus>Благодарствую! До встречи.</rus>
+  </string>
+  <string id="flame_reload_13">
+    <rus>Погоди ты пока! Дело это непростое. Позже зайди.</rus>
+  </string>
+  <string id="flame_reload_14">
+    <rus>Ясно. Давай активнее!</rus>
+  </string>
+</string_table>

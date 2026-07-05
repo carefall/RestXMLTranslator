@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="dyak_help_hint">
+    <rus>Пленный разведчик</rus>
+  </string>
+  <string id="ucen_talk_hint">
+    <rus>Группа учёных</rus>
+  </string>
+  <string id="bandranen_pda_hint">
+    <rus>Бандит</rus>
+  </string>
+  <string id="zahar_naemnik_hint">
+    <rus>Лагерь наёмников</rus>
+  </string>
+  <string id="atak_larger_hint">
+    <rus>Лидер охотников</rus>
+  </string>
+  <string id="treasure_sysh_hint">
+    <rus>Тайник Сыча</rus>
+  </string>
+  <string id="yakut_ograblen_hint">
+    <rus>Грабители</rus>
+  </string>
+  <string id="prizrak_finalzver_hint">
+    <rus>Группа Призрака</rus>
+  </string>
+  <string id="prizrak_zver_hint">
+    <rus>Предполагаемое местонахождение Косого</rus>
+  </string>
+  <string id="system_ecolog_hint">
+    <rus>Учёный</rus>
+  </string>
+  <string id="yakut_treasure2_hint">
+    <rus>Ноутбук Архары</rus>
+  </string>
+  <string id="yakut_help_hint">
+    <rus>Записная книжка</rus>
+  </string>
+  <string id="gavr_doc_hint">
+    <rus>Монолитовец</rus>
+  </string>
+  <string id="prapor_jaw_hint">
+    <rus>Сигнал КПК долговца</rus>
+  </string>
+
+</string_table>

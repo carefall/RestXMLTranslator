@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="aem_start_421">
+    <rus>Что теперь, не будет больше сражений на "Арене", закроешь свою лавочку и подашься искать счастья в другие края?</rus>
+  </string>
+  <string id="aem_start_4211">
+    <rus>Погоди, Меченый, не стоит делать поспешных выводов: то был лишь один турнир из многих.</rus>
+  </string>
+  <string id="aem_start_42111">
+    <rus>Странно, но почему-то я так и думал с самого начала. Ну давай, раскрывай карты.</rus>
+  </string>
+  <string id="aem_start_421111">
+    <rus>Значит так: в этот раз ты победил и стал чемпионом "Арены", но это всего-навсего переходящее звание, и оно не даёт гарантий, что в следующем турнире ты не сыграешь в ящик. Турниры проводятся более-менее регулярно — раз или два в сутки, бои идут с 22:00 до 06:00, об открытии "Арены" узнаешь из сообщений, которые я буду передавать по общему каналу. Пока ты чемпион — у тебя полный доступ по выбору всех анонсированных боёв — это значит, только тебе решать, с кем, чем и в каком порядке драться. Только вот насчёт оружия есть несколько ограничений: нельзя использовать любые взрывчатые заряды и гранаты, тяжёлое вооружение (РГ—6, РПГ—7) и Гаусс-пушку. Вкратце всё, сейчас "Арену" нужно немного прибрать, так что пока можешь пойти в бар и хорошенько напиться, только не пропусти открытие. До скорого.</rus>
+  </string>
+  <string id="aem_start_4211111">
+    <rus>Перспективы радуют, бывай.</rus>
+  </string>
+  <string id="aem_start_31">
+    <rus>Ну здорово, чемпион!</rus>
+  </string>
+  <string id="aem_start_311">
+    <rus>Здорово, что у тебя нового?</rus>
+  </string>
+  <string id="aem_start_3111">
+    <rus>Эх, какой нетерпеливый! Ещё участников маловато набралось, позже приходи.</rus>
+  </string>
+  <string id="aem_start_31111">
+    <rus>Договорились.</rus>
+  </string>
+  <string id="aem_start_611">
+    <rus>Поздравляю, угадал.</rus>
+  </string>
+  <string id="aem_start_621">
+    <rus>Не судьба — повезёт в другой раз.</rus>
+  </string>
+  <string id="aem_start_631">
+    <rus>Держи заслуженное.</rus>
+  </string>
+  <string id="aem_start_641">
+    <rus>Отличный бой! Ты заработал награду и премиальные.</rus>
+  </string>
+  <string id="aem_start_651">
+    <rus>Победа не засчитана.</rus>
+  </string>
+  <string id="aem_start_661">
+    <rus>Штраф за нарушение правил боя.</rus>
+  </string>
+  <string id="aem_start_711">
+    <rus>Здорово, чемпион! Решил-таки снова заглянуть на "Арену"? Предлагаю, пока не нашёлся достойный претендент, чтобы отнять твой титул, не расслабляться и продолжать выступления. Как насчёт замочить пару-тройку мутантов? Как раз свеженьких отловили.</rus>
+  </string>
+  <string id="aem_start_721">
+    <rus>Меченый, слушай, у тебя появилась небольшая проблема. Враждующие группировки решили на время объединиться для борьбы с общим врагом.</rus>
+  </string>
+  <string id="aem_start_7211">
+    <rus>И в чём проблема?</rus>
+  </string>
+  <string id="aem_start_72111">
+    <rus>Только в том, что этот враг — ты. Попытайся вспомнить, сколько людей ты уже отправил с "Арены" на тот свет? Вот оставшиеся и отказываются сражаться с тобой... поодиночке.</rus>
+  </string>
+  <string id="aem_start_731">
+    <rus>Здорово, Меченый. Слышь, тут у нас в последнее время зверья набралось столько, что уже девать некуда. И, как назло, никто с ними воевать не хочет. Может, ты возьмёшься?</rus>
+  </string>
+  <string id="aem_start_7311">
+    <rus>Посмотрим.</rus>
+  </string>
+  <string id="aem_start_73111">
+    <rus>Подумай, дело ведь хорошее. И нам поможешь, и сам подзаработаешь.</rus>
+  </string>
+  <string id="aem_start_741">
+    <rus>Здорово, Меченый. "Арена" снова открыта! Давай побыстрее выбирай бой, сегодня у нас, как и всегда, очень насыщенная программа.</rus>
+  </string>
+  <string id="aem_start_81">
+    <rus>Приветствую, сталкер!</rus>
+  </string>
+  <string id="aem_start_91">
+    <rus>Здорово, Меченый.</rus>
+  </string>
+  <string id="aem_extra_0">
+    <rus>У меня просьба.</rus>
+  </string>
+  <string id="aem_extra_1">
+    <rus>Какая?</rus>
+  </string>
+  <string id="aem_extra_2">
+    <rus>Включи меня опять в свой список рассылки.</rus>
+  </string>
+  <string id="aem_extra_21">
+    <rus>Как скажешь.</rus>
+  </string>
+  <string id="aem_extra_3">
+    <rus>Ты можешь больше не отсылать мне свои сообщения?</rus>
+  </string>
+  <string id="aem_extra_31">
+    <rus>Запросто, вычёркиваю твой ПДА из списка рассылки.</rus>
+  </string>
+  <string id="aem_extra_4">
+    <rus>Ты свету на "Арене" побольше включить можешь?</rus>
+  </string>
+  <string id="aem_extra_41">
+    <rus>Попробую.</rus>
+  </string>
+  <string id="aem_extra_5">
+    <rus>Верни прежнее освещение.</rus>
+  </string>
+  <string id="aem_extra_51">
+    <rus>То включи, то выключи. Ты уж определись.</rus>
+  </string>
+  <string id="aem_extra_6">
+    <rus>УДАЛИТЬ МОД</rus>
+  </string>
+  <string id="aem_extra_61">
+    <rus>Уверен?</rus>
+  </string>
+  <string id="aem_extra_611">
+    <rus>Да</rus>
+  </string>
+  <string id="aem_extra_612">
+    <rus>Нет</rus>
+  </string>
+  <string id="aem_extra_9">
+    <rus>Забудь.</rus>
+  </string>
+  <string id="aem_job_quest">
+    <rus>Ну, какие бои сегодня будут?</rus>
+  </string>
+  <string id="aem_job_closed">
+    <rus>Пока никаких, подожди до открытия.</rus>
+  </string>
+  <string id="aem_job_done">
+    <rus>На сегодня всё — желающих больше не осталось.</rus>
+  </string>
+  <string id="aem_job_select">
+    <rus>Выбирай...</rus>
+  </string>
+  <string id="aem_job_reject">
+    <rus>Как-нибудь в другой раз.</rus>
+  </string>
+  <string id="aem_job_group_reject">
+    <rus>Я передумал.</rus>
+  </string>
+  <string id="aem_job_time_quest">
+    <rus>Если ты абсолютно уверен в своих силах, могу предложить бои на время. Эти сражения обычно очень скоротечны и требуют немалого мастерства. Есть возможность получить премиальные или даже удвоить выигрыш, если уложишься в минимально отведённое время. Запомни одно железное правило: нельзя убивать противников после выключения таймера, за нарушение — штраф, равный сумме вознаграждения. Согласись, лучше не получить награду и остаться при своих, чем платить штраф, а живые бойцы мне ещё в других выступлениях пригодятся. Что скажешь, выставлять таймер?</rus>
+  </string>
+  <string id="aem_job_time_5">
+    <rus>5 секунд.</rus>
+  </string>
+  <string id="aem_job_time_10">
+    <rus>10 секунд.</rus>
+  </string>
+  <string id="aem_job_time_15">
+    <rus>15 секунд.</rus>
+  </string>
+  <string id="aem_job_time_20">
+    <rus>20 секунд.</rus>
+  </string>
+  <string id="aem_job_time_30">
+    <rus>30 секунд.</rus>
+  </string>
+  <string id="aem_job_time_40">
+    <rus>40 секунд.</rus>
+  </string>
+  <string id="aem_job_time_50">
+    <rus>50 секунд.</rus>
+  </string>
+  <string id="aem_job_time_60">
+    <rus>1 минута.</rus>
+  </string>
+  <string id="aem_job_time_unlimited">
+    <rus>Нет.</rus>
+  </string>
+  <string id="aem_job_time_reject">
+    <rus>Я передумал.</rus>
+  </string>
+  <string id="aem_job_stake_quest">
+    <rus>На кого ставишь?</rus>
+  </string>
+  <string id="aem_job_stake_vs">
+    <rus>против</rus>
+  </string>
+  <string id="aem_job_stake_reject">
+    <rus>Ни на кого, передумал я.</rus>
+  </string>
+  <string id="aem_job_stake_money">
+    <rus>Сколько?</rus>
+  </string>
+  <string id="aem_job_stake_money_tm">
+    <rus>руб.</rus>
+  </string>
+  <string id="aem_job_stake_money_empty">
+    <rus>Как-нибудь в другой раз — в карманах пусто.</rus>
+  </string>
+  <string id="aem_job_stake_money_reject">
+    <rus>Да ну его.</rus>
+  </string>
+  <string id="aem_job_stake_ready">
+    <rus>Ставки сделаны — ставки больше не принимаются.</rus>
+  </string>
+  <string id="aem_job_stake_go">
+    <rus>Поехали.</rus>
+  </string>
+  <string id="aem_job_extra">
+    <rus>Тотализатор.</rus>
+  </string>
+  <string id="aem_job_extra_info">
+    <rus>Хочешь заработать деньжат, не рискуя своим здоровьем? Тогда ты обратился по адресу. Можешь делать ставки в двух дисциплинах: Бои с мутантами и Турнир группировок. Всё просто: говоришь мне, на кого ставка, платишь наличными и топаешь смотреть бой, если ставка выиграла — получаешь назад деньги и проценты с выигрыша, если проиграла — по крайней мере, удовольствие от просмотра боя тебе обеспечено. Что выбираешь?</rus>
+  </string>
+  <string id="aem_job_extra_reject">
+    <rus>Я передумал.</rus>
+  </string>
+  <string id="aem_team_military">
+    <rus>На военных.</rus>
+  </string>
+  <string id="aem_team_military1">
+    <rus>Военные</rus>
+  </string>
+  <string id="aem_team_military2">
+    <rus>военных.</rus>
+  </string>
+  <string id="aem_team_killer">
+    <rus>На наёмников.</rus>
+  </string>
+  <string id="aem_team_killer1">
+    <rus>Наёмники</rus>
+  </string>
+  <string id="aem_team_killer2">
+    <rus>наёмников.</rus>
+  </string>
+  <string id="aem_team_freedom">
+    <rus>На "Свободу".</rus>
+  </string>
+  <string id="aem_team_freedom1">
+    <rus>"Свободовцы"</rus>
+  </string>
+  <string id="aem_team_freedom2">
+    <rus>"свободовцев".</rus>
+  </string>
+  <string id="aem_team_dolg">
+    <rus>На "Долг".</rus>
+  </string>
+  <string id="aem_team_dolg1">
+    <rus>"Долговцы"</rus>
+  </string>
+  <string id="aem_team_dolg2">
+    <rus>"долговцев".</rus>
+  </string>
+  <string id="aem_team_neutral">
+    <rus>На нейтралов.</rus>
+  </string>
+  <string id="aem_team_neutral1">
+    <rus>Нейтралы</rus>
+  </string>
+  <string id="aem_team_neutral2">
+    <rus>нейтралов.</rus>
+  </string>
+  <string id="aem_team_bandit">
+    <rus>На бандитов.</rus>
+  </string>
+  <string id="aem_team_bandit1">
+    <rus>Бандиты</rus>
+  </string>
+  <string id="aem_team_bandit2">
+    <rus>бандитов.</rus>
+  </string>
+  <string id="aem_team_pseudodog">
+    <rus>На собак.</rus>
+  </string>
+  <string id="aem_team_pseudodog1">
+    <rus>Собаки</rus>
+  </string>
+  <string id="aem_team_pseudodog2">
+    <rus>собак.</rus>
+  </string>
+  <string id="aem_team_boar">
+    <rus>На кабанов.</rus>
+  </string>
+  <string id="aem_team_boar1">
+    <rus>Кабаны</rus>
+  </string>
+  <string id="aem_team_boar2">
+    <rus>кабанов.</rus>
+  </string>
+  <string id="aem_team_snork">
+    <rus>На снорков.</rus>
+  </string>
+  <string id="aem_team_snork1">
+    <rus>Снорки</rus>
+  </string>
+  <string id="aem_team_snork2">
+    <rus>снорков.</rus>
+  </string>
+  <string id="aem_team_bloodsucker">
+    <rus>На кровососа.</rus>
+  </string>
+  <string id="aem_team_bloodsucker1">
+    <rus>Кровосос</rus>
+  </string>
+  <string id="aem_team_bloodsucker2">
+    <rus>кровососа.</rus>
+  </string>
+  <string id="aem_team_zombie">
+    <rus>На зомби.</rus>
+  </string>
+  <string id="aem_team_zombie1">
+    <rus>Зомби</rus>
+  </string>
+  <string id="aem_team_zombie2">
+    <rus>зомби.</rus>
+  </string>
+  <string id="aem_team_chimera">
+    <rus>На химеру.</rus>
+  </string>
+  <string id="aem_team_chimera1">
+    <rus>Химера</rus>
+  </string>
+  <string id="aem_team_chimera2">
+    <rus>химеры.</rus>
+  </string>
+  <string id="aem_team_burer">
+    <rus>На бюрера.</rus>
+  </string>
+  <string id="aem_team_burer1">
+    <rus>Бюрер</rus>
+  </string>
+  <string id="aem_team_burer2">
+    <rus>бюрера.</rus>
+  </string>
+  <string id="aem_team_gigant">
+    <rus>На псевдогиганта.</rus>
+  </string>
+  <string id="aem_team_gigant1">
+    <rus>Псевдогигант</rus>
+  </string>
+  <string id="aem_team_gigant2">
+    <rus>псевдогиганта.</rus>
+  </string>
+  <string id="aem_mutants">
+    <rus>Живодёрня.</rus>
+  </string>
+  <string id="aem_mutants_info">
+    <rus>Наконец-то "Долг" возобновил поставки мутантов на "Арену", попадаются даже очень редкие экземпляры. Выбирай, кто станет твоей новой жертвой?</rus>
+  </string>
+  <string id="aem_military">
+    <rus>Бой с военными.</rus>
+  </string>
+  <string id="aem_military_info">
+    <rus>Казалось бы, что они делают на территории Бара? Но благодаря обширным связям с командованием военных, "должане" могут позволить себе даже такое. В профессионализме военных сомневаться не приходится: у всех за плечами немалый боевой опыт, полученный ещё до возникновения Зоны и отточенный в регулярных рейдах по зачистке территорий. Вооружены лучшими отечественными стволами.</rus>
+  </string>
+  <string id="aem_killer">
+    <rus>Бой с наёмниками.</rus>
+  </string>
+  <string id="aem_killer_info">
+    <rus>Наёмники — хорошо организованная военная группировка с отличным импортным вооружением, по слухам, выполняют заказы иностранных правительств. Многие местные их недолюбливают, а у вояк они, вообще как кость в горле, но боевая мощь данной организации заставляет всех считаться с их присутствием в Зоне и даже налаживать контакты.</rus>
+  </string>
+  <string id="aem_freedom">
+    <rus>Бой со "свободовцами".</rus>
+  </string>
+  <string id="aem_freedom_info">
+    <rus>"Свободовцы" — непримиримые враги "Долга", на время сражений пользуются неприкосновенностью на территории Бара. В их рядах встречается много перебежчиков из "должан", отказавшихся в своё время от идеологии "последней надежды человечества", поэтому и отношения между группировками, мягко говоря, напряжённые. Хотя в "Долге" и считают, что "свободовцы" — отмороженные анархисты, тем не менее последние не уступают в силе первым, а их оружие и экипировка также на высоте.</rus>
+  </string>
+  <string id="aem_dolg">
+    <rus>Бой с "должанами".</rus>
+  </string>
+  <string id="aem_dolg_info">
+    <rus>Группировка "Долг" — наши самопровозглашённые менты. Именно благодаря их командованию стали проводиться смертельные бои на "Арене". Члены группировки постоянно принимают участие в сражениях, оттачивая свои боевые навыки, для подготовки к рейдам в Зону. Вооружены как государственные спецподразделения, образцами отечественного вооружения.</rus>
+  </string>
+  <string id="aem_neutral">
+    <rus>Бой с нейтралами.</rus>
+  </string>
+  <string id="aem_neutral_info">
+    <rus>Обычные сталкеры-одиночки, не принадлежащие ни к одной из группировок в Зоне. Возможно, среди них встретятся те, кто перешёл тебе дорогу — будет хороший повод разделаться с конкурентами. Вооружение различное — импортное и отечественное, но слабых стволов нет ни у кого.</rus>
+  </string>
+  <string id="aem_bandit">
+    <rus>Бой с бандитами.</rus>
+  </string>
+  <string id="aem_bandit_info">
+    <rus>Очередная партия смертников из Тёмной Долины. Оружие им дали казённое, "ареновское", потому не думай, что они в тебя из ржавых берданок палить будут.</rus>
+  </string>
+  <string id="aem_special">
+    <rus>Бой со сборной Зоны.</rus>
+  </string>
+  <string id="aem_special_info">
+    <rus>В команде представлены все группировки Зоны. Общая численность несколько превышает обычную. И все они серьёзно настроены отомстить тебе за гибель соклановцев на "Арене".</rus>
+  </string>
+  <string id="aem_special_1">
+    <rus>Я понял.</rus>
+  </string>
+  <string id="aem_special_warning">
+    <rus>Шансов вернуться живым у тебя немного. Уверен, что хочешь принять их вызов? Лучше пораскинь мозгами сейчас, чем потом на "Арене".</rus>
+  </string>
+  <string id="aem_special_continue">
+    <rus>Бывало и похуже. Объявляй бой.</rus>
+  </string>
+  <string id="aem_stakes">
+    <rus>Бои с мутантами.</rus>
+  </string>
+  <string id="aem_stakes_info">
+    <rus>Здесь сталкеры разных группировок выбивают дух из мутантов или наоборот, в общем, как получится. Какой бой посмотрим?</rus>
+  </string>
+  <string id="aem_turnament">
+    <rus>Турнир группировок.</rus>
+  </string>
+  <string id="aem_turnament_info">
+    <rus>Турнир престижа между группировками: каждая пытается продемонстрировать своё превосходство над другими. Также здесь зачастую разрешаются спорные вопросы с минимальными потерями. Правила просты: есть несколько команд, они будут убивать друг друга, пока не останется одна — сильнейшая. Приступим?</rus>
+  </string>
+  <string id="aem_mutants_dog">
+    <rus>Собаки.</rus>
+  </string>
+  <string id="aem_mutants_boar">
+    <rus>Кабаны.</rus>
+  </string>
+  <string id="aem_mutants_tushkano">
+    <rus>Тушканы.</rus>
+  </string>
+  <string id="aem_mutants_snork">
+    <rus>Снорки.</rus>
+  </string>
+  <string id="aem_mutants_bloodsucker">
+    <rus>Кровосос.</rus>
+  </string>
+  <string id="aem_mutants_zombie">
+    <rus>Контролёр и зомби.</rus>
+  </string>
+  <string id="aem_mutants_chimera">
+    <rus>Химера.</rus>
+  </string>
+  <string id="aem_mutants_burer">
+    <rus>Бюрер.</rus>
+  </string>
+  <string id="aem_mutants_gigant">
+    <rus>Псевдогигант.</rus>
+  </string>
+  <string id="aem_fight_1on1">
+    <rus>Один на один.</rus>
+  </string>
+  <string id="aem_fight_1on2">
+    <rus>Один против двоих.</rus>
+  </string>
+  <string id="aem_fight_1on3">
+    <rus>Один против троих.</rus>
+  </string>
+  <string id="aem_fight_1on6">
+    <rus>Кровавая баня (один против шестерых).</rus>
+  </string>
+  <string id="aem_msg_done">
+    <rus>"Арена" закрывается на профилактику. Сегодня боёв больше не будет.</rus>
+  </string>
+  <string id="aem_msg_close">
+    <rus>Время сражений вышло, "Арена" закрыта на профилактику. Кто не успел, тот опоздал.</rus>
+  </string>
+  <string id="aem_msg_open">
+    <rus>Итак, "Арена" снова открыта! Кто первый желает сдать свой литр крови?</rus>
+  </string>
+  <string id="aem_msg_3h">
+    <rus>Всем желающим принять участие в сражениях на "Арене" — срочно прибыть на территорию Бара. Первый бой состоится уже через 3 часа.</rus>
+  </string>
+  <string id="aem_msg_6h">
+    <rus>До открытия "Арены" осталось 6 часов.</rus>
+  </string>
+  <string id="aem_msg_12h">
+    <rus>До открытия "Арены" осталось 12 часов.</rus>
+  </string>
+  <string id="aem_msg_24h">
+    <rus>Напоминаю всем, что бои на "Арене" возобновятся ровно через 24 часа.</rus>
+  </string>
+  <string id="aem_msg_48h">
+    <rus>"Арена" откроется через 48 часов, набор участников продолжается.</rus>
+  </string>
+  <string id="aem_msg_72h">
+    <rus>Предполагаемое время открытия "Арены" — трое суток.</rus>
+  </string>
+  <string id="aem_barman">
+    <rus>Бармен</rus>
+  </string>
+  <string id="aem_admin">
+    <rus>Администратор "Арены"</rus>
+  </string>
+  <string id="aem_arny_dead">
+    <rus>Мужики, какая-то сволочь прикончила Арни! Если кто найдёт эту скотину — пристрелите на месте. Вознаграждение гарантирую. На данный момент "Арена" закрывается на неопределённое время, следите за новостями.</rus>
+  </string>
+  <string id="aem_restore">
+    <rus>Нашёлся новый администратор, работа "Арены" будет скоро восстановлена.</rus>
+  </string>
+  <string id="aem_barm_1">
+    <rus>Ну что за скотство, опять какая-то мразь завалила администратора "Арены"! Кто-нибудь, наконец, остановит это бешеное животное?</rus>
+  </string>
+  <string id="aem_barm_2">
+    <rus>Эй, ты, урод! Если я узнаю твоё имя... Лучше застрелись сам, не жди, когда за тобой придут мои парни — они тебя долго будут мучить.</rus>
+  </string>
+  <string id="aem_barm_3">
+    <rus>Всем сталкерам на территории Бара: убит управляющий "Арены". Ищите убийцу, пора уже прекратить этот беспредел раз и навсегда.</rus>
+  </string>
+  <string id="aem_barm_4">
+    <rus>Мужики, снова скопытили управляющего "Арены", убийца ещё где-то рядом. Найдите его, но не убивайте, просто переломайте все кости и бросьте умирать в костёр. После "Долг" повесит останки этой мрази на одно из деревьев у входа на территорию Бара.</rus>
+  </string>
+  <string id="aem_arny_spread_out">
+    <rus>Тут такое дело... Арни по пьяни влетел в аномалию... короче, порвало его, даже костей не осталось. Так что сами понимаете, мужики, боёв на "Арене" пока не будет. Как только найдётся новый управляющий — дам информацию по общему каналу.</rus>
+  </string>
+  <string id="aem_admin_spread_out">
+    <rus>Чёрт побери, куда-то пропал новый администратор "Арены". Если кто увидит этого алкаша, немедленно тащите его в бар, хотя, скорее всего, уже поздно. Наверное, сгинул в аномалии или ещё какая беда приключилась... В любом случае, "Арена" не откроется до тех пор, пока не найдётся управляющий. Всем спасибо, все свободны.</rus>
+  </string>
+  <string id="aem_drunk_1">
+    <rus>Ушёл в бар жрать водку. До открытия не кантовать.</rus>
+  </string>
+  <string id="aem_drunk_2">
+    <rus>Ушёл в бар пропивать ваши деньги, неудачники.</rus>
+  </string>
+  <string id="aem_drunk_3">
+    <rus>Если кому понадоблюсь, ищите меня в баре, только предупреждаю сразу: без бутылки разговора не будет.</rus>
+  </string>
+  <string id="aem_drunk_4">
+    <rus>Эх, день за днём одно и то же... всё водка, водка... Короче, я в баре.</rus>
+  </string>
+</string_table>

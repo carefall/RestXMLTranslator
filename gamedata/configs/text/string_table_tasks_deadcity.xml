@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="cit_doctor_task">
+    <rus>Тайник в Припяти</rus>
+  </string>
+  <string id="cit_doctor_task_0">
+    <rus>Найти тайник Стрелка в Припяти</rus>
+  </string>
+  <string id="cit_doctor_task_1">
+    <rus>Добраться до гостиницы</rus>
+  </string>
+  <string id="cit_doctor_task_2">
+    <rus>Найти комнату с тайником</rus>
+  </string>
+  <string id="cit_doctor_task_3">
+    <rus>Обследовать тайник</rus>
+  </string>
+</string_table>

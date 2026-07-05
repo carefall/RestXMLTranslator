@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="repair_cap_upgrade">
+    <rus>Улучшить</rus>
+    <eng>Upgrade</eng>
+  </string>
+  <string id="repair_cap_scheme">
+    <rus>Схема</rus>
+    <eng>Scheme</eng>
+  </string>
+  <string id="repair_cap_desc">
+    <rus>Описание</rus>
+    <eng>Description</eng>
+  </string>
+  <string id="repair_cap_in_repair">
+    <rus>В ремонт</rus>
+    <eng>For repair</eng>
+  </string>
+  <string id="repair_cap_for_parts">
+    <rus>На запчасти</rus>
+    <eng>For parts</eng>
+  </string>
+  <string id="repair_cap_orders">
+    <rus>Список заказов</rus>
+    <eng>Order list</eng>
+  </string>
+  <string id="repair_cap_ammunition">
+    <rus>Амуниция</rus>
+    <eng>Ammunition</eng>
+  </string>
+  <string id="repair_slot_prefix">
+    <rus>Слот:</rus>
+    <eng>Slot:</eng>
+  </string>
+  <string id="repair_status_no_backpack_upgrade">
+    <rus>Техник не занимается улучшением рюкзаков.</rus>
+    <eng>Technician does not upgrade backpacks.</eng>
+  </string>
+  <string id="repair_status_no_upgrade">
+    <rus>Этот предмет не подлежит улучшению.</rus>
+    <eng>This item cannot be upgraded.</eng>
+  </string>
+  <string id="repair_status_no_weapon_repair">
+    <rus>Техник не занимается ремонтом оружия.</rus>
+    <eng>Technician does not repair weapons.</eng>
+  </string>
+  <string id="repair_status_no_weapon_upgrade">
+    <rus>Техник не занимается улучшением оружия.</rus>
+    <eng>Technician does not upgrade weapons.</eng>
+  </string>
+  <string id="repair_status_no_this_weapon_repair">
+    <rus>Техник не занимается ремонтом этого оружия.</rus>
+    <eng>Technician does not repair this weapon.</eng>
+  </string>
+  <string id="repair_status_no_this_weapon_upgrade">
+    <rus>Техник не занимается улучшением этого оружия.</rus>
+    <eng>Technician does not upgrade this weapon.</eng>
+  </string>
+  <string id="repair_status_no_armor_repair">
+    <rus>Техник не занимается ремонтом брони.</rus>
+    <eng>Technician does not repair armor.</eng>
+  </string>
+  <string id="repair_status_no_armor_upgrade">
+    <rus>Техник не занимается улучшением брони.</rus>
+    <eng>Technician does not upgrade armor.</eng>
+  </string>
+  <string id="repair_status_no_this_armor_repair">
+    <rus>Техник не занимается ремонтом данного типа брони.</rus>
+    <eng>Technician does not repair this type of armor.</eng>
+  </string>
+  <string id="repair_status_no_this_armor_upgrade">
+    <rus>Техник не занимается улучшением данного типа брони.</rus>
+    <eng>Technician does not upgrade this type of armor.</eng>
+  </string>
+  <string id="repair_status_no_helmet_repair">
+    <rus>Техник не занимается ремонтом шлемов.</rus>
+    <eng>Technician does not repair helmets.</eng>
+  </string>
+  <string id="repair_status_no_helmet_upgrade">
+    <rus>Техник не занимается улучшением шлемов.</rus>
+    <eng>Technician does not upgrade helmets.</eng>
+  </string>
+  <string id="repair_status_no_this_helmet_repair">
+    <rus>Техник не занимается ремонтом данного шлема.</rus>
+    <eng>Technician does not repair this helmet.</eng>
+  </string>
+  <string id="repair_status_no_this_helmet_upgrade">
+    <rus>Техник не занимается улучшением данного шлема.</rus>
+    <eng>Technician does not upgrade this helmet.</eng>
+  </string>
+  <string id="repair_status_no_backpack_repair">
+    <rus>Техник не занимается ремонтом рюкзаков.</rus>
+    <eng>Technician does not repair backpacks.</eng>
+  </string>
+  <string id="repair_status_no_this_backpack_repair">
+    <rus>Техник не занимается ремонтом данного рюкзака.</rus>
+    <eng>Technician does not repair this backpack.</eng>
+  </string>
+  <string id="repair_status_weapon_ok">
+    <rus>Оружие не нуждается в починке.</rus>
+    <eng>Weapon does not need repair.</eng>
+  </string>
+  <string id="repair_status_helmet_ok">
+    <rus>Шлем не нуждается в починке.</rus>
+    <eng>Helmet does not need repair.</eng>
+  </string>
+  <string id="repair_status_backpack_ok">
+    <rus>Рюкзак не нуждается в починке.</rus>
+    <eng>Backpack does not need repair.</eng>
+  </string>
+  <string id="repair_status_armor_ok">
+    <rus>Броня не нуждается в починке.</rus>
+    <eng>Armor does not need repair.</eng>
+  </string>
+  <string id="repair_status_weapon_damaged">
+    <rus>Слишком сильное повреждение оружия!</rus>
+    <eng>Weapon is too damaged!</eng>
+  </string>
+  <string id="repair_status_helmet_damaged">
+    <rus>Слишком сильное повреждение шлема!</rus>
+    <eng>Helmet is too damaged!</eng>
+  </string>
+  <string id="repair_status_backpack_damaged">
+    <rus>Слишком сильное повреждение рюкзака!</rus>
+    <eng>Backpack is too damaged!</eng>
+  </string>
+  <string id="repair_status_armor_damaged">
+    <rus>Слишком сильное повреждение брони!</rus>
+    <eng>Armor is too damaged!</eng>
+  </string>
+  <string id="repair_upgrade_unavailable">
+    <rus>Этот апгрейд сейчас недоступен.</rus>
+    <eng>This upgrade is currently unavailable.</eng>
+  </string>
+  <string id="repair_upgrade_incompatible_prefix">
+    <rus>Этот апгрейд несовместим с уже установленным </rus>
+    <eng>This upgrade is incompatible with already installed upgrade</eng>
+  </string>
+  <string id="repair_quote_open">
+    <rus>«</rus>
+    <eng>«</eng>
+  </string>
+  <string id="repair_quote_close">
+    <rus>»</rus>
+    <eng>»</eng>
+  </string>
+  <string id="repair_parts_not_needed">
+    <rus>Запчасти не требуются</rus>
+    <eng>No parts required</eng>
+  </string>
+  <string id="repair_parts_needed">
+    <rus>Необходимы запчасти</rus>
+    <eng>Parts required</eng>
+  </string>
+  <string id="repair_order_added">
+    <rus>Заказ добавлен. Нажмите "Заказать" для подтверждения.</rus>
+    <eng>Order added. Press "Order" to confirm.</eng>
+  </string>
+  <string id="repair_time_days_suffix">
+    <rus> дн.</rus>
+    <eng> d.</eng>
+  </string>
+  <string id="repair_time_hours_suffix">
+    <rus> ч.</rus>
+    <eng> h.</eng>
+  </string>
+  <string id="repair_time_minutes_suffix">
+    <rus> мин.</rus>
+    <eng> min.</eng>
+  </string>
+  <string id="repair_time_one_minute">
+    <rus>1 мин.</rus>
+    <eng>1 min.</eng>
+  </string>
+  <string id="repair_order_type_upgrade">
+    <rus>Апгрейд</rus>
+    <eng>Upgrade</eng>
+  </string>
+  <string id="repair_order_type_repair">
+    <rus>Ремонт</rus>
+    <eng>Repair</eng>
+  </string>
+  <string id="repair_not_enough_money">
+    <rus>Недостаточно денег.</rus>
+    <eng>Not enough money.</eng>
+  </string>
+</string_table>

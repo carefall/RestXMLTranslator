@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="descr_condition">
+    <rus>Состояние</rus>
+  </string>
+  <string id="descr_cost">
+    <rus>Цена</rus>
+  </string>
+  <string id="descr_rub">
+    <rus>Рублей</rus>
+  </string>
+  <string id="descr_weight">
+    <rus>Вес</rus>
+  </string>
+  <string id="descr_volume">
+    <rus>Объём</rus>
+  </string>
+  <string id="descr_kg">
+    <rus>кг</rus>
+  </string>
+  <string id="descr_count">
+    <rus>шт</rus>
+  </string>
+  <string id="descr_weight_power">
+    <rus>Переносимый вес</rus>
+  </string>
+  <string id="descr_ruck_volume">
+    <rus>Вместительность</rus>
+  </string>
+  <string id="descr_max_volume">
+    <rus>Вместительность рюкзака</rus>
+  </string>
+  <string id="descr_item_weight_scale">
+    <rus>Уменьшение веса</rus>
+  </string>
+  <string id="descr_walk_accel">
+    <rus>Скорость передвижения</rus>
+  </string>
+  <string id="descr_jump_speed">
+    <rus>Сила прыжка</rus>
+  </string>
+  <string id="descr_art_count">
+    <rus>Кол-во контейнеров под арты</rus>
+  </string>
+  <string id="descr_art_protected_count">
+    <rus>Кол-во свинцовых контейнеров</rus>
+  </string>
+  <string id="descr_ammo_count">
+    <rus>Кол-во магазинов</rus>
+  </string>
+  <string id="descr_usable_count">
+    <rus>Кол-во быстрых слотов</rus>
+  </string>  
+  <string id="descr_damage">
+    <rus>Убойность оружия</rus>
+  </string>
+  <string id="descr_damage_ammo">
+    <rus>Убойность патрона</rus>
+  </string>
+  <string id="descr_handling">
+    <rus>Надёжность</rus>
+  </string>
+  <string id="descr_distance">
+    <rus>Дальность</rus>
+  </string>
+  <string id="descr_knife_distance">
+    <rus>Дистанция удара</rus>
+  </string>
+  <string id="descr_radius">
+    <rus>Опасный радиус</rus>
+  </string>
+  <string id="descr_meters">
+    <rus>метров</rus>
+  </string>
+  <string id="descr_rate">
+    <rus>Скорострельность</rus>
+  </string>
+  <string id="descr_speed">
+    <rus>в/мин</rus>
+  </string>
+  <string id="descr_mag_size">
+    <rus>Вместимость</rus>
+  </string>
+  <string id="descr_ammo">
+    <rus>патронов</rus>
+  </string>
+  <string id="descr_ammo_weapon">
+    <rus>Боеприпасы</rus>
+  </string>
+  <string id="descr_mag_weapon">
+    <rus>Aмуниция/Магазины</rus>
+  </string>
+  <string id="descr_scope">
+    <rus>Прицел</rus>
+  </string>
+  <string id="descr_scopes">
+    <rus>Прицелы</rus>
+  </string>
+  <string id="descr_silencer">
+    <rus>Глушитель</rus>
+  </string>
+  <string id="descr_pg">
+    <rus>Подствольный гранатомёт</rus>
+  </string>
+  <string id="descr_time">
+    <rus>Время действия</rus>
+  </string>
+  <string id="descr_seconds">
+    <rus>секунд</rus>
+  </string>
+  <string id="ui_inv_boost_health_restore">
+    <rus>Восстановление здоровья</rus>
+  </string>
+  <string id="ui_inv_boost_power_restore">
+    <rus>Восстановление сил</rus>
+  </string>
+  <string id="ui_inv_boost_radiation_restore">
+    <rus>Вывод радиации</rus>
+  </string>
+  <string id="ui_inv_boost_bleeding_restore">
+    <rus>Заживление ран</rus>
+  </string>
+  <string id="ui_inv_boost_psy_health_restore">
+    <rus>Восстановление пси-здоровья</rus>
+  </string>
+  <string id="ui_inv_boost_fire_wound_protection">
+    <rus>Пулестойкость</rus>
+  </string>
+  <string id="ui_inv_boost_radiation_protection">
+    <rus>Защита от радиации</rus>
+  </string>
+  <string id="ui_inv_boost_telepat_protection">
+    <rus>Защита от пси-воздействия</rus>
+  </string>
+  <string id="ui_inv_boost_max_weight">
+    <rus>Переносимый вес</rus>
+  </string>
+  <string id="ui_inv_boost_time_factor">
+    <rus>Замедление</rus>
+  </string>
+  <string id="ui_inv_boost_time">
+    <rus>Время действия</rus>
+  </string>
+  <string id="descr_art_level">
+    <rus>Тип артефакта</rus>
+  </string>
+  <string id="art_0">
+    <rus>особый</rus>
+  </string>
+  <string id="art_1">
+    <rus>1-ый базовый</rus>
+  </string>
+  <string id="art_2">
+    <rus>2-ой базовый</rus>
+  </string>
+  <string id="art_3">
+    <rus>3-ий базовый</rus>
+  </string>
+  <string id="art_4">
+    <rus>4-ый базовый</rus>
+  </string>
+  <string id="modart_1">
+    <rus>1-ый модификат</rus>
+  </string>
+  <string id="modart_2">
+    <rus>2-ой модификат</rus>
+  </string>
+  <string id="modart_3">
+    <rus>3-ий модификат</rus>
+  </string>
+  <string id="modart_4">
+    <rus>4-ый модификат</rus>
+  </string>
+  <string id="art_uniq">
+    <rus>уникальный</rus>
+  </string>
+  <string id="art_quest">
+    <rus>квестовый</rus>
+  </string>
+  <string id="art_izomorf">
+    <rus>изоморф</rus>
+  </string>
+  <string id="descr_installed_upgrades">
+    <rus>Установленные апгрейды</rus>
+  </string>
+</string_table>

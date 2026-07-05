@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="blokpost_case">
+    <rus>Кейс с документами</rus>
+  </string>
+  <string id="esc_fox">
+    <rus>Раненый Лис</rus>
+  </string>
+  <string id="esc_mill">
+    <rus>Заброшенная мельница, где-то здесь в последний раз видели пропавшего братка</rus>
+  </string>
+  <string id="escape_trader">
+    <rus>Торговец</rus>
+  </string>
+  <string id="factory_bandits">
+    <rus>Бандиты на фабрике</rus>
+  </string>
+  <string id="killers_team">
+    <rus>Группа неизвестных наёмников</rus>
+  </string>
+  <string id="novice_leader">
+    <rus>Лидер лагеря новичков</rus>
+  </string>
+  <string id="soldiers_bridge">
+    <rus>Пост военных у разрушенного моста; иногда за проход через мост берут взятку</rus>
+  </string>
+  <string id="tutorial_artefact">
+    <rus>Артефакт</rus>
+  </string>
+  <string id="tutorial_bandits">
+    <rus>Бандиты, зажавшие разведчика</rus>
+  </string>
+  <string id="tutorial_secret">
+    <rus>Тайник, оставленный погибшим сталкером</rus>
+  </string>
+  <string id="tutorial_secret_place1">
+    <rus>Тайник, оставленный погибшим сталкером</rus>
+  </string>
+  <string id="tutorial_secret_shustryi">
+    <rus>Тайник, оставленный Шустрым</rus>
+  </string>
+  <string id="tutorial_wounded">
+    <rus>Пленный Шустрый</rus>
+  </string>
+  <string id="volk">
+    <rus>Волк, лидер лагеря новичков</rus>
+  </string>
+  <string id="wolfs_rangers">
+    <rus>Разведчики из группы Волка</rus>
+  </string>
+</string_table>

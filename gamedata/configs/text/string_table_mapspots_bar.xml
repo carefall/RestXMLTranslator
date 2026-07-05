@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="bar_arena_locator">
+    <rus>"Арена"</rus>
+  </string>
+  <string id="bar_bar_locator">
+    <rus>Бар "100 Рентген"</rus>
+  </string>
+  <string id="bar_dolg_locator">
+    <rus>База группировки "Долг"</rus>
+  </string>
+  <string id="rostok_banda_volkodava">
+    <rus>Волкодав с головорезами возле вертолёта</rus>
+  </string>
+  <string id="rostok_kruglov">
+    <rus>Профессор Круглов</rus>
+  </string>
+  <string id="rostok_tainyi_hod">
+    <rus>Засада возле завода</rus>
+  </string>
+  <string id="rostok_volkodav">
+    <rus>Волкодав</rus>
+  </string>
+</string_table>

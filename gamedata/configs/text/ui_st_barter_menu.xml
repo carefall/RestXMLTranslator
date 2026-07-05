@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="barter_cat_ammo">
+    <rus>Боеприпасы, снаряжение</rus>
+    <eng>Ammunition and Equipment</eng>
+  </string>
+  <string id="barter_cat_artefact">
+    <rus>Артефакты</rus>
+    <eng>Artifacts</eng>
+  </string>
+  <string id="barter_cat_weapons">
+    <rus>Оружие</rus>
+    <eng>Weapons</eng>
+  </string>
+  <string id="barter_cat_submachine_guns">
+    <rus>Пистолеты-пулемёты</rus>
+    <eng>Submachine Guns</eng>
+  </string>
+  <string id="barter_cat_rifles">
+    <rus>Ружья</rus>
+    <eng>Shotguns</eng>
+  </string>
+  <string id="barter_cat_addons">
+    <rus>Обвес</rus>
+    <eng>Attachments</eng>
+  </string>
+  <string id="barter_cat_grenade">
+    <rus>Гранаты</rus>
+    <eng>Grenades</eng>
+  </string>
+  <string id="barter_cat_ammo_gauss">
+    <rus>Заряды 9мм M72-M "Гаусс"</rus>
+    <eng>9mm M72-M Gauss Rounds</eng>
+  </string>
+  <string id="barter_cat_ammo_vog">
+    <rus>Гранаты для подствола</rus>
+    <eng>Grenade Launcher Rounds</eng>
+  </string>
+  <string id="barter_cat_ammo_12x70">
+    <rus>Патроны 12х70мм</rus>
+    <eng>12x70mm Ammunition</eng>
+  </string>
+  <string id="barter_cat_ammo_5.45x39">
+    <rus>Патроны 5.45х39мм</rus>
+    <eng>5.45x39mm Ammunition</eng>
+  </string>
+  <string id="barter_cat_ammo_5.56x45">
+    <rus>Патроны 5.56х45мм</rus>
+    <eng>5.56x45mm Ammunition</eng>
+  </string>
+  <string id="barter_cat_ammo_7.62x39">
+    <rus>Патроны 7.62х39мм</rus>
+    <eng>7.62x39mm Ammunition</eng>
+  </string>
+  <string id="barter_cat_ammo_7.62x54">
+    <rus>Патроны 7.62х54мм</rus>
+    <eng>7.62x54mm Ammunition</eng>
+  </string>
+  <string id="barter_cat_ammo_7.62x51">
+    <rus>Патроны 7.62х51мм</rus>
+    <eng>7.62x51mm Ammunition</eng>
+  </string>
+  <string id="barter_cat_ammo_9x39">
+    <rus>Патроны 9x39мм</rus>
+    <eng>9x39mm Ammunition</eng>
+  </string>
+  <string id="barter_cat_ammo_9x19">
+    <rus>Патроны 9x19мм</rus>
+    <eng>9x19mm Ammunition</eng>
+  </string>
+  <string id="barter_cat_ammo_7.62x25">
+    <rus>Патроны 7.62x25мм</rus>
+    <eng>7.62x25mm Ammunition</eng>
+  </string>
+  <string id="barter_cat_ammo_7.92x57">
+    <rus>Патроны 7.92x57мм</rus>
+    <eng>7.92x57mm Ammunition</eng>
+  </string>
+  <string id="barter_cat_ammo_12.7">
+    <rus>Патроны 12.7мм</rus>
+    <eng>12.7mm Ammunition</eng>
+  </string>
+  <string id="barter_cat_mags">
+    <rus>Магазины</rus>
+    <eng>Magazines</eng>
+  </string>
+  <string id="barter_cat_outfit">
+    <rus>Костюмы</rus>
+    <eng>Outfits</eng>
+  </string>
+  <string id="barter_cat_heavy_outfit">
+    <rus>Бронежилеты</rus>
+    <eng>Body Armor</eng>
+  </string>
+  <string id="barter_cat_helmet">
+    <rus>Защита головы</rus>
+    <eng>Head Protection</eng>
+  </string>
+  <string id="barter_cat_ingridients">
+    <rus>Ингредиенты для огнесмеси</rus>
+    <eng>Incendiary Mix Ingredients</eng>
+  </string>
+  <string id="barter_cat_food">
+    <rus>Еда</rus>
+    <eng>Food</eng>
+  </string>
+  <string id="barter_cat_medic">
+    <rus>Медицинские препараты</rus>
+    <eng>Medical Supplies</eng>
+  </string>
+  <string id="barter_cat_remkit">
+    <rus>Ремкомплекты</rus>
+    <eng>Repair Kits</eng>
+  </string>
+  <string id="barter_cat_mutant_parts">
+    <rus>Части мутантов</rus>
+    <eng>Mutant Parts</eng>
+  </string>
+  <string id="barter_cat_others">
+    <rus>Прочее</rus>
+    <eng>Miscellaneous</eng>
+  </string>
+  <string id="barter_ratio_for">
+    <rus> за </rus>
+    <eng> for </eng>
+  </string>
+  <string id="barter_err_section">
+    <rus>Ошибка! Не найдена секция предмета обмена.</rus>
+    <eng>Error! Barter item section not found.</eng>
+  </string>
+  <string id="barter_item_received_prefix">
+    <rus>Получен предмет: </rus>
+    <eng>Item received: </eng>
+  </string>
+  <string id="barter_err_not_enough_ammo">
+    <rus>Недостаточно патронов для обмена.</rus>
+    <eng>Not enough ammunition for the exchange.</eng>
+  </string>
+  <string id="barter_err_items_damaged">
+    <rus>Некоторые или все предметы для обмена слишком испорченные!</rus>
+    <eng>Some or all barter items are too damaged!</eng>
+  </string>
+  <string id="barter_err_not_enough_items">
+    <rus>Не хватает предметов для обмена!</rus>
+    <eng>Not enough items for the exchange!</eng>
+  </string>
+  <string id="barter_article_for_colon">
+    <rus> за:</rus>
+    <eng> for:</eng>
+  </string>
+  <string id="barter_header_price_sidor">
+    <rus>Список Сидора:</rus>
+    <eng>Sidorovich's List:</eng>
+  </string>
+  <string id="barter_header_price_kuznezov">
+    <rus>Список Кузнецова:</rus>
+    <eng>Kuznetsov's List:</eng>
+  </string>
+  <string id="barter_header_price_voron">
+    <rus>Список Ворона:</rus>
+    <eng>Raven's List:</eng>
+  </string>
+  <string id="barter_header_price_barman">
+    <rus>Список Бармена:</rus>
+    <eng>Barmen's List:</eng>
+  </string>
+  <string id="barter_header_price_petrenko">
+    <rus>Список Петренко:</rus>
+    <eng>Petrenko's List:</eng>
+  </string>
+  <string id="barter_header_price_sakharov">
+    <rus>Список Сахарова:</rus>
+    <eng>Sakharov's List:</eng>
+  </string>
+  <string id="barter_header_price_scraga">
+    <rus>Список Скряги:</rus>
+    <eng>Skinflint's List:</eng>
+  </string>
+  <string id="barter_header_price_sak">
+    <rus>Список Сяка:</rus>
+    <eng>Syak's List:</eng>
+  </string>
+  <string id="barter_header_price_sherstuk">
+    <rus>Список Шерстюка:</rus>
+    <eng>Sherstyuk's List:</eng>
+  </string>
+  <string id="barter_header_price_doktor">
+    <rus>Список Вэла:</rus>
+    <eng>Val's List:</eng>
+  </string>
+  <string id="barter_header_price_maks">
+    <rus>Список Макса:</rus>
+    <eng>Max's List:</eng>
+  </string>
+  <string id="barter_header_price_grib_marsh_xolod">
+    <rus>Список Холода:</rus>
+    <eng>Cold's List:</eng>
+  </string>
+  <string id="barter_header_price_clear_scy_leader">
+    <rus>Список Свиблова:</rus>
+    <eng>Sviblov's List:</eng>
+  </string>
+  <string id="barter_header_price_esc_akim">
+    <rus>Список Акима:</rus>
+    <eng>Akim's List:</eng>
+  </string>
+  <string id="barter_header_price_adrenalin">
+    <rus>Список Адреналина:</rus>
+    <eng>Adrenaline's List:</eng>
+  </string>
+  <string id="barter_header_price_jup_barman">
+    <rus>Список Петровича:</rus>
+    <eng>Petrovich's List:</eng>
+  </string>
+  <string id="barter_header_price_jup_bonesetter">
+    <rus>Список Костоправа:</rus>
+    <eng>Bonesetter's List:</eng>
+  </string>
+</string_table>

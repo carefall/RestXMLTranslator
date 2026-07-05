@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="dm_lin_treasure_0">
+    <rus>Есть полезная информация?</rus>
+  </string>
+  <string id="dm_lin_treasure_1">
+    <rus>Да, знаю место, где один мужик хабар кладёт. Сам бы обчистил, но не хочу рисковать. Так что могу поделиться, за определённую сумму деньжат, естественно...</rus>
+  </string>
+  <string id="dm_lin_treasure_3">
+    <rus>Ну и сколько ты хочешь?</rus>
+  </string>
+  <string id="dm_lin_treasure_32">
+    <rus>Мужик тот матёрый сталкер, так что, думаю, и хабар у него там не хуже. В общем, 15000 рублей будет достаточно.</rus>
+  </string>
+  <string id="dm_lin_treasure_321">
+    <rus>Я согласен. Вот твои деньги.</rus>
+  </string>
+  <string id="dm_lin_treasure_33">
+    <rus>Мужик тот матёрый сталкер, так что, думаю, и хабар у него там не хуже. В общем, 30000 рублей будет достаточно.</rus>
+  </string>
+  <string id="dm_lin_treasure_331">
+    <rus>Я согласен. Вот твои деньги.</rus>
+  </string>
+  <string id="dm_lin_treasure_34">
+    <rus>Мужик тот матёрый сталкер, так что, думаю, и хабар у него там не хуже. В общем, 45000 рублей будет достаточно.</rus>
+  </string>
+  <string id="dm_lin_treasure_341">
+    <rus>Я согласен. Вот твои деньги.</rus>
+  </string>
+  <string id="dm_lin_treasure_4">
+    <rus>Хех... А не многовато ли? Нет, мужик, в другой раз.</rus>
+  </string>
+  <string id="dm_lin_treasure_5">
+    <rus>Ну что же, как и договаривались, принимай информацию.</rus>
+  </string>
+  <string id="dm_lin_treasure_6">
+    <rus>Принял. Пойду теперь взгляну, что у нас там.</rus>
+  </string>
+
+  <string id="actor_break_dialog_0">
+    <rus>До встречи!</rus>
+  </string>
+  <string id="actor_help_wounded_0">
+    <rus>Как ты?</rus>
+  </string>
+  <string id="actor_help_wounded_1">
+    <rus>Хреново мне, не видишь, что ли? Нужна аптечка или хотя бы бинт.</rus>
+  </string>
+  <string id="actor_help_wounded_11">
+    <rus>Держи аптечку.</rus>
+  </string>
+  <string id="actor_help_wounded_111">
+    <rus>Спасибо, брат, не забуду.</rus>
+  </string>
+  <string id="actor_help_wounded_12">
+    <rus>Держи бинт.</rus>
+  </string>
+  <string id="actor_help_wounded_13">
+    <rus>Извини, ничего нет.</rus>
+  </string>
+  <string id="actor_help_wounded_131">
+    <rus>Как же ты в Зоне ходишь? Зацепит тебя какая-то зараза, а ты даже вылечить себя не сможешь.</rus>
+  </string>
+  <string id="actor_help_wounded_14">
+    <rus>Хех, что ж ты так? Извини, свои я тебе не дам, иначе сам останусь ни с чем.</rus>
+  </string>
+  <string id="actor_help_wounded_141">
+    <rus>Твоё дело, но не думай, что это делает тебе чести.</rus>
+  </string>
+  <string id="hello_dialog_2">
+    <rus>Привет!</rus>
+  </string>
+  <string id="akim_zloy">
+    <rus>Что тебе надо ещё от меня?</rus>
+  </string>
+  <string id="hello_dialog_3">
+    <rus>Слышь, браток, помоги!</rus>
+  </string>
+
+  <string id="nik_start_1">
+    <rus>Ты кто, мужик!?</rus>
+  </string>
+  <string id="nik_start_2">
+    <rus>Погоди, мне нужно всех этих уродов проверить. У них где-то должен быть ПДА...</rus>
+  </string>
+  <string id="nik_start_3">
+    <rus>Ну?</rus>
+  </string>
+  <string id="nik_start_4">
+    <rus>Скотство, ничего нет!</rus>
+  </string>
+  <string id="nik_start_5">
+    <rus>Я спрашиваю — кто ты?</rus>
+  </string>
+  <string id="nik_start_6">
+    <rus>А сам-то ты кто? И что делаешь тут?</rus>
+  </string>
+  <string id="nik_start_7">
+    <rus>Меченый. Ищу сослуживцев твоих, долговцев. Задание от Воронина.</rus>
+  </string>
+  <string id="nik_start_8">
+    <rus>Стало быть нас ищешь! Слушай, тут дела совсем херовые. Весь мой отряд попал в плен к этим сволочам. Мне повезло — по делу в этот момент отлучился. А тут эти, как гром средь ясного неба...</rus>
+  </string>
+  <string id="nik_start_9">
+    <rus>А чего на связь с начальством не выходил столько времени?</rus>
+  </string>
+  <string id="nik_start_10">
+    <rus>Так ведь вся снаряга осталась тут. Вместе с рацией и ПДА. С собой у меня только пистолет и был. Эти наемники куда-то всех наших потащили вместе со всеми нашими вещами и снаряжением. Куда-то на восток, к берегу.</rus>
+  </string>
+  <string id="nik_start_11">
+    <rus>Почему за ними не проследовал?</rus>
+  </string>
+  <string id="nik_start_12">
+    <rus>А как я пойду с одним пистолетом? Тут зверья хоть жопой жуй, плюс — целый отряд наёмников в этих развалинах задержался, зажали меня. Слава Богу — ты появился.</rus>
+  </string>
+  <string id="nik_start_13">
+    <rus>Мда, хреново дело. Ну, что делать будем?</rus>
+  </string>
+  <string id="nik_start_14">
+    <rus>Я тут время тоже даром не терял. Мне удалось немного подслушать их разговоры. Они, судя по всему, хотели подорвать какой-то тоннель. И похоже что подорвали. Не так давно по всей округе прокатилась эхом серия взрывов. Моих товарищей повели в ту же сторону. Так что у меня теперь только одна дорога. Не хочешь помочь?</rus>
+  </string>
+  <string id="nik_start_15">
+    <rus>Да, я за этим и пришел. Пошли. Если ты видел в какую сторону они двинулись, то иди вперёд, я прикрою.</rus>
+  </string>
+  <string id="nik_start_16">
+    <rus>Этот тоннель?</rus>
+  </string>
+  <string id="nik_start_no">
+    <rus>У меня сейчас нет на тебя времени.</rus>
+  </string>
+  <string id="nik_start_17">
+    <rus>Похоже на то. Надеюсь, что это он. Слушай, нужно прочесать сам тоннель и территорию вокруг. Давай разделимся. Нужна любая инфомрация: записки, ПДА, что угодно.</rus>
+  </string>
+  <string id="nik_start_wt">
+    <rus>Тогда стой тут и следи за обстановкой. Прикрывай меня. Сам в округе всё прочешу. Если что-то найду — дам знать.</rus>
+  </string>
+  <string id="nik_start_tun">
+    <rus>Я проверю тоннель.</rus>
+  </string>
+  <string id="nik_start_19">
+    <rus>Я проверю тоннель.</rus>
+  </string>
+  <string id="nik_start_20">
+    <rus>Проверь тоннель, а я пройдусь по домикам, там посмотрю.</rus>
+  </string>
+  <string id="nik_start_21">
+    <rus>Давай.  (ИЛЬЯ: продолжить делать квест тут, дальше диалог от другого квеста и не в тему, дальше пока не работает.)</rus>
+  </string>
+  <string id="nik_start_22">
+    <rus>Для начала 5000. Нет, наличкой не возьму. Переведи мне на счет. Опасно в Зоне с деньгами в карманах ходить. Ты ведь уже разобрался с местной системой? ПДА у тебя уже есть?</rus>
+  </string>
+  <string id="nik_start_23">
+    <rus>Да, Сидорович выдал. Даже вкратце объяснил мне, что тут и куда. Хорошо, сейчас договорим и перечисляю.</rus>
+  </string>
+  <string id="nik_start_24">
+    <rus>Договорились. Значит делаем следующим образом: обратишься к Сидоровичу и спросишь у него помощи чтобы пройти военный блок-пост под мостом. Либо он проводника тебе даст, либо придумает что-нибудь еще. Как только пройдешь мост — отправишь мне смс.</rus>
+  </string>
+  <string id="nik_start_25">
+    <rus>Понял. Что потом?</rus>
+  </string>
+  <string id="nik_start_26">
+    <rus>Как отпишешься — сразу по дороге прямо. В аномалии не попади. Надеюсь ты в курсе, что это и как это опасно. Там по пути могут быть дикие собаки. Советую избегать пока стычек с ними. Впереди будет КПП. Дойдёшь — снова смс, что добрался. Там встретишь торговца Акима. Можешь с ним пообщаться, пока меня будешь ждать.</rus>
+  </string>
+  <string id="nik_start_27">
+    <rus>Ясно. Спасибо тебе еще раз.</rus>
+  </string>
+  <string id="nik_start_28">
+    <rus>Пока не за что. Всё, вперед. А я пока дальше по своим делам.</rus>
+  </string>
+
+  <string id="nik_start_0">
+    <rus>Ну2?</rus>
+  </string>
+  <string id="nik_start_1">
+    <rus>Ну3?</rus>
+  </string>
+  <string id="nik_start_2">
+    <rus>Ну слушай.</rus>
+  </string>
+
+  <string id="guide_dialog_start_0">
+    <rus>Привет. Я проводник. Знаю безопасные пути поблизости. Если надо — проведу.</rus>
+  </string>
+  <string id="guide_dialog_start_1">
+    <rus>Куда ты можешь меня отвести?</rus>
+  </string>
+  <string id="guide_dialog_start_1_noth">
+    <rus>В другой раз.</rus>
+  </string>
+  <string id="guide_dialog_start_2">
+    <rus>Пока никуда.</rus>
+  </string>
+  <string id="guide_dialog_pre_blowout">
+    <rus>Пока никуда не поведу. Сначала выброс переждём. Потом подходи, потолкуем.</rus>
+  </string>
+  <string id="guide_dialog_overweight">
+    <rus>Ты куда столько барахла с собой нагрёб? Налегке надо идти, я тебя на себе хрен утащу, если ранение получишь. Сперва разгрузись.</rus>
+  </string>
+  <string id="guide_dialog_busy">
+    <rus>Сейчас я занят. Подойди попозже, тогда и поговорим.</rus>
+  </string>
+  <string id="guide_dialog_start_3">
+    <rus>Да есть пара мест. Только учти: я вожу лишь туда, где знаю безопасную тропу. А беру по-разному — за расстояние и за то, насколько там неспокойно. Так куда надо?</rus>
+  </string>
+  <string id="guide_dialog_start_31">
+    <rus>Готов выдвигаться?</rus>
+  </string>
+  <string id="guide_dialog_start_311">
+    <rus>Да, пошли.</rus>
+  </string>
+  <string id="guide_dialog_start_312">
+    <rus>Чуть позже.</rus>
+  </string>
+  <string id="guide_dialog_start_313">
+    <rus>У меня не хватает денег.</rus>
+  </string>
+  <string id="guide_dialog_start_4">
+    <rus>С тебя</rus>
+  </string>
+  <string id="guide_dialog_cancel">
+    <rus>Я передумал.</rus>
+  </string>
+</string_table>

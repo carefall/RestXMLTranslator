@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="scaintist_docs_name">
+    <rus>Документы</rus>
+  </string>
+  <string id="scaintist_docs_desc">
+    <rus>Судя по записям, учёные везли какой-то очень необычный артефакт.</rus>
+  </string>
+  <string id="pda_krysyka_name">
+    <rus>ПДА Борова</rus>
+  </string>
+  <string id="pda_krysyka_desc">
+    <rus>Рецептик один разузнал. Есть способ получения артефакта "Выверт": нужно бинт, консерву, голову тушкана и хвост собаки в "Холодец" кинуть.\nТакже припрятал я два тайничка — оба в Тёмной Долине. Пометки: А-76, в лаборатории.\nКод от двери, вдруг забуду: 04022012.</rus>
+  </string>
+  <string id="mil_borov_secret_name">
+    <rus>Тайник Борова</rus>
+  </string>
+  <string id="mil_borov_secret_descr">
+    <rus>Боров сказал — тут есть чем поживиться...</rus>
+  </string>
+  <string id="vodka_rad">
+    <rus>Палёная водка</rus>
+  </string>
+  <string id="vodka_rad_descr">
+    <rus>Был в Зоне один делец, пытался продавать дешёвую водку. Делец теперь на том свете — проклинает свою жажду наживы...</rus>
+  </string>
+  <string id="food_bread_rad">
+    <rus>Радиоактивный батон</rus>
+  </string>
+  <string id="enc_food_bread_rad">
+    <rus>Когда-то был нормальный хлеб. Теперь радиоактивный кусок дерьма... Если надоела жизнь — можно съесть.</rus>
+  </string>
+  <string id="val_krysyk_secret_name">
+    <rus>Нычка Крысюка</rus>
+  </string>
+  <string id="val_krysyk_secret_descr">
+    <rus>Крысюк заныкал кое-какой хабар.</rus>
+  </string>
+  <string id="agr_krysyk_secret_name">
+    <rus>Тайник Крысюка</rus>
+  </string>
+  <string id="agr_krysyk_secret_descr">
+    <rus>Здесь в кустах, прямо под обрывом, должен быть ПДА Борова.</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_0">
+    <rus>Здорово, братела... Перетрём базар?</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_1">
+    <rus>И тебе не кашлять... Об чём разговор...</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_2">
+    <rus>Да так. Посидим, пузырёк раздавим...</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_3">
+    <rus>Ну, наливай...</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_41">
+    <rus>Вздрогнем...</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_42">
+    <rus>Вот ёпть, кончился нектар...</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_5">
+    <rus>У-у-ух... Хорошо пошла... Сальцем бы занюхать...</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_6">
+    <rus>Слышь, кореш... Не слышал ни-э-чего интересного?</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_71">
+    <rus>Только тебе, братела, скажу... Недавно на трупе одном пэдэашку нашёл, там малява была про хабар спрятанный... Самому мне в лом топать, а раз ты свой кореш в доску, то можешь иметь...</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_73">
+    <rus>Ну ты, блин, даёшь... корефан, чё тут интересного может быть, это ж не Рио-де-Житомир... Тоска зелёная!..</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_81">
+    <rus>Будет нефиг делать — слазию, зарисую...</rus>
+  </string>
+  <string id="bandit_treasure_1_dialog_82">
+    <rus>Ладно, будет чего — звони...</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_0">
+    <rus>Как жизнь, корефан?.. Столкуемся?</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_1">
+    <rus>Да без базара... Падай рядом...</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_2">
+    <rus>В натуре крючила бы похавать...</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_3">
+    <rus>Давай наливай, а крючила найдем, не менжуйся...</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_41">
+    <rus>Давай тогда, за пацанов...</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_42">
+    <rus>Не-е, мужик, если бы у меня было...</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_5">
+    <rus>За пацанов, конкретно...</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_6">
+    <rus>Мужик, просвисти чё нить интересное... А?</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_71">
+    <rus>Интересного? Слышал базар на сходняке, вроде как нычка есть нераспотрошённая... Я не потащусь в такую даль — мне и здесь лохов хватает, если не в лом переть — запиши приметку...</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_73">
+    <rus>Соловья поймай, он те свиснет...</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_81">
+    <rus>Не, мне тоже в лом, мимо буду переть — даже не нагнусь...</rus>
+  </string>
+  <string id="bandit_treasure_2_dialog_82">
+    <rus>Успокойся, утырок...</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_0">
+    <rus>Привет паханам! Об чём базарите?</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_1">
+    <rus>Привет-привет, терпила. Хоть Боров и велел тебя не трогать, но не нарывайся...</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_2">
+    <rus>Скучно, блин, без водки... А в тюрьме сейчас ужин — макароны!</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_3">
+    <rus>Не каркай, лучше наливай братанам...</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_41">
+    <rus>Ладно, братаны. Шоб в сторону не вильнуло!</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_42">
+    <rus>Лады, щас с Боровом потолкую и налью.</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_5">
+    <rus>М-м-м, уважаю! Так бы и начинал...</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_6">
+    <rus>Чё нового слыхать? Не слышал ничего интересного?</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_71">
+    <rus>А чё нового... Вона вчера взяли мы с парнями трёх "долговцев", они только на постах своих кренделями сидят, а тут сразу — "Мужики, не надо"... "Хабар могу показать"... Да какой там хабар, думают запудрить мозги и слинять по-тихому, а потом всей кодлой навалиться... Гы... А он: "Совсем рядом нычка", ну не чмо, а? А пошло оно всё... Эта нычка его... Щас... О! Вона где!.. Прикинь...</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_73">
+    <rus>Нового? А чё тут нового, всё одно и то же!</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_81">
+    <rus>Ха, туда же полдня переть, точно — мозги втирали...</rus>
+  </string>
+  <string id="bandit_treasure_3_dialog_82">
+    <rus>Покеда, будет пол-литра — забегай...</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_0">
+    <rus>Ба! Кого я вижу! Сколько лет, сколько зим!</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_1">
+    <rus>Отвали, не видишь, устал я после вчерашнего...</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_2">
+    <rus>Ну так давай, поправим здоровье...</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_3">
+    <rus>Да вчера всё выжрали, голяк полный...</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_41">
+    <rus>Для здоровья всегда припасаю микстурку... Поехали!</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_42">
+    <rus>Оп-па! И я пустой нонче...</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_5">
+    <rus>У-у-ух... Благотетель...</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_6">
+    <rus>Чё говорят у вас? Есть ещё хабарные места?</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_71">
+    <rus>А то! Ты не звони сильно, я тут видел, как Боровы шестёрки хабарок ныкали... Сам-то не возьму — бо у нас с этим строго, не ровен час, с пером в боку проснёшься, а ты пришёл — ушёл, никто и не хватится. А когда будешь мимо проходить — заходи, ещё пару дел обмозгуем... Замётано?</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_73">
+    <rus>Все хабарные места Боров под себя подмял, нам крохи перепадают...</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_81">
+    <rus>Замётано!</rus>
+  </string>
+  <string id="bandit_treasure_4_dialog_82">
+    <rus>Ладно, стронулся я, бывай...</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_0">
+    <rus>Привет, братишка... Как оно?</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_1">
+    <rus>Да ничего вроде... Хотел чего или так, просто?</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_2">
+    <rus>Да так... тихо здесь, дай, думаю, посидим, здоровье поправим...</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_3">
+    <rus>Здоровье — это хорошо. Наливай, что ли...</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_41">
+    <rus>Ну давай, по чуть-чуть...</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_42">
+    <rus>Самому бы кто налил...</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_5">
+    <rus>Крепкая... Зараза... Сальцем бы занюхать...</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_6">
+    <rus>М-да... Хорошо по-ош-шла... Наверное, и не знаешь ничего интересного?</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_71">
+    <rus>Недавно с Волком вытаскивали сталкера из аномалии, вернее то, что от него осталось... Да... При нём записка была с координатами. Мол, спрятанный хабар там... Но Волк сказал — не соваться туда. Вот координаты — запиши, если стоящее дело — расскажи потом... Лады?</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_73">
+    <rus>Не-е, я тут недавно, глубоко не ходил ещё... Подходи через недельку — может, и узнаю чего...</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_81">
+    <rus>Лады... Посмотрю...</rus>
+  </string>
+  <string id="neitral_treasure_1_dialog_82">
+    <rus>Ладно, ещё поговорим на досуге...</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_0">
+    <rus>Здорово, как жизнь сталкерская?</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_1">
+    <rus>Здорово и тебе, Меченый... Так себе... Потихоньку...</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_2">
+    <rus>Может, по пять капель на грудь? Для поправки здоровья...</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_3">
+    <rus>Неплохо бы! Угости, раз такой добрый...</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_41">
+    <rus>Ну, дёрнули, по сто пятьдесят для храбрости...</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_42">
+    <rus>Щас, к Сидору смотаюсь только...</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_5">
+    <rus>Кха-кха, вот ёпть... Из табуретки, что ли, гонят? Чуть обратно не пошла...</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_6">
+    <rus>Здесь всё может быть... Расскажи чё-нить...</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_71">
+    <rus>Недавно к Сидору приходили пара сталкеров... Я у него в предбаннике спал... Ну, не совсем, конечно, спал, так, вполглаза... Они хотели снаряжение кое-какое у него выторговать, в кредит, так сказать... Говорили, есть схрон богатый с хабаром, даже описали место... Но Сидор ничего не дал — вот ведь сквалыга, да? Думал сам смотаться, да всё с духом не соберусь... Вот здесь это место — видишь? Если будет чего — не забудешь про меня?</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_73">
+    <rus>Да чё рассказывать... Зона, она Зона и есть, свалить бы отсюда...</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_81">
+    <rus>Если будет чего стоящее — не забуду...</rus>
+  </string>
+  <string id="neitral_treasure_2_dialog_82">
+    <rus>Свалим, когда-нибудь...</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_0">
+    <rus>Ты чего такой угрюмый? Может, помощь требуется?</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_1">
+    <rus>А чего веселиться-то? Тоскливо так, хоть в петлю...</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_2">
+    <rus>Ну, давай не пьянства ради, настроения для...</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_3">
+    <rus>А-а-а, Давай! Может, полегчает...</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_41">
+    <rus>Так... Держи ровней... За НАДЕЖДУ!</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_42">
+    <rus>Блин! НЕТУ! Помню точно — был пузырь! А НЕТУ!</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_5">
+    <rus>За неё, родимую... Спасибо тебе, не перевелись ещё настоящие мужики...</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_6">
+    <rus>Говорят, можно хабар найти недалеко, не слышал?</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_71">
+    <rus>Да, говорят, есть нычка с хабаром, и даже не так далеко отсюда... Но кто ходил проверять — никто не вернулся. Давай покажу на карте — вот тут...</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_73">
+    <rus>Не-е, не слышал... Да я особо и не прислушиваюсь к трепачам...</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_81">
+    <rus>Специально не полезу, но если поблизости буду — посмотрю...</rus>
+  </string>
+  <string id="neitral_treasure_3_dialog_82">
+    <rus>Ну и правильно, меньше знаешь — крепче спишь...</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_0">
+    <rus>Здорово, хлопец... Может сообразим?</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_1">
+    <rus>Здорово... Об чём разговор...</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_2">
+    <rus>Посидим, языками потрепем под хорошую закуску...</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_3">
+    <rus>Закусон с меня, давай, наливай, чего ждешь?</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_41">
+    <rus>Вот она родимая, как слеза!</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_42">
+    <rus>Закусон-то есть... Её, родимой, нет...</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_5">
+    <rus>Хух, хороша! Аж до задницы пробрала... Гуд!</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_6">
+    <rus>Их ферштеен... Чё слышно в Зоне?</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_71">
+    <rus>Позавчера с солдатиками раздавили пару пузырей... Посидели... Они с Агропрома частенько сюда бегают, Сидор их водочкой снабжает... Так они рассказали, что поймали зомбированного сталкера, ну сам понимаешь, тот мычит и за пушку хватается. Командир приказал живьём брать, этим яйцеголовым на Большую землю отправить — для опытов, да... По мне лучше бы сразу пулю в висок и всё... Да, про что я?.. А-а, ну вот, у этого зомби прямо на руке рисунок был, типа татуировки, но не настоящей, а так, вроде кто ножом вырезал... Карта как будто... Их командир сверился с приметами — и, похоже, недалеко отсюда схрон с хабаром... Примерно вот здесь...</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_73">
+    <rus>Много чего слышно, про аномалии, про монстров, всего не перескажешь сразу, подходи ещё, поговорим...</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_81">
+    <rus>Да, блин, лучше сразу... без мучений...</rus>
+  </string>
+  <string id="neitral_treasure_4_dialog_82">
+    <rus>Подойду, поговорим...</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_0">
+    <rus>Здорово, братан... Как тут у вас?</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_1">
+    <rus>Мутанты иногда валят... А так вроде нормуль всё...</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_2">
+    <rus>Давай за знакомство?.. Или начальство не велит?</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_3">
+    <rus>Да какое начальство... Прапор наш — старый служивый, понимает, что в Зоне без этого нельзя. Так что не менжуйся — наливай.</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_41">
+    <rus>Ну! За хороших людей!</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_42">
+    <rus>Налил бы, да последнюю пол-литру пришлось потратить на здоровье...</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_5">
+    <rus>За нас, то есть! Закусывай, вот колбаса...</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_6">
+    <rus>Спасибо... Что слышно здесь? Может, какие новости?</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_71">
+    <rus>Особенных новостей нет... Но, про Макса Любера слышал? Поймали его с корефаном бандюки из Тёмной Долины... Пуля — друган Любера, по следу пошёл... А перед этим сказал, что корефан Макса карту успел сбросить, на которой место обозначено с хабаром заныканным... Вот! Пуля просил сгонять кому-нибудь туда, но Прапор не разрешил, мол, и так бойцов на посту мало осталось... В общем, вот это место, забери, чтобы бандитам не досталось...</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_73">
+    <rus>Вроде не слышал ничего особенного, так, по мелочи...</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_81">
+    <rus>Ладно, заберу...</rus>
+  </string>
+  <string id="dolg_garb_treasure_1_dialog_82">
+    <rus>Ну, покеда тогда, ещё увидимся...</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_0">
+    <rus>Приветствую, служивый!</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_1">
+    <rus>И тебе туда же... Ты откуда такой нарисовался?</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_2">
+    <rus>Да так, потихоньку топчу Зону... Ты как насчёт ста грамм?</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_3">
+    <rus>Что за вопрос! Двести грамм ещё никому не повредили...</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_41">
+    <rus>Держи двести пятьдесят и без закуски...</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_42">
+    <rus>Я щас арты Бармену свалю и вернусь...</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_5">
+    <rus>Ха, нормуль пошла... На кой закусывать такой нектар...</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_6">
+    <rus>Эт точно, добро на г... переводить только... Расскажи чё-нить...</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_71">
+    <rus>На днях Бес тут гостил, хороший мужик, хоть и одиночка... Без обид, ладно? Мы ему немного с патронами помогли, поговорили о том о сём... У него ничего ценного не было, так он рассказал о найденном схроне. Хабара, правда, там не было, но судя по приметам, там часто кто-то прячет добро. Если есть желание — разведай, чья она...</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_73">
+    <rus>Да чё рассказывать... Зона, она Зона и есть, если бы не мы — давно бы зараза по всему миру расползлась...</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_81">
+    <rus>Попробую разведать...</rus>
+  </string>
+  <string id="dolg_garb_treasure_2_dialog_82">
+    <rus>Ну, бывай, спаситель мира...</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_0">
+    <rus>Привет, мужик! Что-то лицо твоё знакомо, мы раньше не встречались?</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_1">
+    <rus>А кто его знает, я только тех, с кем дружен, помню...</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_2">
+    <rus>Ну, давай, не пьянства окаянного ради, дружбы для...</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_3">
+    <rus>Ну вот, вроде вспоминаю... Давай, наливай!</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_41">
+    <rus>Так... Держи ровней... За дружбу!</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_42">
+    <rus>Блин! НЕТУ! Помню точно — был пузырь! А НЕТУ!</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_5">
+    <rus>За надёжных друзей! С которыми даже в Зоне не пропадёшь!</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_6">
+    <rus>Говорят, можно хабар найти недалеко, не слышал?</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_71">
+    <rus>Никому не говорил, но тебе, как другу, скажу. Есть наводка на нычку одну... Случайно узнал про неё... Может, там и нет ничего, а может, хабара дофигища. Если ты настоящий друг, то поделишься, я думаю?</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_73">
+    <rus>Не-е, не слышал... Собрали всё, что поблизости было, а что там дальше — только Стрелок знает...</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_81">
+    <rus>Об чём разговор! Для друга ничего не жалко...</rus>
+  </string>
+  <string id="dolg_garb_treasure_3_dialog_82">
+    <rus>Стрелок? Ну-ну... Есть у меня к нему вопрос-другой...</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_0">
+    <rus>Привет! Поговорим, не против?</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_1">
+    <rus>Присаживайся... Об чём разговор...</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_2">
+    <rus>Может, для смазки по пять капель?</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_3">
+    <rus>Закусон с меня, давай, наливай, чего ждёшь?</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_41">
+    <rus>Держи стаканы ровней, а то краев не увижу...</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_42">
+    <rus>Закусон-то есть... Её, родимой, нет...</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_5">
+    <rus>Жжёшь... О-о-о! Смазало, как маслом...</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_6">
+    <rus>Не тоскливо тут целыми днями сидеть?</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_71">
+    <rus>Да нет, чего тосковать-то? Закуску Бармен подкатывает, типа платит за охрану... Одиночки часто проходят, последними сведениями делятся... Опять же, пострелять есть по чему... \nХохма — братки последнее время оборзели, подставы устраивают... Так вот — лежит один, раненым сталкером прикидывается, шлёт SOS по всем частотам. А тут пара бюреров на него нарвались... Этот "раненый" как только услышал их вопли, ноги в руки и понёсся не разбирая дороги... Влетел прямо к нам и с разбега в подпорку навеса — хрясь! Шум, треск, вонь — этот любитель лёгких хабаров обделался по самые уши... Потом всё трясся и обещал всех озолотить, мол, хабар спрятал и отметку на карту поставил... Чудак, ей-богу... У нас никто задницей рисковать не будет за какой-то там хабар. Мы заслон! Защищаем мир от нечисти... Если интересно — вот здесь эта его отметка...</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_73">
+    <rus>Тоскливо, конечно, но зато чувствуешь себя при деле — мир от нечисти защищаем!</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_81">
+    <rus>Да, повеселил... Гляну при случае, хотя, думаю, лажа это...</rus>
+  </string>
+  <string id="dolg_garb_treasure_4_dialog_82">
+    <rus>Ну тогда не буду отвлекать героя...</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_0">
+    <rus>Привет, братишка... Как жизнь?</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_1">
+    <rus>Бандиты задрали, блин! Никаких нервов не хватит! Лезут и лезут!</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_2">
+    <rus>Сбрось пар... Давай расслабимся немного...</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_3">
+    <rus>Да я не кипячусь, просто давно нормальной выпивки не было... Наливай, раз предложил...</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_41">
+    <rus>Давай за завтрашний день, чтобы увидеть его!</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_42">
+    <rus>Сейчас у самого пусто, хабаром притарюсь — возьму у барыг...</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_5">
+    <rus>Давай! За смерть от старости!</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_6">
+    <rus>Во-от... Отпустило малёх... Что говорят?</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_71">
+    <rus>Все стараются при себе держать свои мысли — Зона, брат... Но я как-то слышал, что пара ребят, уходя от военных, бросила свой хабар... Собирался сам поживиться, да, думаю, не доберусь туда... Так что если хочешь — пользуйся, иначе пропадёт совсем — тех ребят на днях бандиты положили в очередном набеге... А жаль, хорошие были сталкеры, свои в доску...</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_73">
+    <rus>Все стараются при себе держать свои мысли — Зона, брат... Даже друзья стараются не загадывать на завтра... Чтоб не сглазить...</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_81">
+    <rus>Да... Много хороших людей уходит...</rus>
+  </string>
+  <string id="stalk_garb_treasure_1_dialog_82">
+    <rus>Это точно! Ладно, друг — до завтра...</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_0">
+    <rus>Что тут у вас за стрельба была?</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_1">
+    <rus>Стреляем, на страх врагам и себе...</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_2">
+    <rus>Давай для храбрости по двести пятьдесят?</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_3">
+    <rus>А наливай!</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_41">
+    <rus>Держи двести пятьдесят! Чтоб не крайние!</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_42">
+    <rus>Подожди чуток, проверю, что тут творится...</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_5">
+    <rus>Фу-у! Ну и гадость, но крепкая...</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_6">
+    <rus>Хех, а ты хотел лимонад, что ли? О чём интересном слышно?</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_71">
+    <rus>Бес со своими ребятами положили десяток мародёров возле болота, я потом туда наведался... Трупы, конечно, зверьё основательно перепотрошили, зрелище ещё то... Смотрю в этом месиве блестит что-то, палкой вытащил небольшую бутылочку, совсем миниатюрную, сувенирная, наверное — грамм на пятьдесят. М-да... Видимо, этот упырь проглотил её, когда жаренным запахло... В этой бутылочке листок бумаги был, с картой и отметкой о спрятанном хабаре... Вот эта карта, попробуй доберись, я не смог...</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_73">
+    <rus>Да всё как обычно, тот в аномалии сгинул, другого подстрелили, а третий вообще пропал без следа... Вот такие у нас "интересные" новости...</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_81">
+    <rus>Если смогу добраться, половина — твоя...</rus>
+  </string>
+  <string id="stalk_garb_treasure_2_dialog_82">
+    <rus>Ладно, не раскисай... До встречи.</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_0">
+    <rus>Привет, не возражаешь перекинуться парой слов?</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_1">
+    <rus>А чё языками-то трепать? Если бы по делу...</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_2">
+    <rus>Может, вспрыснем знакомство? Чем не дело?</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_3">
+    <rus>Нечем мне вспрыскивать... Если есть, то доставай, а не мели попусту...</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_41">
+    <rus>Есть, есть! Давай — за родственные души!</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_42">
+    <rus>Извини, приятель, у меня тоже кончилась...</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_5">
+    <rus>Говоришь много, пить, как и жить — нужно тихо...</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_6">
+    <rus>Философ, блин! Ну, просвети меня, как жить нужно...</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_71">
+    <rus>Живёт каждый по-своему, и научиться чужой жизни невозможно... Вот Счастливчик Лёвка, слыхал, наверное? Всё хвалился, какой он везучий, как бабы его любят, что все монстры его обходят... Не жил одним днём, всё прятал хабарок, нычки устраивал... Не выпить с ним, не развеяться нормально, берёг арты, не продавал здешним барыгам, думал на Большой земле всё сдать и жить как сыр в масле... И где он теперь? Даже клочка волос не осталось — весь в "Холодце" растворился. А нычки теперь другие удачники ищут... А я так думаю — не будет счастья с того хабара, и не нужен он тем, кто как я, живёт только одним днём...</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_73">
+    <rus>А зачем тебя просвещать... Если есть жизненный путь — то и будешь им идти, а нет — то никак его и не получишь...</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_81">
+    <rus>Может, ты и прав, но я так думаю — о завтрашнем дне заботиться нужно...</rus>
+  </string>
+  <string id="stalk_garb_treasure_3_dialog_82">
+    <rus>Судьба, значит... А я верю в человека...</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_0">
+    <rus>Как оно, приятель?</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_1">
+    <rus>Да помаленьку, немного тоскливо, правда...</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_2">
+    <rus>Давай для настроения? По чуть-чуть?</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_3">
+    <rus>С тебя пузырь, с меня всё остальное...</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_41">
+    <rus>Согласен! Давай стаканы...</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_42">
+    <rus>Остальное и у меня есть, пузыря нету...</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_5">
+    <rus>Хороша, чертовка! Всё нутро прожгла!..</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_6">
+    <rus>Расскажи что-нибудь, поинтереснее...</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_71">
+    <rus>Поинтереснее? Хм... Что бы соврать-то... А! Ладно, расскажу как есть... Юрика знаешь? Малёк совсем, попытался за хабаром наравне с опытными сталкерами ломануться... Голова у него на выпивку совсем слабая, на пробку наступит — а несёт его как от ведра... Вчера сидел тут с нами, языком мёл, как помелом... Разошёлся, типа он всем старикам нос утрёт, потому как знает, где хабар занычен. Мы его на смех подняли, так он ерепениться начал — тыкать всем свой ПДА с отметкой на месте нычки. Не поверил никто, конечно — откуда у сопли с Кордона такая инфра может быть... Типа вот здесь какой-то хабар... Ты бы поверил?</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_73">
+    <rus>Чё-то язык у меня заплетается, завтра что-нибудь расскажу..</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_81">
+    <rus>Не, не поверил бы... Юрик ещё тот свистун...</rus>
+  </string>
+  <string id="stalk_garb_treasure_4_dialog_82">
+    <rus>Тогда до завтра, приятель...</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_0">
+    <rus>Привет, как тут у вас?</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_1">
+    <rus>У нас весело, хочешь — иди в бар, хочешь — с "должанами" перетирай или делай ставки на "Арене". Много слухов ходит — Бар же почти в центре Зоны находится...</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_2">
+    <rus>Может, накатим по стопарю? За знакомство...</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_3">
+    <rus>Тоже неплохо... Давай наливай, я тебя после на "Арену" свожу — пощекочем нервишки...</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_41">
+    <rus>Давай, за бодрость духа!</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_42">
+    <rus>За пузырём в "100 Рентген" сбегаю и назад... Жди!</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_5">
+    <rus>Ну давай...</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_6">
+    <rus>А какие слухи ходят, чего интересного говорят?</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_71">
+    <rus>Да много чего... Вроде есть телепорт прямо к Монолиту, правда, мест называют не меньше десятка. Появилась новая разновидность монстров — электричеством бьются, вообще атас... "Долг" всё со "свободовцами" не поделят Зону, то и дело слышно — то эти тех завалили, то те этих, а чё делить-то? Зоны на всех хватит... Недавно поймали "свободовца" и вели перевоспитывать к себе в подвал — психиатры тоже мне... Так тот "свободовец" кинул хрень какую-то в кусты, я потом слазил, нашёл ПДА его, а в нём координаты тайничка. Вот. Давай вместе посмотрим — что там? Вот здесь вроде он находится...</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_73">
+    <rus>Приходи вечерком в бар, соберутся наши, пообщаемся... Много полезного услышать можно, только не забывай выпивку выставлять...</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_81">
+    <rus>Далековато, я пока в другую сторону иду...</rus>
+  </string>
+  <string id="stalk_bar_treasure_1_dialog_82">
+    <rus>Ладно, приду...</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_0">
+    <rus>Здорово, старина. Как жизнь?</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_1">
+    <rus>Ключом бьёт... По голове... Чё надо?</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_2">
+    <rus>Ты чё сердитый такой? Давай накатим для настроения?</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_3">
+    <rus>Достало уже всё! Выкатывай...</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_41">
+    <rus>Ладно! Наплюй на всё... Поехали!</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_42">
+    <rus>Я лучше отвалю...</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_5">
+    <rus>Ну давай... Хоть водку не разучились делать ещё...</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_6">
+    <rus>Да чистая, как слеза комсомолки... А что достало-то?</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_71">
+    <rus>Да козлы кругом одни... Делаешь добро людям, а они говнищем мажут... нашёл я нычку одну, думал с одним козлом вместе добраться, чтобы было кому спину прикрыть... Так эта зараза свалила по-тихому — даже ещё и рюкзак мой распотрошить успела... Тьфу... Люди... Козлы! Может, сумеешь его опередить? Вот здесь этот тайник...</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_73">
+    <rus>Чудаков на букву "М" хватает, верить никому нельзя... Так и норовят подлянку сделать...</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_81">
+    <rus>Попробую, если получится — постараюсь вернуть тебе веру в людей.</rus>
+  </string>
+  <string id="stalk_bar_treasure_2_dialog_82">
+    <rus>Злой ты, уйду я от тебя...</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_0">
+    <rus>Привет, братан, мы раньше не встречались?</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_1">
+    <rus>Да и твоя физия мелькала вроде, как тебя?</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_2">
+    <rus>Меченым меня зови, все так называют...</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_3">
+    <rus>Ладно, Меченый так Меченый, ну, давай за знакомство? Есть с собой?</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_41">
+    <rus>А то! Вот! Крепкая, как мат монаха...</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_42">
+    <rus>Нет, нету... Пришлось отдать за патроны весь запас...</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_5">
+    <rus>Ха! Правда! Крепкая! Ну что брат Меченый, вот и двумя хорошими людьми больше в Зоне стало...</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_6">
+    <rus>Говорят, можно хабар найти недалеко, не слышал?</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_71">
+    <rus>Ну, раз ты хороший человек, а хорошие люди должны помогать друг другу, раскажу тебе как на духу, Меченый... Зомбаки последнее время что-то очень часто стали забредать прямо сюда, и вот ведь загадка — все подходы к базе "долговцами" перекрыты, даже мышь не пролезет, а эти всё равно появляются... Бормочут чего-то, руки тянут... Жуть! Вчера ночью культурно так себе отдыхаю — Бармен, скотина, больше в долг не наливает, ну не жлоб, а? Ну так вот, закемарил я — чувствую вонью несет и тяжесть навалилась — открываю глаза — вот он голубчик, трупак ходячий. Я оцепенел весь, ни рукой, ни ногой двинуть не могу... Не со страху, конечно, а так, от неожиданности... А дохлик гнусаво так говорит чего-то, прислушался — цифры вроде, снова и снова, одно и тоже. Я глаза закрыл, открываю — нет никого... Только вонь осталась... А цифры так в голове и звучат, после глянул — вроде на координаты похожи. Только далеко отсюда... Вот такая, брат, петрушка...</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_73">
+    <rus>Весь хабар, который был в лёгких местах, подчистую выгребли... Нужно к центру Зоны пробиваться, говорят — там "Клондайк"...</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_81">
+    <rus>Видать, водка палёная была, где брал?</rus>
+  </string>
+  <string id="stalk_bar_treasure_3_dialog_82">
+    <rus>"Клондайк", говоришь? Ну-ну...</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_0">
+    <rus>Что так невесел, друг?</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_1">
+    <rus>Да так, думаю, валить из Зоны надо... С каждым днём всё хуже и хуже. Монстры всё опаснее и злее, погода дерьмовая, аномалии не поймёшь где, а самое страшное — люди звереют...</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_2">
+    <rus>Ладно, забей! Давай лучше накатим...</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_3">
+    <rus>Ну давай, а есть что?</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_41">
+    <rus>Не было б — не предлагал бы...</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_42">
+    <rus>Вот дьявол! Была же ещё бутылка! Спёрли!..</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_5">
+    <rus>Эх-р-р-м, не Шардонэ, конечно, но тоже ничего!</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_6">
+    <rus>А что за хабаром не идёшь?</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_71">
+    <rus>Да долгая история... Не спешишь?.. Мы с Серёгой Безухим друзьми были, всё время вместе в глубокие рейды ходили... Иной раз до самого "Мозговыжигателя" добирались, видели этих фантомов и не только... \nПлесни ещё чуток... Да-а, Серега... Ухо у него отстрелили ещё в Чечне, оттуда и кличка такая. Сколько раз мы друг другу спины прикрывали... В последней ходке на псевдогиганта нарвались, тварь не особо опасная — если конечно на нее не переть сдуру. А тут так получилось, что хлопнула эта тварь своей ручищей по земле, Серёгу отбросило, ну наверное не больше полуметра, прямо в "Холодец", всем телом... Лицо, руки... Короче всё... Мясо как кисель стекало с черепа... А он в сознании был... Плесни, душа горит... Бросил я его там... И душу свою тоже там оставил... Тайничок мы оставили, не буду я его забирать, не хочу... Если найдёшь, помяни Серёгу...</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_73">
+    <rus>Не могу я... Сломала меня Зона... Ещё день-два и пойду выбираться...</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_81">
+    <rus>Помяну...</rus>
+  </string>
+  <string id="stalk_bar_treasure_4_dialog_82">
+    <rus>Правильно... Наверное...</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_0">
+    <rus>Здравствуй, поговорим?</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_1">
+    <rus>Здравствуй, почему нет? Ты я, смотрю, не из этих говнюков...</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_2">
+    <rus>Нет, не из них... Давай по сто грамм?</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_3">
+    <rus>А что... Неплохо... Наливай...</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_41">
+    <rus>Ну, давай за знакомство...</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_42">
+    <rus>Эх, кончилась родимая...</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_5">
+    <rus>За знакомство... Хух, и где ты её взял... Гадость голимая...</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_6">
+    <rus>Да уж, не Смирнофф! Что слышно в Зоне?</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_71">
+    <rus>Ну, слышно кое-что... Вроде есть тайники богатые, остались от сталкеров погибших... Есть тайные схроны клановых группировок, но никто не говорил что нашёл такой... Мне совершенно случайно попался ПДА в котором отмечено место тайника, могу поделиться с тобой... Сам я наверно не дойду уже...</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_73">
+    <rus>Приходи вечерком в бар, соберутся наши, пообщаемся... Много полезного услышать можно, только не забывай выпивку выставлять...</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_81">
+    <rus>Спасибо, буду в тех краях — проверю...</rus>
+  </string>
+  <string id="stalk_sim_treasure_1_dialog_82">
+    <rus>Ладно, приду...</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_0">
+    <rus>Здорово, старина. Как жизнь?</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_1">
+    <rus>Ключом бьёт... По голове... Чё надо?</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_2">
+    <rus>Ты чё сердитый такой? Давай накатим для настроения?</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_3">
+    <rus>Достало уже всё! Выкатывай...</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_41">
+    <rus>Ладно! Наплюй на всё... Поехали!</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_42">
+    <rus>Я лучше отвалю...</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_5">
+    <rus>Ну давай... Хоть водку не разучились делать ещё...</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_6">
+    <rus>Да, чистая, как слеза комсомолки... А что достало-то?</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_71">
+    <rus>Да козлы кругом одни... Делаешь добро людям, а они говнищем мажут... Нашёл я нычку одну, думал с одним козлом вместе добраться, чтобы было кому спину прикрыть... Так эта зараза свалила по-тихому — даже ещё и рюкзак мой распотрошить успела... Тьфу... Люди... Козлы! Может, сумеешь его опередить? Вот здесь этот тайник...</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_73">
+    <rus>Чудаков на букву "М" хватает, верить никому нельзя... Так и норовят подлянку сделать...</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_81">
+    <rus>Попробую, если получится — постараюсь вернуть тебе веру в людей.</rus>
+  </string>
+  <string id="stalk_sim_treasure_2_dialog_82">
+    <rus>Злой ты, уйду я от тебя...</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_0">
+    <rus>Привет, братан, мы раньше не встречались?</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_1">
+    <rus>Да и твоя физия мелькала вроде, как тебя?</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_2">
+    <rus>Меченым меня зови, все так называют...</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_3">
+    <rus>Ладно, Меченый так Меченый, ну давай — за знакомство? Есть с собой?</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_41">
+    <rus>А то! Вот! Крепкая, как мат монаха...</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_42">
+    <rus>Нет, нету... Пришлось отдать за патроны весь запас...</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_5">
+    <rus>Ха! Правда! Крепкая! Ну что, брат Меченый, вот и двумя хорошими людьми больше в Зоне стало...</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_6">
+    <rus>Говорят, можно хабар найти недалеко, не слышал?</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_71">
+    <rus>Недавно забрёл я на Янтарь, посмотреть, что там яйцеголовые окопались... Далеко не забирался, ибо мозг не казённый... Видел там этих бедолаг — сталкеров зомбированных. Стреляют, правда, как ворошиловские стрелки! Как так удаётся? Мозг же не работает? Нет? Один из них при смерти лежал, попытался я его обыскать, так мама моя родная! Из него как брызнет гадость какая-то, чуть коньки не отбросил, отравился... В общем, у него карта была с отметкой о схроне... Но я туда не рискну идти, а с тобой могу поделиться...</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_73">
+    <rus>Весь хабар, который был в лёгких местах, подчистую выгребли... Нужно к центру Зоны пробиваться, говорят, там "Клондайк"...</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_81">
+    <rus>Ладно, я рискну!</rus>
+  </string>
+  <string id="stalk_sim_treasure_3_dialog_82">
+    <rus>"Клондайк", говоришь? Ну-ну...</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_0">
+    <rus>Что так невесел, друг?</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_1">
+    <rus>Да так, думаю — валить из Зоны надо... С каждым днём всё хуже и хуже. Монстры всё опаснее и злее, погода дерьмовая, аномалии не поймёшь где, а самое страшное — люди звереют...</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_2">
+    <rus>Ладно, забей! Давай лучше накатим...</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_3">
+    <rus>Ну давай, а есть что?</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_41">
+    <rus>Не было б — не предлагал бы...</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_42">
+    <rus>Вот дьявол! Была же ещё бутылка! Спёрли!</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_5">
+    <rus>Эх-р-р-м, не Шардоне, конечно, но тоже ничего!</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_6">
+    <rus>А что за хабаром не идешь?</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_71">
+    <rus>Да долгая история... Не спешишь?.. Мы с Серёгой Безухим друзьми были, всё время вместе в глубокие рейды ходили... Иной раз до самого "Мозговыжигателя" добирались, видели этих фантомов и не только... \nПлесни ещё чуток... Да-а, Серёга... Ухо у него отстрелили ещё в Чечне, оттуда и кличка такая. Сколько раз мы друг другу спины прикрывали... В последней ходке на Псевдогиганта нарвались, тварь не особо опасная — если конечно на нее не переть сдуру. А тут так получилось, что хлопнула эта тварь своей ручищей по земле, Серёгу отбросило, ну наверно не больше полуметра, прямо в "Холодец", всем телом... Лицо, руки... Короче, всё... Мясо как кисель стекало с черепа... А он в сознании был... Плесни, душа горит... Бросил я его там... И душу свою тоже там оставил... Тайничок мы оставили, не буду я его забирать, не хочу... Если найдёшь, помяни Серегу...</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_73">
+    <rus>Не могу я... Сломала меня Зона... ещё день два и пойду выбираться...</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_81">
+    <rus>Помяну...</rus>
+  </string>
+  <string id="stalk_sim_treasure_4_dialog_82">
+    <rus>Правильно... Наверное...</rus>
+  </string>
+  <string id="freedom_1_dialog_0">
+    <rus>Здорово, братишка? Как оно?</rus>
+  </string>
+  <string id="freedom_1_dialog_1">
+    <rus>Лучше не бывает... Недавно к нам такую солому загнали, 3 дня в другом мире был... Жаль кончилась...</rus>
+  </string>
+  <string id="freedom_1_dialog_2">
+    <rus>Ну... Да... Это, конечно, плохо... Может, по стопочке?</rus>
+  </string>
+  <string id="freedom_1_dialog_3">
+    <rus>Какой вопрос?! А есть?</rus>
+  </string>
+  <string id="freedom_1_dialog_41">
+    <rus>Для такого случая всегда есть!</rus>
+  </string>
+  <string id="freedom_1_dialog_42">
+    <rus>В том-то и дело, что нету.</rus>
+  </string>
+  <string id="freedom_1_dialog_5">
+    <rus>Э-эх, провалилась, не заметил...</rus>
+  </string>
+  <string id="freedom_1_dialog_6">
+    <rus>Ты слыхал — сталкер какой-то на днях в бар пришёл... Говорят, нычку авторитетного наёмника обчистил. Радостный был, всем рассказывал, как он подобрал ПДА этого наёмника где-то здесь, на Складах... На следующие сутки он куда-то пропал, и до сих пор его никто не видел, походу, наёмники убрали... Вот так вот.</rus>
+  </string>
+  <string id="freedom_1_dialog_71">
+    <rus>Да фигня это всё... Мы этих наёмников шугаем, как тараканов... Мы вот рейд на базу "Долга" устраивали, война была — ужас, но пробиться таки не смогли — грянул выброс да мощный такой... мозги прямо закипели, запнулся о труп "долговца" — мелькнул КПК, ну я его схватил... Пришлось спасаться на Дикой Территории... Засели в каком-то гараже, переждали выброс... Вернулись на базу, я этот КПК исследовал и увидел метку на карте во-от тут, проверить времени не было, так что вот, держи...</rus>
+  </string>
+  <string id="freedom_1_dialog_73">
+    <rus>Да чёрт с ним. Нефиг было выпендриваться, может, и дольше бы прожил. Чё-то меня на сон потянуло... Приходи ещё! Поболтаем о том, о сём...</rus>
+  </string>
+  <string id="freedom_1_dialog_81">
+    <rus>М-да, проверю как-нибудь, спасибо. До скорого...</rus>
+  </string>
+  <string id="freedom_1_dialog_82">
+    <rus>Подойду, конечно, о чём речь?</rus>
+  </string>
+  <string id="freedom_2_dialog_0">
+    <rus>Здорово, Макс! Как жизня?</rus>
+  </string>
+  <string id="freedom_2_dialog_1">
+    <rus>Да как-то стрёмно, ряды пополнять никто не хочет... Может, запишешься к нам? Станет жить спокойнее...</rus>
+  </string>
+  <string id="freedom_2_dialog_2">
+    <rus>Ну я как раз об этом думаю... Может, бутылочку пропустим за знакомство?</rus>
+  </string>
+  <string id="freedom_2_dialog_3">
+    <rus>Э-эх, побольше бы таких щедрых людей, как ты... Вот, у меня как раз для такого дела полкило колбаски сохранилось... Доставай эликсир!</rus>
+  </string>
+  <string id="freedom_2_dialog_41">
+    <rus>Во-от, настоящая, украинская... "Казаки". Держи гранённый!</rus>
+  </string>
+  <string id="freedom_2_dialog_42">
+    <rus>Я ка-ак раз собирался к Шурупу, щас, если у него осталось, стрельну...</rus>
+  </string>
+  <string id="freedom_2_dialog_5">
+    <rus>Бр-р-р... Печень моя не рада будет... Зачёт тебе в личное дело!</rus>
+  </string>
+  <string id="freedom_2_dialog_6">
+    <rus>Ну что, Макс? И-ик... Что тут у-у вас происходит вообще?</rus>
+  </string>
+  <string id="freedom_2_dialog_71">
+    <rus>Да вот, недавно Лукаш попросил сбегать на "Барьер"... Говорил, беда у них там какая-то... Ну я прихватил во-от этих вот обезьян, которые за костром сидят, видишь? Ну и на "Барьер"... А там — массированная атака зомби! Штук 50, наверное... Потеряли только снайпера, хотя я думал — все поляжем. Ну а зомбированные — живучие гады, поэтому добивать хочешь не хочешь, а нужно... Подхожу я, значит, к одному, а тот бормочет числа какие-то, несколько раз повторил, ну я "помог" бедняге. Когда вернулся, меня осенило, что эти цифры — это координаты, только вот координаты чего? Вот тут...</rus>
+  </string>
+  <string id="freedom_2_dialog_73">
+    <rus>Да что тут у нас может происходить? Недавно план приносили — ачуметь! Если хочешь приобрести, то обращайся к Скряге — он знает, где взять. А ты приходи ещё, поболтаем...</rus>
+  </string>
+  <string id="freedom_2_dialog_81">
+    <rus>Да эти зомбики постоянно что-то бубнят. Не обращай внимания.</rus>
+  </string>
+  <string id="freedom_2_dialog_82">
+    <rus>Ну, до встречи! Идти мне надо.</rus>
+  </string>
+  <string id="freedom_3_dialog_0">
+    <rus>Приветствую, мужики! Можно к вам?</rus>
+  </string>
+  <string id="freedom_3_dialog_1">
+    <rus>Здарова были, Меченый! Ну-ка, двиньтесь парни, дайте место авторитетному!</rus>
+  </string>
+  <string id="freedom_3_dialog_2">
+    <rus>Спасибо за гостеприимство. Может, по стопочке?</rus>
+  </string>
+  <string id="freedom_3_dialog_3">
+    <rus>Вот это я понимаю! Вон как раз для такого дела шашлычок жарится! Ну где "это дело"?</rus>
+  </string>
+  <string id="freedom_3_dialog_41">
+    <rus>"Это дело" у меня всегда при себе! Держи!</rus>
+  </string>
+  <string id="freedom_3_dialog_42">
+    <rus>Куда же я её засунул? Короче, где-то посеял. Щас к Скряге сбегаю...</rus>
+  </string>
+  <string id="freedom_3_dialog_5">
+    <rus>Бр-р-р... Ты где эту бодягу взял? Скажи точку — брать там всегда буду!</rus>
+  </string>
+  <string id="freedom_3_dialog_6">
+    <rus>Да!.. Не говори — лучшая, из которых я пил! Я её в нычке нашёл, тут, неподалёку...</rus>
+  </string>
+  <string id="freedom_3_dialog_71">
+    <rus>Слушай, а может, это Повар наш её заныкал на чёрный день? Пили как-то с ним, так он проговорился, что во-от тут разгружается. Он же у нас дегустатор! Может, сбегаешь? Будет продолжение банкета!</rus>
+  </string>
+  <string id="freedom_3_dialog_73">
+    <rus>Жаль, а то бы я ящиками её выкупил, зачётная водичка! Ну, если будет ещё — приходи! А я на боковую.</rus>
+  </string>
+  <string id="freedom_3_dialog_81">
+    <rus>Да... Повар, наверное, чемпион по литрболу в Зоне... Ну, увидимся...</rus>
+  </string>
+  <string id="freedom_3_dialog_82">
+    <rus>Конечно, приду... Ну, гуд лак!</rus>
+  </string>
+  <string id="freedom_4_dialog_0">
+    <rus>Привет! Что скучаешь? Что расстроенный такой?</rus>
+  </string>
+  <string id="freedom_4_dialog_1">
+    <rus>Привет, Меченый. Да как же тут не скучать-то? Артефактов нет, баб нет, водки нет...</rus>
+  </string>
+  <string id="freedom_4_dialog_2">
+    <rus>А не скажи... У меня где-то валялось пол-литра...</rus>
+  </string>
+  <string id="freedom_4_dialog_3">
+    <rus>Так что ж ты молчал-то? Падай рядом, вскрывай свой рюкзак. Вот, у меня пара стаканчиков есть.</rus>
+  </string>
+  <string id="freedom_4_dialog_41">
+    <rus>Куда же я её положил? Ах вот она — на дне самом! Выпьем и за баб, и за арты!</rus>
+  </string>
+  <string id="freedom_4_dialog_42">
+    <rus>Где же... куда я её? Погоди тут пару минут, щас сгоняю по одному адресу, будет чем поправить здоровье.</rus>
+  </string>
+  <string id="freedom_4_dialog_5">
+    <rus>Ничё так у тебя арсенальчик... Покруче нашего будет... Стаканчики маленькие. Ну, пьём за прекрасный пол!</rus>
+  </string>
+  <string id="freedom_4_dialog_6">
+    <rus>Пьём!.. У-ух, хорошо пошла! Что слышно?</rus>
+  </string>
+  <string id="freedom_4_dialog_71">
+    <rus>Да вот, недавно посылали группу, и меня в том числе, в Тёмную Долину, разведать проход туда прямо со Складов. Сам понимаешь, мы тут как в клетке — с одной стороны "Долг", с другой — "Выжигатель". Дело было по вечеру. Ну так вот, наблюдали такую картину — быстрее пули жиган бежит... ну мы в непонятках. Видимо, он нас заметил и на нас вектор сменил — у нас челюсти поотвисали, думаем, что за Рэмбо? Тут наш глазастый Роман говорит: "Он там не один бежит", ну он с тепловизором шёл. Мы пригляделись — и вправду... позади него как будто воздух искажался. Подбежал он ещё на метров 20 — тут мы поняли, что дело плохо — за ним 4 кровососа! Пришлось положить всех, включая урку. Видать, шестёрка какая-то. В КПК нашли точку на карте — вот тут, без комментариев. У бедного бандюги джинсы все коричневые были — обсерился. Да любой на его месте пересрался бы с испугу...</rus>
+  </string>
+  <string id="freedom_4_dialog_73">
+    <rus>Постоянно слышно крики где-то тут неподалёку. Жуть прямо. А если по сути, я как-то не в курсе того, что тут происходит.</rus>
+  </string>
+  <string id="freedom_4_dialog_81">
+    <rus>М-да, не повезло парню. Ну что давай на посошок и я пошёл.</rus>
+  </string>
+  <string id="freedom_4_dialog_82">
+    <rus>Ну, тогда на посошок и на боковую, устал я сегодня...</rus>
+  </string>
+  <string id="freedom_5_dialog_0">
+    <rus>Здарова, мужики!</rus>
+  </string>
+  <string id="freedom_5_dialog_1">
+    <rus>Да не ори ты так, жуткое это место... неуважения не любит. Не маячь ты, присаживайся. Чего хотел?</rus>
+  </string>
+  <string id="freedom_5_dialog_2">
+    <rus>Да думал вот выпить с мужиками...</rus>
+  </string>
+  <string id="freedom_5_dialog_3">
+    <rus>Ну это как раз кстати, а то мы тут уже замерзли. Доставай родимую.</rus>
+  </string>
+  <string id="freedom_5_dialog_41">
+    <rus>Вот, держи.</rus>
+  </string>
+  <string id="freedom_5_dialog_42">
+    <rus>Ну, мужики, я думал, вы меня угостите. Ладно, сбегаю щас на базу, зацеплю бутылочку.</rus>
+  </string>
+  <string id="freedom_5_dialog_5">
+    <rus>Уважаю, не дал умереть от холода... А мы тут сидим, ждём ребят, ждём... Пошли в деревню зачищать логово кровососов... Видать, больше мы их не увидим... Жаль парней... М-да.</rus>
+  </string>
+  <string id="freedom_5_dialog_6">
+    <rus>М-да, у меня волосы на заднице дыбом уже стоят. Даже водка не помогает. А что тут ещё происходит?</rus>
+  </string>
+  <string id="freedom_5_dialog_71">
+    <rus>О-о-о, ты священную тему затронул. Про это место столько легенд ходит. До выброса 2006 года эта деревня была похожа на "Деревню новичков" как на Кордоне, и брат мой там жил. Все жили тихо мирно... Как вдруг грянул выброс такой силы, что выжить удалось далеко не всем... крики... волны мутантов пёрли со стороны "Барьера", одна за другой. Выброс был где-то минут 10-15, а казалось все 3 часа, многие тогда потеряли своих друзей. На следующий день нас отправили забрать трупы и похоронить, да мы бы это и без приказов сделали бы... Нашёл я своего брата, понимаешь, своего родного брата, лежал он в подвале, смотреть было жалко. Взял я себе его ствол, вот видишь как блестит, и КПК. В КПК я нашёл единственную отметку на карте — вот здесь, и ещё записку адресованную мне, но это уже личное.</rus>
+  </string>
+  <string id="freedom_5_dialog_73">
+    <rus>Да много тут чего происходит... А вообще, пореже ты сюда заходи — тут тебе весь зверинец Зоны. Тут и кровососы, и бюреры, и контролёры, и собаки, даже химеры бывает заглядывают...</rus>
+  </string>
+  <string id="freedom_5_dialog_81">
+    <rus>М-да, сочувстую, извини. Ну, давай на посошок, у меня тут дел не в проворот.</rus>
+  </string>
+  <string id="freedom_5_dialog_82">
+    <rus>Спасибо за совет, но как-нибудь ещё увидимся.</rus>
+  </string>
+  <string id="freedom_6_dialog_0">
+    <rus>Здарова, хлопец. Есть чё закусить?</rus>
+  </string>
+  <string id="freedom_6_dialog_1">
+    <rus>Есть, а что?</rus>
+  </string>
+  <string id="freedom_6_dialog_2">
+    <rus>А есть что выпить?</rus>
+  </string>
+  <string id="freedom_6_dialog_3">
+    <rus>Чего нет — того нет.</rus>
+  </string>
+  <string id="freedom_6_dialog_41">
+    <rus>Ну вот видишь? Чтобы мы без друг друга делали? Уже сообразили поляну... держи стакан! За что пить будем?</rus>
+  </string>
+  <string id="freedom_6_dialog_42">
+    <rus>Жаль, у меня тоже нет.</rus>
+  </string>
+  <string id="freedom_6_dialog_5">
+    <rus>Оперативно однако. Будем пить за то, чтобы всегда были такие люди как ты, и чтобы они всегда находили таких людей как я! Ну давай! У-ух, горькая зараза!</rus>
+  </string>
+  <string id="freedom_6_dialog_6">
+    <rus>Не говори... Жжет! Ты может быть знаешь случаем того, чего я не знаю, а?</rus>
+  </string>
+  <string id="freedom_6_dialog_71">
+    <rus>Ну, брателла, ты наверное тут всю Зону сам исколесил... Нет? Ты что-нибудь знаешь о Мёртвом Городе? Нет? Там основная база "Последнего дня". Взяли меня в плен где-то полгода назад . Ну всё по правилам киллерского дела — мешок на голову, прикладом по чайнику и повезли в неизвестном направлении... Привезли, начали выпытывать из меня как пробраться к нам на базу в тихую... ну я естественно ни слова им не сказал. Оставили меня на ночь в клетке. Напротив меня ещё двое были... один, кстати, очень на тебя был похож... чёта там общались насчёт как оттуда слинять... заметил я там карту Зоны... точки какие-то, ну запомнить смог только одну — вот здесь вроде она была... потом меня выволокли и по башке дали прикладом, очнулся уже в машине, с капюшоном на голове. Выволокли, поставили на краю обрыва, говорят типа — последнее желание... и тут, к моему счастью — выброс... пришлось спрыгнуть. Это оказалось какое-то болото, посреди болота — вагончик, в нём переждал выброс. Оказалось, привезли они меня на Агропром... еле до дома добрался... Рассказал всем — не поверили, ибо я сильно не трезвый был, сам понимаешь, пережить такое...</rus>
+  </string>
+  <string id="freedom_6_dialog_73">
+    <rus>Ой, да куда мне? Меня сюда только неделю назад поставили, так что ничё тут интересного не видел. Приходи позже, может чё и разузнаю.</rus>
+  </string>
+  <string id="freedom_6_dialog_81">
+    <rus>Интересно, чудо вообще, что ты жив остался. Ну, бывай.</rus>
+  </string>
+  <string id="freedom_6_dialog_82">
+    <rus>Ну ладно, зайду как-нибудь. До встречи</rus>
+  </string>
+  <string id="freedom_7_dialog_0">
+    <rus>Чё бледный-то такой?</rus>
+  </string>
+  <string id="freedom_7_dialog_1">
+    <rus>Холодина-то какая...</rus>
+  </string>
+  <string id="freedom_7_dialog_2">
+    <rus>А чё не согреешься?</rus>
+  </string>
+  <string id="freedom_7_dialog_3">
+    <rus>Было бы чем...</rus>
+  </string>
+  <string id="freedom_7_dialog_41">
+    <rus>Ну я тебе помогу в этом деле! Держи! За что пьём?</rus>
+  </string>
+  <string id="freedom_7_dialog_42">
+    <rus>И я тут мерзну... Думал кто согреет.</rus>
+  </string>
+  <string id="freedom_7_dialog_5">
+    <rus>Пьём за то, чтобы завтра было за что выпить! У-ух, крепкая! На, закусишь сразу колбаской.</rus>
+  </string>
+  <string id="freedom_7_dialog_6">
+    <rus>М-да, спасибо. Слушай, где тут хабаром разжиться можно?</rus>
+  </string>
+  <string id="freedom_7_dialog_71">
+    <rus>Ну с этим сейчас у всех проблемы. Говорят, есть хабарок за "Барьером", но соваться туда опасно. Убедился на своём опыте — денег не было, много кому должен был, ну, судьба вынудила двинуться за Барьер. Иду... вокруг тишина... смотрю — что-то впереди шевелится, ну, я за камень. Запнулся, оказался лицом к лицу с давним знакомым моим, пропал он давно уже, только сейчас он уже полуразложившийся был, как вспомню, аж блевать тянет. Ну, он был авторитетным сталкером, "ВАЛом" сумел разжиться. Ну, я рюкзак с него снял, зачем он ему нужен?.. Только приподнялся, смотрю — "монолитовцы" общаются с мычащими... Втирают им типа "Во имя Монолита...", тьфу, ну я быстрым ходом в обратном направлении... и буквально через полчаса отбивались от полусотни зомбей. Вот так вот. В КПК нашёл пару схронов — вот тут и тут. Вот этот я по пути обчистил, а до другого в лень идти, да и нагружен был под самое нихочу, и в местах тех я ни разу не был...</rus>
+  </string>
+  <string id="freedom_7_dialog_73">
+    <rus>Ну, говорят, на Агропроме бывали когда-то раньше горы артефактов, теперь не знаю... Ладно, Меченый, если что, заходи.</rus>
+  </string>
+  <string id="freedom_7_dialog_81">
+    <rus>Повезло тебе. Советую больше так не делать. Ладно, не спи — замерзнешь. До встречи.</rus>
+  </string>
+  <string id="freedom_7_dialog_82">
+    <rus>Ну ладно, зайду как-нибудь.</rus>
+  </string>
+</string_table>

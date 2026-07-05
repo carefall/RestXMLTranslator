@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="yan_find_ghost">
+    <rus>Взять документы у Призрака</rus>
+  </string>
+  <string id="yan_find_ghost_task">
+    <rus>Призрачные документы</rus>
+  </string>
+  <string id="yan_find_lab">
+    <rus>Проникнуть в лабораторию</rus>
+  </string>
+  <string id="yan_find_labX16">
+    <rus>Проникнуть в лабораторию X-16</rus>
+  </string>
+  <string id="yan_find_scientist">
+    <rus>Замеры излучения</rus>
+  </string>
+  <string id="yan_find_vasilyev_task">
+    <rus>Вылазка в лабораторию</rus>
+  </string>
+  <string id="yan_find_vasilyev_gain">
+    <rus>Пробраться в лабораторию</rus>
+  </string>
+  <string id="yan_find_vasilyev">
+    <rus>Обыскать труп Васильева</rus>
+  </string>
+  <string id="yan_kill_brain">
+    <rus>Непроходимое пси-излучение</rus>
+  </string>
+  <string id="yan_kill_brain_task">
+    <rus>Отключить питание установки</rus>
+  </string>
+  <string id="yan_kill_brain_task_2">
+    <rus>На свежий воздух</rus>
+  </string>
+  <string id="yan_provodnik_about_doctor">
+    <rus>Поговорить с Проводником</rus>
+  </string>
+  <string id="yan_provodnik_task">
+    <rus>Проводник по Зоне</rus>
+  </string>
+  <string id="yan_psi_zone_find">
+    <rus>Сопроводить Круглова к месту замера</rus>
+  </string>
+  <string id="yan_psi_zone_find_semenov">
+    <rus>Сопроводить Семёнова к месту замера</rus>
+  </string>
+  <string id="yan_find_scientist_semenov">
+    <rus>Сопроводить Семёнова к месту замера</rus>
+  </string>
+  <string id="yan_return_to_bunker">
+    <rus>Принести результаты Сахарову</rus>
+  </string>
+  <string id="yan_scientist_return">
+    <rus>Поговорить с Сахаровым</rus>
+  </string>
+  <string id="yan_scientist_return_task">
+    <rus>Обратно в бункер</rus>
+  </string>
+  <string id="yan_secret_tonnel">
+    <rus>Выбраться через секретный тоннель</rus>
+  </string>
+  <string id="yan_switcher_off_1">
+    <rus>Отключить 1-ый блок управления</rus>
+  </string>
+  <string id="yan_switcher_off_2">
+    <rus>Отключить 2-ой блок управления</rus>
+  </string>
+  <string id="yan_switcher_off_3">
+    <rus>Отключить 3-ий блок управления</rus>
+  </string>
+  <string id="yan_talk_to_kruglov">
+    <rus>Поговорить с Кругловым</rus>
+  </string>
+  <string id="yan_talk_to_semenov">
+    <rus>Поговорить с Семёновым</rus>
+  </string>
+  <string id="yan_vasilyev_pda">
+    <rus>КПК Васильева</rus>
+  </string>
+  <string id="yan_zombie_zone">
+    <rus>Предположительное местонахождение лаборатории X-16</rus>
+  </string>
+  <string id="descr_yan_scientist_job">
+    <rus>Нужно получить точные инструкции у профессора Сахарова насчёт моих дальнейших действий.</rus>
+  </string>
+</string_table>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="talk_bar_barman_technique_name">
+    <rus>Технический вопрос</rus>
+  </string>
+  <string id="talk_bar_barman_technique_name_1">
+    <rus>Поговорить с Барменом</rus>
+  </string>
+  <string id="freeman_buggy_name">
+    <rus>Багги с Болот</rus>
+  </string>
+  <string id="freeman_buggy_name_1">
+    <rus>Багги с Болот</rus>
+  </string>
+  <string id="freeman_buggy_name_2">
+    <rus>Привезти багги на территорию Бара к ангару</rus>
+  </string>
+  <string id="freeman_buggy_name_3">
+    <rus>Поговорить с Фрименом</rus>
+  </string>
+  <string id="spare_parts_name">
+    <rus>Приятная находка</rus>
+  </string>
+  <string id="spare_parts_name_1">
+    <rus>Приятная находка</rus>
+  </string>
+  <string id="spare_parts_name_2">
+    <rus>Найти бензобак для КАМАЗа</rus>
+  </string>
+  <string id="spare_parts_name_3">
+    <rus>Найти втулки для КАМАЗа</rus>
+  </string>
+  <string id="spare_parts_name_4">
+    <rus>Проследить за котом</rus>
+  </string>
+  <string id="spare_parts_name_5">
+    <rus>Найти запаску для КАМАЗа</rus>
+  </string>
+  <string id="spare_parts_name_6">
+    <rus>Найти аккумулятор для КАМАЗа</rus>
+  </string>
+  <string id="spare_parts_name_7">
+    <rus>Принести запчасти Михе</rus>
+  </string>
+  <string id="base_creation_scouts_name">
+    <rus>Заблудшие души</rus>
+  </string>
+  <string id="base_creation_scouts_name_1">
+    <rus>Заблудшие души</rus>
+  </string>
+  <string id="base_creation_scouts_name_2">
+    <rus>Найти военного офицера на Дикой Территории</rus>
+  </string>
+  <string id="base_creation_scouts_name_3">
+    <rus>Встретиться с Вовой Вистом на базе</rus>
+  </string>
+  <string id="base_order_art_name">
+    <rus>Первый заказ</rus>
+  </string>
+  <string id="base_order_art_name_1">
+    <rus>Первый Заказ</rus>
+  </string>
+  <string id="base_order_art_name_2">
+    <rus>Поговорить с Халявой</rus>
+  </string>
+  <string id="base_order_art_name_3">
+    <rus>Найти Батарейку</rus>
+  </string>
+  <string id="base_creation_colony_name">
+    <rus>Колонизация Зоны</rus>
+  </string>
+  <string id="base_creation_colony_name_1">
+    <rus>Колонизация Зоны</rus>
+  </string>
+  <string id="base_creation_colony_name_2">
+    <rus>Поговорить с группой Серого</rus>
+  </string>
+  <string id="base_creation_colony_name_3">
+    <rus>Доложиться Халяве</rus>
+  </string>
+  <string id="base_vel_mech_name">
+    <rus>По бинтам Влада</rus>
+  </string>
+  <string id="base_vel_mech_name_1">
+    <rus>Узнать о наёмнике, убившего Влада</rus>
+  </string>
+  <string id="base_vel_mech_name_2">
+    <rus>Идти по следу из синих бинтов</rus>
+  </string>
+  <string id="base_vel_mech_name_3">
+    <rus>Принести найденное Вэлу</rus>
+  </string>
+  <string id="base_creation_barmen_name">
+    <rus>Заведующий буфетом</rus>
+  </string>
+  <string id="base_creation_barmen_name_1">
+    <rus>Найти бармена для базы</rus>
+  </string>
+  <string id="base_creation_barmen_name_2">
+    <rus>Поговорить с Кулинаром</rus>
+  </string>
+  <string id="base_creation_barmen_name_3">
+    <rus>Встретиться с Кулинаром на базе</rus>
+  </string>
+  <string id="base_creation_barmen_name_4">
+    <rus>Следовать за Кулинаром</rus>
+  </string>
+  <string id="base_creation_barmen_name_5">
+    <rus>Договориться с Барменом о поставках</rus>
+  </string>
+  <string id="base_creation_messer_name">
+    <rus>Первые шаги</rus>
+  </string>
+  <string id="base_creation_messer_name_1">
+    <rus>Посетить базу позже</rus>
+  </string>
+  <string id="base_creation_mech_name">
+    <rus>Золотые ручки</rus>
+  </string>
+  <string id="base_creation_mech_name_1">
+    <rus>Найти механика</rus>
+  </string>
+  <string id="base_creation_mech_name_2">
+    <rus>Поговорить с Лисом</rus>
+  </string>
+  <string id="base_creation_mech_name_3">
+    <rus>Узнать о механике у Вэла</rus>
+  </string>
+  <string id="base_creation_mech_name_4">
+    <rus>Доложиться Лису</rus>
+  </string>
+  <string id="base_creation_mech_name_5">
+    <rus>Спасти техника</rus>
+  </string>
+  <string id="base_creation_mech_name_6">
+    <rus>Поговорить с техником на базе</rus>
+  </string>
+  <string id="base_heli_name">
+    <rus>Вылазка к вертолёту</rus>
+  </string>
+  <string id="base_heli_name_1">
+    <rus>Собрать вещи с вертолёта</rus>
+  </string>
+  <string id="base_heli_name_2">
+    <rus>Найти всё ценное</rus>
+  </string>
+  <string id="base_heli_name_3">
+    <rus>Принести найденное Лису</rus>
+  </string>
+  <string id="base_leonid_stabilisator_name">
+    <rus>Проверка на практике</rus>
+  </string>
+  <string id="base_leonid_stabilisator_name_1">
+    <rus>Проверка на практике</rus>
+  </string>
+  <string id="base_leonid_stabilisator_name_2">
+    <rus>Помочь трём раненым при помощи стабилизаторов</rus>
+  </string>
+  <string id="base_leonid_stabilisator_name_3">
+    <rus>Вернуться к Леониду</rus>
+  </string>
+  <string id="dark_first_story_1_name">
+    <rus>Говорящая аномалия</rus>
+  </string>
+  <string id="dark_first_story_1_desc">
+    <rus>Нужно изучить новую аномалию и всё, что с ней связано.</rus>
+  </string>
+  <string id="dark_first_story_1_name_1">
+    <rus>Отыскать место аномалии</rus>
+  </string>
+  <string id="dark_first_story_1_name_2">
+    <rus>Дойти до разведчика на Янтаре и получить от него информацию</rus>
+  </string>
+  <string id="dark_first_story_1_name_3">
+    <rus>Найти место новой аномалии</rus>
+  </string>
+  <string id="dark_first_story_1_name_4">
+    <rus>Поговорить с Сахаровым по поводу говорящей аномалии</rus>
+  </string>
+  <string id="dark_first_story_1_name_5">
+    <rus>Вернуться к аномалии в нужный момент</rus>
+  </string>
+  <string id="dark_first_story_1_name_6">
+    <rus>Вытащить тело на берег и обыскать</rus>
+  </string>
+  <string id="dark_first_story_1_name_7">
+    <rus>Вернуться к Сахарову и отдать камеру</rus>
+  </string>
+  <string id="base_phil_supplies_name">
+    <rus>Особая доставка</rus>
+  </string>
+  <string id="base_phil_supplies_name_1">
+    <rus>Особая доставка</rus>
+  </string>
+  <string id="base_phil_supplies_name_2">
+    <rus>Найти тайник с ключом</rus>
+  </string>
+  <string id="base_phil_supplies_name_3">
+    <rus>Привезти груз к главным воротам</rus>
+  </string>
+  <string id="base_phil_supplies_name_4">
+    <rus>Поговорить с Филом</rus>
+  </string>
+  <string id="base_creation_medic_name">
+    <rus>Доктор Айболит</rus>
+  </string>
+  <string id="base_creation_medic_name_1">
+    <rus>Доктор Айболит</rus>
+  </string>
+  <string id="base_creation_medic_name_2">
+    <rus>Узнать, где найти медика</rus>
+  </string>
+  <string id="base_creation_medic_name_3">
+    <rus>Доложиться Халяве</rus>
+  </string>
+  <string id="base_creation_medic_name_4">
+    <rus>Посетить базу позже</rus>
+  </string>
+  <string id="base_creation_electricity_name">
+    <rus>Да будет свет</rus>
+  </string>
+  <string id="base_creation_electricity_name_1">
+    <rus>Да будет свет</rus>
+  </string>
+  <string id="base_creation_electricity_name_2">
+    <rus>Узнать у Бармена об электрике</rus>
+  </string>
+  <string id="base_creation_electricity_name_3">
+    <rus>Поговорить с Халявой на базе</rus>
+  </string>
+  <string id="base_creation_escape_meeting_name">
+    <rus>Первое дело</rus>
+  </string>
+  <string id="base_creation_escape_meeting_name_1">
+    <rus>Первое дело</rus>
+  </string>
+  <string id="base_creation_escape_meeting_name_2">
+    <rus>Встретиться с Халявой у элеватора на Кордоне</rus>
+  </string>
+  <string id="base_creation_escape_meeting_name_3">
+    <rus>Обеспечить безопасность встречи</rus>
+  </string>
+  <string id="base_creation_escape_meeting_name_4">
+    <rus>Поговорить с Халявой</rus>
+  </string>
+  <string id="base_creation_guard_name">
+    <rus>Рано встаёт охрана</rus>
+  </string>
+  <string id="base_creation_guard_name_1">
+    <rus>Рано встаёт охрана</rus>
+  </string>
+  <string id="base_creation_guard_name_2">
+    <rus>Найти людей для охраны базы</rus>
+  </string>
+  <string id="base_creation_guard_name_3">
+    <rus>Поговорить с Лисом</rus>
+  </string>
+  <string id="base_creation_officer_name">
+    <rus>Начало — половина успеха</rus>
+  </string>
+  <string id="base_creation_officer_name_1">
+    <rus>Попросить Лиса помочь с обустройкой базы</rus>
+  </string>
+  <string id="base_creation_officer_name_2">
+    <rus>Посетить базу позже</rus>
+  </string>
+  <string id="base_creation_officer_name_3">
+    <rus>Поговорить с Лисом</rus>
+  </string>
+  <string id="base_creation_start_name">
+    <rus>Дом всем желающим</rus>
+  </string>
+  <string id="base_creation_start_name_1">
+    <rus>Встретиться с Халявой на базе Борова в Тёмной Долине</rus>
+  </string>
+  <string id="otshelnik_ants_name">
+    <rus>Борьба с муравьями</rus>
+  </string>
+  <string id="otshelnik_ants_name_1">
+    <rus>Добыть две капсулы</rus>
+  </string>
+  <string id="otshelnik_ants_name_2">
+    <rus>Принести капсулы Отшельнику</rus>
+  </string>
+
+</string_table>

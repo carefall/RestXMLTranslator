@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="pri_followers_start_dlg_21">
+    <rus>Выдвигаемся вдоль по улице. В случае чего — прикроешь.</rus>
+  </string>
+  <string id="pri_followers_start_dlg_211">
+    <rus>Хорошо.</rus>
+  </string>
+  <string id="pri_followers_start_dlg_31">
+    <rus>Спасибо, Меченый, за помощь. Это был тяжёлый бой. Мы сделаем здесь привал.\nЕсли пойдёшь дальше, то расскажу тебе о местности. Если вернёшься назад по переходу и пойдёшь направо, то дойдёшь до автовокзала. Но там больно местность открытая и небезопасная.\nЕсли же пройти вперёд, то окажешься перед гостиницей. Справа от неё база "Монолита". Те ребята без крыши.\nЗа базой расположен стадион. Мы планировали через него на станцию пробираться. Это всё.</rus>
+  </string>
+  <string id="pri_followers_start_dlg_311">
+    <rus>Спасибо.</rus>
+  </string>
+  <string id="pri_followers_start_dlg_41">
+    <rus>Спасибо за помощь. Удачи.</rus>
+  </string>
+  <string id="pri_followers_start_dlg_411">
+    <rus>Пока.</rus>
+  </string>
+</string_table>

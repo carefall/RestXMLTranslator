@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <!-- Sidorovich miniquest dialog start -->
+  <string id="escape_trader_miniquest_0">
+    <rus>Слушай, я тут недавно одному сталкеру от мутантов отбиться помог. Он тебе ничего для меня не передавал?</rus>
+  </string>
+  <string id="escape_trader_miniquest_1">
+    <rus>А... Да, есть для тебя свёрточек.</rus>
+  </string>
+  <string id="escape_trader_miniquest_2">
+    <rus>Вот и замечательно. Давай его сюда.</rus>
+  </string>
+  <string id="escape_trader_miniquest_3">
+    <rus>Свёрточек твой, конечно. Я ни на что не претендую, не подумай. Только я его хранил у себя, верно? Надёжно, между прочим. А вдруг там гадость какая вредная? У меня, сам понимаешь, и так здоровья мало осталось...\nКороче, я считаю, что тыщёнка рублей мне за хранение — справедливая цена. Согласен?</rus>
+  </string>
+  <string id="escape_trader_miniquest_5">
+    <rus>Ну и жадный же ты! Держи, жмот, "за хранение".</rus>
+  </string>
+  <string id="escape_trader_miniquest_6">
+    <rus>Всё справедливо. Держи.</rus>
+  </string>
+  <string id="escape_trader_miniquest_7">
+    <rus>Совсем обнаглел? Или отдаёшь мне свёрток, или я настучу кому надо.</rus>
+  </string>
+  <string id="escape_trader_miniquest_4">
+    <rus>Чёрт, с деньгами напряг. Заберу позже.</rus>
+  </string>
+  <string id="escape_trader_miniquest_8">
+    <rus>Вот, получи свой свёрток драгоценный.</rus>
+  </string>
+  <string id="escape_trader_miniquest_9">
+    <rus>Ой, напугал. И кому же ты настучишь?</rus>
+  </string>
+  <string id="escape_trader_miniquest_10">
+    <rus>Новичкам в лагере. Фиг они у тебя после такого что-то купят.</rus>
+  </string>
+  <string id="escape_trader_miniquest_11">
+    <rus>Военным. Думаешь, не заинтересуются торговцем на территории Зоны?</rus>
+  </string>
+  <string id="escape_trader_miniquest_12">
+    <rus>Тебе по лысине. Хочешь?</rus>
+  </string>
+  <string id="escape_trader_miniquest_13">
+    <rus>У меня друзья есть. Очень влиятельные сталкеры, между прочим...</rus>
+  </string>
+  <string id="escape_trader_miniquest_14">
+    <rus>Не купят эти — купят через пару дней другие. Это ж Зона.\nВыбратся назад они не смогут — на блокпосту солдаты, вглубь идти — снаряга нужна, оружие. А где ты это возьмёшь, как не у меня? \nТак что угрожай кому-нибудь другому, понял?</rus>
+  </string>
+  <string id="escape_trader_miniquest_15">
+    <rus>Ой, не могу! Нельзя так смешить...\nКак ты думаешь, кто мне снарягу поставляет, патроны списывает на продажу? А артефакты заказчикам из Зоны переправляет? Военные наоборот заинтересованы в моём бизнесе. \nНо ты сходи к ним, сходи. Интересно, пристрелят тебя сразу или пожизненное впаяют? А за свёрток тогда не беспокойся. Хе-хе.</rus>
+  </string>
+  <string id="escape_trader_miniquest_16">
+    <rus>Блин, жалко косарь — так и скажи. А то все нервные такие — "по лысине" сразу...</rus>
+  </string>
+  <string id="escape_trader_miniquest_17">
+    <rus>Запомни: в Зоне любая дружба быстро заканчивается, если речь идёт о серьёзных деньгах. Да и что мне твои друзья? Сегодня есть, завтра уже и забыли, как их звали. В Зоне не особо долго живут, понял?</rus>
+  </string>
+  <string id="escape_trader_miniquest_18">
+    <rus>Короче, тыща за хранение — и забирай свой свёрток.</rus>
+  </string>
+  <string id="escape_trader_miniquest_19">
+    <rus>Спасибо.</rus>
+  </string>
+  <string id="escape_trader_miniquest_20">
+    <rus>Понял.</rus>
+  </string>
+  <!-- Barist Repair dialog start -->
+  <string id="bar_trader_miniquest_0">
+    <rus>Недавно помог одному сталкеру отбиться от мутантов — он мне ничего не оставлял?</rus>
+  </string>
+  <string id="bar_trader_miniquest_1">
+    <rus>Да, небольшой свёрток. Лежит себе, много места не занимает... Я о нём почти забыл. А что, он тебе нужен?</rus>
+  </string>
+  <string id="bar_trader_miniquest_2">
+    <rus>Да, нужен.</rus>
+  </string>
+  <string id="bar_trader_miniquest_3">
+    <rus>Вот, держи.</rus>
+  </string>
+  <string id="bar_trader_miniquest_4">
+    <rus>Спасибо.</rus>
+  </string>
+  <!-- miniquest dialogs end -->
+</string_table>

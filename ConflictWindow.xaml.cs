@@ -351,6 +351,7 @@ namespace GitXMLTranslator
                 }
             }
             SaveLocalFiles();
+            Directory.Delete(AppDomain.CurrentDomain.BaseDirectory + "Downloads");
             new MainWindow(name).Show();
             Close();
             return;

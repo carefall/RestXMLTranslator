@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="jup_kalter_monsters_hint_1">
+    <rus>Кабаны</rus>
+  </string>
+  <string id="jup_kalter_monsters_hint_2">
+    <rus>Крысоволки</rus>
+  </string>
+  <string id="jup_kalter_monsters_hint_3">
+    <rus>Химеры</rus>
+  </string>
+  <string id="jup_kalter_monsters_hint_4">
+    <rus>Снорки</rus>
+  </string>
+  <string id="jup_kalter_shturm_hint">
+    <rus>Пригнать БРДМ</rus>
+  </string>
+  <string id="zahar_krovosos_quest_hint_1">
+    <rus>Первое место</rus>
+  </string>
+  <string id="zahar_krovosos_quest_hint_2">
+    <rus>Второе место</rus>
+  </string>
+  <string id="zahar_krovosos_quest_hint_3">
+    <rus>Третье место</rus>
+  </string>
+  <string id="zahar_krovosos_quest_hint_4">
+    <rus>Предполагаемое местонахождение охотников</rus>
+  </string>
+  <string id="max_helicopters_quest_hint_1">
+    <rus>Приблизительное место крушения вертолёта</rus>
+  </string>
+  <string id="max_helicopters_quest_hint_2">
+    <rus>Приблизительное место крушения второго вертолёта</rus>
+  </string>
+  <string id="freeman_plant_quest_hint">
+    <rus>Аномальное растение</rus>
+  </string>
+  <string id="tushkano_cocoon_job_hint">
+    <rus>Активировать капсулу</rus>
+  </string>
+  <string id="help_for_esc_mechanic_task_hint">
+    <rus>Тайник с лекарством</rus>
+  </string>
+  <string id="voronin_secret_task_hint">
+    <rus>Снайперская лёжка</rus>
+  </string>
+  <string id="borman_kill_the_bandits_task_hint">
+    <rus>Беспредельщики</rus>
+  </string>
+  <string id="lukash_btr_task_hint">
+    <rus>Пригнать БТР</rus>
+  </string>
+  <string id="jup_tunnel_trap_task_hint">
+    <rus>Сигнал СОС</rus>
+  </string>
+  <string id="zveroboy_need_help_task_hint">
+    <rus>Предположительное место Зверобоя</rus>
+  </string>
+  <string id="monster_scaner_start_hint_1">
+    <rus>Сканер</rus>
+  </string>
+  <string id="monster_scaner_start_hint_2">
+    <rus>Предположительное место установки сканера</rus>
+  </string>
+  <string id="kudasov_controller_task_hint">
+    <rus>Предположительное место контролёра</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_hint_1">
+    <rus>Первая точка замеров</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_hint_2">
+    <rus>Вторая точка замеров</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_hint_3">
+    <rus>Третья точка замеров</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_hint_4">
+    <rus>Четвёртая точка замеров</rus>
+  </string>
+  <string id="kudasov_anomal_scaner_task_hint_5">
+    <rus>Пятая точка замеров</rus>
+  </string>
+  <string id="inferno_task_start_hint">
+    <rus>Предполагаемое место артефакта</rus>
+  </string>
+  <string id="zveroboy_first_task_hint_1">
+    <rus>Снорки</rus>
+  </string>
+  <string id="zveroboy_first_task_hint_2">
+    <rus>Псевдособаки</rus>
+  </string>
+  <string id="zveroboy_first_task_hint_3">
+    <rus>Псевдогиганты</rus>
+  </string>
+  <string id="zveroboy_second_task_hint">
+    <rus>Когти смерти</rus>
+  </string>
+
+</string_table>

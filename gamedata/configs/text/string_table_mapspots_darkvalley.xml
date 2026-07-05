@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="bar_darklab_documents_1_hint">
+    <rus>Боров</rus>
+  </string>
+  <string id="bar_darklab_documents_2_hint">
+    <rus>Тоннель</rus>
+  </string>
+  <string id="bar_darklab_documents_3_hint">
+    <rus>Вход в лабораторию</rus>
+  </string>
+  <string id="bar_darklab_documents_4_hint">
+    <rus>Труба</rus>
+  </string>
+  <string id="bar_darklab_documents2_1_hint">
+    <rus>Документы из лаборатории</rus>
+  </string>
+  <string id="bar_darklab_documents2_2_hint">
+    <rus>Бармен</rus>
+  </string>
+  <string id="val_captive_help_1_hint">
+    <rus>Пуля</rus>
+  </string>
+  <string id="val_captive_help_2_hint">
+    <rus>Пленный</rus>
+  </string>
+  <string id="val_come_to_trader_1_hint">
+    <rus>Южные ворота</rus>
+  </string>
+  <string id="val_come_to_trader_2_hint">
+    <rus>Торговец</rus>
+  </string>
+  <string id="val_prisoner_help_main_hint">
+    <rus>Плененный "долговец"</rus>
+  </string>
+  <string id="val_sos_help_main_hint">
+    <rus>Раненый сталкер</rus>
+  </string>
+  <string id="val_zone_bandits_hint">
+    <rus>Лагерь бандитов</rus>
+  </string>
+  <string id="val_zone_farm_hint">
+    <rus>Ферма\nКупить винтовку Гаусса</rus>
+  </string>
+  <string id="val_zone_monolith_hint">
+    <rus>Старая фабрика</rus>
+  </string>
+  <string id="val_zone_pipe_hint">
+    <rus>Канализационная труба</rus>
+  </string>
+  <string id="val_zone_robbers_hint">
+    <rus>Заброшенная свиноферма</rus>
+  </string>
+  <string id="val_zone_south_gate_hint">
+    <rus>Ворота</rus>
+  </string>
+</string_table>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="tm_loc_hint1_prefix_text">
+    <rus>%c[100,50,250,50]Мои люди запеленговали сигнал его ПДА. </rus>
+  </string>
+  <string id="tm_loc_hint1_suffix_text">
+    <rus> он должен быть.%c[default]</rus>
+  </string>
+  <string id="tm_loc_hint2_prefix_text">
+    <rus>%c[100,50,250,50]Я смог поймать сигнал с его ПДА. </rus>
+  </string>
+  <string id="tm_loc_hint2_suffix_text">
+    <rus> он сейчас ошивается.%c[default]</rus>
+  </string>
+  <string id="tm_loc_hint3_prefix_text">
+    <rus>%c[100,50,250,50]Сталкеры видели его недавно. </rus>
+  </string>
+  <string id="tm_loc_hint3_suffix_text">
+    <rus> где-то он бродит.%c[default]</rus>
+  </string>
+  <string id="tm_loc_unknown_text">
+    <rus>%c[100,50,250,50]Где он может быть, сейчас никто не знает.%c[default]</rus>
+  </string>
+  <string id="tm_reward_choice_text">
+    <rus>И ещё награду на выбор!</rus>
+  </string>
+  <string id="tm_reward_item_prefix_text">
+    <rus>Я тебе за это дам вот что:</rus>
+  </string>
+  <string id="tm_reward_text1">
+    <rus>С вознаграждением определимся, когда сделаешь дело. Не сомневайся, мне есть, чем платить.</rus>
+  </string>
+  <string id="tm_reward_text2">
+    <rus>Когда сделаешь работу, получишь оплату. С этим не обижу.</rus>
+  </string>
+  <string id="tm_reward_text3">
+    <rus>Достойная оплата по факту выполнения работы.</rus>
+  </string>
+  <string id="tm_reward_text4">
+    <rus>С тебя стулья - с меня деньги. Ну, или другая достойная альтернатива.</rus>
+  </string>
+  <string id="tm_reward_text5">
+    <rus>Качественно выполнишь работу - получишь достойное вознаграждение.</rus>
+  </string>
+  <string id="tm_reward_text6">
+    <rus>Заказ не шибко пыльный, а награда тебя порадует.</rus>
+  </string>
+  <string id="tm_reward_text7">
+    <rus>Выполнишь задание - и мы в расчёте.</rus>
+  </string>
+</string_table>

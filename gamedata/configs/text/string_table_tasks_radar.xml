@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="pripyat_task_objective_1">
+    <rus>Следовать за группой сталкеров</rus>
+  </string>
+  <string id="pripyat_task_objective_2">
+    <rus>Найти выход на ЧАЭС</rus>
+  </string>
+  <string id="pripyat_task_title">
+    <rus>Встретиться с группой сталкеров</rus>
+  </string>
+  <string id="rad_antenna">
+    <rus>Антенны</rus>
+  </string>
+  <string id="rad_get_to_aes">
+    <rus>Вход в Саркофаг</rus>
+  </string>
+  <string id="rad_get_to_aes_0">
+    <rus>Пройти на территорию станции</rus>
+  </string>
+  <string id="rad_get_to_aes_1">
+    <rus>Найти вход в Cаркофаг</rus>
+  </string>
+</string_table>

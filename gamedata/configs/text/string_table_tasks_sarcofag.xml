@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="sar_monolith">
+    <rus>"Исполнитель желаний"</rus>
+  </string>
+  <string id="sar_monolith_0">
+    <rus>Прийти к Монолиту</rus>
+  </string>
+  <string id="sar_monolith_1">
+    <rus>Проникнуть в Саркофаг</rus>
+  </string>
+  <string id="sar_monolith_2">
+    <rus>Найти "Исполнитель желаний"</rus>
+  </string>
+  <string id="sar_monolith_destroy">
+    <rus>Загадка Монолита</rus>
+  </string>
+  <string id="sar_monolith_destroy_0">
+    <rus>Проникнуть в секретную лабораторию</rus>
+  </string>
+  <string id="sar_monolith_destroy_1">
+    <rus>Разгадать загадку Монолита</rus>
+  </string>
+  <string id="sar_monolith_destroy_2">
+    <rus>Уничтожить генераторы питания Монолита</rus>
+  </string>
+  <string id="sar_secret_lab">
+    <rus>Секретная лаборатория</rus>
+  </string>
+  <string id="sar_secret_lab_hint">
+    <rus>Открыть тайную дверь</rus>
+  </string>
+  <string id="sar_secret_lab_0">
+    <rus>Попасть в секретный бункер</rus>
+  </string>
+  <string id="sar_secret_lab_1">
+    <rus>Найти тайную дверь</rus>
+  </string>
+  <string id="sar_secret_lab_2">
+    <rus>Открыть её с помощью декодера</rus>
+  </string>
+  <string id="sar_secret_lab_3">
+    <rus>Разведать, что находится за дверью</rus>
+  </string>
+</string_table>

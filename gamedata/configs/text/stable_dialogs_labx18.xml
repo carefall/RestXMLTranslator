@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="dar_explorer_dialog_1">
+    <rus>Задание у меня.</rus>
+  </string>
+  <string id="dar_explorer_dialog_11">
+    <rus>Хм. А что за задание? Что-то ищешь? Или, может быть, уже нашёл? Слыхал, здесь добра полным-полно...</rus>
+  </string>
+  <string id="dar_explorer_dialog_111">
+    <rus>Извини, рассказать не могу, да и некогда.</rus>
+  </string>
+  <string id="dar_explorer_dialog_1111">
+    <rus>Да погоди ты убегать. Набегаешься ещё... А что нашёл? Я ведь тоже здесь не просто так таскаюсь.</rus>
+  </string>
+  <string id="dar_explorer_dialog_11111">
+    <rus>Это моё дело, что я нашёл.</rus>
+  </string>
+  <string id="dar_explorer_dialog_11112">
+    <rus>Нашёл документы X-18, Бармен обещал хорошо заплатить.</rus>
+  </string>
+  <string id="dar_explorer_dialog_112">
+    <rus>Нет, ничего не нашёл.</rus>
+  </string>
+  <string id="dar_explorer_dialog_2">
+    <rus>Сам не знаю, как сюда занесло, убраться бы отсюда поскорее.</rus>
+  </string>
+  <string id="dar_explorer_dialog_21">
+    <rus>Ничего интересного не находил, случайно? Говорят, здесь можно найти информацию об экспериментах. За это хорошо платят...</rus>
+  </string>
+  <string id="dar_explorer_dialog_211">
+    <rus>Нет, не находил.</rus>
+  </string>
+  <string id="dar_explorer_dialog_2111">
+    <rus>Да?.. А если хорошо подумать? Скрываешь от меня что-нибудь?</rus>
+  </string>
+  <string id="dar_explorer_dialog_21111">
+    <rus>Нет.</rus>
+  </string>
+  <string id="dar_explorer_dialog_21112">
+    <rus>Что за вопросы?</rus>
+  </string>
+  <string id="dar_explorer_dialog_21113">
+    <rus>Ты мне угрожаешь?</rus>
+  </string>
+  <string id="dar_explorer_dialog_212">
+    <rus>К чёрту всю эту информацию, я тут еле живой остался.</rus>
+  </string>
+  <string id="dar_explorer_dialog_2121">
+    <rus>Ну ладно, беги. Вдруг что найдёшь — я недалеко...</rus>
+  </string>
+  <string id="dar_explorer_dialog_25">
+    <rus>Послушай, дружище, я в этой самой Зоне прошёл через огонь, аномалии и монстров и до сих пор жив, как ты видишь! Так что не указывай мне, что говорить, а что нет. Я пришёл за документами. И без них не уйду. Если они при тебе, то советую тебе мне их отдать, иначе ты останешься в этой яме навсегда! Усёк?</rus>
+  </string>
+  <string id="dar_explorer_dialog_251">
+    <rus>Ясно.</rus>
+  </string>
+  <string id="dar_explorer_dialog_2511">
+    <rus>Если ты мне врёшь — у тебя будут проблемы, если ты что-то задумал — у тебя будут проблемы, если ты мне подсунешь какую-то гадость — у тебя будут проблемы. Короче, у тебя одна большая проблема — и тебе нужно очень постараться, чтобы её решить! А теперь ещё раз, для тупых: ты нашёл документы?</rus>
+  </string>
+  <string id="dar_explorer_dialog_2521">
+    <rus>Вот и хорошо, и в следующий раз выбирай выражения. А теперь иди. Вдруг что найдёшь — я недалеко...</rus>
+  </string>
+  <string id="dar_explorer_dialog_253">
+    <rus>Разговор закончен, убирайся с дороги.</rus>
+  </string>
+  <string id="dar_explorer_dialog_26">
+    <rus>У меня нет никаких документов.</rus>
+  </string>
+  <string id="dar_explorer_dialog_271">
+    <rus>Так-то лучше, дружок. А теперь, давай мне всю информацию, что нашёл. Всё — до последнего документа. И не вздумай со мной шутить — иначе это будет твоя последняя шутка.</rus>
+  </string>
+  <string id="dar_explorer_dialog_51">
+    <rus>Стой, тебе говорят! Я в этой дыре не просто так таскаюсь. Не валяй дурака, выкладывай, что нашёл. Поделимся, если что...</rus>
+  </string>
+  <string id="dar_explorer_dialog_511">
+    <rus>Делиться я ничем не собираюсь.</rus>
+  </string>
+  <string id="dar_explorer_dialog_5111">
+    <rus>Ну-ну, вали... Да вот только один совет — смотри под ноги, не споткнись, сталкер!</rus>
+  </string>
+  <string id="dar_explorer_dialog_512">
+    <rus>Ты мне угрожаешь?</rus>
+  </string>
+  <string id="dar_explorer_dialog_5121">
+    <rus>Ладно, ладно тебе, не кипятись... Просто любопытно, а ты сразу за ствол! Никаких больше расспросов. Просто будь осторожнее, и всё.</rus>
+  </string>
+  <string id="dar_explorer_dialog_61">
+    <rus>Документы, значит... Это именно то, за чем я пришёл, к твоему сведению. А сейчас ты мне их отдашь и побежишь, куда бежал. Ты меня понял?</rus>
+  </string>
+  <string id="dar_explorer_dialog_6111">
+    <rus>Давай, что-нибудь предложу.</rus>
+  </string>
+  <string id="dar_explorer_dialog_6121">
+    <rus>Слушай, дружище, не морочь мне голову. Давай договоримся. Я нормально тебе отвалю, не пожалеешь.</rus>
+  </string>
+  <string id="dar_explorer_dialog_6131">
+    <rus>Послушай, мне очень необходимы эти документы. Давай посмотрим, что там у тебя — я думаю, мы договоримся...</rus>
+  </string>
+  <string id="dar_explorer_dialog_8011">
+    <rus>Темно здесь, ни хрена не видно. Бюреры кругом... И зачем я согласился?! Ты-то как сюда попал?</rus>
+  </string>
+  <string id="dar_explorer_dialog_8021">
+    <rus>Иди своей дорогой, сталкер.</rus>
+  </string>
+  <string id="dar_explorer_dialog_8031">
+    <rus>Терпеть не могу, когда разговор прерывают. Короче, я пришёл за важными документами. Если ты что-нибудь находил — выкладывай, иначе у тебя будут проблемы. Если ты ничего не находил — проваливай и не забирай моё время.</rus>
+  </string>
+  <string id="dar_explorer_dialog_8041">
+    <rus>Терпеть не могу, когда разговор прерывают! Выкладывай документы, если не хочешь остаться здесь навсегда.</rus>
+  </string>
+  <string id="dar_explorer_dialog_9">
+    <rus>Учту.</rus>
+  </string>
+</string_table>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="bar_darklab_documents">
+    <rus>Подземная лаборатория</rus>
+  </string>
+  <string id="bar_darklab_documents_1">
+    <rus>Забрать у Борова ключ от лаборатории</rus>
+  </string>
+  <string id="bar_darklab_documents_2">
+    <rus>Выбраться с базы бандитов</rus>
+  </string>
+  <string id="bar_darklab_documents_3">
+    <rus>Найти вход в лабораторию</rus>
+  </string>
+  <string id="bar_darklab_documents_4">
+    <rus>Пробраться на базу</rus>
+  </string>
+  <string id="bar_darklab_documents2">
+    <rus>Документы в Х-18</rus>
+  </string>
+  <string id="bar_darklab_documents2_1">
+    <rus>Найти документы</rus>
+  </string>
+  <string id="bar_darklab_documents2_2">
+    <rus>Принести документы Бармену</rus>
+  </string>
+  <string id="dar_codedoor_1">
+    <rus>Кодовая дверь</rus>
+  </string>
+  <string id="dar_codedoor_1_1">
+    <rus>Найти код к двери</rus>
+  </string>
+  <string id="dar_codedoor_1_2">
+    <rus>Открыть дверь с помощью кода</rus>
+  </string>
+  <string id="dar_codedoor_2">
+    <rus>Дверь в командный центр</rus>
+  </string>
+  <string id="dar_codedoor_2_1">
+    <rus>Найти код к двери</rus>
+  </string>
+  <string id="dar_codedoor_2_2">
+    <rus>Открыть дверь с помощью кода</rus>
+  </string>
+  <string id="val_captive_help">
+    <rus>Под конвоем</rus>
+  </string>
+  <string id="val_captive_help_1">
+    <rus>Следовать за Пулей к месту засады</rus>
+  </string>
+  <string id="val_captive_help_2">
+    <rus>Уничтожить бандитов и спасти "долговца"</rus>
+  </string>
+  <string id="val_come_to_trader_task">
+    <rus>Сквозь пепел и сталь</rus>
+  </string>
+  <string id="val_come_to_trader_1">
+    <rus>Выбраться из Тёмной Долины</rus>
+  </string>
+  <string id="del_come_to_trader_1">
+    <rus>Выбраться из Лощины</rus>
+  </string>
+  <string id="val_come_to_trader_mark">
+    <rus>Выбраться на Кордон через южные ворота</rus>
+  </string>
+  <string id="del_come_to_trader_mark">
+    <rus>Выбраться на Кордон через южный туннель</rus>
+  </string>
+  <string id="val_come_to_trader_0">
+    <rus>Вернуться к торговцу</rus>
+  </string>
+  <string id="val_come_to_trader_2">
+    <rus>Показать документы торговцу</rus>
+  </string>
+  <string id="val_prisoner_help">
+    <rus>Спасение рядового "долговца"</rus>
+  </string>
+  <string id="val_prisoner_help_0">
+    <rus>Вытащить "долговца" из плена бандитов</rus>
+  </string>
+  <string id="val_prisoner_help_main">
+    <rus>Освободить "долговца" из тюрьмы бандитов</rus>
+  </string>
+  <string id="val_come_to_trader_desc">
+    <rus>Сидорович: "Меченый! Базу бандитов атаковали военные. Они перекрыли выход на Свалку. Но есть старая дорога на юг. Попробуй выбраться по ней, но будь осторожен. Удачи."</rus>
+  </string>
+</string_table>

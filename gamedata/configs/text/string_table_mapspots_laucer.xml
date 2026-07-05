@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="freeman_buggy_hint">
+    <rus>Пригнать багги</rus>
+  </string>
+  <string id="spare_parts_hint">
+    <rus>Место поиска запчасти</rus>
+  </string>
+  <string id="base_phil_supplies_hint">
+    <rus>Пригнать фуру</rus>
+  </string>
+  <string id="map_spot_ryzhik_text">
+    <rus>Рыжик</rus>
+  </string>
+
+</string_table>

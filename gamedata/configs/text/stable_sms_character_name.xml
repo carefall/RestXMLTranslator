@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="sms_actor_name">
+    <rus>МЕЧЕНЫЙ</rus>
+  </string>
+  <string id="sms_agro_adrenalin_name">
+    <rus>АДРЕНАЛИН</rus>
+  </string>
+  <string id="sms_amk_artem_kulinar_name">
+    <rus>АРТЁМ КУЛИНАР</rus>
+  </string>
+  <string id="sms_aver_filin_name">
+    <rus>ФИЛИН</rus>
+  </string>
+  <string id="sms_aver_odnonogiy_name">
+    <rus>МАКСИМИЛИАН</rus>
+  </string>
+  <string id="sms_aver_zlobnuy_name">
+    <rus>ЗЛОБНЫЙ</rus>
+  </string>
+  <string id="sms_aver_zvezdochet2_name">
+    <rus>ЗВЕЗДОЧЁТ</rus>
+  </string>
+  <string id="sms_bar_barmen_name">
+    <rus>БАРМЕН</rus>
+  </string>
+  <string id="sms_bar_lisiy_name">
+    <rus>ЛЫСЫЙ</rus>
+  </string>
+  <string id="sms_bar_plichko_name">
+    <rus>ПЛИЧКО</rus>
+  </string>
+  <string id="sms_black_generators_stalk9_name">
+    <rus>НЕИЗВЕСТНЫЙ</rus>
+  </string>
+  <string id="sms_black_stalker_soul_name">
+    <rus>БРОДЯГА</rus>
+  </string>
+  <string id="sms_boets_poslednego_dnya_name">
+    <rus>БОЕЦ ПОСЛЕДНЕГО ДНЯ</rus>
+  </string>
+  <string id="sms_borman_name">
+    <rus>БОРМАН</rus>
+  </string>
+  <string id="sms_chasovoy_name">
+    <rus>ЧАСОВОЙ</rus>
+  </string>
+  <string id="sms_black_doktors_man_name">
+    <rus>ЧЕЛОВЕК ЧЁРНОГО ДОКТОРА</rus>
+  </string>
+  <string id="sms_chess_jaiia_2_name">
+    <rus>НАТАША ВАЛЕНТАЙН</rus>
+  </string>
+  <string id="sms_cit_likvidator_name">
+    <rus>ЛИКВИДАТОР</rus>
+  </string>
+  <string id="sms_dark_bland_name">
+    <rus>БЛЕНД</rus>
+  </string>
+  <string id="sms_dark_miha_name">
+    <rus>МИХА ТЕХНИК</rus>
+  </string>
+  <string id="sms_dark_vist_name">
+    <rus>ВОВА ВИСТ</rus>
+  </string>
+  <string id="sms_dark_zeka_name">
+    <rus>ЖЕКА</rus>
+  </string>
+  <string id="sms_dcity_kontrol_stalk_name">
+    <rus>НОРМАН</rus>
+  </string>
+  <string id="sms_dcity_obmorok_name">
+    <rus>ОБМОРОК</rus>
+  </string>
+  <string id="sms_dolgovyazyy_name">
+    <rus>ДОЛГОВЯЗЫЙ</rus>
+  </string>
+  <string id="sms_dotsent_name">
+    <rus>ДОЦЕНТ</rus>
+  </string>
+  <string id="sms_dyak_name">
+    <rus>ДЬЯК</rus>
+  </string>
+  <string id="sms_er_087_userunknown_name">
+    <rus>ER:087:USER_UNKNOWN</rus>
+  </string>
+  <string id="sms_esc_akim_name">
+    <rus>АКИМ</rus>
+  </string>
+  <string id="sms_esc_father_pant_name">
+    <rus>ОТЕЦ ПАНТЕРЫ</rus>
+  </string>
+  <string id="sms_esc_fox_name">
+    <rus>ЛИС</rus>
+  </string>
+  <string id="sms_esc_kostya_name">
+    <rus>КОСТЯ</rus>
+  </string>
+  <string id="sms_esc_mechanic_name">
+    <rus>АНДРЕЙ МЕХАНИК</rus>
+  </string>
+  <string id="sms_esc_soldier_commander_name">
+    <rus>КУЗНЕЦОВ</rus>
+  </string>
+  <string id="sms_escape_trader_name">
+    <rus>СИДОРОВИЧ</rus>
+  </string>
+  <string id="sms_final_arhara_name">
+    <rus>АРХАРА</rus>
+  </string>
+  <string id="sms_final_holod_name">
+    <rus>ХОЛОД</rus>
+  </string>
+  <string id="sms_final_shade_mono_name">
+    <rus>ГЛАВАРЬ МОНОЛИТА</rus>
+  </string>
+  <string id="sms_final_voronin_name">
+    <rus>ВОРОНИН</rus>
+  </string>
+  <string id="sms_forest_lesnik_name">
+    <rus>ЛЕСНИК</rus>
+  </string>
+  <string id="sms_gar_dolg_blokpost_leader_name">
+    <rus>ПРАПОР</rus>
+  </string>
+  <string id="sms_gar_hellcar_name">
+    <rus>БЕС</rus>
+  </string>
+  <string id="sms_gen_frits_name">
+    <rus>ФРИЦ</rus>
+  </string>
+  <string id="sms_gen_solvador_name">
+    <rus>СОЛЬВАДОР</rus>
+  </string>
+  <string id="sms_golfstrim_7_2_name">
+    <rus>ГОЛЬФСТРИМ 7-2</rus>
+  </string>
+  <string id="sms_green_zahar_name">
+    <rus>ЗАХАР</rus>
+  </string>
+  <string id="sms_gulden_name">
+    <rus>ГУЛЬДЕН</rus>
+  </string>
+  <string id="sms_hos_new_panterka_name">
+    <rus>ПАНТЕРА</rus>
+  </string>
+  <string id="sms_hosp_real_bl_dok_name">
+    <rus>ЧЁРНЫЙ ДОКТОР</rus>
+  </string>
+  <string id="sms_hospital_sapsan_name">
+    <rus>САПСАН</rus>
+  </string>
+  <string id="sms_info_name">
+    <rus>ИНФО</rus>
+  </string>
+  <string id="sms_information_message_name">
+    <rus>ИНФОРМАЦИОННОЕ СООБЩЕНИЕ</rus>
+  </string>
+  <string id="sms_jup_stalker_ranen_name">
+    <rus>ДИМОН-КАЛЬТЕР</rus>
+  </string>
+  <string id="sms_kalancha_name">
+    <rus>КАЛАНЧА</rus>
+  </string>
+  <string id="sms_kluk_name">
+    <rus>КЛЫК</rus>
+  </string>
+  <string id="sms_kolmogor_name">
+    <rus>КОЛМОГОР</rus>
+  </string>
+  <string id="sms_kudasov_name">
+    <rus>КУДАСОВ</rus>
+  </string>
+  <string id="sms_labx8_gavr_name">
+    <rus>ГАВР</rus>
+  </string>
+  <string id="sms_land_lazaret_stalker1_name">
+    <rus>ЦИКЛОП</rus>
+  </string>
+  <string id="sms_land_medik_name">
+    <rus>ГИНЕКОЛОГ</rus>
+  </string>
+  <string id="sms_last_dokplen_nachalnik_name">
+    <rus>ДУДА</rus>
+  </string>
+  <string id="sms_personal_message_name">
+    <rus>ЛИЧНОЕ СООБЩЕНИЕ</rus>
+  </string>
+  <string id="sms_local_network_name">
+    <rus>ЛОКАЛЬНАЯ СЕТЬ</rus>
+  </string>
+  <string id="sms_marsh_bozman_name">
+    <rus>БОЦМАН</rus>
+  </string>
+  <string id="sms_marsh_dan_name">
+    <rus>ДЭН</rus>
+  </string>
+  <string id="sms_marsh_zub_bandit_name">
+    <rus>ЗУБ</rus>
+  </string>
+  <string id="sms_matvey_name">
+    <rus>МАТВЕЙ</rus>
+  </string>
+  <string id="sms_miha_name">
+    <rus>МИХА</rus>
+  </string>
+  <string id="sms_mil_Svoboda_engineer_name">
+    <rus>ШУРУП</rus>
+  </string>
+  <string id="sms_mil_Svoboda_leader_name">
+    <rus>ЛУКАШ</rus>
+  </string>
+  <string id="sms_military_vitamin_name">
+    <rus>ВИТАМИН</rus>
+  </string>
+  <string id="sms_mobil_torgash_name">
+    <rus>СЕДОЙ</rus>
+  </string>
+  <string id="sms_molniy2_remen_name">
+    <rus>МОЛНИЯ</rus>
+  </string>
+  <string id="sms_muha_hosp_live_name">
+    <rus>МУХА</rus>
+  </string>
+  <string id="sms_damage_explosive_name">
+    <rus>НАНОСИМ ПОВРЕЖДЕНИЕ ВЗРЫВЧАТКЕ</rus>
+  </string>
+  <string id="sms_natasha_name">
+    <rus>НАТАША</rus>
+  </string>
+  <string id="sms_nayomnik_name">
+    <rus>НАЁМНИК</rus>
+  </string>
+  <string id="sms_unauthorized_signal_name">
+    <rus>НЕАВТОРИЗОВАННЫЙ СИГНАЛ! УРОВЕНЬ ШУМА RSSI</rus>
+  </string>
+  <string id="sms_unknown_1_name">
+    <rus>НЕИЗВЕСТНЫЙ 1</rus>
+  </string>
+  <string id="sms_unknown_2_name">
+    <rus>НЕИЗВЕСТНЫЙ 2</rus>
+  </string>
+  <string id="sms_fragment_of_pilot_dialogue_name">
+    <rus>ОБРЫВОК ДИАЛОГА ПИЛОТОВ</rus>
+  </string>
+  <string id="sms_security_base_name">
+    <rus>ОХРАННИК БАЗЫ</rus>
+  </string>
+  <string id="sms_sender_unknown_name">
+    <rus>ОТПРАВИТЕЛЬ НЕИЗВЕСТЕН</rus>
+  </string>
+  <string id="sms_otshelnik_name">
+    <rus>ОТШЕЛЬНИК</rus>
+  </string>
+  <string id="sms_delayed_sms_name">
+    <rus>ОТСРОЧЕННОЕ СМС</rus>
+  </string>
+  <string id="sms_parfumer_dcity_shtab_name">
+    <rus>ПАРФЮМЕР</rus>
+  </string>
+  <string id="sms_pashka_vintorez_name">
+    <rus>ПАШКА ВИНТОРЕЗ</rus>
+  </string>
+  <string id="sms_first_helocopter_pilot_name">
+    <rus>ПЕРВЫЙ ПИЛОТ ВЕРТОЛЁТА</rus>
+  </string>
+  <string id="sms_pes_shahter_name">
+    <rus>ШАХТЁР</rus>
+  </string>
+  <string id="sms_pes_xabaruch_name">
+    <rus>ХАБАРЫЧ</rus>
+  </string>
+  <string id="sms_petya_glyuk_name">
+    <rus>ПЕТЯ ГЛЮК</rus>
+  </string>
+  <string id="sms_helocopter_pilot_name">
+    <rus>ПИЛОТ ВЕРТОЛЁТА</rus>
+  </string>
+  <string id="sms_information_received_name">
+    <rus>ПОЛУЧЕНА ИНФОРМАЦИЯ</rus>
+  </string>
+  <string id="sms_messages_from_captains_pda1_name">
+    <rus>ПОСЛЕДНИЕ СМС ИЗ ПДА КАПИТАНА. КАПИТАН</rus>
+  </string>
+  <string id="sms_messages_from_captains_pda2_name">
+    <rus>ПОСЛЕДНИЕ СМС ИЗ ПДА КАПИТАНА. ВХОДЯЩЕЕ</rus>
+  </string>
+  <string id="sms_praporschik_sherstyuk_name">
+    <rus>ПРАПОРЩИК ШЕРСТЮК</rus>
+  </string>
+  <string id="sms_military_representative_name">
+    <rus>ПРЕДСТАВИТЕЛЬ ВОЕННЫХ</rus>
+  </string>
+  <string id="sms_pri_kot_name">
+    <rus>КОТ</rus>
+  </string>
+  <string id="sms_prip_dok_arh_name">
+    <rus>БОЛОТНЫЙ ДОКТОР</rus>
+  </string>
+  <string id="sms_private_message_name">
+    <rus>ПРИВАТНОЕ СООБЩЕНИЕ</rus>
+  </string>
+  <string id="sms_radist_name">
+    <rus>РАДИСТ</rus>
+  </string>
+  <string id="sms_robinzon_name">
+    <rus>РОБИНЗОН</rus>
+  </string>
+  <string id="sms_ros_freeman_name">
+    <rus>ФРИМЕН</rus>
+  </string>
+  <string id="sms_san_sanych_name">
+    <rus>САН САНЫЧ</rus>
+  </string>
+  <string id="sms_sar2_professor_name">
+    <rus>ПРОФЕССОР САХАРОВ</rus>
+  </string>
+  <string id="sms_security_sapsan_komandor_name">
+    <rus>ТРОФИМЫЧ</rus>
+  </string>
+  <string id="sms_shadowman_name">
+    <rus>ШЭДОУМЕН</rus>
+  </string>
+  <string id="sms_shepot_agent2_name">
+    <rus>ШЁПОТ</rus>
+  </string>
+  <string id="sms_system_name">
+    <rus>СИСТЕМА</rus>
+  </string>
+  <string id="sms_laboratory_protection_system_name">
+    <rus>СИСТЕМА ЗАЩИТЫ ЛАБОРАТОРИИ</rus>
+  </string>
+  <string id="sms_protection_system_name">
+    <rus>СИСТЕМА ЗАЩИТЫ</rus>
+  </string>
+  <string id="sms_life_support_system_name">
+    <rus>СИСТЕМА ЖИЗНЕННОЙ ПОДДЕРЖКИ</rus>
+  </string>
+  <string id="sms_skadovsk_bandos_vxod_name">
+    <rus>БЫЧОК</rus>
+  </string>
+  <string id="sms_from_moskvy_name">
+    <rus>СМС ИЗ МОСКВЫ</rus>
+  </string>
+  <string id="sms_unknown_stalker_name">
+    <rus>СМС ОТ НЕИЗВЕСТНОГО СТАЛКЕРА</rus>
+  </string>
+  <string id="sms_system_message_name">
+    <rus>СООБЩЕНИЕ СИСТЕМЫ</rus>
+  </string>
+  <string id="sms_stalker_hacker_name">
+    <rus>ХАКЕР</rus>
+  </string>
+  <string id="sms_stalker_marsh_sysh_name">
+    <rus>СЫЧ</rus>
+  </string>
+  <string id="sms_strelok_name">
+    <rus>СТРЕЛОК</rus>
+  </string>
+  <string id="sms_svobodovets_name">
+    <rus>СВОБОДОВЕЦ</rus>
+  </string>
+  <string id="sms_security_black_dok_name">
+    <rus>ТЕЛОХРАНИТЕЛЬ ЧЁРНОГО ДОКТОРА</rus>
+  </string>
+  <string id="sms_signal_noise_level_name">
+    <rus>УРОВЕНЬ ШУМА СИГНАЛА RSSI</rus>
+  </string>
+  <string id="sms_val_sos_wounded_name">
+    <rus>МЕССЕР</rus>
+  </string>
+  <string id="sms_incoming_message_name">
+    <rus>ВХОДЯЩЕЕ СООБЩЕНИЕ</rus>
+  </string>
+  <string id="sms_village_piligrim_name">
+    <rus>ПИЛИГРИМ</rus>
+  </string>
+  <string id="sms_village_xolm_kapatel1_name">
+    <rus>ЛЕЙТЕНАНТ ВЕТРОПЛЮЕВ</rus>
+  </string>
+  <string id="sms_vitaliy_zver_name">
+    <rus>ВИТАЛИЙ ЗВЕРЬ</rus>
+  </string>
+  <string id="sms_vtoroy_pilot_vertolyota_name">
+    <rus>ВТОРОЙ ПИЛОТ ВЕРТОЛЁТА</rus>
+  </string>
+  <string id="sms_war_klenov_name">
+    <rus>КЛЁНОВ</rus>
+  </string>
+  <string id="sms_xalyava_name">
+    <rus>ХАЛЯВА</rus>
+  </string>
+  <string id="sms_yan_elza_name">
+    <rus>САХАРОВА</rus>
+  </string>
+  <string id="sms_yan_ghost_name">
+    <rus>ПРИЗРАК</rus>
+  </string>
+  <string id="sms_yan_saharov_name">
+    <rus>САХАРОВ</rus>
+  </string>
+  <string id="sms_yantar_chernomor_name">
+    <rus>ЧЕРНОМОР</rus>
+  </string>
+  <string id="sms_z_iskra_two_name">
+    <rus>ИСКРА</rus>
+  </string>
+  <string id="sms_crediting_of_funds_name">
+    <rus>ЗАЧИСЛЕНИЕ СРЕДСТВ</rus>
+  </string>
+  <string id="sms_death_confirmed_name">
+    <rus>ЗАФИКСИРОВАНА СМЕРТЬ</rus>
+  </string>
+  <string id="sms_private_channel_name">
+    <rus>ЗАКРЫТЫЙ КАНАЛ</rus>
+  </string>
+  <string id="sms_adding_npcs_with_ids_name">
+    <rus>ЗАНОСИМ В ТАБЛИЦУ НПС С ИД</rus>
+  </string>
+  <string id="sms_voice_recorder_recording_name">
+    <rus>ЗАПИСЬ НА ДИКТОФОНЕ</rus>
+  </string>
+  <string id="sms_zat_sosolov_name">
+    <rus>ОХОТНИК НА КРОВОСОСОВ</rus>
+  </string>
+  <string id="sms_zaton_baza_oxran_name">
+    <rus>ГЕРАСИМ</rus>
+  </string>
+  <string id="sms_zaton_boroda_name">
+    <rus>БОРОДА</rus>
+  </string>
+  <string id="sms_zaton_brodway_name">
+    <rus>БРОДВЕЙ</rus>
+  </string>
+  <string id="sms_zaton_obmorok_body_name">
+    <rus>КИТ</rus>
+  </string>
+  <string id="sms_zaton_vell_name">
+    <rus>ВЭЛ</rus>
+  </string>
+  <string id="sms_zemlyk_name">
+    <rus>ЗЕМЛЯК</rus>
+  </string>
+  <string id="sms_zveroboy_name">
+    <rus>ЗВЕРОБОЙ</rus>
+  </string>
+  <string id="sms_svoboda_name">
+    <rus>"СВОБОДА"</rus>
+  </string>
+  <string id="sms_dark_base_name">
+    <rus>"Тёмная база"</rus>
+  </string>
+  <string id="sms_dark_base_plain_name">
+    <rus>Тёмная база</rus>
+  </string>
+  <string id="sms_anonymous_chat_name">
+    <rus>Безымянный чат</rus>
+  </string>
+
+</string_table>

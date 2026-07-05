@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="st_ns_stuff">
+    <rus>Народная Солянка:</rus>
+    <eng>Oblivion Lost / “Narodnaya Solyanka”:</eng>
+  </string>
+  <string id="st_ns_author">
+    <rus>Автор и руководитель</rus>
+    <eng>Author and project lead</eng>
+  </string>
+  <string id="st_ns_arhara">
+    <rus>Arhara (Дмитрий), Архангельск, Россия</rus>
+    <eng>Arhara (Dmitry), Arkhangelsk, Russia</eng>
+  </string>
+  <string id="st_ns_team">
+    <rus>Также помогали</rus>
+    <eng>Also contributed</eng>
+  </string>
+  <string id="st_ns_bfg">
+    <rus>lsclon (Людмила), Россия</rus>
+    <eng>lsclon (Lyudmila), Russia</eng>
+  </string>
+  <string id="st_ns_sapsan">
+    <rus>Sapsan (Сергей), Ровно, Украина</rus>
+    <eng>Sapsan (Sergey), Rivne, Ukraine</eng>
+  </string>
+  <string id="st_ns_habarych">
+    <rus>Хабарыч (Марат), Новгород, Россия</rus>
+    <eng>Khabarych (Marat), Novgorod, Russia</eng>
+  </string>
+  <string id="st_ns_shadowman">
+    <rus>Shadowman (Алексей), Одесса, Украина</rus>
+    <eng>Shadowman (Alexey), Odessa, Ukraine</eng>
+  </string>
+  <string id="st_ns_chorik">
+    <rus>Chorik (Сергей), Кировоград, Украина</rus>
+    <eng>Chorik (Sergey), Kropyvnytskyi, Ukraine</eng>
+  </string>
+  <string id="st_ns_dennis_chikin">
+    <rus>Dennis_Chikin (Денис), Пермь, Россия</rus>
+    <eng>Dennis_Chikin (Denis), Perm, Russia</eng>
+  </string>
+  <string id="st_ns_whatabout">
+    <rus>WhatAbout (Пётр), Киев, Украина</rus>
+    <eng>WhatAbout (Petr), Kyiv, Ukraine</eng>
+  </string>
+  <string id="st_ns_ray">
+    <rus>RAY (Андрей), Светловодск, Украина</rus>
+    <eng>RAY (Andrey), Svitlovodsk, Ukraine</eng>
+  </string>
+  <string id="st_ns_solvador">
+    <rus>Solvador (Владимир), Чебоксары, Россия</rus>
+    <eng>Solvador (Vladimir), Cheboksary, Russia</eng>
+  </string>
+  <string id="st_ns_fokstar">
+    <rus>Fokstar (Антон), Пермь, Россия</rus>
+    <eng>Fokstar (Anton), Perm, Russia</eng>
+  </string>
+  <string id="st_ns_dimon">
+    <rus>D1m0n (Дмитрий), Россия</rus>
+    <eng>D1m0n (Dmitry), Russia</eng>
+  </string>
+  <string id="st_ns_sarcus">
+    <rus>Sarcus (Сергей), Томск, Россия</rus>
+    <eng>Sarcus (Sergey), Tomsk, Russia</eng>
+  </string>
+  <string id="st_ns_plotnikoff">
+    <rus>Plotnikoff (Дмитрий), Михайловка, Россия</rus>
+    <eng>Plotnikoff (Dmitry), Mikhaylovka, Russia</eng>
+  </string>
+  <string id="st_ns_mav">
+    <rus>MAV (Анатолий), Запорожье, Украина</rus>
+    <eng>MAV (Anatoly), Zaporizhzhia, Ukraine</eng>
+  </string>
+  <string id="st_ns_serget">
+    <rus>SergeT (Сергей), Одесса, Украина</rus>
+    <eng>SergeT (Sergey), Odessa, Ukraine</eng>
+  </string>
+  <string id="st_ns_chrysler">
+    <rus>BFG (Петрович), Казань, Россия</rus>
+    <eng>BFG (Petrovich), Kazan, Russia</eng>
+  </string>
+  <string id="st_ns_a185">
+    <rus>a185 (Андрей), Тюмень, Россия</rus>
+    <eng>a185 (Andrey), Tyumen, Russia</eng>
+  </string>
+  <string id="st_ns_prizrak">
+    <rus>_Призрак_ (Фёдор), Тамбов, Россия</rus>
+    <eng>_Prizrak_ (Fyodor), Tambov, Russia</eng>
+  </string>
+  <string id="st_ns_kalter">
+    <rus>Kalter (Дмитрий), Астана, Казахстан</rus>
+    <eng>Kalter (Dmitry), Astana, Kazakhstan</eng>
+  </string>
+  <string id="st_ns_vadyan">
+    <rus>Vadyan (Вадим), Ровеньки, Россия</rus>
+    <eng>Vadyan (Vadim), Rovenki, Russia</eng>
+  </string>
+  <string id="st_ns_gektor">
+    <rus>Гектор (Андрей), Казахстан</rus>
+    <eng>Gektor (Andrey), Kazakhstan</eng>
+  </string>
+  <string id="st_ns_ptisa">
+    <rus>Сашкин Журавель (Птица), Санкт-Петербург, Россия</rus>
+    <eng>Sashkin Zhuravel (Ptitsa), Saint Petersburg, Russia</eng>
+  </string>
+  <string id="st_ns_sansanich">
+    <rus>САНСАНЫ4 (Александр), Германия</rus>
+    <eng>SANSANYCH (Alexander), Germany</eng>
+  </string>
+  <string id="st_ns_vitaly">
+    <rus>Vitaly_m67 (Виталий), Чернигов, Украина</rus>
+    <eng>Vitaly_m67 (Vitaly), Chernihiv, Ukraine</eng>
+  </string>
+  <string id="st_ns_pahanxcop">
+    <rus>pahanxcop33 (Павел), Владимир, Россия</rus>
+    <eng>pahanxcop33 (Pavel), Vladimir, Russia</eng>
+  </string>
+  <string id="st_ns_panteramarina">
+    <rus>panteramarina (Маришка), Иркутск, Россия</rus>
+    <eng>panteramarina (Marishka), Irkutsk, Russia</eng>
+  </string>
+  <string id="st_ns_sii">
+    <rus>Sii__ (Иван), Россия</rus>
+    <eng>Sii__ (Ivan), Russia</eng>
+  </string>
+  <!-- SPECIAL THANKS -->
+  <string id="st_ns_special_thanks">
+    <rus>Отдельная благодарность:</rus>
+    <eng>Special thanks:</eng>
+  </string>
+  <string id="st_ns_thanks_and">
+    <rus>_And_</rus>
+    <eng>_And_</eng>
+  </string>
+</string_table>

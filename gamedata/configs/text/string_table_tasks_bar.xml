@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="bar_bring_hunter_rifle">
+    <rus>Вернуть охотнику фамильное ружьё</rus>
+  </string>
+  <string id="bar_bring_PDA_lucky">
+    <rus>Принести КПК лидера Бармену</rus>
+  </string>
+  <string id="bar_crazy_veterans_quest">
+    <rus>Безумные ветераны</rus>
+  </string>
+  <string id="bar_dolg_base_rules">
+    <rus>Отметка у "Долга"</rus>
+  </string>
+  <string id="bar_dolg_base_rules_fin">
+    <rus>Вернуться к Бармену</rus>
+  </string>
+  <string id="bar_dolg_base_rules_talk">
+    <rus>Найти начальника охраны "Долга" и отметиться у него</rus>
+  </string>
+  <string id="bar_dolg_bring_rg6">
+    <rus>Добыть РГ-6 для генерала Воронина</rus>
+  </string>
+  <string id="bar_dolg_find_cook">
+    <rus>Втереться в доверие к Повару из "Свободы" и узнать, где хранится РГ-6</rus>
+  </string>
+  <string id="bar_dolg_find_rg6">
+    <rus>Проникнуть на территорию группировки "Свобода", найти и выкрасть РГ-6</rus>
+  </string>
+  <string id="bar_dolg_info_gain">
+    <rus>Найти перехваченную информацию о лаборатории X-18</rus>
+  </string>
+  <string id="bar_dolg_kill_tiran">
+    <rus>Убить Тирана, предводителя отряда</rus>
+  </string>
+  <string id="bar_dolg_return_info">
+    <rus>Вернуть информацию о лаборатории X-18 генералу Воронину</rus>
+  </string>
+  <string id="bar_dolg_return_rg6">
+    <rus>Принести РГ-6 генералу Воронину</rus>
+  </string>
+  <string id="bar_dolg_rg6_quest">
+    <rus>Задание для вступления в "Долг"</rus>
+  </string>
+  <string id="bar_dolg_svoboda_ambush_quest">
+    <rus>Уничтожение наёмников</rus>
+  </string>
+  <string id="bar_dolg_svoboda_ambush_return">
+    <rus>Отдать нашивки генералу Воронину</rus>
+  </string>
+  <string id="bar_dolg_tiran_PDA">
+    <rus>Взять КПК Тирана</rus>
+  </string>
+  <string id="bar_hunter_find_rifle">
+    <rus>Найти фамильное ружьё</rus>
+  </string>
+  <string id="bar_hunter_return_rifle">
+    <rus>Вернуть ружьё Клюву в баре</rus>
+  </string>
+  <string id="bar_hunter_rifle">
+    <rus>Фамильное ружьё</rus>
+  </string>
+  <string id="bar_kill_crazy_veterans">
+    <rus>Убить лидера ветеранов</rus>
+  </string>
+  <string id="bar_kill_crazy_veterans_PDA">
+    <rus>Взять КПК их лидера</rus>
+  </string>
+  <string id="bar_kill_veterans">
+    <rus>Уничтожить лагерь сумасшедших ветеранов</rus>
+  </string>
+  <string id="bar_radar_deactivate">
+    <rus>Выжигатель мозгов</rus>
+  </string>
+  <string id="bar_resque_information">
+    <rus>Найти Круглова</rus>
+  </string>
+  <string id="bar_resque_information_2">
+    <rus>Опасное сопровождение</rus>
+  </string>
+  <string id="bar_resque_scientific_follow">
+    <rus>Вывести Круглова к выходу на Янтарь</rus>
+  </string>
+  <string id="bar_resque_scientific_information">
+    <rus>...</rus>
+  </string>
+  <string id="bar_resque_scientific_information_bring">
+    <rus>Поговорить с Кругловым</rus>
+  </string>
+  <string id="bar_resque_scientific_information_get">
+    <rus>Пробиться к Круглову</rus>
+  </string>
+  <string id="bar_resque_scientific_information_get_2">
+    <rus>Поговорить с профессором Кругловым</rus>
+  </string>
+  <string id="bar_x16_documents">
+    <rus>Документы в лаборатории X-16</rus>
+  </string>
+  <string id="bring_x16_documents">
+    <rus>Принести документы Бармену</rus>
+  </string>
+  <string id="deactivate_radar_now">
+    <rus>Отключить установку</rus>
+  </string>
+  <string id="find_and_deactivate_radar">
+    <rus>Найти вход в бункер управления</rus>
+  </string>
+  <string id="get_to_antennas">
+    <rus>Добраться до антенн</rus>
+  </string>
+  <string id="Kruglov_research">
+    <rus>Исследования Круглова</rus>
+  </string>
+  <string id="look_for_x16_lab">
+    <rus>Найти документы Х-16</rus>
+  </string>
+  <string id="x16_yantar">
+    <rus>Поговорить с учёными</rus>
+  </string>
+</string_table>

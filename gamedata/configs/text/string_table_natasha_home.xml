@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="tbl_of_relationship_r_bad_text1">
+    <rus>Да ни о чём.</rus>
+  </string>
+  <string id="tbl_of_relationship_r_bad_text2">
+    <rus>Неважно.</rus>
+  </string>
+  <string id="tbl_of_relationship_r_bad_text3">
+    <rus>Это тебя не касается.</rus>
+  </string>
+  <string id="tbl_of_relationship_r_1_text1">
+    <rus>Да вот, думаю, не захочешь ли ты однажды использовать меня в качестве отмычки?</rus>
+  </string>
+  <string id="tbl_of_relationship_r_1_text2">
+    <rus>Интересно всё-таки, зачем ты решил мне помогать с Гоблином?</rus>
+  </string>
+  <string id="tbl_of_relationship_r_1_text3">
+    <rus>Ты кому-нибудь доверяешь в Зоне? Мне кажется, тут вообще никому верить нельзя. А порою, даже самому себе.</rus>
+  </string>
+  <string id="tbl_of_relationship_r_1_text4">
+    <rus>Знаешь, я, конечно, благодарна тебе за смерть Гоблина, однако пока не могу тебе полностью доверять. Порой мне довольно сложно понять, что у тебя сейчас в голове.</rus>
+  </string>
+  <string id="tbl_of_relationship_r_1_text5">
+    <rus>Настроение - бывало и хуже! Но если оставишь меня ждать одну и отправишься надолго за горизонт, то оно испортится окончательно, и я тогда уйду в наш лагерь!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_1_text6">
+    <rus>Сейчас мы мало друг друга знаем, поэтому я отношусь к тебе с недоверием, уж извини.</rus>
+  </string>
+  <string id="tbl_of_relationship_r_2_text1">
+    <rus>А у нас неплохо получается в рейды ходить!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_2_text2">
+    <rus>Знаешь, а мы неплохие напарники!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_2_text3">
+    <rus>Похоже, что с тобой можно идти хоть к центру Зоны. Ты отлично знаешь своё дело!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_2_text4">
+    <rus>По-моему, мы неплохие напарники, м?</rus>
+  </string>
+  <string id="tbl_of_relationship_r_2_text5">
+    <rus>Знаешь, с тобой ходить в рейды мне даже как-то комфортно, ты хороший напарник, хвалю!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_3_text1">
+    <rus>А здорово у нас выходит Зону бороздить! Мне даже нравится!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_3_text2">
+    <rus>Слушай, я даже уже не представляю, как без тебя в рейды ходить, настолько мне с тобой комфортно в дороге...</rus>
+  </string>
+  <string id="tbl_of_relationship_r_3_text3">
+    <rus>А ты оказался неплохим человеком! Я раньше ошибалась насчёт тебя...</rus>
+  </string>
+  <string id="tbl_of_relationship_r_3_text4">
+    <rus>Знаешь, а ты крутой боец! Правда, доверчивым бываешь очень. Многие используют тебя, как хотят. Ну ничего, это мы ещё исправим!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_3_text5">
+    <rus>Добрый ты оказался. Помогать всем пытаешься. Меня это в тебе радует! Правда, по-моему, многие хотят пользоваться этой добротой...</rus>
+  </string>
+  <string id="tbl_of_relationship_r_3_text6">
+    <rus>А ты хорошенький оказался! Мне даже интересно бывает за тобой понаблюдать.</rus>
+  </string>
+  <string id="tbl_of_relationship_r_3_text7">
+    <rus>Я заметила, что ты не похож на обычного сталкера. Ты какой-то другой, странный. Но прикольный!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_4_text1">
+    <rus>Ой, погоди, у тебя ресничка обломилась! Дай-ка помогу... Во-от так. Как новенький!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_4_text2">
+    <rus>Да ни о чём вроде. Думаю, как даже спокойно мне с тобой бывает. Это приятно.</rus>
+  </string>
+  <string id="tbl_of_relationship_r_4_text3">
+    <rus>Я тут поймала себя на мысли, что без тебя мне уже как-то скучновато становится. И это меня пугает...</rus>
+  </string>
+  <string id="tbl_of_relationship_r_4_text4">
+    <rus>Ты знаешь, впервые за долгие года у меня появилось ощущение, что у меня есть друг. Это я о тебе, если ты не понял!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_4_text5">
+    <rus>Мне кажется, мы с тобой неплохие друзья, а? Как считаешь?</rus>
+  </string>
+  <string id="tbl_of_relationship_r_4_text6">
+    <rus>Мне очень нравится, что на тебя можно положиться. Давно я ничего подобного не ощущала...</rus>
+  </string>
+  <string id="tbl_of_relationship_r_4_text7">
+    <rus>Знаешь, ты, наверное, первый за долгие годы, кому я могла бы довериться, и с кем я могу быть сама собой. Считай это комплиментом.</rus>
+  </string>
+  <string id="tbl_of_relationship_r_5_text1">
+    <rus>Ты мне нравишься. Даже очень. Надеюсь, я в тебе не разочаруюсь!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_5_text2">
+    <rus>Мы отличная пара! Как считаешь, м?</rus>
+  </string>
+  <string id="tbl_of_relationship_r_5_text3">
+    <rus>Ты - единственный мне близкий и дорогой человек. Больше у меня никого нет.</rus>
+  </string>
+  <string id="tbl_of_relationship_r_5_text4">
+    <rus>Мне нравится с тобой быть рядом. Надеюсь, что это взаимно. Это же взаимно, а?! Хи-хи!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_5_text5">
+    <rus>Нравишься ты мне очень, дурачок мой.</rus>
+  </string>
+  <string id="tbl_of_relationship_r_5_text6">
+    <rus>Сколько ж народу хочет тебе пулю пустить, ужас! Это повезло, что я рядом! За тебя я кого хочешь живьём сожру!</rus>
+  </string>
+  <string id="tbl_of_relationship_r_5_text7">
+    <rus>Мы с тобой очень похожи. Ты был одинок, я была одинока. Вот мы и встретились...</rus>
+  </string>
+  <string id="tbl_of_relationship_r_5_text8">
+    <rus>Я поняла, что очень привязалась к тебе. Ты сейчас самое дорогое, что у меня есть.</rus>
+  </string>
+  <string id="tbl_of_weather_clear_text1">
+    <rus>Погода меня радует! Приятная. Не находишь?</rus>
+  </string>
+  <string id="tbl_of_weather_clear_text2">
+    <rus>Заметь, какая погода хорошая. Она в Зоне вообще крайне непредсказуемая.</rus>
+  </string>
+  <string id="tbl_of_weather_clear_text3">
+    <rus>Ох, до чего хорошая погода. В такие моменты хоть немного становится светлее на душе.</rus>
+  </string>
+  <string id="tbl_of_weather_clear_text4">
+    <rus>А? Прости, я тут задумалась... Точнее, засмотрелась на небо. Просто погода хорошая...</rus>
+  </string>
+  <string id="tbl_of_weather_clear_text5">
+    <rus>Сегодня нам должно повезти, в такую-то ясную погоду!</rus>
+  </string>
+  <string id="tbl_of_weather_cloudy_text1">
+    <rus>Сейчас я ни о чём не думаю. Просто на облака смотрю, любуюсь...</rus>
+  </string>
+  <string id="tbl_of_weather_cloudy_text2">
+    <rus>Смотрю на облака и вспоминается та песня из детства: \&quot;Облака-а-а, белокрылые лошадки...\&quot;</rus>
+  </string>
+  <string id="tbl_of_weather_cloudy_text3">
+    <rus>А? Что? Извини, я на облака залипла, очень уж они тут красивые...</rus>
+  </string>
+  <string id="tbl_of_weather_cloudy_text4">
+    <rus>Хорошая погода, удача нам благоволит!</rus>
+  </string>
+  <string id="tbl_of_weather_cloudy_text5">
+    <rus>Эх, а раньше мы лежали в поле, смотрели на облака, и каждый видел в них что-то своё. Хорошо было...</rus>
+  </string>
+  <string id="tbl_of_weather_partly_text1">
+    <rus>Облака небо затягивают, как будто перед дождём...</rus>
+  </string>
+  <string id="tbl_of_weather_partly_text2">
+    <rus>Что-то облака всё солнце закрыли, ну хоть не так жарко будет.</rus>
+  </string>
+  <string id="tbl_of_weather_partly_text3">
+    <rus>Солнца почти не видно за облаками, зато солнечные блики не будут мешать в оптику целиться.</rus>
+  </string>
+  <string id="tbl_of_weather_partly_text4">
+    <rus>Приятная погода. И не жарко, и не холодно. Да и солнышко иногда выглядывает!</rus>
+  </string>
+  <string id="tbl_of_weather_partly_text5">
+    <rus>Какая непредсказуемая погода... Как думаешь, солнышко ещё выглянет, или дождь пойдёт?</rus>
+  </string>
+  <string id="tbl_of_weather_rain_text1">
+    <rus>Капец, льёт, как из ведра. Не хочется никуда идти...</rus>
+  </string>
+  <string id="tbl_of_weather_rain_text2">
+    <rus>Тебе нравится такая погода? Мне вот дождь как-то не очень, чувствую себя, словно рыба.</rus>
+  </string>
+  <string id="tbl_of_weather_rain_text3">
+    <rus>Этот дождь нагоняет на меня какую-то тоску...</rus>
+  </string>
+  <string id="tbl_of_weather_rain_text4">
+    <rus>Тяжело будет под дождём в рейд идти, мокрые шмотки нормально так в весе прибавляют!</rus>
+  </string>
+  <string id="tbl_of_weather_rain_text5">
+    <rus>Знаешь, раньше мне нравился дождь. Когда я была маленькой, мне казалось весёлым скакать по лужам. Но сейчас я поняла, что просто ненавижу такую погоду.</rus>
+  </string>
+  <string id="tbl_of_weather_rain_text6">
+    <rus>Ох и вымокнем сейчас с тобой! Как одежду-то потому сушить?!</rus>
+  </string>
+  <string id="tbl_of_weather_rain_text7">
+    <rus>Может, лучше переждём этот дождик?</rus>
+  </string>
+  <string id="tbl_of_weather_storm_text1">
+    <rus>Ух, Зона негодует! Поливает, гремит, молниями шарашит!</rus>
+  </string>
+  <string id="tbl_of_weather_storm_text2">
+    <rus>Я не особо люблю дождь, однако гроза мне очень нравится. Особенно то, какой свежестью потом пропитан воздух...</rus>
+  </string>
+  <string id="tbl_of_weather_storm_text3">
+    <rus>Давай переждём эту непогоду? Почему-то мне сейчас очень не хочется оставаться одной...</rus>
+  </string>
+  <string id="tbl_of_weather_storm_text4">
+    <rus>Как я не хочу никуда идти в такую грозу, ты бы знал...</rus>
+  </string>
+  <string id="tbl_of_weather_storm_text5">
+    <rus>Завораживающая погода. Всегда любила наблюдать за грозой из окна. А тут, в Зоне, она особенно чарующая...</rus>
+  </string>
+  <string id="tbl_of_weather_thunder_text1">
+    <rus>Ух и сильная же гроза!</rus>
+  </string>
+  <string id="tbl_of_weather_thunder_text2">
+    <rus>В такую погоду не хочется никуда идти. А хочется чашечки горячего и вкусного кофе...</rus>
+  </string>
+  <string id="tbl_of_weather_thunder_text3">
+    <rus>В такую погоду трудно в рейд ходить, из-за дождя и грома почти не слышно ничего вокруг. Да и видимость так себе...</rus>
+  </string>
+  <string id="tbl_of_weather_thunder_text4">
+    <rus>Может, лучше пересидим такую погоду? Чего зазря рисковать?</rus>
+  </string>
+  <string id="tbl_of_weather_thunder_text5">
+    <rus>Гром гремит, кусты трясутся, что там делают... Ой, извини, хоть как-то пыталась настроение поднять, хи.</rus>
+  </string>
+  <string id="tbl_of_weather_foggy_text1">
+    <rus>Вот это туманище!</rus>
+  </string>
+  <string id="tbl_of_weather_foggy_text2">
+    <rus>Почти ничего не видно, вот это туман, обалдеть!</rus>
+  </string>
+  <string id="tbl_of_weather_foggy_text3">
+    <rus>Мы как ёжики в тумане! Главное, в речку не свалиться ни в какую, хи!</rus>
+  </string>
+  <string id="tbl_of_weather_foggy_text4">
+    <rus>Какой густой туман... Интересно, какая сейчас видимость в метрах?</rus>
+  </string>
+  <string id="tbl_of_weather_foggy_text5">
+    <rus>А знаешь такую песню: \&quot;Синий туман, похож на обман?\&quot; Эх, были времена...</rus>
+  </string>
+  <string id="tbl_of_weather_nil_text1">
+    <rus>Задумалась о погоде вот... Странная она в Зоне...</rus>
+  </string>
+  <string id="tbl_of_weather_nil_text2">
+    <rus>Не замечал никогда, насколько непредсказуемая здесь погода? Сейчас может быть солнце, а через минуту бац - и уже гроза.</rus>
+  </string>
+  <string id="tbl_of_weather_nil_text3">
+    <rus>Да я тут задумалась... Вот выбросы. Интересно, насколько сильно они влияют на погоду, м?</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_10_text1">
+    <rus>Что-то настроение в полной заднице...</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_10_text2">
+    <rus>Настроение у меня в полной жопе. Нужно отвлечься...</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_10_text3">
+    <rus>Настроение у меня просто отсутствует.</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_10_text4">
+    <rus>Что-то меня сейчас всё бесит. Настроения вообще нет.</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_10_text5">
+    <rus>Настроения нет от слова совсем.</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_20_text1">
+    <rus>Настроение у меня где-то ниже плинтуса. Нужно как-то привести себя в форму...</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_20_text2">
+    <rus>Как поднять настроение? Чувствую себя просто ужасно.</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_20_text3">
+    <rus>Извини, нет настроения разговаривать.</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_30_text1">
+    <rus>Что-то настроение так себе. Я бы сейчас с таким удовольствием слопала ведро мороженого...</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_30_text2">
+    <rus>Что-то чем дальше, тем хуже настроение. Хоть ты-то меня только не оставляй одну, ладно?</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_30_text3">
+    <rus>Блин, такое настроение, что хочется кому-нибудь в морду дать.</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_40_text1">
+    <rus>Что-то не очень хорошо себя чувствую... От нервов голова уже болит.</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_40_text2">
+    <rus>Куда-то не туда у меня настроение скатывается...</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_40_text3">
+    <rus>Вот что дальше? Куда и ради чего мы идём? Есть у нас вообще конечная цель? Чем больше задаю себе эти вопросы, тем только грустнее и становится...</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_50_text1">
+    <rus>Да пытаюсь понять, чего я хочу. Настроение какое-то непонятное.</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_50_text2">
+    <rus>Чего-то хочется, но не пойму, чего именно. У тебя бывает такое?</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_50_text3">
+    <rus>Какое-то состояние неопределённости. Хочется то ли песни петь, то ли в тоску уйти.</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_60_text1">
+    <rus>Настроение у меня похулиганить! Давай во что-нибудь постреляем, а?</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_60_text2">
+    <rus>Да о настроении задумалась. В последнее время оно какое-то унылое, а сейчас, на удивление - нет!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_60_text3">
+    <rus>Ох, чувствую себя на подъёме! Прям как-то хорошо на душе, даже удивительно!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_70_text1">
+    <rus>На удивление, для Зоны у меня сегодня вполне неплохое настроение!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_70_text2">
+    <rus>А как у тебя с настроением? Я вот себя хорошо и уверенно чувствую, и это меня радует!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_70_text3">
+    <rus>Всё-таки бывают действительно хорошие дни, и этот сегодня один из них, аж настроение поднялось!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_80_text1">
+    <rus>А у меня отличное настроение! Что редкость для этих мест, на самом деле.</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_80_text2">
+    <rus>Может быть, ты и не замечаешь, но сегодня я на редкость улыбчива! И ты улыбайся!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_80_text3">
+    <rus>Сейчас всё хорошо, а будет ещё лучше! Обещаю, я это чувствую!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_90_text1">
+    <rus>А у меня великолепное настроение! Эй, делись от меня позитивом!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_90_text2">
+    <rus>Меня сейчас будто переполняет энергия! Просто-таки отлично себя чувствую!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_90_text3">
+    <rus>Как хорошо на свете жить, посмотри-и-и! Да, странновато это слышать для Зоны, но у меня просто-таки отличное настроение!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_100_text1">
+    <rus>Настроение - лучше не бывает! Ла-ла-лей, ха!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_100_text2">
+    <rus>У меня ощущение, что хочется петь! А ты умеешь? Может, давай вместе?!</rus>
+  </string>
+  <string id="tbl_of_natasha_nastroenie_together_100_text3">
+    <rus>Чувствую себя просто по-тря-са-ю-ще! Спасибо тебе за всё, давно со мной такого не было!</rus>
+  </string>
+  <string id="tbl_of_comments_text1">
+    <rus>ты ему доверяешь?</rus>
+  </string>
+  <string id="tbl_of_comments_text2">
+    <rus>что-то он какой-то подозрительный...</rus>
+  </string>
+  <string id="tbl_of_comments_text3">
+    <rus>интересный персонаж. Но как будто что-то скрывает, не находишь?</rus>
+  </string>
+  <string id="tbl_of_comments_text4">
+    <rus>странный он какой-то...</rus>
+  </string>
+  <string id="tbl_of_comments_text5">
+    <rus>может, мне показалось, но какой-то он мутный тип...</rus>
+  </string>
+  <string id="tbl_of_heros_sidorovich_text1">
+    <rus>Как сталкеры вообще торгуются с этим мерзким Сидоровичем? Он же их всех тут обдирает...</rus>
+  </string>
+  <string id="tbl_of_heros_pantera_text1">
+    <rus>Бесит меня эта Пантера. Она что-то всё время недоговаривает, как будто пытается манипулировать тобой...</rus>
+  </string>
+  <string id="tbl_of_heros_barmen_text1">
+    <rus>Кстати, это ведь единственный крупный бар во всей округе. Должно быть, Бармен зашибает тут нехилые такие деньги...</rus>
+  </string>
+  <string id="tbl_of_heros_klyk_text1">
+    <rus>Подумать только, Клык живой! До сих пор не верится... Это же ещё одна из настоящих легенд Зоны!</rus>
+  </string>
+  <string id="tbl_of_heros_prizrak_text1">
+    <rus>Очуметь, живая легенда Зоны! Призрак... Во чудеса!</rus>
+  </string>
+  <string id="tbl_of_heros_sakharov_text1">
+    <rus>Не нравятся мне эти учёные, они всегда будто что-то скрывают. Плюс - работают в большинстве своём на правительство, а это никогда ничем хорошим не заканчивалось.</rus>
+  </string>
+  <string id="tbl_of_heros_voronin_text1">
+    <rus>Генерал Воронин... Его предшественник был намного умнее и дальновиднее, как мне кажется. Помнишь такого? Нет?</rus>
+  </string>
+  <string id="tbl_of_heros_lukash_text1">
+    <rus>Забавные эти \&quot;свободовцы\&quot;. Вот Лукаш этот, вроде серьёзный мужик, а допускает полнейшее разгильдяйство среди своих подчинённых. Хотя на то она и анархия - мать порядка. Тем не менее, воевать они умеют, тут не поспоришь.</rus>
+  </string>
+  <string id="tbl_of_heros_sviblov_text1">
+    <rus>А ты не помнишь Лебедева? Сейчас вместо него этот Свиблов сидит. Говорят, что при Лебедеве \&quot;Чистое небо\&quot; прямо-таки расцветало. Свиблов вроде тоже мужик неплохой, но какой-то пассивный будто. Не находишь? Слишком спокойный, старается избегать стычек...</rus>
+  </string>
+  <string id="tbl_of_heros_vasilij_text1">
+    <rus>Как же чертовски этот Василий похож на Сидоровича, а! Если всё то, что он рассказывает о себе - правда, то это просто отвал башки!</rus>
+  </string>
+  <string id="tbl_of_heros_lesnik_text1">
+    <rus>Вот это дедушка, и как же он живёт в таком-то месте? Уму непостижимо!</rus>
+  </string>
+  <string id="tbl_of_heros_arkhara_text1">
+    <rus>Да, по Архаре сразу видно - матёрый сталкер. Хорошо, когда у ребят есть такой лидер.</rus>
+  </string>
+  <string id="tbl_of_heros_adrenalin_text1">
+    <rus>Какой-то загадочный этот Адреналин, не находишь? Интересно, и что за фото девушки у него в рамке?..</rus>
+  </string>
+  <string id="tbl_of_heros_major_kuznetsov_text1">
+    <rus>Интересно, и как этот Кузнецов всё время на ногах ещё умудряется стоять, после стольких-то бутылок водки, что ему отдают?</rus>
+  </string>
+  <string id="tbl_of_heros_fil_text1">
+    <rus>И всё-таки круто, что у вас есть своя база, вы молодцы! Но вот лично мне в доме на Болоте всё равно как-то уютнее и спокойнее...</rus>
+  </string>
+  <string id="tbl_of_heros_bolotny_doctor_text1">
+    <rus>Доктор, очередная легенда Зоны! Мировой мужик, сказать больше и нечего! Чем-то мне отца он напоминает...</rus>
+  </string>
+  <string id="tbl_of_heros_cherny_doctor_text1">
+    <rus>Какой загадочный человек, этот Чёрный Доктор... Я бы ему точно не стала доверять, какую бы \&quot;правду\&quot; он мне ни говорил...</rus>
+  </string>
+  <string id="tbl_of_heros_shura_ginekolog_text1">
+    <rus>Да уж, компашка в \&quot;Зимовье\&quot; собралась что надо, все, как на подбор! Но ведь главное, какой человек внутри, а не снаружи, согласен?</rus>
+  </string>
+  <string id="tbl_of_heros_zvezdochet_text1">
+    <rus>Какой с виду скользкий и мерзкий, этот Звездочёт. Он хоть тебя и спас, но доверие у меня к нему...</rus>
+  </string>
+  <string id="tbl_of_heros_krest_text1">
+    <rus>Вот уж действительно, Карлсон, только который живёт в лесу, а не на крыше, хах!</rus>
+  </string>
+  <string id="tbl_of_heros_parfyumer_text1">
+    <rus>Жалко мне этого Парфюмера, и как он только выжил здесь, да и ради чего...</rus>
+  </string>
+  <string id="tbl_of_heros_kostya_text1">
+    <rus>Какой же этот Костя прошаренный мужик, ему бы умными вещами на Большой земле заниматься, а он всё по Зоне лазиет...</rus>
+  </string>
+  <string id="tbl_of_heros_sedoy_text1">
+    <rus>Да уж, мобильный торговец, да ещё и со своим вертолётом... И чего только в Зоне не увидишь!</rus>
+  </string>
+  <string id="tbl_of_heros_molniya_text1">
+    <rus>Ещё одна женщина, да ещё и с другого измерения... Ха, что-то многовато нас в Зоне становится!</rus>
+  </string>
+  <string id="tbl_of_heros_shakhtyor_text1">
+    <rus>И как только все эти люди живут в этой Пещере? Там же мрак, сырость, аномалии, тараканы, в конце концов! Бр-р-р...</rus>
+  </string>
+  <string id="tbl_of_heros_natasha_valentine_text1">
+    <rus>Иногда я замечаю, как на меня народ местный буквально пялится... Становится как-то не по себе. Так и хочется им всем зубы пересчитать...</rus>
+  </string>
+  <string id="start_dialog_text1">
+    <rus>О чём думаешь?</rus>
+  </string>
+  <string id="start_dialog_text2">
+    <rus>О чём задумалась?</rus>
+  </string>
+  <string id="start_dialog_text3">
+    <rus>Как ты?</rus>
+  </string>
+  <string id="answer_text1">
+    <rus>Я же уже отвечала.</rus>
+  </string>
+  <string id="answer_text2">
+    <rus>Ты в порядке? Ты уже спрашивал.</rus>
+  </string>
+  <string id="answer_text3">
+    <rus>Что с тобой? Я же уже ответила.</rus>
+  </string>
+  <string id="answer_text4">
+    <rus>Эм... Всё хорошо? Ты ведь только спрашивал.</rus>
+  </string>
+  <string id="answer_text5">
+    <rus>Ну ты ведь только недавно задавал этот вопрос.</rus>
+  </string>
+  <string id="tbl_descr_plcs_safety_text1">
+    <rus>Похоже, что здесь мы в относительной безопасности. Можно передохнуть и перевести дух.</rus>
+  </string>
+  <string id="tbl_descr_plcs_safety_text2">
+    <rus>Ну... похоже, что здесь мы можем расслабиться и отдохнуть.</rus>
+  </string>
+  <string id="tbl_descr_plcs_safety_text3">
+    <rus>Кажется, тут вполне безопасно, так что на какое-то время можно расслабиться.</rus>
+  </string>
+  <string id="tbl_descr_plcs_safety_text4">
+    <rus>Это место я знаю, тут вполне безопасно.</rus>
+  </string>
+  <string id="tbl_descr_plcs_safety_text5">
+    <rus>Я уже бывала тут раньше, мне здесь нравится, тут безопасно.</rus>
+  </string>
+  <string id="tbl_descr_plcs_not_safety_text1">
+    <rus>Мне кажется, тут не очень безопасно. Я бы не стала здесь задерживаться.</rus>
+  </string>
+  <string id="tbl_descr_plcs_not_safety_text2">
+    <rus>Место так себе! И если оставишь меня надолго здесь ждать, а сам уйдёшь за горизонт, то тогда и я уйду в наш лагерь!</rus>
+  </string>
+  <string id="tbl_descr_plcs_not_safety_text3">
+    <rus>Заметила, что люди тут встревожены и все на нервах. По-моему, это не очень безопасное место.</rus>
+  </string>
+  <string id="tbl_descr_plcs_not_safety_text4">
+    <rus>Слышала, что тут частенько бывает неспокойно. Я бы не стала здесь надолго оставаться.</rus>
+  </string>
+  <string id="tbl_descr_plcs_not_safety_text5">
+    <rus>Я от кого-то слышала, что тут не самое безопасное место. Может, лучше уйдём отсюда?</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_safety_text1">
+    <rus>Не нравится мне это место... Давай уйдём отсюда?</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_safety_text2">
+    <rus>Плохое место, очень плохое. Не стоит тут надолго задерживаться.</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_safety_text3">
+    <rus>Я здесь уже как-то бывала раньше. Мурашки от этого места...</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_safety_text4">
+    <rus>Мне тут как-то не по себе. И что-то мне подсказывает, что здесь очень плохое место. Может, лучше уйдём отсюда?</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_safety_text5">
+    <rus>Бр-р-р, что-то тут не то произошло. Давай лучше поскорее выбираться из этого места.</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_place_text1">
+    <rus>Держи пушку на готове. Гнилое место, очень гнилое.</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_place_text2">
+    <rus>Не знаю, как ты, а я тут чувствую, будто буквально мне в спину дышат. Я здесь пушку из рук не выпущу...</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_place_text3">
+    <rus>Пожалуйста, давай не будем здесь задерживаться. Я не очень хороший стрелок, а у меня ощущение, что пострелять нам придётся...</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_place_text4">
+    <rus>У меня мурашки от этого места, как будто за нами постоянно кто-то следит... Будь наготове.</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_place_text5">
+    <rus>Плохое место, не зря тут пусто, да ещё и на земле следы бойни... Будь начеку.</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_place_text6">
+    <rus>Обрати внимание, что здесь не просто так ни души. Жуткое место...</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_place_text7">
+    <rus>Здесь никого нет. Сталкеры считают это место опасным, и нам тут задерживаться не стоит.</rus>
+  </string>
+  <string id="tbl_descr_plcs_bad_place_text8">
+    <rus>Здесь не просто так никого нет. На земле гильзы, кровь, была какая-то перестрелка. Гнилое место...</rus>
+  </string>
+  <string id="tbl_descr_plcs_strange_place_text1">
+    <rus>Слушай, а я ведь тут уже бывала... Здесь всегда было безопасно, странно, что сейчас никого нет... Как будто что-то тут случилось...</rus>
+  </string>
+  <string id="tbl_descr_plcs_strange_place_text2">
+    <rus>Место выглядит безопасным, однако странно, что тут никого нет. Не находишь?</rus>
+  </string>
+  <string id="tbl_descr_plcs_strange_place_text3">
+    <rus>Хм, какое-то странное место... Вроде и безопасно тут, однако кругом ни души...</rus>
+  </string>
+  <string id="tbl_descr_plcs_strange_place_text4">
+    <rus>Обрати внимание, что здесь никого нет, а ведь это место раньше считалось безопасным. Странно, очень странно...</rus>
+  </string>
+  <string id="tbl_descr_plcs_strange_place_text5">
+    <rus>Слышала, что это место считают безопасным, но почему сейчас здесь никого нет? Как будто тут недавно что-то случилось...</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_first_text1">
+    <rus>Что-то ты выглядишь какой-то грустной. Что-то случилось?</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_first_text2">
+    <rus>Выглядишь усталой. Сильно замучал тебя походами, да?</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_first_text3">
+    <rus>Сильно устала?</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_first_text4">
+    <rus>Давно мы без отдыха. Устала?</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_first_text5">
+    <rus>Как себя чувствуешь, не замоталась от наших походов?</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_second_text1">
+    <rus>Если честно, то я уже просто валюсь с ног. Может, уже вернёмся? Если что, то я могу и одна дойти...</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_second_text2">
+    <rus>У меня просто закончились силы. Глаза на ходу закрываются... Давай вернёмся домой?</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_second_text3">
+    <rus>Честно говоря - устала, сильно устала. Я бы с радостью вернулась домой и чуток передохнула. Может, вместе? Могу и одна...</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_three_text1">
+    <rus>Ну хорошо. Тогда я поковыляла потихоньку. Будь осторожен.</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_three_text2">
+    <rus>Хорошо... Береги себя. А я поползла потихоньку. Не пропадай.</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_three_text3">
+    <rus>Хорошо, тогда пойду я... Будь осторожен, береги себя.</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_four_text1">
+    <rus>Чёрт... Ну как скажешь...</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_four_text2">
+    <rus>Уверен? Ладно...</rus>
+  </string>
+  <string id="tbl_of_natasha_stamina_four_text3">
+    <rus>Эх, ладно, постараюсь...</rus>
+  </string>
+  <string id="tbl_of_silent_mode1_text1">
+    <rus>Помолчи пока, пожалуйста. Мне нужно сосредоточиться.</rus>
+  </string>
+  <string id="tbl_of_silent_mode1_text2">
+    <rus>Помолчи немного, сбиваешь с мыслей.</rus>
+  </string>
+  <string id="tbl_of_silent_mode1_text3">
+    <rus>Мне нужно немного тишины, ладно?</rus>
+  </string>
+  <string id="tbl_of_silent_mode2_text1">
+    <rus>Прости если обидел, разрешаю больше не молчать.</rus>
+  </string>
+  <string id="tbl_of_silent_mode2_text2">
+    <rus>Спасибо что молчала. Сейчас можешь расслабиться.</rus>
+  </string>
+  <string id="tbl_of_silent_mode2_text3">
+    <rus>Всё позади, разрешаю снова разговаривать!</rus>
+  </string>
+  <string id="stamina_wait_text">
+    <rus>Нужно немного потерпеть. Как только доделаем запланированное - отдохнём.</rus>
+  </string>
+  <string id="sorry_daydreaming_text">
+    <rus>А? Прости, задумалась...</rus>
+  </string>
+  <string id="silent_mode_about_text">
+    <rus>О чём?</rus>
+  </string>
+  <string id="silent_mode_ok_text">
+    <rus>Хорошо, как скажешь...</rus>
+  </string>
+  <string id="comment_this_person_text">
+    <rus>Этот </rus>
+  </string>
+  <string id="silent_mode_think_text">
+    <rus>Я подумаю!</rus>
+  </string>
+  <string id="nothing_to_say_text">
+    <rus>Сейчас мне нечего сказать.</rus>
+  </string>
+  <string id="natasha_map_spot_name_text">
+    <rus>Наташа</rus>
+  </string>
+  <string id="no_safe_places_text">
+    <rus>Вокруг невидать безопасных мест, жаль. Я бы чуток передохнула.</rus>
+  </string>
+  <string id="silent_mode_ask_text">
+    <rus>Хочу тебя попросить.</rus>
+  </string>
+  <string id="stamina_go_swamp_text">
+    <rus>Хорошо. Ты иди отдыхать на Болота, а мне нужно сначала закончить дела. Отпишись как дойдёшь.</rus>
+  </string>
+</string_table>

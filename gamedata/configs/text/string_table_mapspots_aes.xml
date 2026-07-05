@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="aes_btr1">
+    <rus>Броненосец 1</rus>
+  </string>
+  <string id="aes_btr2">
+    <rus>Броненосец 2</rus>
+  </string>
+  <string id="aes_btr3">
+    <rus>Броненосец 3</rus>
+  </string>
+  <string id="aes_grif">
+    <rus>Гриф</rus>
+  </string>
+  <string id="aes_korshun">
+    <rus>Коршун</rus>
+  </string>
+  <string id="aes_kvartet">
+    <rus>Квартет</rus>
+  </string>
+  <string id="aes_lun">
+    <rus>Лунь</rus>
+  </string>
+  <string id="aes_pustelga">
+    <rus>Пустельга</rus>
+  </string>
+  <string id="aes_sapsan">
+    <rus>Сапсан</rus>
+  </string>
+  <string id="aes_sarcofag_hint">
+    <rus>Вход в Саркофаг</rus>
+  </string>
+  <string id="aes_sokol">
+    <rus>Сокол</rus>
+  </string>
+  <string id="aes_sova">
+    <rus>Сова</rus>
+  </string>
+  <string id="aes_yastreb">
+    <rus>Ястреб</rus>
+  </string>
+</string_table>

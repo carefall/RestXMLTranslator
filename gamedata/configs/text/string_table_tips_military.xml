@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="mil_actor_blockpost">
+    <rus>Сталкер, ты подходишь к "Барьеру", не вздумай баловать, но мы рады принять любую помощь.</rus>
+  </string>
+  <string id="mil_after_sniper_dead">
+    <rus>Меченый, подходи к нам за расчётом и дальнейшими указаниями.</rus>
+  </string>
+  <string id="mil_fblockpost_warning">
+    <rus>Меченый, вернись и займи позицию.</rus>
+  </string>
+  <string id="mil_info_freedom_radio">
+    <rus>Если целую ночь просидеть в деревне на башне, то ОБЯЗАТЕЛЬНО что-то произойдет...</rus>
+  </string>
+  <string id="mil_info_max_mines">
+    <rus>Помни о минах — сапёр ошибается дважды...</rus>
+  </string>
+  <string id="mil_info_max_village">
+    <rus>Меченый, будь осторожен. Говорят, в деревне появилась новая аномалия — движется очень быстро, к тому же её, падлу, не видно.</rus>
+  </string>
+  <string id="mil_info_to_all">
+    <rus>Внимание всех желающих разжижить мозги — проход на Радар охраняет отряд "Монолита", я думаю вы в курсе, что они стреляют по всем. Удачи.</rus>
+  </string>
+  <string id="mil_max_attack_signal">
+    <rus>В атаку, братва. Замочим законников.</rus>
+  </string>
+  <string id="mil_mission_complete">
+    <rus>Наша задача выполнена. Возвращаемся на хутор и там рассчитаемся.</rus>
+  </string>
+  <string id="mil_scull_attack_signal">
+    <rus>Вперёд, ребята. Путь свободен.</rus>
+  </string>
+  <string id="mil_scull_info">
+    <rus>Меченый, займись снайперами!!!</rus>
+  </string>
+  <string id="mil_sniper_to_player_warning">
+    <rus>Меченый, будь осторожен, а то ещё по башке пулей схлопочешь...</rus>
+  </string>
+</string_table>

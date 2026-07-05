@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="mil_blockpost_job">
+    <rus>Оказать помощь на "Барьере"</rus>
+  </string>
+  <string id="mil_courier">
+    <rus>Стукач</rus>
+  </string>
+  <string id="mil_courier_job">
+    <rus>Разобраться со стукачом</rus>
+  </string>
+  <string id="mil_courier_phase1">
+    <rus>Добраться до хутора</rus>
+  </string>
+  <string id="mil_courier_phase2">
+    <rus>Дождаться, пока стукач вызовет информатора</rus>
+  </string>
+  <string id="mil_courier_phase3">
+    <rus>Уничтожить стукача</rus>
+  </string>
+  <string id="mil_courier_phase4">
+    <rus>Уничтожить информатора</rus>
+  </string>
+  <string id="mil_courier_phase5">
+    <rus>Доложить Лукашу о выполнении</rus>
+  </string>
+  <string id="mil_crazy">
+    <rus>Безумный сталкер</rus>
+  </string>
+  <string id="mil_dolg">
+    <rus>Группа "Долга"</rus>
+  </string>
+  <string id="mil_dolg_assault_freedom">
+    <rus>Помочь отряду "Долга" в устранении Лукаша</rus>
+  </string>
+  <string id="mil_kill_lukash">
+    <rus>Убить Лукаша</rus>
+  </string>
+  <string id="mil_dolg_assault_support">
+    <rus>Уничтожить снайпера</rus>
+  </string>
+  <string id="mil_dolg_return_to_khutor">
+    <rus>Вернуться на хутор "Долга" и получить гонорар</rus>
+  </string>
+  <string id="mil_dolg_return_to_skull">
+    <rus>Вернуться к Черепу</rus>
+  </string>
+  <string id="mil_fblockpost_commander">
+    <rus>Командир блокпоста Кеп</rus>
+  </string>
+  <string id="mil_fblockpost_phase2">
+    <rus>Помочь в уничтожении прорывающегося отряда "Монолита"</rus>
+  </string>
+  <string id="mil_fblockpost_phase3">
+    <rus>Поговорить с командиром "Барьера"</rus>
+  </string>
+  <string id="mil_find_cook">
+    <rus>Найти Повара на базе "Свободы"</rus>
+  </string>
+  <string id="mil_freedom_rg6_task">
+    <rus>Достать РГ-6 у "Свободы"</rus>
+  </string>
+  <string id="mil_go_max">
+    <rus>Доложить Максу</rus>
+  </string>
+  <string id="mil_go_to_miser_task">
+    <rus>Сходить на базу "Свободы" к Скряге за наградой</rus>
+  </string>
+  <string id="mil_go_to_miser_task_main">
+    <rus>Получить награду за убитых кровососов</rus>
+  </string>
+  <string id="mil_hunters_phase1">
+    <rus>Найти Угрюмого в деревне</rus>
+  </string>
+  <string id="mil_hunters_phase2">
+    <rus>Уничтожить кровососов</rus>
+  </string>
+  <string id="mil_hunters_phase3">
+    <rus>Вернуться к Скряге за артефактом</rus>
+  </string>
+  <string id="mil_hunters_task">
+    <rus>Уничтожить кровососов в деревне</rus>
+  </string>
+  <string id="mil_kill_controller">
+    <rus>Убить кровососов</rus>
+  </string>
+  <string id="mil_kill_controller_main">
+    <rus>Убить кровососов</rus>
+  </string>
+  <string id="mil_kill_dolg">
+    <rus>Уничтожить группу</rus>
+  </string>
+  <string id="mil_lukash">
+    <rus>Лукаш</rus>
+  </string>
+  <string id="mil_max">
+    <rus>Макс</rus>
+  </string>
+  <string id="mil_put_flash_to_max">
+    <rus>Отдать флешку Максу</rus>
+  </string>
+  <string id="mil_kill_sniper">
+    <rus>Снайпер на вышке</rus>
+  </string>
+  <string id="mil_quest_report_dolg">
+    <rus>Сообщить о выполнении группе "Долга"</rus>
+  </string>
+  <string id="mil_return_lukash">
+    <rus>Вернуться к Лукашу</rus>
+  </string>
+  <string id="mil_return_to_ugrumy">
+    <rus>Сообщить Угрюмому о выполнении</rus>
+  </string>
+  <string id="mil_return_to_voronin">
+    <rus>Отнести РГ-6 генералу Воронину</rus>
+  </string>
+  <string id="mil_rg6">
+    <rus>Найти РГ-6</rus>
+  </string>
+  <string id="mil_secret">
+    <rus>Схрон бандитов</rus>
+  </string>
+  <string id="mil_sniper">
+    <rus>Снайпер</rus>
+  </string>
+  <string id="mil_mad_job">
+    <rus>Получить флешку у безумного снайпера</rus>
+  </string>
+  <string id="mil_talk_cook">
+    <rus>Поговорить с Поваром</rus>
+  </string>
+  <string id="mil_talk_with_cap">
+    <rus>Поговорить с командиром блокпоста "Свободы" Кепом</rus>
+  </string>
+  <string id="mil_test_task_phase1">
+    <rus>Зайти в рестриктор 1</rus>
+  </string>
+  <string id="mil_test_task_phase2">
+    <rus>Зайти в рестриктор 2</rus>
+  </string>
+  <string id="mil_test_task_phase3">
+    <rus>Поднять РГ-6 для выполнения задачи или ТРс 301 для провала</rus>
+  </string>
+  <string id="mil_test_task_title">
+    <rus>Тестовая задача</rus>
+  </string>
+  <string id="mil_ugrumy">
+    <rus>Угрюмый</rus>
+  </string>
+  <string id="mil_lukash_job">
+    <rus>Приговор группе "Долга"</rus>
+  </string>
+</string_table>

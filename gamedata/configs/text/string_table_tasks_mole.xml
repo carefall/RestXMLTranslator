@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="agr_pre_buy_car_task_name">
+    <rus>Автолюбитель Шерстюк</rus>
+  </string>
+  <string id="agr_pre_buy_car_task_name_1">
+    <rus>Найти рюкзак для Шерстюка</rus>
+  </string>
+  <string id="agr_pre_buy_car_task_name_2">
+    <rus>Найти рюкзак</rus>
+  </string>
+  <string id="agr_pre_buy_car_task_name_3">
+    <rus>Принести рюкзак Шерстюку</rus>
+  </string>
+  <string id="mil_guard_arsenal_task_name">
+    <rus>Дурь за вход</rus>
+  </string>
+  <string id="mil_guard_arsenal_task_name_1">
+    <rus>Найти дурь для охранника арсенала</rus>
+  </string>
+  <string id="mil_guard_arsenal_task_name_2">
+    <rus>Найти дурь</rus>
+  </string>
+  <string id="mil_guard_arsenal_task_name_3">
+    <rus>Принести дурь охраннику</rus>
+  </string>
+  <string id="music_flash_zahar_task_name">
+    <rus>Стая снорков в ТД</rus>
+  </string>
+  <string id="music_flash_zahar_task_name_1">
+    <rus>Убить снорков в Тёмной Долине</rus>
+  </string>
+  <string id="music_flash_zahar_task_name_2">
+    <rus>Уничтожить стаю снорков</rus>
+  </string>
+  <string id="music_flash_zahar_task_name_3">
+    <rus>Вернуться к Захару</rus>
+  </string>
+  <string id="music_flash_task_name">
+    <rus>Музыкальные флешки</rus>
+  </string>
+  <string id="music_flash_task_name_1">
+    <rus>Собрать флешки Музыканта</rus>
+  </string>
+  <string id="music_flash_task_name_2">
+    <rus>Поговорить со сталкером</rus>
+  </string>
+  <string id="music_flash_task_name_3">
+    <rus>Найти Музыканта</rus>
+  </string>
+  <string id="music_flash_task_name_4">
+    <rus>Найти музыкальные флешки и плеер</rus>
+  </string>
+  <string id="garik_task_name">
+    <rus>Сладкая жизнь</rus>
+  </string>
+  <string id="garik_task_name_1">
+    <rus>Найти коробку со сладостями</rus>
+  </string>
+  <string id="garik_task_name_2">
+    <rus>Осмотреть местность</rus>
+  </string>
+  <string id="garik_task_name_3">
+    <rus>Проверить тайник</rus>
+  </string>
+  <string id="garik_task_name_4">
+    <rus>Поговорить с учёными</rus>
+  </string>
+  <string id="garik_task_name_5">
+    <rus>Отыскать коробку на заводе</rus>
+  </string>
+  <string id="garik_task_name_6">
+    <rus>Принести коробку Гарику</rus>
+  </string>
+  <string id="kuznetsov_task_name">
+    <rus>Режущий инструмент</rus>
+  </string>
+  <string id="kuznetsov_task_name_1">
+    <rus>Найти артефакты для Кузнецова</rus>
+  </string>
+  <string id="kuznetsov_task_name_2">
+    <rus>Принести артефакты Кузнецову</rus>
+  </string>
+  <string id="wolf_task_name">
+    <rus>Бумаги у тоннеля</rus>
+  </string>
+  <string id="wolf_task_name_1">
+    <rus>Найти тайник у тоннеля</rus>
+  </string>
+  <string id="wolf_task_name_2">
+    <rus>Осмотреть местность возле тоннеля</rus>
+  </string>
+  <string id="wolf_task_name_3">
+    <rus>Принести найденное Волку</rus>
+  </string>
+  <string id="bar_room_inventory_box_task_name">
+    <rus>Подрезать заказ</rus>
+  </string>
+  <string id="bar_room_inventory_box_task_name_1">
+    <rus>Забрать у курьера заказ и доставить самому</rus>
+  </string>
+  <string id="bar_room_inventory_box_task_name_2">
+    <rus>Договориться с курьером</rus>
+  </string>
+  <string id="bar_room_inventory_box_task_name_3">
+    <rus>Получить заказ</rus>
+  </string>
+  <string id="bar_room_inventory_box_task_name_4">
+    <rus>Доставить заказ</rus>
+  </string>
+  <string id="bar_room_inventory_box_task_name_5">
+    <rus>Доложить Бармену</rus>
+  </string>
+  <string id="esc_nimble_request_task_name">
+    <rus>Артефакт из "Электры"</rus>
+  </string>
+  <string id="esc_nimble_request_task_name_1">
+    <rus>Найти Шустрому артефакт из "Электры"</rus>
+  </string>
+  <string id="esc_nimble_request_task_name_2">
+    <rus>Найти артефакт из "Электры"</rus>
+  </string>
+  <string id="esc_nimble_request_task_name_3">
+    <rus>Принести артефакт Шустрому</rus>
+  </string>
+  <string id="esc_petruha_ammo_task_name">
+    <rus>Бронебойные патроны</rus>
+  </string>
+  <string id="esc_petruha_ammo_task_name_1">
+    <rus>Принести Петрухе бронебойные патроны</rus>
+  </string>
+  <string id="esc_petruha_ammo_task_name_2">
+    <rus>Найти бронебойные патроны</rus>
+  </string>
+  <string id="esc_petruha_ammo_task_name_3">
+    <rus>Принести патроны Петрухе</rus>
+  </string>
+  <string id="escape_lager_volk_first_task_name">
+    <rus>Деревенские кабанчики</rus>
+  </string>
+  <string id="escape_lager_volk_first_task_name_1">
+    <rus>Убить кабанов за дорогой недалеко от деревни</rus>
+  </string>
+  <string id="escape_lager_volk_first_task_name_2">
+    <rus>Убить кабанов</rus>
+  </string>
+  <string id="escape_lager_volk_first_task_name_3">
+    <rus>Доложить о выполнении</rus>
+  </string>
+  <string id="arhara_music_flash_kill_target_task_name">
+    <rus>Дикий Жрец</rus>
+  </string>
+  <string id="arhara_music_flash_kill_target_task_name_1">
+    <rus>Найти и убить Жреца на "Дикой Территории"</rus>
+  </string>
+  <string id="arhara_music_flash_kill_target_task_name_2">
+    <rus>Убить Жреца</rus>
+  </string>
+  <string id="arhara_music_flash_kill_target_task_name_3">
+    <rus>Вернуться к Архаре</rus>
+  </string>
+  <string id="agro_kill_night_bloodsucker_task_name">
+    <rus>Ночной дозор</rus>
+  </string>
+  <string id="agro_kill_night_bloodsucker_task_name_1">
+    <rus>Убить кровососа на Агропроме</rus>
+  </string>
+  <string id="agro_kill_night_bloodsucker_task_name_2">
+    <rus>Убить кровососа</rus>
+  </string>
+  <string id="agro_kill_night_bloodsucker_task_name_3">
+    <rus>Вернуться к Кроту</rus>
+  </string>
+
+</string_table>

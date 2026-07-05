@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="st_cheat_player_channel_duty">
+    <rus>"Долг"</rus>
+    <eng>"Duty"</eng>
+  </string>
+  <string id="st_cheat_player_channel_freedom">
+    <rus>"Свобода"</rus>
+    <eng>"Freedom"</eng>
+  </string>
+  <string id="st_cheat_player_channel_stalkers">
+    <rus>"Сталкеры"</rus>
+    <eng>"Stalkers"</eng>
+  </string>
+  <string id="st_cheat_player_channel_military">
+    <rus>"Военные"</rus>
+    <eng>"Army"</eng>
+  </string>
+  <string id="st_cheat_player_channel_common">
+    <rus>"Общая волна"</rus>
+    <eng>"General wave"</eng>
+  </string>
+  <string id="st_cheat_player_channel_monolith">
+    <rus>"Монолит"</rus>
+    <eng>"Monolith"</eng>
+  </string>
+  <string id="st_cheat_player_btn_stop">
+    <rus>Стоп</rus>
+    <eng>Stop</eng>
+  </string>
+  <string id="st_cheat_player_btn_exit">
+    <rus>Выход</rus>
+    <eng>Exit</eng>
+  </string>
+  <string id="st_cheat_player_music">
+    <rus>МУЗЫКА (OGG - формат)</rus>
+    <eng>MUSIC (OGG - format)</eng>
+  </string>
+  <string id="st_cheat_player_radio">
+    <rus>Радио (FM)</rus>
+    <eng>Radio (FM)</eng>
+  </string>
+  <string id="st_cheat_player_flash_drive">
+    <rus>Флешка:</rus>
+    <eng>Flash:</eng>
+  </string>
+  <string id="st_cheat_player_files">
+    <rus>Файлы</rus>
+    <eng>Files</eng>
+  </string>
+  <string id="st_cheat_player_card_reader">
+    <rus>Card reader:</rus>
+    <eng>Card reader:</eng>
+  </string>
+  <string id="st_cheat_flash_file_not_loaded">
+    <rus>Файл не загружен</rus>
+    <eng>File is not loaded</eng>
+  </string>
+  <string id="st_cheat_flash_insert">
+    <rus>Вставьте флешку</rus>
+    <eng>Inster flash</eng>
+  </string>
+  <string id="st_cheat_flash_from_freedom">
+    <rus>от Свободы</rus>
+    <eng>from Freedom</eng>
+  </string>
+  <string id="st_cheat_flash_from_syaka">
+    <rus>от Сяка</rus>
+    <eng>from Syak</eng>
+  </string>
+  <string id="st_cheat_flash_from_ary">
+    <rus>от Ары</rus>
+    <eng>from Ara</eng>
+  </string>
+  <string id="st_cheat_flash_from_arkhara">
+    <rus>от Архары</rus>
+    <eng>from Arhara</eng>
+  </string>
+  <string id="st_cheat_flash_from_arni">
+    <rus>от Арни</rus>
+    <eng>from Arnie</eng>
+  </string>
+</string_table>

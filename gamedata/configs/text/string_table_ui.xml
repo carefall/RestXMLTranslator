@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="cant_walk">
+    <rus>Вы слишком истощены, чтобы двигаться</rus>
+  </string>
+  <string id="cant_walk_weight">
+    <rus>Вы слишком перегружены, чтобы двигаться</rus>
+  </string>
+  <string id="dar_poltergeist_hold_the_door">
+    <rus>Кто-то удерживает дверь</rus>
+  </string>
+  <string id="Global Map">
+    <rus>Глобальная карта</rus>
+  </string>
+  <string id="gun_jammed">
+    <rus>Оружие заклинило. Нужно перезарядить</rus>
+  </string>
+  <string id="gun_unloaded">
+    <rus>Оружие без магазина. Нужно снарядить</rus>
+  </string>
+  <string id="inventory_overweight">
+    <rus>Превышен объём! Руки заняты хабаром</rus>
+  </string>
+  <string id="Local Map">
+    <rus>Локальная карта</rus>
+  </string>
+  <string id="st_game_saved">
+    <rus>Игра сохранена</rus>
+  </string>
+  <string id="tip_car_locked">
+    <rus>Заблокировано</rus>
+  </string>
+  <string id="inventory_box_use">
+    <rus>Обыскать (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="inventory_box_use_or_drag">
+    <rus>Обыскать (%c[ui_action]$$ACTION_USE$$%c[default])\nПеретащить (%c[ui_action]SHIFT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="tip_car_use">
+    <rus>Открыть дверь (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="tip_door_close">
+    <rus>Нажмите (%c[ui_action]$$ACTION_USE$$%c[default]), чтобы закрыть дверь</rus>
+  </string>
+  <string id="tip_door_coded">
+    <rus>Дверь закодирована</rus>
+  </string>
+  <string id="tip_door_decode">
+    <rus>Нажмите (%c[ui_action]$$ACTION_USE$$%c[default]), чтобы декодировать дверь</rus>
+  </string>
+  <string id="tip_door_decoding">
+    <rus>Идёт процесс декодирования</rus>
+  </string>
+  <string id="tip_door_locked">
+    <rus>Дверь заперта</rus>
+  </string>
+  <string id="tip_door_open">
+    <rus>Нажмите (%c[ui_action]$$ACTION_USE$$%c[default]), чтобы открыть дверь</rus>
+  </string>
+  <string id="tip_gate_close">
+    <rus>Нажмите (%c[ui_action]$$ACTION_USE$$%c[default]), чтобы закрыть ворота</rus>
+  </string>
+  <string id="tip_gate_locked">
+    <rus>Ворота заблокированы</rus>
+  </string>
+  <string id="tip_gate_open">
+    <rus>Нажмите (%c[ui_action]$$ACTION_USE$$%c[default]), чтобы открыть ворота</rus>
+  </string>
+  <string id="tip_monolith">
+    <rus>ЗАГАДАТЬ ЖЕЛАНИЕ (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="Include_light">
+    <rus>Включить свет (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="disconnect_light">
+    <rus>Отключить свет (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="hatch_02">
+    <rus>Поднять люк (%c[ui_action]SHIFT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="reshetka1">
+    <rus>Поднять решётку (%c[ui_action]SHIFT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="tpansfopmatop">
+    <rus>Отодвинуть (%c[ui_action]SHIFT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="st_search_treasure">
+    <rus>Обыскать тайник (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="inventory_item_use">
+    <rus>Поднять предмет (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="dead_monster_use">
+    <rus>Срезать трофей (%c[ui_action]$$ACTION_USE$$%c[default])\nТащить труп (%c[ui_action]SHIFT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="dead_monster_used">
+    <rus>Повреждённая тушка\nТащить труп (%c[ui_action]SHIFT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="dead_monster_need_knife">
+    <rus>Необходимо взять в руки нож, чтобы срезать трофей\nТащить труп (%c[ui_action]SHIFT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+   <string id="museum_tip">
+    <rus>Отметить тушку (%c[ui_action]$$ACTION_USE$$%c[default])\nТащить труп (%c[ui_action]SHIFT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="physic_shell_use">
+    <rus>Двигать объект (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="st_codelock">
+    <rus>Кодовый замок (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="car_door_open">
+    <rus>Открыть дверь (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="car_door_close">
+    <rus>Закрыть дверь (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="car_door_trunk">
+    <rus>Открыть багажник (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="character_use">
+    <rus>Говорить (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="dead_character_use_or_drag">
+    <rus>Обыскать труп (%c[ui_action]$$ACTION_USE$$%c[default]) \nТащить труп (%c[ui_action]SHIFT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="dead_character_use">
+    <rus>Обыскать труп (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="st_receiver_horizon_1">
+    <rus>Послушать песню (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="st_smoking_hookah_1">
+    <rus>Курнуть кальян (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="tips_rad_switcher_press">
+    <rus>Отключить установку (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="tips_labx16switcher_press">
+    <rus>Отключить установку (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="st_game_over_press_jump">
+    <rus>Нажмите (%c[ui_action]$$ACTION_JUMP$$%c[default]) для выхода в главное меню</rus>
+  </string>
+  <string id="inventory_item_use_or_drag">
+    <rus>Поднять предмет (%c[ui_action]$$ACTION_USE$$%c[default]) \nПеретащить предмет (%c[ui_action]SHIFT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="inventory_item_unload">
+    <rus>Разрядить (%c[ui_action]ALT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="game_object_drag">
+    <rus>Перетащить предмет (%c[ui_action]SHIFT+$$ACTION_USE$$%c[default])</rus>
+  </string>
+    <string id="st_antenna_1">
+    <rus>Врубить реле (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="st_beacon_1">
+    <rus>Установить маячок (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="st_task_1">
+    <rus>Отметить хабар (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="st_trupak_1">
+    <rus>Отрезать голову (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="tips_val_button_blocked">
+    <rus>Рано, нужно дождатся подмогу</rus>
+  </string>
+  <string id="tips_val_button_open">
+    <rus>Открыть решетку (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="st_body_kick">
+    <rus>Пнуть (%c[ui_action]$$ACTION_USE$$%c[default])</rus>
+  </string>
+  <string id="fire_mode">
+    <rus>Режим огня</rus>
+  </string>
+  <string id="single">
+    <rus>одиночный</rus>
+  </string>
+  <string id="2-burst">
+    <rus>2-очередь</rus>
+  </string>
+  <string id="3-burst">
+    <rus>3-очередь</rus>
+  </string>
+  <string id="auto">
+    <rus>автоматический</rus>
+  </string>
+</string_table>

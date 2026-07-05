@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <string id="st_stco_time">
+        <rus>время:</rus>
+    </string>
+    <string id="st_stco_longitude">
+        <rus>долгота:</rus>
+    </string>
+    <string id="st_stco_latitude">
+        <rus>широта:</rus>
+    </string>
+    <string id="st_stco_height">
+        <rus>высота:</rus>
+    </string>
+    <string id="st_stco_direction">
+        <rus>направление:</rus>
+    </string>
+    <string id="st_stco_altitude_unit">
+        <rus> м.</rus>
+    </string>
+    <string id="st_stco_utc_su_tz">
+        <rus>UTC(SU)(%s)</rus>
+    </string>
+    <string id="st_stco_no_gnss_signal">
+        <rus>нет сигнала СП!</rus>
+    </string>
+    <string id="st_stco_no_gnss_signal_lon">
+        <rus>Нет сигнала СП!</rus>
+    </string>
+    <string id="st_stco_autonomous_time_line1">
+        <rus>Время в автономном</rus>
+    </string>
+    <string id="st_stco_autonomous_time_line2">
+        <rus>режиме!</rus>
+    </string>
+</string_table>

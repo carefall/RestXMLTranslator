@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+<!-- COMPANION STALKER -->
+
+    <string id="companion_release_dialog_0">
+        <rus>Наташ, дальше мне нужно идти одному. Спасибо за компанию!</rus>
+    </string>
+    <string id="companion_release_dialog_1">
+        <rus>Ну смотри. Береги себя!</rus>
+    </string>
+
+    <string id="companion_hire_dialog_0">
+        <rus>Нат, не хочешь пройтись со мной? Мне понадобится помощь в пути.</rus>
+    </string>
+    <string id="companion_hire_dialog_1">
+        <rus>А давай! Постреляем?</rus>
+    </string>
+    <string id="companion_hire_dialog_2">
+        <rus>ОТКАЗ ВАРИАНТ 1 (companion_not_follow)</rus>
+    </string>
+    <string id="companion_hire_dialog_3">
+        <rus>Не, ну тебя нафиг, я боюсь с тобой идти.</rus>
+    </string>
+    <string id="companion_hire_dialog_4">
+        <rus>Шёл бы ты к чёрту, Меченый, с тобой ещё никто назад не возвращался. Ищи себе отмычек в другом месте.</rus>
+    </string>
+    <string id="companion_hire_dialog_5">
+        <rus>Прости, но я слишком устала с нашей последней вылазки. Дай мне немного времени отдохнуть.</rus>
+    </string>
+    <string id="companion_hire_dialog_6">
+        <rus>Не, парниша, зелен ты ещё со мной в Зону ходить. Не потянешь, уж не обижайся.</rus>
+    </string>
+    <string id="companion_hire_dialog_7">
+        <rus>Не, Меченый, я с тобой боюсь идти. Ты в такие закоулки Зоны лазишь, где я и часа не продержусь. Разве что отмычкой поработаю... Лучше уж я сам тут пока, на мелкой воде. Глядишь, и хабарка найду, и жив останусь.</rus>
+    </string>
+    <string id="companion_hire_dialog_8">
+        <rus>Нет, с тобой и так уже достаточно народу, ни к чему толпами по Зоне бродить, не любит она этого.</rus>
+    </string>
+    <string id="companion_hire_dialog_9">
+        <rus>Меченый, ты уж не обижайся, но пока ты не из наших — у нас с тобой общих дел быть не может.</rus>
+    </string>
+
+    <string id="companion_management_dialog_0">
+        <rus>Давай обсудим нашу тактику.</rus>
+    </string>
+    <string id="companion_management_dialog_1">
+        <rus>Я слушаю.</rus>
+    </string>
+    <string id="companion_management_dialog_2">
+        <rus>Следуй за мной.</rus>
+    </string>
+    <string id="companion_management_dialog_3">
+        <rus>Как мне при этом себя вести?</rus>
+    </string>
+    <string id="companion_management_dialog_4">
+        <rus>Просто иди за мной и будь настороже.</rus>
+    </string>
+    <string id="companion_management_dialog_5">
+        <rus>Иди за мной и старайся подпустить врага поближе.</rus>
+    </string>
+    <string id="companion_management_dialog_6">
+        <rus>Иди за мной и атакуй только при самой крайней необходимости.</rus>
+    </string>
+
+    <string id="companion_management_dialog_7">
+        <rus>Жди здесь.</rus>
+    </string>
+    <string id="companion_management_dialog_8">
+        <rus>Как мне при этом себя вести?</rus>
+    </string>
+    <string id="companion_management_dialog_9">
+        <rus>Просто жди здесь и будь настороже.</rus>
+    </string>
+    <string id="companion_management_dialog_10">
+        <rus>Жди здесь и старайся подпустить врага поближе.</rus>
+    </string>
+    <string id="companion_management_dialog_11">
+        <rus>Жди здесь и атакуй только при самой крайней необходимости.</rus>
+    </string>
+
+    <string id="companion_management_dialog_12">
+        <rus>Крадись за мной.</rus>
+    </string>
+    <string id="companion_management_dialog_13">
+        <rus>Как мне при этом себя вести?</rus>
+    </string>
+    <string id="companion_management_dialog_14">
+        <rus>Просто крадись за мной и будь настороже.</rus>
+    </string>
+    <string id="companion_management_dialog_15">
+        <rus>Крадись за мной и старайся подпустить врага поближе.</rus>
+    </string>
+    <string id="companion_management_dialog_16">
+        <rus>Крадись за мной и атакуй только при самой крайней необходимости.</rus>
+    </string>
+
+    <string id="companion_management_dialog_17">
+        <rus>Спрячься здесь.</rus>
+    </string>
+    <string id="companion_management_dialog_18">
+        <rus>Как мне при этом себя вести?</rus>
+    </string>
+    <string id="companion_management_dialog_19">
+        <rus>Просто спрячься здесь и будь настороже.</rus>
+    </string>
+    <string id="companion_management_dialog_20">
+        <rus>Спрячься здесь и старайся подпустить врага поближе.</rus>
+    </string>
+    <string id="companion_management_dialog_21">
+        <rus>Спрячься здесь и атакуй только при самой крайней необходимости.</rus>
+    </string>
+
+    <string id="companion_management_dialog_weapon_root">
+        <rus>Кстати, насчёт оружия...</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_what">
+        <rus>Да?</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_use_anything">
+        <rus>Используй всё, что есть под рукой.</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_use_pistol">
+        <rus>Используй пистолет.</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_use_submashinegun">
+        <rus>Используй пистолет-пулемёт.</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_use_shotgun">
+        <rus>Используй дробовик.</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_use_assault_shotgun">
+        <rus>Используй штурмовой дробовик.</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_use_carbine">
+        <rus>Используй карабин.</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_use_assault_rifle">
+        <rus>Используй штурмовую винтовку.</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_use_sniper_rifle">
+        <rus>Используй снайперскую винтовку.</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_use_mashinegun">
+        <rus>Используй пулемёт.</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_use_grenade_launcher">
+        <rus>Используй гранатомёт.</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_use_flamethrower">
+        <rus>Используй огнемёт.</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_allright">
+        <rus>Хорошо.</rus>
+    </string>
+
+    <string id="companion_management_dialog_weapon_its_a_threeheaded_monkey">
+        <rus>Эй, у тебя за спиной трехголовая обезьяна!</rus>
+    </string>
+    <string id="companion_management_dialog_weapon_omg_its_a_lion">
+        <rus>Где? Блин, ну тебя в баню, хорош прикалываться!</rus>
+    </string>
+    
+    <string id="companion_go_to_0">
+        <rus>Наташ, дальше нам нужно разделиться.</rus>
+    </string>
+    <string id="companion_go_to_1">
+        <rus>Ну смотри, пулю не выхвати нигде без меня. Где тебя ждать? Где встретимся?</rus>
+    </string>
+    <string id="companion_go_to_2_1">
+        <rus>Жди меня дома на Болотах. Как освобожусь — приду к тебе.</rus>
+    </string>
+    <string id="companion_go_to_2_2">
+        <rus>Давай встретимся на нашей базе в Тёмной Долине. Жди меня там.</rus>
+    </string>
+    <string id="companion_go_to_3">
+        <rus>Хорошо! Не скучай тут без меня!</rus>
+    </string>
+
+</string_table>

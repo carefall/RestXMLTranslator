@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="freedom_svyaznoy_pda">
+    <rus>Личный ПДА связного от Свободы</rus>
+  </string>
+  <string id="pda_freedom_detector">
+    <rus>ПДА с функцией детекции сигнала Свободы</rus>
+  </string>
+  <string id="freedom_detector_desc">
+    <rus>Перепрошитый ПДА с кастомной радио антенной, настроенной исключительно на радио частоты группировки Свободы. Радиус действия — 500 метров.</rus>
+  </string>
+  <string id="pda_freedom_detector_short">
+    <rus>Детектор Свободы</rus>
+  </string>
+
+    <string id="st_natasha_story_shepot_meet_label">
+        <rus>Это Шёпот. </rus>
+    </string>
+    <string id="st_natasha_story_in_pos_stay">
+        <rus>Буду находиться там ещё примерно около </rus>
+    </string>
+    <string id="st_natasha_story_in_pos_walk">
+        <rus>Сейчас как раз иду туда. Планирую находиться там примерно около </rus>
+    </string>
+    <string id="st_natasha_story_meet_invite">
+        <rus> давай встретимся. </rus>
+    </string>
+    <string id="st_natasha_story_hours_two">
+        <rus>двух</rus>
+    </string>
+    <string id="st_natasha_story_hours_suffix">
+        <rus> часов.</rus>
+    </string>
+    <string id="st_natasha_story_verbed_agent">
+        <rus>Завербованный агент</rus>
+    </string>
+    <string id="st_natasha_story_shepot_name">
+        <rus>Шёпот</rus>
+    </string>
+    <string id="st_natasha_story_kot_name">
+        <rus>Кот</rus>
+    </string>
+    <string id="st_natasha_story_pda_give_1">
+        <rus>Ну здорово, шпион. Смотри, что нашёл. По твоей вроде части.</rus>
+    </string>
+    <string id="st_natasha_story_pda_give_2">
+        <rus>Привет. Нашёл ПДА, забирай на расшифровку.</rus>
+    </string>
+    <string id="st_natasha_story_pda_take_1">
+        <rus>Давай. Да, такие ПДА по моей части, не ошибся. Спасибо! Будут результаты - пришлю в личку, не проморгай.</rus>
+    </string>
+    <string id="st_natasha_story_pda_take_all">
+        <rus>Вот всё, что нашёл на данный момент. Буду ждать результатов.</rus>
+    </string>
+    <string id="st_natasha_story_pda_wait_old">
+        <rus>Не торопись, я ещё старые ПДА не расшифровал. Пока оставь их у себя, ладно? Я сообщу, как с текущими закончу.</rus>
+    </string>
+    <string id="st_natasha_story_shepot_pda_default">
+        <rus>Это Шёпот. Ковыряюсь тут с ПДА, есть различные зацепочки, но целой картины пока не составить. Нужно искать остальные. Если есть ещё ПДА - тащи их мне.</rus>
+    </string>
+    <string id="st_natasha_story_shepot_pda_intro">
+        <rus>Здорово, это Шёпот. Ну что, повозился я с тем, что ты притащил. Вот, что можно совершенно точно отметить - заметил цифры на задней крышке ПДА? Это их порядковые номера. Код (0х20) - это space, пробел. Выходит, что у нас коды расшифровываются как, например, (016 01 001), где первые три цифры - кол-во ПДА, вторые две цифры - номер группы, а остальные три - порядковый номер этого ПДА в группе. Я смог ломануть один из наладонников - оказывается, в Зону проникло четыре агента, и каждый курирует завербованной группой из ещё четырёх человек. Это могут быть вообще кто угодно, поэтому будь осторожен. Твоя задача - находить таких завербованных, снимать с них ПДА и приносить мне. Собрав все четыре штуки с одной группы, мы сможем выйти на управляющего куратора и устранить его. Как-то так.</rus>
+    </string>
+    <string id="st_natasha_story_shepot_group1_found">
+        <rus>Это Шёпот. Ну что, мы нашли все четыре ПДА из группы завербованных. Что мы имеем по итогу: агента зовут Оурен, позывной - Орлан. Британец, неплохо говорит по-русски. Судя по сообщениям из переписок в ПДА, в последний раз он был возле какого-то моста, что около города. Надеюсь, ты знаешь это место, ибо я что-то не смекну. В общем, отыщи его, а там и я подтянусь. Твоё местоположение вижу почти всегда, так что найду вас.</rus>
+    </string>
+    <string id="st_natasha_story_shepot_group2_found">
+        <rus>Это Шёпот. Ну что, есть инфа по очередному агенту. Благодаря собранным тобою ПДА, я смог выяснить, что у этого агента встреча с кем-то из-за периметра в Восточной части Припяти. Встреча скоро будет на первом этаже здания дома быта "Юбилейный". Увидимся там.</rus>
+    </string>
+    <string id="st_natasha_story_shepot_group3_found">
+        <rus>Привет, это Шёпот. В общем, есть информация по агенту. Имя - Фэлкон. Соколёнок он у нас, значит. Похоже, что он ведёт деятельность в одной из подземных лабораторий. В найденных ПДА идёт речь о каких-то пси-полях и искусственном мозге. Надеюсь, ты понял, где это.</rus>
+    </string>
+    <string id="st_natasha_story_shepot_group4_found">
+        <rus>Это Шёпот, привет. Похоже, что есть наводочка по очередному куратору. Он старается вербовать опытных сталкеров, насколько я понял. А где проще всего отыскать матёрого сталкерюгу? Правильно - в баре "100 Рентген". Дуй туда и жди меня. Запомни - только без Наташи. Они её знают. С ней провалим задание. Я тоже выдвигаюсь в ту сторону. И не дёргайся - никакой самодеятельности! Повторяю - жди меня без Наташи! На месте уже сориентируемся, что к чему.</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_1_1">
+        <rus>Ну вродё всё, с этим покончено.</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_1_2">
+        <rus>Красиво вышло! Уверен, что у него пол-башки снесло!</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_1_3">
+        <rus>Ты маньяк. Что дальше делаем?</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_1_4">
+        <rus>Понятно. Ладно, тогда пока что расход.</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_3_1">
+        <rus>Что со мной было? Фэлкон мёртв?</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_3_2">
+        <rus>Да, мёртв. Ты успел его достать прямо перед пси-ударом этих мозгов.</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_3_3">
+        <rus>Отлично. Что у нас дальше?</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_3_4">
+        <rus>Понял, тогда я дальше по своим делам. Будь на связи.</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_4_1">
+        <rus>Нашёлся-таки. Зашкерился он знатно.</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_4_2">
+        <rus>Ну ты сыщик! Красава! Только шуму подняли тут знатно.</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_4_3">
+        <rus>Ладно, у нас ещё много дел. Что делаем дальше?</rus>
+    </string>
+    <string id="st_natasha_story_agent_die_4_4">
+        <rus>Ясно. Ну, тогда пока расходимся. Не стоит на территории Бара много шуму поднимать, много лишних ушей.</rus>
+    </string>
+    <string id="st_natasha_story_agents_one_left">
+        <rus>Остался только один агент. Скоро всё закончится.</rus>
+    </string>
+    <string id="st_natasha_story_agents_remaining_prefix">
+        <rus>Осталось найти и устранить ещё </rus>
+    </string>
+    <string id="st_natasha_story_agents_remaining_suffix">
+        <rus> агентов.</rus>
+    </string>
+    <string id="st_natasha_story_signal_dbm_suffix">
+        <rus> дБм.</rus>
+    </string>
+    <string id="st_natasha_story_freedom_signal_prefix">
+        <rus>Сигнал группировки "Свободы"! Примерная дальность : </rus>
+    </string>
+    <string id="st_natasha_story_freedom_signal_suffix">
+        <rus> метров.</rus>
+    </string>
+    <string id="st_natasha_story_svyaz_name_unknown">
+        <rus>Имя не запомнил, но вот его ПДА</rus>
+    </string>
+    <string id="st_natasha_story_dlg_found_goat">
+        <rus>Ну что, нашёл я этого козла.</rus>
+    </string>
+    <string id="st_natasha_story_dlg_opa_na">
+        <rus>Опа-на! И кто это?</rus>
+    </string>
+    <string id="st_natasha_story_dlg_svyaz_dead_suffix">
+        <rus>. И он уже мертвец.</rus>
+    </string>
+    <string id="st_natasha_story_dlg_svyaz_who">
+        <rus>. Кто это такой?</rus>
+    </string>
+    <string id="st_natasha_story_dlg_svyaz_dead_reply">
+        <rus>Ёлки... Час от часу не легче. Ладно, я попытаюсь узнать о нём больше информации. Если что-то будет для тебя - сообщу.</rus>
+    </string>
+    <string id="st_natasha_story_dlg_svyaz_alive_reply">
+        <rus>О как. Это имя у меня пока не на слуху. Наведу о нём справки. Если будет что-то для тебя - сообщу.</rus>
+    </string>
+    <string id="st_natasha_story_dlg_give_pda">
+        <rus>Вот его ПДА, чтобы дело быстрее делалось. Очень надеюсь на твою помощь, Лукаш. Буду ждать вестей.</rus>
+    </string>
+    <string id="st_natasha_story_dlg_wait_lukash">
+        <rus>Очень надеюсь на твою помощь, Лукаш. Буду ждать вестей.</rus>
+    </string>
+</string_table>

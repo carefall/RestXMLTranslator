@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <string id="agr_pre_buy_car_task_hint">
+    <rus>Место поиска рюкзака</rus>
+  </string>
+  <string id="bar_room_inventory_box_task_hint">
+    <rus>Торговец</rus>
+  </string>
+  <string id="escape_lager_volk_first_task_hint">
+    <rus>Кабаны</rus>
+  </string>
+  <string id="agro_kill_night_bloodsucker_task_hint">
+    <rus>Логово кровососа</rus>
+  </string>
+
+</string_table>

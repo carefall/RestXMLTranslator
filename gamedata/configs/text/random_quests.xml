@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+           <string id="dc_first_bandit_dialog1_0">
+            <rus>Назови мне хоть одну причину тебя не пристрелить.</rus>
+        </string>
+           <string id="dc_first_bandit_dialog1_0_1">
+            <rus>Братан! Не стреляй! По-братски прошу! Помощь твоя нужна! У тебя есть аптечка?</rus>
+        </string>
+           <string id="dc_first_bandit_dialog1_1_1">
+            <rus>Есть. Что случилось?</rus>
+        </string>
+           <string id="dc_first_bandit_dialog1_1_2">
+            <rus>Нет, нету.</rus>
+        </string>
+           <string id="dc_first_bandit_dialog1_2">
+            <rus>Погнали за мной, у меня кореш ща кони двинет, скорей!</rus>
+        </string>
+           <string id="dc_first_bandit_dialog1_2_1">
+            <rus>Хрен с тобой, пошли. Но любой фокус — пристрелю. Веди.</rus>
+        </string>
+           <string id="dc_first_bandit_dialog1_5">
+            <rus>10000 руб.</rus>
+        </string>
+           <string id="dc_first_bandit_dialog1_3">
+            <rus>Да ты гонишь! Братан, я не развожу, моему корешу реально херово! Уже одной ногой на том свете!</rus>
+        </string>
+           <string id="dc_first_bandit_dialog1_3_1">
+            <rus>Реально нет аптечки, извини.</rus>
+        </string>
+           <string id="dc_first_bandit_dialog1_3_2">
+            <rus>Даже если бы была аптечка, то никогда бы вам, отморозкам, не отдал.</rus>
+        </string>
+        
+           <string id="second_bandit_alive_0">
+            <rus>Ну, вроде жив твой кореш, но ему срочно нужен нормальный врач.</rus>
+        </string>
+           <string id="second_bandit_alive_1">
+            <rus>Братан, это, спасибо тебе огромное! Не обессудь, дал бы чё-нить в благодарность, да по карманам реально голяк!</rus>
+        </string>
+           <string id="second_bandit_alive_2">
+            <rus>Забей, с Зоной сочтёмся. Просто будьте аккуратнее.</rus>
+        </string>
+           <string id="second_bandit_alive_3">
+            <rus>Само собой! Это, братан! Там дальше по дороге военные чё-то нюхали, ты там аккуратней тоже! Они ж ненормальные, сразу шмалять, а потом только вопросы задают! \nИ вот ещё, держи наводку на один тайничок. С жмура снял пару дней назад, должен быть там норм хабар, мля буду.</rus>
+        </string>
+           <string id="second_bandit_alive_4">
+            <rus>А вот это полезная информация, спасибо.</rus>
+        </string>
+           <string id="second_bandit_alive_5">
+            <rus>Да не за что, братан!</rus>
+        </string>
+
+           <string id="f_b_umer_0">
+            <rus>Я не смог ему помочь. Мне жаль.</rus>
+        </string>
+           <string id="f_b_umer_1">
+            <rus>Пашка... Да как так-то, а?! Ответь мне, какого хера нормальные мужики мрут, а падлы всякие годами ходят по Зоне и ничё?!</rus>
+        </string>
+           <string id="f_b_umer_2">
+            <rus>Да, есть такое дело... Эх, ладно, ничего уже не изменить, постарайся успокоиться.</rus>
+        </string>
+           <string id="f_b_umer_3">
+            <rus>Пашка... Как же ты так, братуха... Знаешь, откуда у него погремуха такая дебильная? Ещё во дворе с ним история была, как-то неудачно в шортах на корты присел, и...</rus>
+        </string>
+           <string id="f_b_umer_4">
+            <rus>Хех, понял, забавная история.</rus>
+        </string>
+           <string id="f_b_umer_5">
+            <rus>Ладно, братух, спасибо тебе... Дай мне время, нужно где-то похоронить по-человечески Пашку... Ступай, короче. И спасибо тебе ещё раз! Нормальных мужиков мало в Зоне осталось, а ты ровный дядя, уважуха.</rus>
+        </string>
+
+           <string id="injury_table_text1">
+            <rus>*Много крови под бандитом, пока непонятно откуда.*</rus>
+        </string>
+           <string id="injury_table_text2">
+            <rus>*Кровь хлещет из ноги, пулевое ранение. Задета вена.*</rus>
+        </string>
+           <string id="injury_table_text3">
+            <rus>*Сильный запах горелой ткани. Его знобит.*</rus>
+        </string>
+           <string id="injury_table_text4">
+            <rus>*Расплавленная одежда буквально прилипла к поврежденной коже. Жуткие раны, сильнейшие ожоги.*</rus>
+        </string>
+           <string id="injury_table_text5">
+            <rus>*Отчетливый запах гари. Местами видны почернения на одежде.*</rus>
+        </string>
+           <string id="injury_table_text6">
+            <rus>*Сильные точечные ожоги кожи во многих местах, одежда местами обгорела и почернела. ПДА бандита просто расплавило, странно. Парень будто молнию притянул.*</rus>
+        </string>
+           <string id="injury_table_text7">
+            <rus>*Много крови под бандитом, пока непонятно откуда.*</rus>
+        </string>
+           <string id="injury_table_text8">
+            <rus>*Кровь хлещет из-под одежды. Глянул внимательней - пулевое ранение в живот.*</rus>
+        </string>
+           <string id="injury_table_text9">
+            <rus>*Крови нет, визуально одежда цела.*</rus>
+        </string>
+           <string id="injury_table_text10">
+            <rus>*Крови по-прежнему нет, однако штаны на коленях подраны, на коже будто чьи-то укусы.*</rus>
+        </string>
+
+           <string id="bandit_hp_table_text1">
+            <rus>Пока держусь...</rus>
+        </string>
+           <string id="bandit_hp_table_text2">
+            <rus>(%c[255,0,255,4]пульс: хорошо ощутимый, ~90-100 у.в.м.%c[default])</rus>
+        </string>
+           <string id="bandit_hp_table_text3">
+            <rus>Не очень... Херово...</rus>
+        </string>
+           <string id="bandit_hp_table_text4">
+            <rus>(%c[255,168,227,185]пульс: пока ощутимый, учащённый, ~110-130 у.в.м.%c[default])</rus>
+        </string>
+           <string id="bandit_hp_table_text5">
+            <rus>А...</rus>
+        </string>
+           <string id="bandit_hp_table_text6">
+            <rus>(%c[255,160,160,160]пульс: слабый, редкий, ~40-60 у.в.м.%c[default])</rus>
+        </string>
+           <string id="bandit_hp_table_text7">
+            <rus>...</rus>
+        </string>
+           <string id="bandit_hp_table_text8">
+            <rus>(%c[255,255,128,128]пульс: едва ощутимый, у.в.м. измерить не получается.%c[default])</rus>
+        </string>
+           <string id="bandit_hp_table_text9">
+            <rus>...</rus>
+        </string>
+           <string id="bandit_hp_table_text10">
+            <rus>(%c[255,59,59,59]пульса нет.%c[default])</rus>
+        </string>
+           <string id="bandit_hp_table_text12">
+            <rus>(%c[255,59,59,59]пульса нет.%c[default])</rus>
+        </string>
+
+           <string id="tbl_of_osmotr_text1">
+            <rus>*Осмотреть бандита*</rus>
+        </string>
+           <string id="tbl_of_osmotr_text2">
+            <rus>*Осмотреть бандита внимательней*</rus>
+        </string>
+
+           <string id="tbl_of_talk_text1">
+            <rus>Живой?</rus>
+        </string>
+           <string id="tbl_of_talk_text2">
+            <rus>Ты с нами ещё?</rus>
+        </string>
+           <string id="tbl_of_talk_text3">
+            <rus>Жив ещё?</rus>
+        </string>
+           <string id="tbl_of_talk_text4">
+            <rus>Всё нормально?</rus>
+        </string>
+
+           <string id="dc_second_bandit_dialog1_text1">
+            <rus>*Распаковать аптечку, вколоть обезболевающее.*</rus>
+        </string>
+           <string id="dc_second_bandit_dialog1_text2">
+            <rus>*Найти рану и обработать антисептиком, наложить жгут.*</rus>
+        </string>
+           <string id="dc_second_bandit_dialog1_text3">
+            <rus>*Освободить кожу от одежды вокруг ран, обработать местной заморозкой.*</rus>
+        </string>
+           <string id="dc_second_bandit_dialog1_text4">
+            <rus>*Перебинтовать, заткнув рану спецсредством из аптечки.*</rus>
+        </string>
+           <string id="dc_second_bandit_dialog1_text5">
+            <rus>*Вколоть поддерживающие спецсредства из аптечки.*</rus>
+        </string>
+           <string id="dc_second_bandit_dialog1_text6">
+            <rus>*Вколоть спецсредство, препятствывающее быстрому распространению инфекции в крови.*</rus>
+        </string>
+           <string id="dc_second_bandit_dialog1_text7">
+            <rus>*Попытаться подробней исследовать рану.*</rus>
+        </string>
+</string_table>

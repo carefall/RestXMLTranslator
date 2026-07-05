@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+  <!--Модификаты из АМК-->
+  <string id="af_spirit_1">
+    <rus>"Капля души"</rus>
+  </string>
+  <string id="enc_zone_artifact_spirit_1">
+    <rus>Модификат улучшает здоровье, повышает радиозащиту и неплохо выводит радиацию из организма. Главный недостаток — значительно снижает ударные воздействия, пулестойкость и разрыв. Повышает утомляемость человека.</rus>
+  </string>
+  <string id="af_spirit_2">
+    <rus>"Огненная душа"</rus>
+  </string>
+  <string id="enc_zone_artifact_spirit_2">
+    <rus>Этот мезомодификат сохраняет (и даже немного повышает) свойства "Капли души" — улучшая здоровье и радиозащиту. Немного лучше выводит радиацию. В то же время, снижает ударные воздействия, пулестойкость и разрыв. Повышает утомляемость человека.</rus>
+  </string>
+  <string id="af_spirit_3">
+    <rus>"Кристальная душа"</rus>
+  </string>
+  <string id="enc_zone_artifact_spirit_3">
+    <rus>Данный гипермодификат сохраняет свойства своего класса по улучшению здоровья, защиты от радиации и вывода радиации из организма. Немного снижает утомляемость человека, относительно снижает пулестойкость, разрыв и ударные воздействия.</rus>
+  </string>
+  <string id="af_spirit_4">
+    <rus>"Кристальная душа Бенгала"</rus>
+  </string>
+  <string id="enc_zone_artifact_spirit_4">
+    <rus>Данный абсолют по-прежнему имеет радиозащиту, значительно улучшает здоровье, ликвидирует кровотечения и быстро выводит радиацию из организма. При этом, в отличие от своих "собратьев", имеет только положительные характеристики. Очень ценится на рынке как в самой Зоне, так и вне её.</rus>
+  </string>
+  <string id="af_cry_1">
+    <rus>"Слёзы электры"</rus>
+  </string>
+  <string id="enc_zone_artifact_cry_1">
+    <rus>Модификат неплохо выводит из человеческого организма радиацию, а также снижает носящему его на поясе человеку выносливость.</rus>
+  </string>
+  <string id="af_cry_2">
+    <rus>"Слёзы огня"</rus>
+  </string>
+  <string id="enc_zone_artifact_cry_2">
+    <rus>Этот мезомодификат кроме того, что хорошо выводит из организма радиацию, так ещё полезен тем, что блокирует часть пси-излучения. Отрицательные характеристики "Слёз огня" — плохое заживление ран.</rus>
+  </string>
+  <string id="af_cry_3">
+    <rus>"Слёзы химеры"</rus>
+  </string>
+  <string id="enc_zone_artifact_cry_3">
+    <rus>В отличии от "Слёзы огня", этот гипермодификат куда лучше выводит радиацию из организма. Также артефакт лучше блокирует пси-излучение, но ухудшает самочувствия человека.</rus>
+  </string>
+  <string id="af_cry_4">
+    <rus>"Чёрные слёзы"</rus>
+  </string>
+  <string id="enc_zone_artifact_cry_4">
+    <rus>Данный абсолют максимально эффективно в своём классе блокирует пси-излучение, но хуже выводит радиацию, кроме того, незначительно улучшает здоровье и залечивает раны.</rus>
+  </string>
+  <string id="af_babka_1">
+    <rus>"Бабкины бусы"</rus>
+  </string>
+  <string id="enc_zone_artifact_babka_1">
+    <rus>Полученный модификат генерирует темпоральное поле, довольно значимо замедляющее скорость попадающих в него пуль и осколков, тем самым защищая человека от критических ранений. Немного радиоактивен и уменьшает стойкость к электрошоку.</rus>
+  </string>
+  <string id="af_babka_2">
+    <rus>"Бусы прабабки"</rus>
+  </string>
+  <string id="enc_zone_artifact_babka_2">
+    <rus>"Бусы прабабки" имеют несколько лучший показатель стойкости к пулевым повреждениям относительно "Бабкиных бус" за счёт усиления темпорального поля. При этом не стоит забывать, что данный мезомодификат довольно радиоактивен.</rus>
+  </string>
+  <string id="af_babka_3">
+    <rus>"Бусы бабки бюрера"</rus>
+  </string>
+  <string id="enc_zone_artifact_babka_3">
+    <rus>Уникальный гипермодификат. Его темпоральное поле крайне сильное и имеет большой радиус, поэтому человек, носящий "Бусы бабки бюрера" на поясе, имеет довольно большой шанс остаться в живых даже при попадании в него из СВД. При этом артефакт имеет сильный радиационный фон.</rus>
+  </string>
+  <string id="af-babka_4">
+    <rus>"Бусы прабабки бюрера"</rus>
+  </string>
+  <string id="enc_zone_artifact_af-babka_4">
+    <rus>Абсолют, генерирующий максимально мощное темпоральное поле в своём классе, за счёт которого происходит увеличение устойчивости хозяина артефакта к пулевым ранениям и урону от взрывов.</rus>
+  </string>
+  <string id="af_pudd_1">
+    <rus>"Огненная пружина"</rus>
+  </string>
+  <string id="enc_zone_artifact_pudd_1">
+    <rus>Данный модификат, кроме снижения негативного влияния ударных воздействий, увеличивает носящему его на поясе человеку выносливость. Но при этом делает организм более подверженным к воздействию аномалии "Электра". Умеренно радиоактивен.</rus>
+  </string>
+  <string id="af_pudd_2">
+    <rus>"Яркая пружина"</rus>
+  </string>
+  <string id="enc_zone_artifact_pudd_2">
+    <rus>Предмет дальнейшей эволюции "Огненной пружины" это "Яркая пружина". Артефакт ослабляет подверженность организма к электрошоку и ещё больше повышает выносливость. Единственное, что остаётся у данного мезомодификата неизменным — снижение негативного влияния ударных воздействий. Слабо радиоактивен.</rus>
+  </string>
+  <string id="af_pudd_3">
+    <rus>"Лунная пружина"</rus>
+  </string>
+  <string id="enc_zone_artifact_pudd_3">
+    <rus>Гипермодификат неплохо нейтрализует влияние ударных аномалий, ощутимо повышает выносливость, но по-прежнему чувствителен к электрошоку. Слабо радиоактивен.</rus>
+  </string>
+  <string id="af_pudd_4">
+    <rus>"Пудинг"</rus>
+  </string>
+  <string id="enc_zone_artifact_pudd_4">
+    <rus>Данный абсолют хорошо нейтрализует ударные воздействия и электрошок, к тому же значительно повышает выносливость.</rus>
+  </string>
+  <string id="af_dik_1">
+    <rus>"Дикобраз"</rus>
+  </string>
+  <string id="enc_zone_artifact_dik_1">
+    <rus>Несмотря на то, что этот модификат очень прост, "Дикобраз" обладает приличным уровнем блокировки радиоактивного излучения! Это, собственно, единственное его положительное качество, так как модификат снижает выносливость и имеет плохое заживление ран, что является довольно скромной платой за возможность бродить по заражённым землям, не боясь получить смертельную дозу радиации.</rus>
+  </string>
+  <string id="af_dik_2">
+    <rus>"Электрический дикобраз"</rus>
+  </string>
+  <string id="enc_zone_artifact_dik_2">
+    <rus>Мезомодификат обладает редчайшим показателем блокирования радиации, снижает утомляемость человека, но, к сожалению, увеличивает чувствительность к электрошоку. Кроме того, немного защищает от телепатического воздействия.</rus>
+  </string>
+  <string id="af_dik_3">
+    <rus>"Сопливый дикобраз"</rus>
+  </string>
+  <string id="enc_zone_artifact_dik_3">
+    <rus>"Сопливый дикобраз" имеет редкий показатель по защите от радиации, позволяя человеку, надевшему на пояс этот гипермодификат, длительное время без негативных последствий находиться в зоне ядерного загрязнения. Помимо этого, он также повышает выносливость своего носителя. Неприятной стороной "Сопливого дикобраза" является то, что он увеличивает интенсивность потоотделения — что может привести к обезвоживанию. К тому же его неудобно носить из-за всё время сочащейся слизи — субстанция безвредная, но до жути неприятная. Несмотря на свою непрезентабельность, гипермодификат очень ценится в Зоне.</rus>
+  </string>
+  <string id="af_dik_4">
+    <rus>"Каменный дикобраз"</rus>
+  </string>
+  <string id="enc_zone_artifact_dik_4">
+    <rus>Данный абсолют снижает дозу радиации, полученную человеком, более чем в 2 раза. Помимо этого редчайшего качества, "Каменный дикобраз" снижает чувствительность человека к электрошоку и повышает выносливость. Очень ценится не только учёными, но и среди сталкеров.</rus>
+  </string>
+  <string id="af_kol_1">
+    <rus>"Стальной колобок"</rus>
+  </string>
+  <string id="enc_zone_artifact_kol_1">
+    <rus>Данный модификат ощутимо уменьшает чувствительность кожи к разрыву. Качество замечательное и абсолютно не изученное учёными. К сожалению, радиоактивен.</rus>
+  </string>
+  <string id="af_kol_2">
+    <rus>"Титановый колобок"</rus>
+  </string>
+  <string id="enc_zone_artifact_kol_2">
+    <rus>Этот мезомодификат ещё эффективнее, в отличие от "Стального колобка", уменьшает чувствительность кожи к разрыву. К сожалению, радиоактивен. </rus>
+  </string>
+  <string id="af_kol_3">
+    <rus>"Алмазный колобок"</rus>
+  </string>
+  <string id="enc_zone_artifact_kol_3">
+    <rus>"Алмазный колобок" придаёт коже носящего его человека значительную стойкость к разрыву. Минусом же этого довольно полезного гипермодификата является то, что он испускает слабое радиационное излучение.</rus>
+  </string>
+  <string id="af_kol_4">
+    <rus>"Младший брат гиганта"</rus>
+  </string>
+  <string id="enc_zone_artifact_kol_4">
+    <rus>Этот занятный абсолют уменьшает чувствительность кожи носящего к разрыву. Имеет небольшую защиту от радиации.</rus>
+  </string>
+  <string id="af_armor_1">
+    <rus>"Шкура"</rus>
+  </string>
+  <string id="enc_zone_artifact_armor_1">
+    <rus>Модификат уменьшает восприимчивость к воздействию любой химически агрессивной среды и защищает носителя от ожогов. Радиоактивен.</rus>
+  </string>
+  <string id="af_armor_2">
+    <rus>"Чешуя"</rus>
+  </string>
+  <string id="enc_zone_artifact_armor_2">
+    <rus>Мезомодификат "Чешуя" уменьшает воздействие на человека химически агрессивных сред и защищает его от ожогов. При этом радиоактивен.</rus>
+  </string>
+  <string id="af_armor_3">
+    <rus>"Панцирь"</rus>
+  </string>
+  <string id="enc_zone_artifact_armor_3">
+    <rus>"Панцирь", у носящего его человека, нейтрализует большую часть химически агрессивных сред при их контакте с кожей носителя и защищает его от ожогов. Единственным отрицательным качеством является излучение небольшого радиационного фона.</rus>
+  </string>
+  <string id="af_armor_4">
+    <rus>"Скальп контролёра"</rus>
+  </string>
+  <string id="enc_zone_artifact_armor_4">
+    <rus>Этот абсолют снижает повреждения от агрессивных химических сред и защищает от ожогов, а также снижает потребность человека в еде и очень хорошо экранирует пси-излучение.</rus>
+  </string>
+  
+  <!--Рубиновые арты-->
+  <string id="af_dummy_glassbeads">
+    <rus>"Рубиновые бусы"</rus>
+  </string>
+  <string id="af_dummy_glassbeads_red">
+    <rus>Редкий артефакт, по виду напоминает обычные "Мамины бусы", но красного цвета. Радиоактивен, излучает свет. Обладает эффектом быстрого залечивания ран, защиты от разрыва и пулевых ранений. \nАртефакт "Рубиновые бусы" может ликвидировать аномалии "Снежная" и "Пузырь".</rus>
+  </string>
+  <string id="af_medusa">
+    <rus>"Рубиновая медуза"</rus>
+  </string>
+  <string id="af_medusa_red">
+    <rus>Редкий артефакт, по виду напоминает обычную "Медузу", но красного цвета. Радиоактивен, излучает свет. Наделяет носителя стойкостью к телепатии, утоляет его чувство жажды и защищает от пулевых ранений. \nАртефакт "Рубиновая медуза" может ликвидировать аномалию "Жарка".</rus>
+  </string>
+  <string id="af_vyvert">
+    <rus>"Рубиновый выверт"</rus>
+  </string>
+  <string id="af_vyvert_red">
+    <rus>Редкий артефакт, по виду напоминает обычный "Выверт", но красного цвета. Радиоактивен, излучает свет. Наделяет носящего повышенной устойчивостью к осколочным и ударным воздействиям, утоляет его чувство голода. \nАртефакт "Рубиновый выверт" может ликвидировать аномалию "Холодец".</rus>
+  </string>
+  <string id="af_pellicle">
+    <rus>"Рубиновая плёнка"</rus>
+  </string>
+  <string id="af_pellicle_red">
+    <rus>Редкий артефакт, по виду напоминает обычную "Плёнку", но красного цвета. Радиоактивен, излучает свет. Делает носителя устойчивым к пси-излучению, немного защищает от воздействий аномалий, а также утоляет чувство голода носящего. \nАртефакт "Рубиновая плёнка" может ликвидировать аномалию "Трамплин".</rus>
+  </string>
+  <string id="af_dummy_spring">
+    <rus>"Рубиновая пружина"</rus>
+  </string>
+  <string id="af_dummy_spring_red">
+    <rus>Редкий артефакт, по виду напоминает обычную "Пружину", но красного цвета. Радиоактивен, излучает свет. Защищает от ударных воздействий, восстанавливает здоровье и силы. \nАртефакт "Рубиновая пружина" может ликвидировать аномалию "Карусель".</rus>
+  </string>
+  <string id="af_dummy_battery">
+    <rus>"Рубиновая батарейка"</rus>
+  </string>
+  <string id="af_dummy_battery_red">
+    <rus>Редкий артефакт, по виду напоминает обычную "Батарейку", но красного цвета. Радиоактивен, излучает свет. Обладает эффектом быстрого залечивания ран, восстанавливает силы, защищает от воздействия электроаномалий. \nАртефакт "Рубиновая батарейка" может ликвидировать аномалии "Электра" и "Воронка".</rus>
+  </string>
+  
+  <!--Булыжники-->
+  <string id="af_buliz">
+    <rus>"Булыжник"</rus>
+  </string>
+  <string id="enc_zone_artifact_buliz">
+    <rus>Артефакт, который в результате энергетического коллапса потерял все свои свойства, называется "Булыжником". К сожалению или счастью, этот камень не имеет никаких негативных или положительных свойств.</rus>
+  </string>
+  <string id="af_buliz_izumrud">
+    <rus>"Изумрудный булыжник"</rus>
+  </string>
+  <string id="enc_zone_artifact_buliz_izumrud">
+    <rus>Модификат "Булыжника", полученный из аномалии "Холодец". Оказывает небольшое антигравитационное воздействие на человека, позволяя дополнительно переносить небольшой вес, но крайне негативно сказывается на выносливости носящего.</rus>
+  </string>
+<string id="af_buliz_rubin">
+    <rus>"Рубиновый булыжник"</rus>
+  </string>
+  <string id="enc_zone_artifact_buliz_rubin">
+    <rus>Данный мезомодификат более эффективен, чем его предшественник. Является источником средней антигравитационной энергии, что позволяет дополнительно переносить больший вес, но всё ещё существенно ускоряет утомляемость носителя.</rus>
+  </string>
+    <string id="af_buliz_almaz">
+    <rus>"Алмазный булыжник"</rus>
+  </string>
+  <string id="enc_zone_artifact_buliz_almaz">
+    <rus>Гипермодификат продолжает эволюционировать и улучшать свои показатели. Является источником высокой антигравитационной энергии, что позволяет дополнительно переносить ощутимо больший вес, но по-прежнему ускоряет утомляемость носителя.</rus>
+  </string>
+  <string id="af_buliz_radon">
+    <rus>"Радоновый булыжник"</rus>
+  </string>
+  <string id="enc_zone_artifact_buliz_radon">
+    <rus>Из всей линейки "Булыжников", этот абсолют обладает самой сильной антигравитационной энергией и не имеет негативных свойств. Ценится как среди сталкеров в практическом плане, так и среди учёных в плане научном.</rus>
+  </string>
+
+  <!-- Encyclopedia artmod / amk recipts titles -->
+  <string id="enc_artmod_mincer_meat_mosquito_bald_name">
+    <rus>Ломоть мяса из Трамплина</rus>
+  </string>
+  <string id="enc_artmod_electra_sparkler_mosquito_bald_name">
+    <rus>Бенгальский огонь из Трамплина</rus>
+  </string>
+  <string id="enc_artmod_ameba_slug_mosquito_bald_name">
+    <rus>Слизняк из Трамплина</rus>
+  </string>
+  <string id="enc_artmod_cristall_mosquito_bald_name">
+    <rus>Кристалл из Трамплина</rus>
+  </string>
+  <string id="enc_artmod_rusty_sea-urchin_mosquito_bald_name">
+    <rus>Морской ёж из Трамплина</rus>
+  </string>
+  <string id="enc_artmod_rusty_sea_urchin_sphere_name">
+    <rus>Морской ёж из Пузыря</rus>
+  </string>
+  <string id="enc_artmod_dummy_dummy_mosquito_bald_name">
+    <rus>Пустышка из Трамплина</rus>
+  </string>
+  <string id="enc_artmod_dummy_dummy_gravi_zone_name">
+    <rus>Пустышка из Воронки</rus>
+  </string>
+  <string id="enc_artmod_ameba_slug_gravi_zone_name">
+    <rus>Слизняк из Воронки</rus>
+  </string>
+  <string id="enc_artmod_ameba_slime_gravi_zone_name">
+    <rus>Слизь из Воронки</rus>
+  </string>
+  <string id="enc_artmod_electra_flash_gravi_zone_name">
+    <rus>Вспышка из Воронки</rus>
+  </string>
+  <string id="enc_artmod_night_star_gravi_zone_name">
+    <rus>Ночная звезда из Воронки</rus>
+  </string>
+  <string id="enc_artmod_soul_gravi_zone_name">
+    <rus>Душа из Воронки</rus>
+  </string>
+  <string id="enc_artmod_dummy_pellicle_gravi_zone_name">
+    <rus>Плёнка из Воронки</rus>
+  </string>
+  <string id="enc_artmod_cristall_flower_mincer_name">
+    <rus>Каменный цветок из Карусели</rus>
+  </string>
+  <string id="enc_artmod_af_blood_mincer_name">
+    <rus>Кровь камня из Карусели</rus>
+  </string>
+  <string id="enc_artmod_blood_gravi_zone_name">
+    <rus>Кровь камня из Воронки</rus>
+  </string>
+  <string id="enc_artmod_drops_mincer_name">
+    <rus>Капля из Карусели</rus>
+  </string>
+  <string id="enc_artmod_drops_zharka_name">
+    <rus>Капля из Жарки</rus>
+  </string>
+  <string id="enc_artmod_rusty_kristall_mincer_name">
+    <rus>Кристальная колючка из Карусели</rus>
+  </string>
+  <string id="enc_artmod_electra_moonlight_mincer_name">
+    <rus>Лунный свет из Карусели</rus>
+  </string>
+  <string id="enc_artmod_ameba_slug_mincer_name">
+    <rus>Слюда из Карусели</rus>
+  </string>
+  <string id="enc_artmod_dummy_glassbeads_mincer_name">
+    <rus>Мамины бусы из Карусели</rus>
+  </string>
+  <string id="enc_artmod_dummy_glassbeads_mosquito_bald_name">
+    <rus>Мамины бусы из Трамплина</rus>
+  </string>
+  <string id="enc_artmod_rusty_kristall_buzz_name">
+    <rus>Кристальная колючка из Холодца</rus>
+  </string>
+  <string id="enc_artmod_rusty_thorn_buzz_name">
+    <rus>Колючка из Холодца</rus>
+  </string>
+  <string id="enc_artmod_rusty_thorn_sphere_name">
+    <rus>Колючка из Пузыря</rus>
+  </string>
+  <string id="enc_artmod_fireball_buzz_name">
+    <rus>Огненный шар из Холодца</rus>
+  </string>
+  <string id="enc_artmod_cristall_buzz_name">
+    <rus>Кристалл из Фонтана</rus>
+  </string>
+  <string id="enc_artmod_night_star_buzz_name">
+    <rus>Золотая рыбка из Холодца</rus>
+  </string>
+  <string id="enc_artmod_fuzz_kolobok_buzz_name">
+    <rus>Колобок из Холодца</rus>
+  </string>
+  <string id="enc_artmod_electra_flash_zharka_name">
+    <rus>Вспышка из Жарки</rus>
+  </string>
+  <string id="enc_artmod_ameba_slime_zharka_name">
+    <rus>Слизь из Жарки</rus>
+  </string>
+  <string id="enc_artmod_gravi_zharka_name">
+    <rus>Грави из Жарки</rus>
+  </string>
+  <string id="enc_artmod_night_star_zharka_name">
+    <rus>Ночная звезда из Жарки</rus>
+  </string>
+  <string id="enc_artmod_electra_moonlight_zharka_name">
+    <rus>Лунный свет из Жарки</rus>
+  </string>
+  <string id="enc_artmod_dummy_battery_zharka_name">
+    <rus>Батарейка из Жарки</rus>
+  </string>
+  <string id="enc_artmod_dummy_battery_galant_name">
+    <rus>Батарейка из Электры</rus>
+  </string>
+  <string id="enc_artmod_fireball_galant_name">
+    <rus>Огненный шар из Электры</rus>
+  </string>
+  <string id="enc_artmod_cristall_flower_galant_name">
+    <rus>Каменный цветок из Электры</rus>
+  </string>
+  <string id="enc_artmod_ameba_mica_galant_name">
+    <rus>Слюда из Электры</rus>
+  </string>
+  <string id="enc_artmod_electra_moonlight_galant_name">
+    <rus>Душа из Электры</rus>
+  </string>
+  <string id="enc_artmod_gold_fish_galant_name">
+    <rus>Золотая рыбка из Электры</rus>
+  </string>
+  <string id="enc_artmod_medusa_galant_name">
+    <rus>Медуза из Электры</rus>
+  </string>
+  <string id="enc_artmod_vyvert_buzz_name">
+    <rus>Выверт из Холодца</rus>
+  </string>
+  <string id="enc_artmod_vyvert_mosquito_bald_name">
+    <rus>Выверт из Трамплина</rus>
+  </string>
+  <string id="enc_artmod_dummy_spring_galant_name">
+    <rus>Пружина из Электры</rus>
+  </string>
+  <string id="enc_artmod_electra_sparkler_galant_name">
+    <rus>Бенгальский огонь из Электры</rus>
+  </string>
+  <string id="enc_artmod_gravi_sphere_name">
+    <rus>Грави из Пузыря</rus>
+  </string>
+  <string id="enc_artmod_medusa_mosquito_bald_name">
+    <rus>Медуза из Трамплина</rus>
+  </string>
+  <string id="enc_artmod_dummy_spring_zharka_name">
+    <rus>Пружина из Жарки</rus>
+  </string>
+  <string id="enc_artmod_fuzz_kolobok_ice_name">
+    <rus>Колобок из Снежной</rus>
+  </string>
+  <string id="enc_info_artmod_vyvert_buzz_name">
+    <rus>Выверт из Холодца</rus>
+  </string>
+  <string id="amk_recipt_stone_dikoobraz_1_name">
+    <rus>Записи на флешке психа</rus>
+  </string>
+  <string id="amk_recipt_stone_dikoobraz_2_name">
+    <rus>Записи на ПДА психа</rus>
+  </string>
+  <string id="amk_recipt_steel_kolobok_name">
+    <rus>Данные о Cтальном Колобке</rus>
+  </string>
+  <string id="amk_recipt_titan_kolobok_name">
+    <rus>Запись на ПДА наёмника</rus>
+  </string>
+  <string id="amk_recipt_almaz_kolobok_name">
+    <rus>Данные от Круглова</rus>
+  </string>
+  <string id="amk_recipt_controller_skalp_name">
+    <rus>Запись в КПК монолитовца</rus>
+  </string>
+  <string id="amk_recipt_souls_name">
+    <rus>Сообщение от Повара</rus>
+  </string>
+  <string id="amk_recipt_tears_electra_name">
+    <rus>Данные от Сахарова (1)</rus>
+  </string>
+  <string id="amk_recipt_tears_fire_name">
+    <rus>Данные от Сахарова (2)</rus>
+  </string>
+  <string id="amk_recipt_tears_chimaera_name">
+    <rus>Данные от Сахарова (3)</rus>
+  </string>
+  <string id="amk_recipt_tears_black_name">
+    <rus>Данные от Сахарова (4)</rus>
+  </string>
+  <string id="amk_recipt_grandmother_glassbeards_name">
+    <rus>Данные от Долга</rus>
+  </string>
+  <string id="amk_recipt_pra_grandmother_glassbeards_name">
+    <rus>Данные от Сидоровича</rus>
+  </string>
+  <string id="amk_recipt_burer_grandmother_glassbeards_name">
+    <rus>Разговор с дезертиром</rus>
+  </string>
+  <string id="amk_recipt_dikoobraz_name">
+    <rus>Данные от информатора</rus>
+  </string>
+  <string id="amk_recipt_electra_dikoobraz_name">
+    <rus>Потерянные данные Скряги</rus>
+  </string>
+  <string id="amk_recipt_sopl_dikoobraz_name">
+    <rus>Данные от раненого</rus>
+  </string>
+  <string id="amk_recipt_giant_small_brother_name">
+    <rus>Данные командира Заслона</rus>
+  </string>
+  <string id="amk_recipt_shkura_name">
+    <rus>Бумаги с Болот</rus>
+  </string>
+  <string id="amk_recipt_cheshya_name">
+    <rus>Данные от Воронина</rus>
+  </string>
+  <string id="amk_recipt_pancir_name">
+    <rus>Данные с Янтаря</rus>
+  </string>
+  <string id="amk_recipt_simbion_name">
+    <rus>Запись из Х-18</rus>
+  </string>
+  <string id="amk_recipt_dummy_name">
+    <rus>Запись из Х-16</rus>
+  </string>
+  <string id="recipi_bpb_name">
+    <rus>Записка Сепатора</rus>
+  </string>
+</string_table>
