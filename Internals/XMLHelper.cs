@@ -44,7 +44,8 @@ namespace RestXMLTranslator.Internals
                     XDocument doc = XDocument.Parse(wrapped);
                     if (!doc.Root!.Elements("string").Any())
                     {
-                        throw new Exception("Некорректные данные в буфере обмена");
+                        MessageBox.Show(Locale.Get("data_not_xml"), Locale.Get("xml_load_fail"), MessageBoxButton.OK, MessageBoxImage.Warning);
+                        return [];
                     }
                     return ParseStrings(doc.Root!.Elements("string"));
                 }
@@ -91,11 +92,32 @@ namespace RestXMLTranslator.Internals
             }
 
             public string Id { get; set; } = "";
-            public string Ru { get; set; } = "";
 
-            public string Eng { get; set; } = "";
+            private string _ru = "";
+            public string Ru
+            {
+                get => _ru; set
+                {
+                    _ru = value;
+                    OnPropertyChanged();
+                    OnPropertyChanged(nameof(HasRuChanges));
+                    OnPropertyChanged(nameof(HasChanges));
+                }
+            }
 
-            private string _newEng;
+            private string _eng = "";
+            public string Eng
+            {
+                get => _eng; set
+                {
+                    _eng = value;
+                    OnPropertyChanged();
+                    OnPropertyChanged(nameof(HasEngChanges));
+                    OnPropertyChanged(nameof(HasChanges));
+                }
+            }
+
+            private string _newEng = "";
             public string NewEng
             {
                 get => _newEng;
@@ -103,10 +125,12 @@ namespace RestXMLTranslator.Internals
                 {
                     _newEng = value;
                     OnPropertyChanged();
+                    OnPropertyChanged(nameof(HasEngChanges));
+                    OnPropertyChanged(nameof(HasChanges));
                 }
             }
 
-            private string _newRu;
+            private string _newRu = "";
 
 
             public string NewRu
@@ -116,6 +140,8 @@ namespace RestXMLTranslator.Internals
                 {
                     _newRu = value;
                     OnPropertyChanged();
+                    OnPropertyChanged(nameof(HasRuChanges));
+                    OnPropertyChanged(nameof(HasChanges));
                 }
             }
 

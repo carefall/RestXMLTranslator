@@ -8,9 +8,9 @@
     Title="RestXMLTranslator - Перевод"
     Width="1243"
     Height="720"
-    Closing="Window_Closing"
     FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
     PreviewKeyDown="Window_PreviewKeyDown"
+    ResizeMode="CanResizeWithGrip"
     mc:Ignorable="d">
     <Window.Resources>
         <local:DynamicLoc x:Key="Loc" />
@@ -171,10 +171,7 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                <StackPanel
-                    Grid.Row="0"
-                    Height="25"
-                    Orientation="Horizontal">
+                <StackPanel Grid.Row="0" Orientation="Horizontal">
                     <Button
                         x:Name="Save"
                         MinWidth="160"
@@ -213,22 +210,18 @@
                         Padding="5,0,5,0"
                         Click="LoadBufferTranslation_Click"
                         Content="Загрузить перевод из буфера" />
+                    <Border BorderBrush="Black" BorderThickness="2">
+                        <TextBlock
+                            x:Name="Status"
+                            MinWidth="180"
+                            Margin="5,0,5,0"
+                            Padding="5"
+                            HorizontalAlignment="Right"
+                            FontSize="16"
+                            FontWeight="SemiBold"
+                            TextAlignment="Center" />
+                    </Border>
                 </StackPanel>
-                <Border
-                    Grid.Row="0"
-                    HorizontalAlignment="Right"
-                    BorderBrush="Black"
-                    BorderThickness="1">
-                    <TextBlock
-                        x:Name="Status"
-                        MinWidth="180"
-                        Margin="5,0,5,0"
-                        Padding="5"
-                        HorizontalAlignment="Right"
-                        FontSize="16"
-                        FontWeight="SemiBold"
-                        TextAlignment="Center" />
-                </Border>
                 <!--  FILTERS  -->
                 <Grid
                     Grid.Row="1"
@@ -270,7 +263,7 @@
                         HorizontalAlignment="Stretch">
                         <TextBox
                             x:Name="SearchBox"
-                            Padding="0,0,5,0"
+                            Padding="20,0,5,0"
                             VerticalContentAlignment="Center"
                             TextChanged="SearchBox_TextChanged" />
 

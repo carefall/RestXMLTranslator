@@ -8,6 +8,7 @@
     <UseWPF>true</UseWPF>
     <ApplicationIcon>appIcon.ico</ApplicationIcon>
     <AssemblyTitle>RestXMLTranslator</AssemblyTitle>
+	<ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>

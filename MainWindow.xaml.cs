@@ -41,6 +41,37 @@ namespace RestXMLTranslator
                 Entries = LoadStrings(xml);
             }
 
+            public void WriteToDisk(List<StringEntry> entries)
+            {
+                FilePath = Settings.GetInstance().gamedataPath + "/gamedata/configs/" + RelativePath;
+                Entries = new ObservableCollection<StringEntry>(entries);
+                string dir = Path.GetDirectoryName(FilePath)!;
+                if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
+                XDocument doc = new(new XElement("string_table"));
+                if (File.Exists(FilePath)) doc = XDocument.Load(FilePath);
+                var index = doc.Root!.Elements("string").ToDictionary(x => (string)x.Attribute("id")!);
+                foreach (var entry in entries)
+                {
+                    if (!index.TryGetValue(entry.Id!, out var stringElement))
+                    {
+                        stringElement = new XElement("string", new XAttribute("id", entry.Id!));
+                        doc.Root.Add(stringElement);
+                        index[entry.Id!] = stringElement;
+                    }
+                    var node = doc.Root!;
+                    var rus = node.Element("rus");
+                    string text1 = EncodeMultiline(entry.Ru);
+                    if (rus == null) node.Add(new XElement("rus", text1));
+                    else rus.Value = text1;
+                    var eng = node.Element("eng");
+                    string text2 = EncodeMultiline(entry.Eng);
+                    if (eng == null) node.Add(new XElement("eng", text2));
+                    else eng.Value = text2;
+                }
+                using var writer = XmlWriter.Create(FilePath, settings);
+                doc.Save(writer);
+            }
+
             public bool HasApprovedChanges => Entries.Where(e => e.IsApproved).Any();
 
             public bool HasChanges => Entries.Where(e => e.HasChanges).Any();
@@ -54,13 +85,13 @@ namespace RestXMLTranslator
 
         public static Action? OnShutdown;
 
-        private readonly XmlWriterSettings settings = new()
+        private readonly static XmlWriterSettings settings = new()
         {
             Encoding = Encoding.GetEncoding(1251),
             Indent = true
         };
 
-        private readonly JsonSerializerOptions options = new()
+        private readonly static JsonSerializerOptions options = new()
         {
             PropertyNameCaseInsensitive = true,
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
@@ -77,7 +108,7 @@ namespace RestXMLTranslator
             var files = Directory.GetFiles(path, "*", SearchOption.AllDirectories);
             foreach (var file in files)
             {
-                Files.Add(new FileTab(file, file.Replace(path, "")[1..], true));
+                Files.Add(new FileTab(file, file.Replace(path, "")[1..].Replace("\\", "/"), true));
             }
             if (Files.Count == 0)
             {
@@ -85,10 +116,7 @@ namespace RestXMLTranslator
                 OnShutdown?.Invoke();
                 return;
             }
-            if (!online)
-            {
-                ApplyChanges();
-            }
+            ApplyChanges();
             Save.Content = Locale.Get("btn_commit");
             SaveLocal.Content = Locale.Get("btn_save_file");
             SaveAllLocal.Content = Locale.Get("btn_save_all");
@@ -100,9 +128,9 @@ namespace RestXMLTranslator
             SyncTitle.Text = Locale.Get("sync_title");
             SearchPlaceholder.Text = Locale.Get("search_placeholder");
             NewEngColumn.Header = Locale.Get("new_eng");
-            NewRuColumn.Header = Locale.Get("new_ru");
+            NewRuColumn.Header = Locale.Get("new_rus");
             EngColumn.Header = Locale.Get("eng");
-            RuColumn.Header = Locale.Get("ru");
+            RuColumn.Header = Locale.Get("rus");
             StatusColumn.Header = Locale.Get("translation_status");
             var dloc = new DynamicLoc();
             dloc.Init(Locale.Get("btn_approve"), Locale.Get("tip_approve"), Locale.Get("btn_decline"), Locale.Get("tip_decline"));
@@ -188,7 +216,7 @@ namespace RestXMLTranslator
 
         private void LoadBufferTranslation_Click(object sender, RoutedEventArgs e)
         {
-            if (!Clipboard.ContainsText())
+            if (!Clipboard.ContainsText() || Clipboard.GetText().Trim() == "")
             {
                 MessageBox.Show(Locale.Get("clipboard_empty"), Locale.Get("translation"), MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
@@ -236,6 +264,7 @@ namespace RestXMLTranslator
             }
             if (upToDate == true)
             {
+                Logger.Log("RestClient-Get", $"Before commit, program is up to date(with version: {Settings.GetInstance().version})");
                 if (!(await RestClient.Upload(file)))
                 {
                     LoadingOverlay.Visibility = Visibility.Hidden;
@@ -249,6 +278,7 @@ namespace RestXMLTranslator
                 Title = Locale.Get("window_title", Locale.Get("connected", GetCurrentTimeHM()));
                 return;
             }
+            Logger.Log("RestClient-Get", $"Before commit, program was not up to date(with version: {Settings.GetInstance().version})");
             List<DownloadedFile>? updates = await RestClient.Update(Files);
             if (updates == null)
             {
@@ -283,21 +313,19 @@ namespace RestXMLTranslator
 
         private void Update(List<DownloadedFile> updates)
         {
+            Logger.Log("RestClient-Get", $"Before commit, program installed updates for files: {string.Join(',', updates.Select(u => u.Path).ToArray())}");
             foreach (DownloadedFile dfile in updates)
             {
                 FileTab file = new FileTab("", dfile.Path, false);
-                foreach (var dEntry in dfile.Entries)
-                {
-
-                }
-                var seq = Files.Where(f => f.RelativePath == file.RelativePath);
+                var seq = Files.Where(f => f.RelativePath == dfile.Path);
                 if (seq == null || !seq.Any())
                 {
+                    file.WriteToDisk(dfile.Entries);
                     Files.Add(file);
                     continue;
                 }
                 FileTab bro = seq.First();
-                foreach (StringEntry entry in file.Entries)
+                foreach (StringEntry entry in dfile.Entries)
                 {
                     var entrySeq = bro.Entries.Where(e => e.Id == entry.Id);
                     if (entrySeq == null || !seq.Any())
@@ -312,8 +340,9 @@ namespace RestXMLTranslator
                     toChange.Eng = entry.Eng;
                     toChange.NewEng = entry.NewEng;
                 }
-                WriteFile(file);
-                StoreChanges(file, true);
+                Logger.Log("RestClient-Get", $"Writing file {file.Name} and storing it's changes");
+                WriteFile(bro);
+                StoreChanges(bro, true);
             }
         }
 
@@ -325,21 +354,18 @@ namespace RestXMLTranslator
             {
                 var node = doc.Root!.Elements("string").FirstOrDefault(x => (string?)x.Attribute("id") == entry.Id);
                 if (node == null)
+                {
                     continue;
-                if (!entry.HasRuChanges)
-                {
-                    var rus = node.Element("rus");
-                    string text = EncodeMultiline(entry.Ru);
-                    if (rus == null) node.Add(new XElement("rus", text));
-                    else rus.Value = text;
                 }
-                if (entry.HasEngChanges)
-                {
-                    var eng = node.Element("eng");
-                    string text = EncodeMultiline(entry.Eng);
-                    if (eng == null) node.Add(new XElement("eng", text));
-                    else eng.Value = text;
-                }
+                var rus = node.Element("rus");
+                string text1 = EncodeMultiline(entry.Ru);
+                if (rus == null) node.Add(new XElement("rus", text1));
+                else rus.Value = text1;
+                var eng = node.Element("eng");
+                string text2 = EncodeMultiline(entry.Eng);
+                if (eng == null) node.Add(new XElement("eng", text2));
+                else eng.Value = text2;
+
             }
             using var writer = XmlWriter.Create(file.FilePath, settings);
             doc.Save(writer);
@@ -352,13 +378,13 @@ namespace RestXMLTranslator
             {
                 if (entry.IsApproved)
                 {
-                    entry.IsApproved = false;
                     entry.Ru = entry.NewRu;
                     entry.Eng = entry.NewEng;
+                    entry.IsApproved = false;
                 }
             }
-            StoreChanges(file, false);
             WriteFile(file);
+            StoreChanges(file, false);
         }
 
         private void StoreChanges(FileTab file, bool allowApprove)
@@ -420,7 +446,7 @@ namespace RestXMLTranslator
             _currentView?.Refresh();
         }
 
-        private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
+        private async void Window_PreviewKeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.F && Keyboard.Modifiers == ModifierKeys.Control)
             {
@@ -434,8 +460,8 @@ namespace RestXMLTranslator
                 {
                     if (tab.HasChanges) StoreChanges(tab, true);
                 }
-                ShowStatusAsync(Locale.Get("file_saved"));
                 e.Handled = true;
+                await ShowStatusAsync(Locale.Get("file_saved"));
             }
             if (e.Key == Key.S && Keyboard.Modifiers == (ModifierKeys.Control | ModifierKeys.Shift))
             {
@@ -444,8 +470,8 @@ namespace RestXMLTranslator
                     if (!file.HasChanges) continue;
                     StoreChanges(file, true);
                 }
-                ShowStatusAsync(Locale.Get("changes_saved"));
                 e.Handled = true;
+                await ShowStatusAsync(Locale.Get("changes_saved"));
             }
         }
 
@@ -480,10 +506,12 @@ namespace RestXMLTranslator
 
         private void Approve_Click(object sender, RoutedEventArgs e)
         {
-            if (sender is Button { DataContext: StringEntry entry })
+            foreach (var item in Grid.SelectedItems)
             {
-                if (!entry.HasChanges) return;
-                entry.IsApproved = !entry.IsApproved;
+                if (item is StringEntry entry && entry.HasChanges)
+                {
+                    entry.IsApproved = !entry.IsApproved;
+                }
             }
         }
 
@@ -528,46 +556,29 @@ namespace RestXMLTranslator
             }
         }
 
-        private void Window_Closing(object sender, CancelEventArgs e)
+        private async void SaveLocal_Click(object sender, RoutedEventArgs e)
         {
-            if (!Files.Where(f => f.HasChanges).Any()) return;
-            var result = MessageBox.Show(Locale.Get("unsaved_changes"), Locale.Get("saving"), MessageBoxButton.YesNoCancel, MessageBoxImage.Question);
-            switch (result)
-            {
-                case MessageBoxResult.Yes:
-                    foreach (var file in Files)
-                    {
-                        StoreChanges(file, true);
-                    }
-                    break;
-
-                case MessageBoxResult.No:
-                    break;
-
-                case MessageBoxResult.Cancel:
-                    e.Cancel = true;
-                    break;
-            }
-        }
-
-        private void SaveLocal_Click(object sender, RoutedEventArgs e)
-        {
-            if (FilesList.SelectedItem is FileTab tab)
-            {
-                if (tab.HasChanges) StoreChanges(tab, true);
-            }
-            ShowStatusAsync(Locale.Get("file_saved"));
+            if (FilesList.SelectedItem is not FileTab tab) return;
             e.Handled = true;
+            if (!tab.HasChanges) return;
+            StoreChanges(tab, true);
+            await ShowStatusAsync(Locale.Get("file_saved"));
         }
 
-        private void SaveAllLocal_Click(object sender, RoutedEventArgs e)
+        private async void SaveAllLocal_Click(object sender, RoutedEventArgs e)
         {
+            e.Handled = true;;
+            MessageBox.Show("1");
+            if (!Files.Where(f => f.HasChanges).Any()) return;
+            MessageBox.Show("2");
             foreach (var file in Files)
             {
-                if (file.HasChanges) continue;
+                MessageBox.Show(file.Name);
+                if (!file.HasChanges) continue;
                 StoreChanges(file, true);
+                MessageBox.Show("4");
             }
-            ShowStatusAsync(Locale.Get("changes_saved"));
+            await ShowStatusAsync(Locale.Get("changes_saved"));
         }
 
         private async Task ShowStatusAsync(string text)
