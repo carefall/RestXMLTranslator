@@ -51,7 +51,7 @@ namespace RestXMLTranslator
             }
             if (result == 1)
             {
-                MessageBox.Show("Нет интернета либо сервис недоступен.", "Синхронизация");
+                MessageBox.Show("Не удалось синхронизировать данные с сервером. Проверьте подключение к интернету и обратитесь к разработчику.", "Синхронизация");
                 Logger.Log("Startup", "Update check failed due to service unavailability. Moving to MainWindow");
                 new MainWindow(false, Settings.GetInstance().gamedataPath).Show();
             } else

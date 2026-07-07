@@ -3,7 +3,9 @@ using System.IO;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text;
+using System.Text.Encodings.Web;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Windows;
 using System.Xml;
 using System.Xml.Linq;
@@ -23,7 +25,9 @@ namespace RestXMLTranslator.Internals
 
         private static JsonSerializerOptions options = new()
         {
-            PropertyNameCaseInsensitive = true
+            PropertyNameCaseInsensitive = true,
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
         };
 
         public class HalfStringEntry
@@ -52,7 +56,7 @@ namespace RestXMLTranslator.Internals
         {
             public string Path { get; set; } = string.Empty;
 
-            public List<HalfStringEntry> Entries { get; set; } = [];
+            public List<RestXMLTranslator.Internals.XMLHelper.StringEntry> Entries { get; set; } = [];
         }
 
         public static async Task<string> GetDataAsync(string endpoint)
@@ -72,14 +76,19 @@ namespace RestXMLTranslator.Internals
             }
         }
 
-        public static async Task<string> PostDataAsync(string endpoint, object body)
+        public static async Task<string> PostDataAsync(string endpoint, string body)
         {
             try
             {
+
+                var content = new StringContent(body, Encoding.UTF8, "application/json");
                 using var client = new HttpClient();
-                HttpResponseMessage response = await client.PostAsJsonAsync(endpoint, body);
-                response.EnsureSuccessStatusCode();
+                HttpResponseMessage response = await client.PostAsync(endpoint, content);
                 string json = await response.Content.ReadAsStringAsync();
+                if (response.StatusCode != System.Net.HttpStatusCode.OK)
+                {
+                    throw new Exception(json);
+                }
                 return json;
             }
             catch (Exception ex)
@@ -96,7 +105,14 @@ namespace RestXMLTranslator.Internals
                 string json = await GetDataAsync("https://nukerfall.pythonanywhere.com/translator/files");
                 if (json == "") return 1;
                 Dictionary<string, int> files = JsonSerializer.Deserialize<Dictionary<string, int>>(json) ?? [];
-                targetVersion = files.Values.Max();
+                if (files.Count != 0)
+                {
+                    targetVersion = files.Values.Max();
+                }
+                else
+                {
+                    targetVersion = 0;
+                }
                 if (targetVersion <= version)
                 {
                     return 0;
@@ -161,12 +177,12 @@ namespace RestXMLTranslator.Internals
 
         public static void DeleteRedundantFilesWithTheirTabs(Dictionary<string, int> files, ObservableCollection<FileTab> tabs)
         {
-            var filesToDelete = tabs.Where(t => !files.ContainsKey(t.RelativePath));
+            var filesToDelete = tabs.Where(t => !files.ContainsKey(t.RelativePath.Replace("\\", "/")));
             foreach (FileTab tab in filesToDelete)
             {
                 tabs.Remove(tab);
                 File.Delete(tab.FilePath);
-                string changesPath = AppDomain.CurrentDomain.BaseDirectory + "Changes/" + tab.RelativePath;
+                string changesPath = AppDomain.CurrentDomain.BaseDirectory + "Changes/" + tab.RelativePath.Replace("\\", "/").Replace(".xml", ".json");
                 if (File.Exists(changesPath))
                 {
                     File.Delete(changesPath);
@@ -241,7 +257,8 @@ namespace RestXMLTranslator.Internals
                     });
                 }
             }
-            string json = await PostDataAsync($"https://nukerfall.pythonanywhere.com/translator/upload?filepath={file.RelativePath}", request);
+            string body = JsonSerializer.Serialize(request, options);
+            string json = await PostDataAsync($"https://nukerfall.pythonanywhere.com/translator/upload?filepath={file.RelativePath.Replace("\\", "/")}", body);
             if (json == "") return false;
             int version = JsonSerializer.Deserialize<int>(json);
             Settings.GetInstance().UpdateVersion(version);
@@ -263,10 +280,40 @@ namespace RestXMLTranslator.Internals
                 if (update == "") return null;
                 List<HalfStringEntry>? entries = JsonSerializer.Deserialize<List<HalfStringEntry>>(update, options);
                 if (entries == null) continue;
+                List<XMLHelper.StringEntry> sEntries = [];
+                foreach (var entry in entries)
+                {
+                    var seq = sEntries.Where(e => e.Id == entry.Id);
+                    if (seq == null || !seq.Any())
+                    {
+                        sEntries.Add(new XMLHelper.StringEntry()
+                        {
+                            Id = entry.Id!,
+                            Ru = entry.Russian ? entry.Text! : "",
+                            NewRu = entry.Russian ? entry.Text! : "",
+                            Eng = !entry.Russian ? entry.Text! : "",
+                            NewEng = !entry.Russian ? entry.Text! : "",
+                        });
+                    }
+                    else
+                    {
+                        var pair = seq.First();
+                        if (entry.Russian)
+                        {
+                            pair.Ru = entry.Text!;
+                            pair.NewRu = entry.Text!;
+                        }
+                        else
+                        {
+                            pair.Eng = entry.Text!;
+                            pair.NewEng = entry.Text!;
+                        }
+                    }
+                }
                 result.Add(new DownloadedFile()
                 {
                     Path = file.Key,
-                    Entries = entries
+                    Entries = sEntries
                 });
             }
             return result;

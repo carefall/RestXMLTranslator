@@ -1,5 +1,6 @@
 ﻿using Microsoft.Win32;
 using System.IO;
+using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Windows;
 
@@ -13,7 +14,8 @@ namespace RestXMLTranslator.Internals
         public int version = 0;
         private readonly JsonSerializerOptions options = new()
         {
-            WriteIndented = true
+            WriteIndented = true,
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
         };
 
         private static Settings? instance;

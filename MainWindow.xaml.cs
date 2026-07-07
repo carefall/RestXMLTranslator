@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
 using System.Text;
+using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Threading.Channels;
 using System.Windows;
@@ -31,11 +32,12 @@ namespace RestXMLTranslator
 
             public ObservableCollection<StringEntry> Entries { get; set; } = [];
 
-            public FileTab(string path, string relativePath)
+            public FileTab(string path, string relativePath, bool read)
             {
                 FilePath = path;
                 RelativePath = relativePath;
                 Name = Path.GetFileName(path);
+                if (!read) return;
                 string xml = File.ReadAllText(path, Encoding.GetEncoding(1251));
                 Entries = LoadStrings(xml);
             }
@@ -61,7 +63,9 @@ namespace RestXMLTranslator
 
         private readonly JsonSerializerOptions options = new()
         {
-            PropertyNameCaseInsensitive = true
+            PropertyNameCaseInsensitive = true,
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+            WriteIndented = true
         };
 
 
@@ -74,7 +78,7 @@ namespace RestXMLTranslator
             var files = Directory.GetFiles(path, "*", SearchOption.AllDirectories);
             foreach (var file in files)
             {
-                Files.Add(new FileTab(file, file.Replace(path, "")[1..]));
+                Files.Add(new FileTab(file, file.Replace(path, "")[1..], true));
             }
             if (Files.Count == 0)
             {
@@ -82,8 +86,40 @@ namespace RestXMLTranslator
                 OnShutdown?.Invoke();
                 return;
             }
+            if (!online)
+            {
+                ApplyChanges();
+            }
         }
 
+        private void ApplyChanges()
+        {
+            foreach (var file in Files)
+            {
+                string filePath = AppDomain.CurrentDomain.BaseDirectory + "Changes/" + file.RelativePath.Replace(".xml", ".json");
+                string directory = Path.GetDirectoryName(filePath)!;
+                if (!Directory.Exists(directory))
+                {
+                    continue;
+                }
+                if (!File.Exists(filePath))
+                {
+                    continue;
+                }
+                string json = File.ReadAllText(filePath, Encoding.GetEncoding(1251));
+                List<Change>? changes = JsonSerializer.Deserialize<List<Change>>(json, options);
+                changes ??= [];
+                foreach (Change change in changes)
+                {
+                    var seq = file.Entries.Where(e => e.Id == change.Id);
+                    if (seq == null || !seq.Any()) continue;
+                    StringEntry bro = seq.First();
+                    bro.NewEng = change.Eng;
+                    bro.NewRu = change.Ru;
+                    bro.IsApproved = change.IsApproved;
+                }
+            }
+        }
 
         private void FilesList_Loaded(object sender, RoutedEventArgs e)
         {
@@ -123,7 +159,7 @@ namespace RestXMLTranslator
                 return;
             try
             {
-                string xml = File.ReadAllText(dialog.FileName, Encoding.GetEncoding("windows-1251"));
+                string xml = File.ReadAllText(dialog.FileName, Encoding.GetEncoding(1251));
                 if (LoadTranslationFromXML(xml)) MessageBox.Show("Переводы загружены из файла.", "Перевод");
             }
             catch (Exception ex)
@@ -170,12 +206,13 @@ namespace RestXMLTranslator
         private async void Save_Click(object sender, RoutedEventArgs e)
         {
             if (FilesList.SelectedItem is not FileTab file) return;
+            if (!file.HasApprovedChanges) return;
             bool? upToDate = await RestClient.CompareVersions();
             if (upToDate == null)
             {
                 MessageBox.Show("Соединение с сервером не установлено. Обновления будут сохранены локально до следующей успешной синхронизации.", "Синхронизация");
                 Title = "Нет соединения с сервером";
-                StoreChanges(file);
+                StoreChanges(file, true);
                 return;
             }
             if (upToDate == true)
@@ -184,7 +221,7 @@ namespace RestXMLTranslator
                 {
                     MessageBox.Show("Соединение с сервером разорвано во время отправки изменений. Обновления будут сохранены локально до следующей успешной синхронизации.", "Синхронизация");
                     Title = "Нет соединения с сервером";
-                    StoreChanges(file);
+                    StoreChanges(file, true);
                     return;
                 }
                 SaveChangesLocally(file);
@@ -196,7 +233,7 @@ namespace RestXMLTranslator
             {
                 MessageBox.Show("Соединение с сервером разорвано во время синхронизации. Обновления будут сохранены локально до следующей успешной синхронизации.", "Синхронизация");
                 Title = "Нет соединения с сервером";
-                StoreChanges(file);
+                StoreChanges(file, true);
                 return;
             }
             Update(updates);
@@ -210,7 +247,7 @@ namespace RestXMLTranslator
             {
                 MessageBox.Show("Соединение с сервером разорвано во время отправки изменений. Обновления будут сохранены локально до следующей успешной синхронизации.", "Синхронизация");
                 Title = "Нет соединения с сервером";
-                StoreChanges(file);
+                StoreChanges(file, true);
                 return;
             }
             SaveChangesLocally(file);
@@ -221,9 +258,14 @@ namespace RestXMLTranslator
 
         private void Update(List<DownloadedFile> updates)
         {
-            foreach (DownloadedFile file in updates)
+            foreach (DownloadedFile dfile in updates)
             {
-                var seq = Files.Where(f => f.RelativePath == file.Path);
+                FileTab file = new FileTab("", dfile.Path, false);
+                foreach (var dEntry  in dfile.Entries)
+                {
+
+                }
+                var seq = Files.Where(f => f.RelativePath == file.RelativePath);
                 if (seq == null || !seq.Any())
                 {
                     Files.Add(file);
@@ -246,7 +288,7 @@ namespace RestXMLTranslator
                     toChange.NewEng = entry.NewEng;
                 }
                 WriteFile(file);
-                StoreChanges(file);
+                StoreChanges(file, true);
             }
         }
 
@@ -290,13 +332,13 @@ namespace RestXMLTranslator
                     entry.Eng = entry.NewEng;
                 }
             }
-            StoreChanges(file);
+            StoreChanges(file, false);
             WriteFile(file);
         }
 
-        private void StoreChanges(FileTab file)
+        private void StoreChanges(FileTab file, bool allowApprove)
         {
-            string filePath = AppDomain.CurrentDomain.BaseDirectory + "Changes/" + file.RelativePath;
+            string filePath = AppDomain.CurrentDomain.BaseDirectory + "Changes/" + file.RelativePath.Replace(".xml", ".json");
             string directory = Path.GetDirectoryName(filePath)!;
             if (!Directory.Exists(directory))
             {
@@ -304,9 +346,9 @@ namespace RestXMLTranslator
             }
             if (!File.Exists(filePath))
             {
-                File.WriteAllText(filePath, "[]");
+                File.WriteAllText(filePath, "[]", Encoding.GetEncoding(1251));
             }
-            string json = File.ReadAllText(filePath);
+            string json = File.ReadAllText(filePath, Encoding.GetEncoding(1251));
             List<Change>? changes = JsonSerializer.Deserialize<List<Change>>(json, options);
             changes ??= [];
             foreach (StringEntry entry in file.Entries)
@@ -324,8 +366,8 @@ namespace RestXMLTranslator
                     if (entry.HasChanges)
                     {
                         bro.Eng = entry.NewEng;
-                        bro.Ru = entry.Ru;
-                        bro.IsApproved = false;
+                        bro.Ru = entry.NewRu;
+                        bro.IsApproved = allowApprove;
                         continue;
                     }
                     changes.Remove(bro);
@@ -337,7 +379,7 @@ namespace RestXMLTranslator
             }
             else
             {
-                File.WriteAllText(filePath, JsonSerializer.Serialize(changes));
+                File.WriteAllText(filePath, JsonSerializer.Serialize(changes, options), Encoding.GetEncoding(1251));
             }
         }
 
