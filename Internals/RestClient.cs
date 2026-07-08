@@ -1,11 +1,10 @@
 ﻿using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
-using System.Net.Http.Json;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Windows;
 using System.Xml;
 using System.Xml.Linq;
@@ -15,59 +14,31 @@ namespace RestXMLTranslator.Internals
 {
     internal class RestClient
     {
-        private static readonly XmlWriterSettings settings = new()
+        private static readonly HttpClient Client = new()
+        {
+            Timeout = TimeSpan.FromSeconds(30)
+        };
+
+        private static readonly XmlWriterSettings XmlSettings = new()
         {
             Encoding = Encoding.GetEncoding(1251),
             Indent = true
         };
 
-        private static int targetVersion = 0;
-
-        private static JsonSerializerOptions options = new()
+        private static readonly JsonSerializerOptions Options = new()
         {
             PropertyNameCaseInsensitive = true,
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
         };
 
-        public class HalfStringEntry
-        {
-            public int Uid { get; set; }
-            public string? Id { get; set; }
-            public string? File { get; set; }
-            public string? Text { get; set; }
-            public bool Russian { get; set; }
-        }
-
-        public class UploadRequest
-        {
-            public List<UploadEntry> Entries { get; set; } = [];
-        }
-
-        public class UploadEntry
-        {
-            public string Id { get; set; } = string.Empty;
-            public bool Russian { get; set; }
-            public string Text { get; set; } = string.Empty;
-            public string User { get; set; } = string.Empty;
-        }
-
-        public class DownloadedFile
-        {
-            public string Path { get; set; } = string.Empty;
-
-            public List<XMLHelper.StringEntry> Entries { get; set; } = [];
-        }
-
         public static async Task<string> GetDataAsync(string endpoint)
         {
             try
             {
-                using var client = new HttpClient();
-                HttpResponseMessage response = await client.GetAsync(endpoint);
+                HttpResponseMessage response = await Client.GetAsync(endpoint);
                 response.EnsureSuccessStatusCode();
-                string json = await response.Content.ReadAsStringAsync();
-                return json;
+                return await response.Content.ReadAsStringAsync();
             }
             catch (Exception ex)
             {
@@ -80,15 +51,11 @@ namespace RestXMLTranslator.Internals
         {
             try
             {
-
-                var content = new StringContent(body, Encoding.UTF8, "application/json");
-                using var client = new HttpClient();
-                HttpResponseMessage response = await client.PostAsync(endpoint, content);
+                using var content = new StringContent(body, Encoding.UTF8, "application/json");
+                HttpResponseMessage response = await Client.PostAsync(endpoint, content);
                 string json = await response.Content.ReadAsStringAsync();
-                if (response.StatusCode != System.Net.HttpStatusCode.OK)
-                {
+                if (!response.IsSuccessStatusCode)
                     throw new Exception(json);
-                }
                 return json;
             }
             catch (Exception ex)
@@ -98,27 +65,24 @@ namespace RestXMLTranslator.Internals
             }
         }
 
-        public static async Task<int> Check(string gameDataPath, int version)
+        public static async Task<int> Check(string gameDataPath, int version, IProgress<string>? progress = null)
         {
             try
             {
-                string json = await GetDataAsync("https://nukerfall.pythonanywhere.com/translator/files");
+                Logger.Log("RestClient-Get", $"Sending files request");
+                progress?.Report(Locale.Get("getting_files"));
+                string json = await GetDataAsync("http://127.0.0.1:8000/translator/files");
                 if (json == "") return 1;
-                Dictionary<string, int> files = JsonSerializer.Deserialize<Dictionary<string, int>>(json) ?? [];
-                if (files.Count != 0)
-                {
-                    targetVersion = files.Values.Max();
-                }
-                else
-                {
-                    targetVersion = 0;
-                }
+                Dictionary<string, int> files = JsonSerializer.Deserialize<Dictionary<string, int>>(json, Options) ?? [];
+                int targetVersion = files.Count > 0 ? files.Values.Max() : 0;
                 if (targetVersion <= version)
                 {
                     return 0;
                 }
+                progress?.Report(Locale.Get("deleting_files"));
                 DeleteRedundantFiles(files, gameDataPath);
-                return await UpdateLocalFiles(files, gameDataPath, version);
+                var result = await UpdateLocalFiles(gameDataPath, version, targetVersion, progress);
+                return result;
             }
             catch (Exception ex)
             {
@@ -129,16 +93,22 @@ namespace RestXMLTranslator.Internals
         }
 
 
-        public async static Task<int> UpdateLocalFiles(Dictionary<string, int> files, string gameDataPath, int version)
+        public async static Task<int> UpdateLocalFiles(string gameDataPath, int version, int targetVersion, IProgress<string>? progress = null)
         {
-            foreach (var file in files)
+            Stopwatch watch = new Stopwatch();
+            Logger.Log("RestClient-Get", "Sending download request");
+            progress?.Report(Locale.Get("downloading"));
+            watch.Start();
+            string update = await GetDataAsync($"http://127.0.0.1:8000/translator/download?version={version}");
+            watch.Stop();
+            Logger.Log("RestClient-Get", "Download responce received.");
+            if (update == "") return 1;
+            List<DownloadedFile>? files = JsonSerializer.Deserialize<List<DownloadedFile>>(update, Options);
+            if (files == null) return 0;
+            for (int i = 0; i < files.Count; i++)
             {
-                if (file.Value < version) continue;
-                string update = await GetDataAsync($"https://nukerfall.pythonanywhere.com/translator/download?version={version}&filepath={file.Key}");
-                if (update == "") return 1;
-                List<HalfStringEntry>? entries = JsonSerializer.Deserialize<List<HalfStringEntry>>(update, options);
-                if (entries == null) continue;
-                string path = gameDataPath + "/gamedata/configs/" + file.Key;
+                var file = files[i];
+                string path = Path.Combine(gameDataPath, "gamedata", "configs", file.Path);
                 string? dir = Path.GetDirectoryName(path);
                 if (dir == null)
                 {
@@ -147,11 +117,12 @@ namespace RestXMLTranslator.Internals
                     Application.Current.Shutdown();
                     return -1;
                 }
-                if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
+                Logger.Log("RestClient-Drive", $"Creating file {file.Path}");
+                Directory.CreateDirectory(dir);
                 XDocument doc = new(new XElement("string_table"));
                 if (File.Exists(path)) doc = XDocument.Load(path);
                 var index = doc.Root!.Elements("string").ToDictionary(x => (string)x.Attribute("id")!);
-                foreach (var entry in entries)
+                foreach (var entry in file.HalfEntries)
                 {
                     if (!index.TryGetValue(entry.Id!, out var stringElement))
                     {
@@ -168,7 +139,8 @@ namespace RestXMLTranslator.Internals
                     }
                     langElement.Value = entry.Text!;
                 }
-                using var writer = XmlWriter.Create(path, settings);
+                Logger.Log("RestClient-Drive", $"Writing file {file.Path}");
+                using var writer = XmlWriter.Create(path, XmlSettings);
                 doc.Save(writer);
             }
             Settings.GetInstance().UpdateVersion(targetVersion);
@@ -243,7 +215,7 @@ namespace RestXMLTranslator.Internals
                         Id = entry.Id,
                         Russian = true,
                         Text = entry.NewRu,
-                        User = Settings.GetInstance().name
+                        User = Settings.GetInstance().Name
                     });
                 }
                 if (entry.HasEngChanges)
@@ -253,40 +225,38 @@ namespace RestXMLTranslator.Internals
                         Id = entry.Id,
                         Russian = false,
                         Text = entry.NewEng,
-                        User = Settings.GetInstance().name
+                        User = Settings.GetInstance().Name
                     });
                 }
             }
-            string body = JsonSerializer.Serialize(request, options);
-            string json = await PostDataAsync($"https://nukerfall.pythonanywhere.com/translator/upload?filepath={file.RelativePath.Replace("\\", "/")}", body);
+            string body = JsonSerializer.Serialize(request, Options);
+            string json = await PostDataAsync($"http://127.0.0.1:8000/translator/upload?filepath={file.RelativePath.Replace("\\", "/")}", body);
             if (json == "") return false;
-            int version = JsonSerializer.Deserialize<int>(json);
+            int version = JsonSerializer.Deserialize<int>(json, Options);
             Settings.GetInstance().UpdateVersion(version);
             return true;
         }
 
         public async static Task<List<DownloadedFile>?> Update(ObservableCollection<FileTab> tabs)
         {
-            int version = Settings.GetInstance().version;
-            string json = await GetDataAsync("https://nukerfall.pythonanywhere.com/translator/files");
+            int version = Settings.GetInstance().Version;
+            string json = await GetDataAsync("http://127.0.0.1:8000/translator/files");
             if (json == "") return null;
-            Dictionary<string, int> files = JsonSerializer.Deserialize<Dictionary<string, int>>(json) ?? [];
-            DeleteRedundantFilesWithTheirTabs(files, tabs);
-            List<DownloadedFile> result = [];
+            Dictionary<string, int> serverFiles = JsonSerializer.Deserialize<Dictionary<string, int>>(json, Options) ?? [];
+            DeleteRedundantFilesWithTheirTabs(serverFiles, tabs);
+            string update = await GetDataAsync($"http://127.0.0.1:8000/translator/download?version={version}");
+            if (update == "") return null;
+            List<DownloadedFile>? files = JsonSerializer.Deserialize<List<DownloadedFile>>(update, Options);
+            if (files == null) return null;
             foreach (var file in files)
             {
-                if (file.Value < version) continue;
-                string update = await GetDataAsync($"https://nukerfall.pythonanywhere.com/translator/download?version={version}&filepath={file.Key}");
-                if (update == "") return null;
-                List<HalfStringEntry>? entries = JsonSerializer.Deserialize<List<HalfStringEntry>>(update, options);
-                if (entries == null) continue;
-                List<XMLHelper.StringEntry> sEntries = [];
-                foreach (var entry in entries)
+                List<StringEntry> sEntries = [];
+                foreach (var entry in file.HalfEntries)
                 {
                     var seq = sEntries.Where(e => e.Id == entry.Id);
                     if (seq == null || !seq.Any())
                     {
-                        sEntries.Add(new XMLHelper.StringEntry()
+                        sEntries.Add(new StringEntry()
                         {
                             Id = entry.Id!,
                             Ru = entry.Russian ? entry.Text! : "",
@@ -314,24 +284,20 @@ namespace RestXMLTranslator.Internals
                         }
                     }
                 }
-                result.Add(new DownloadedFile()
-                {
-                    Path = file.Key,
-                    Entries = sEntries
-                });
+                file.Entries = sEntries;
             }
-            return result;
+            return files;
         }
 
         public async static Task<int> CompareVersions()
         {
-            string json = await GetDataAsync("https://nukerfall.pythonanywhere.com/translator/version");
+            string json = await GetDataAsync("http://127.0.0.1:8000/translator/version");
             if (json == "") return -1;
-            int version = JsonSerializer.Deserialize<int>(json);
-            if (version < Settings.GetInstance().version)
+            int version = JsonSerializer.Deserialize<int>(json, Options);
+            if (version < Settings.GetInstance().Version)
             {
-                Logger.Log("RestClient-Sync", $"Somehow client version is higher than server version: {Settings.GetInstance().version} against {version}");
-                Settings.GetInstance().version = 0;
+                Logger.Log("RestClient-Sync", $"Somehow client version is higher than server version: {Settings.GetInstance().Version} against {version}");
+                Settings.GetInstance().UpdateVersion(0);
                 MessageBox.Show(Locale.Get("sync_version_higher"), Locale.Get("sync"), MessageBoxButton.OK, MessageBoxImage.Error);
             }
             return version;

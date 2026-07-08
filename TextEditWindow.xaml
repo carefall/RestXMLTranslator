@@ -6,9 +6,11 @@
     xmlns:local="clr-namespace:RestXMLTranslator"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="Введите текст"
-    Width="800"
-    Height="450"
+    MinWidth="400"
+    MinHeight="300"
     FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
+    KeyDown="Window_KeyDown"
+    Loaded="Window_Loaded"
     mc:Ignorable="d">
     <Grid Margin="10">
         <Grid.RowDefinitions>
@@ -19,7 +21,6 @@
             x:Name="Editor"
             AcceptsReturn="True"
             AcceptsTab="True"
-            FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
             HorizontalScrollBarVisibility="Auto"
             TextWrapping="Wrap"
             VerticalScrollBarVisibility="Auto" />
@@ -34,14 +35,12 @@
                 Margin="5"
                 Click="Ok_Click"
                 Content="OK"
-                FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
                 IsDefault="True" />
             <Button
                 x:Name="Cancel"
                 Width="80"
                 Margin="5"
                 Content="Отмена"
-                FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
                 IsCancel="True" />
         </StackPanel>
     </Grid>

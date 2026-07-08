@@ -6,99 +6,42 @@ using System.Windows;
 
 namespace RestXMLTranslator.Internals
 {
-    internal class Settings
+    internal sealed class Settings
     {
-        public static Action? OnUserDeclined;
-        public string gamedataPath = "";
-        public string name = "";
-        public int version = 0;
-        private readonly JsonSerializerOptions options = new()
+        public string GameDataPath { get; private set; } = "";
+        public string Name { get; private set; } = "";
+        public int Version { get; private set; }
+
+        private static readonly string SettingsPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "settings.json");
+
+        private static readonly JsonSerializerOptions Options = new()
         {
             WriteIndented = true,
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
         };
 
-        private static Settings? instance;
+        private static readonly Lazy<Settings> Instance = new(() => new Settings());
 
         public static Settings GetInstance()
         {
-            instance ??= new();
-            return instance;
+            return Instance.Value;
         }
 
-        public void UpdateVersion(int version)
-        {
-            string settingsPath = AppDomain.CurrentDomain.BaseDirectory + "settings.json";
-            this.version = version;
-            var config = new Dictionary<string, object>
-            {
-                ["gamedata-path"] = gamedataPath,
-                ["name"] = name,
-                ["version"] = version
-            };
-            string data = JsonSerializer.Serialize(config, options);
-            File.WriteAllText(settingsPath, data);
-            Logger.Log("Settings", $"Updated version to {version} after installing update...");
-        }
-
-        public Settings()
+        private Settings()
         {
             try
             {
                 Logger.Log("Settings", "Initializing settings...");
-                string folderPath = AppDomain.CurrentDomain.BaseDirectory;
-                string settingsPath = AppDomain.CurrentDomain.BaseDirectory + "settings.json";
-                if (!File.Exists(settingsPath))
+                if (!File.Exists(SettingsPath))
                 {
-                    Logger.Log("Settings", "Creating settings file...");
-                    var config = new Dictionary<string, object>
-                    {
-                        ["gamedata-path"] = "",
-                        ["name"] = "",
-                        ["version"] = 0
-                    };
-                    string data = JsonSerializer.Serialize(config, options);
-                    File.WriteAllText(settingsPath, data);
-                    Logger.Log("Settings", "Settings file created...");
+                    Logger.Log("Settings", "Settings file not found. Creating...");
+                    Save();
                 }
-                string json = File.ReadAllText(settingsPath);
-                using JsonDocument doc = JsonDocument.Parse(json);
-                string? value = doc.RootElement.GetProperty("gamedata-path").GetString();
-                name = doc.RootElement.GetProperty("name").GetString() ?? "";
-                version = doc.RootElement.GetProperty("version").GetInt32();
-                if (value == null || value.Trim().Length == 0)
+                Load();
+                if (string.IsNullOrWhiteSpace(GameDataPath))
                 {
-                    Logger.Log("Settings", "GameData path not found...");
-                    var dialog = new OpenFolderDialog
-                    {
-                        Title = Locale.Get("select_gamedata"),
-                        InitialDirectory = @"C:\"
-                    };
-                    while (dialog.ShowDialog() != true)
-                    {
-                        var result = MessageBox.Show(Locale.Get("select_gamedata_dialog"), Locale.Get("settings"), MessageBoxButton.YesNo, MessageBoxImage.Exclamation);
-                        if (result == MessageBoxResult.No)
-                        {
-                            OnUserDeclined?.Invoke();
-                            return;
-                        }
-                    }
-                    string path = dialog.FolderName;
-                    Logger.Log("Settings", $"GameData path selected: {path}");
-                    gamedataPath = path.Replace("\\", "/");
-                    var config = new Dictionary<string, object>
-                    {
-                        ["gamedata-path"] = path,
-                        ["name"] = "",
-                        ["version"] = version,
-                    };
-                    string data = JsonSerializer.Serialize(config, options);
-                    File.WriteAllText(settingsPath, data);
-                    Logger.Log("Settings", $"Saved gamedata path. Created /gamedata/configs folder.");
-                    Directory.CreateDirectory(path + "/gamedata/configs");
-                    return;
+                    SelectGameDataFolder();
                 }
-                gamedataPath = value.Replace("\\", "/");
             }
             catch (Exception ex)
             {
@@ -108,32 +51,91 @@ namespace RestXMLTranslator.Internals
             }
         }
 
-        public void UpdateName(string name)
+
+        private void Load()
         {
+            string json = File.ReadAllText(SettingsPath);
+
             try
             {
-                this.name = name;
-                Logger.Log("Settings", $"User selected name: {name}.");
-                string settingsPath = AppDomain.CurrentDomain.BaseDirectory + "/settings.json";
-                string json = File.ReadAllText(settingsPath);
                 using JsonDocument doc = JsonDocument.Parse(json);
-                var config = new Dictionary<string, object>
-                {
-                    ["gamedata-path"] = doc.RootElement.GetProperty("gamedata-path").GetString() ?? "",
-                    ["name"] = name,
-                    ["version"] = doc.RootElement.GetProperty("version").GetInt32(),
-                };
-                string data = JsonSerializer.Serialize(config, options);
-                File.WriteAllText(settingsPath, data);
-                Logger.Log("Settings", "Name saved to settings file.");
+                var root = doc.RootElement;
+                GameDataPath = root.TryGetProperty("gamedata-path", out var path) ? path.GetString() ?? "" : "";
+                Name = root.TryGetProperty("name", out var name) ? name.GetString() ?? "" : "";
+                Version = root.TryGetProperty("version", out var version) ? version.GetInt32() : 0;
             }
-            catch (Exception ex)
+            catch (JsonException ex)
             {
-                Logger.Log("Settings", $"Unhandled exception: {ex}");
-                MessageBox.Show(Locale.Get("name_exception"), Locale.Get("settings"), MessageBoxButton.OK, MessageBoxImage.Error);
-                Application.Current.Shutdown();
+                Logger.Log("Settings", $"Invalid settings JSON: {ex}");
+                try
+                {
+                    File.Delete(SettingsPath);
+                }
+                catch (Exception deleteEx)
+                {
+                    Logger.Log("Settings", $"Unable to delete invalid settings: {deleteEx}");
+                }
+                GameDataPath = "";
+                Name = "";
+                Version = 0;
+                Save();
             }
+        }
 
+        public void UpdateVersion(int version)
+        {
+            Version = version;
+            Save();
+            Logger.Log("Settings", $"Updated version to {version} after installing update...");
+        }
+
+
+        public void UpdateName(string name)
+        {
+            Name = name;
+            Save();
+            Logger.Log("Settings", $"User selected name: {name}.");
+        }
+
+
+        private void SelectGameDataFolder()
+        {
+            Logger.Log("Settings", "GameData path not found...");
+            var dialog = new OpenFolderDialog
+            {
+                Title = Locale.Get("select_gamedata"),
+                InitialDirectory = @"C:\"
+            };
+            while (true)
+            {
+                if (dialog.ShowDialog() == true)
+                {
+                    GameDataPath = Path.GetFullPath(dialog.FolderName);
+                    Directory.CreateDirectory(Path.Combine(GameDataPath, "gamedata", "configs"));
+                    Save();
+                    Logger.Log("Settings", $"GameData path selected: {GameDataPath}");
+                    return;
+                }
+                var result = MessageBox.Show(Locale.Get("select_gamedata_dialog"), Locale.Get("settings"), MessageBoxButton.YesNo, MessageBoxImage.Exclamation);
+                if (result == MessageBoxResult.No)
+                {
+                    Application.Current.Shutdown();
+                    return;
+                }
+            }
+        }
+
+
+        private void Save()
+        {
+            var config = new Dictionary<string, object>
+            {
+                ["gamedata-path"] = GameDataPath,
+                ["name"] = Name,
+                ["version"] = Version
+            };
+            string json = JsonSerializer.Serialize(config, Options);
+            File.WriteAllText(SettingsPath, json);
         }
     }
 }

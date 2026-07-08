@@ -8,16 +8,16 @@
     Title="RestXMLTranslator - Инициализация"
     Width="400"
     Height="220"
+    Closed="Window_Closed"
     FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
-    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+    <Grid>
         <TextBlock
             x:Name="Text"
             Margin="10,10,10,0"
             VerticalAlignment="Top"
-            FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
             FontSize="24"
             Text="Для использования введите никнейм."
             TextAlignment="Center"
@@ -28,7 +28,6 @@
             Margin="40,10,40,70"
             VerticalAlignment="Bottom"
             VerticalContentAlignment="Center"
-            FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
             TextChanged="NameBox_TextChanged" />
         <Grid
             x:Name="Circle"
@@ -83,7 +82,15 @@
             VerticalAlignment="Bottom"
             Click="Button_Click"
             Content="Продолжить"
-            FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
+            IsDefault="True"
             IsEnabled="False" />
+        <TextBlock
+            x:Name="SyncText"
+            Height="40"
+            Margin="40,10,40,10"
+            VerticalAlignment="Bottom"
+            FontSize="16"
+            TextAlignment="Center"
+            Visibility="Hidden" />
     </Grid>
 </Window>

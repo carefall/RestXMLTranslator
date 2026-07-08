@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:RestXMLTranslator"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="RestXMLTranslator - Перевод"
-    Width="1243"
+    Width="1271"
     Height="720"
     FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
     PreviewKeyDown="Window_PreviewKeyDown"
@@ -159,7 +159,7 @@
                                 MaxWidth="160"
                                 Text="{Binding Name}"
                                 TextTrimming="CharacterEllipsis"
-                                ToolTip="{Binding Tip}"/>
+                                ToolTip="{Binding Tip}" />
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
@@ -222,7 +222,7 @@
                         Padding="5,0,5,0"
                         Click="LoadBufferTranslation_Click"
                         Content="Загрузить перевод из буфера" />
-                    <Border BorderBrush="Black" BorderThickness="2">
+                    <Border BorderBrush="Black" BorderThickness="1">
                         <TextBlock
                             x:Name="Status"
                             MinWidth="180"

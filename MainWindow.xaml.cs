@@ -13,7 +13,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Xml;
 using System.Xml.Linq;
-using static RestXMLTranslator.Internals.JSONHelper;
 using static RestXMLTranslator.Internals.RestClient;
 using static RestXMLTranslator.Internals.XMLHelper;
 
@@ -46,7 +45,7 @@ namespace RestXMLTranslator
 
             public void WriteToDisk(List<StringEntry> entries)
             {
-                FilePath = Settings.GetInstance().gamedataPath + "/gamedata/configs/" + RelativePath;
+                FilePath = Settings.GetInstance().GameDataPath + "/gamedata/configs/" + RelativePath;
                 Entries = new ObservableCollection<StringEntry>(entries);
                 Name = Path.GetFileName(FilePath);
                 string dir = Path.GetDirectoryName(FilePath)!;
@@ -88,8 +87,6 @@ namespace RestXMLTranslator
 
         private string searchText = "";
 
-        public static Action? OnShutdown;
-
         private readonly static XmlWriterSettings settings = new()
         {
             Encoding = Encoding.GetEncoding(1251),
@@ -115,10 +112,13 @@ namespace RestXMLTranslator
             {
                 Files.Add(new FileTab(file, file.Replace(path, "")[1..].Replace("\\", "/"), true));
             }
+            FilesView = CollectionViewSource.GetDefaultView(Files);
+            FilesView.Filter = FilterFile;
+            FilesView.Refresh();
             if (Files.Count == 0)
             {
                 MessageBox.Show(Locale.Get("no_files_found"), Locale.Get("translation"), MessageBoxButton.OK, MessageBoxImage.Error);
-                OnShutdown?.Invoke();
+                Application.Current.Shutdown();
                 return;
             }
             ApplyChanges();
@@ -138,12 +138,9 @@ namespace RestXMLTranslator
             RuColumn.Header = Locale.Get("rus");
             StatusColumn.Header = Locale.Get("translation_status");
             Sync.Content = Locale.Get("btn_sync");
+            DynamicLoc.Init(Locale.Get("btn_approve"), Locale.Get("tip_approve"), Locale.Get("btn_decline"), Locale.Get("tip_decline"));
             var dloc = new DynamicLoc();
-            dloc.Init(Locale.Get("btn_approve"), Locale.Get("tip_approve"), Locale.Get("btn_decline"), Locale.Get("tip_decline"));
             Resources["Loc"] = dloc;
-            FilesView = CollectionViewSource.GetDefaultView(Files);
-            FilesView.Filter = FilterFile;
-            FilesView.Refresh();
         }
 
         private bool FilterFile(object obj)
@@ -280,9 +277,9 @@ namespace RestXMLTranslator
                 StoreChanges(file, true);
                 return;
             }
-            if (version == Settings.GetInstance().version)
+            if (version == Settings.GetInstance().Version)
             {
-                Logger.Log("RestClient-Get", $"Before commit, program is up to date(with version: {Settings.GetInstance().version})");
+                Logger.Log("RestClient-Get", $"Before commit, program is up to date(with version: {Settings.GetInstance().Version})");
                 if (!(await RestClient.Upload(file)))
                 {
                     LoadingOverlay.Visibility = Visibility.Hidden;
@@ -296,7 +293,7 @@ namespace RestXMLTranslator
                 Title = Locale.Get("window_title", Locale.Get("connected", GetCurrentTimeHM()));
                 return;
             }
-            Logger.Log("RestClient-Get", $"Before commit, program was not up to date(with version: {Settings.GetInstance().version})");
+            Logger.Log("RestClient-Get", $"Before commit, program was not up to date(with version: {Settings.GetInstance().Version})");
             List<DownloadedFile>? updates = await RestClient.Update(Files);
             if (updates == null)
             {
@@ -376,7 +373,7 @@ namespace RestXMLTranslator
             }
         }
 
-        private void WriteFile(FileTab file)
+        private static void WriteFile(FileTab file)
         {
             XDocument doc = XDocument.Load(file.FilePath);
             var entries = file.Entries;
@@ -650,7 +647,7 @@ namespace RestXMLTranslator
                 Title = Locale.Get("window_title", Locale.Get("not_connected"));
                 return;
             }
-            if (version == Settings.GetInstance().version)
+            if (version == Settings.GetInstance().Version)
             {
                 LoadingOverlay.Visibility = Visibility.Hidden;
                 MessageBox.Show(Locale.Get("sync_up_to_date"), Locale.Get("sync"));

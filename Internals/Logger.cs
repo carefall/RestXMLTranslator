@@ -3,17 +3,24 @@ using System.Windows;
 
 namespace RestXMLTranslator.Internals
 {
-    internal class Logger
+    internal static class Logger
     {
+
+        private static readonly string LogPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "log.txt");
+        private static readonly object Lock = new();
 
         public static void Log(string thrower, string message)
         {
-            if (!File.Exists("log.txt")) return;
+            if (!File.Exists(LogPath)) return;
             try
             {
-                using StreamWriter writer = new("log.txt", true);
-                writer.WriteLine($"[{DateTime.Now}] [{thrower}]: {message}");
-            } catch (Exception)
+                lock (Lock)
+                {
+                    using StreamWriter writer = new(LogPath, true);
+                    writer.WriteLine($"[{DateTime.Now}] [{thrower}]: {message}");
+                }
+            }
+            catch (Exception)
             {
                 MessageBox.Show("Не удалось записать информацию в файл log.txt.\nUnable to write data to log.txt file.", "Логирование / Logging", MessageBoxButton.OK);
             }
@@ -21,12 +28,12 @@ namespace RestXMLTranslator.Internals
 
         internal static void Setup()
         {
-            if (File.Exists("log.txt")) return;
             try
             {
-                File.Create("log.txt").Close();
+                if (!File.Exists(LogPath)) File.Create("log.txt").Close();
                 Log("Logger", "Logging initialized");
-            } catch (Exception)
+            }
+            catch (Exception)
             {
                 MessageBox.Show("Не удалось записать информацию в файл log.txt.\nUnable to write data to log.txt file.", "Логирование / Logging", MessageBoxButton.OK);
             }

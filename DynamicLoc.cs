@@ -3,7 +3,7 @@
     internal class DynamicLoc
     {
 
-        public void Init(string approve, string ttapprove, string decline, string ttdecline)
+        public static void Init(string approve, string ttapprove, string decline, string ttdecline)
         {
             LocaleDictionary["btn_approve"] = approve;
             LocaleDictionary["btn_decline"] = decline;
@@ -13,7 +13,6 @@
 
         public string this[string key] => LocaleDictionary[key];
 
-        public static Dictionary<string, string> LocaleDictionary { get; set; }
-            = new();
+        public static Dictionary<string, string> LocaleDictionary { get; set; } = [];
     }
 }
