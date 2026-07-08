@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using RestXMLTranslator.Internals.Models;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
@@ -12,7 +13,7 @@ using static RestXMLTranslator.MainWindow;
 
 namespace RestXMLTranslator.Internals
 {
-    internal class RestClient
+    internal static class RestClient
     {
         private static readonly HttpClient Client = new()
         {
@@ -25,7 +26,7 @@ namespace RestXMLTranslator.Internals
             Indent = true
         };
 
-        private static readonly JsonSerializerOptions Options = new()
+        internal static readonly JsonSerializerOptions Options = new()
         {
             PropertyNameCaseInsensitive = true,
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
@@ -71,9 +72,8 @@ namespace RestXMLTranslator.Internals
             {
                 Logger.Log("RestClient-Get", $"Sending files request");
                 progress?.Report(Locale.Get("getting_files"));
-                string json = await GetDataAsync("http://127.0.0.1:8000/translator/files");
-                if (json == "") return 1;
-                Dictionary<string, int> files = JsonSerializer.Deserialize<Dictionary<string, int>>(json, Options) ?? [];
+                var files = await SyncService.GetServerFiles();
+                if (files == null) return 1;
                 int targetVersion = files.Count > 0 ? files.Values.Max() : 0;
                 if (targetVersion <= version)
                 {
@@ -237,72 +237,6 @@ namespace RestXMLTranslator.Internals
             return true;
         }
 
-        public async static Task<List<DownloadedFile>?> Update(ObservableCollection<FileTab> tabs)
-        {
-            int version = Settings.GetInstance().Version;
-            string json = await GetDataAsync("http://127.0.0.1:8000/translator/files");
-            if (json == "") return null;
-            Dictionary<string, int> serverFiles = JsonSerializer.Deserialize<Dictionary<string, int>>(json, Options) ?? [];
-            DeleteRedundantFilesWithTheirTabs(serverFiles, tabs);
-            string update = await GetDataAsync($"http://127.0.0.1:8000/translator/download?version={version}");
-            if (update == "") return null;
-            List<DownloadedFile>? files = JsonSerializer.Deserialize<List<DownloadedFile>>(update, Options);
-            if (files == null) return null;
-            foreach (var file in files)
-            {
-                List<StringEntry> sEntries = [];
-                foreach (var entry in file.HalfEntries)
-                {
-                    var seq = sEntries.Where(e => e.Id == entry.Id);
-                    if (seq == null || !seq.Any())
-                    {
-                        sEntries.Add(new StringEntry()
-                        {
-                            Id = entry.Id!,
-                            Ru = entry.Russian ? entry.Text! : "",
-                            NewRu = entry.Russian ? entry.Text! : "",
-                            Eng = !entry.Russian ? entry.Text! : "",
-                            NewEng = !entry.Russian ? entry.Text! : "",
-                            downloadedRu = entry.Russian,
-                            downloadedEng = !entry.Russian
-                        });
-                    }
-                    else
-                    {
-                        var pair = seq.First();
-                        if (entry.Russian)
-                        {
-                            pair.downloadedRu = true;
-                            pair.Ru = entry.Text!;
-                            pair.NewRu = entry.Text!;
-                        }
-                        else
-                        {
-                            pair.Eng = entry.Text!;
-                            pair.NewEng = entry.Text!;
-                            pair.downloadedEng = true;
-                        }
-                    }
-                }
-                file.Entries = sEntries;
-            }
-            return files;
-        }
-
-        public async static Task<int> CompareVersions()
-        {
-            string json = await GetDataAsync("http://127.0.0.1:8000/translator/version");
-            if (json == "") return -1;
-            int version = JsonSerializer.Deserialize<int>(json, Options);
-            if (version < Settings.GetInstance().Version)
-            {
-                Logger.Log("RestClient-Sync", $"Somehow client version is higher than server version: {Settings.GetInstance().Version} against {version}");
-                Settings.GetInstance().UpdateVersion(0);
-                MessageBox.Show(Locale.Get("sync_version_higher"), Locale.Get("sync"), MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-            return version;
-        }
-
-
+        
     }
 }

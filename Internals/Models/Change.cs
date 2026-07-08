@@ -1,4 +1,4 @@
-﻿namespace RestXMLTranslator.Internals
+﻿namespace RestXMLTranslator.Internals.Models
 {
     public class Change(string Id, string Ru, string Eng, bool IsApproved)
     {

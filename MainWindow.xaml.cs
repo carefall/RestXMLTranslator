@@ -1,5 +1,6 @@
 ﻿using Microsoft.Win32;
 using RestXMLTranslator.Internals;
+using RestXMLTranslator.Internals.Models;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
@@ -13,7 +14,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Xml;
 using System.Xml.Linq;
-using static RestXMLTranslator.Internals.RestClient;
 using static RestXMLTranslator.Internals.XMLHelper;
 
 namespace RestXMLTranslator
@@ -268,7 +268,7 @@ namespace RestXMLTranslator
             if (FilesList.SelectedItem is not FileTab file) return;
             if (!file.HasApprovedChanges) return;
             LoadingOverlay.Visibility = Visibility.Visible;
-            int version = await RestClient.CompareVersions();
+            int version = await SyncService.CompareVersions();
             if (version == -1)
             {
                 LoadingOverlay.Visibility = Visibility.Hidden;
@@ -294,7 +294,7 @@ namespace RestXMLTranslator
                 return;
             }
             Logger.Log("RestClient-Get", $"Before commit, program was not up to date(with version: {Settings.GetInstance().Version})");
-            List<DownloadedFile>? updates = await RestClient.Update(Files);
+            List<DownloadedFile>? updates = await SyncService.Update(Files);
             if (updates == null)
             {
                 LoadingOverlay.Visibility = Visibility.Hidden;
@@ -639,7 +639,7 @@ namespace RestXMLTranslator
         private async void Sync_Click(object sender, RoutedEventArgs e)
         {
             LoadingOverlay.Visibility = Visibility.Visible;
-            int version = await RestClient.CompareVersions();
+            int version = await SyncService.CompareVersions();
             if (version == -1)
             {
                 LoadingOverlay.Visibility = Visibility.Hidden;
@@ -654,7 +654,7 @@ namespace RestXMLTranslator
                 Title = Locale.Get("window_title", Locale.Get("connected", GetCurrentTimeHM()));
                 return;
             }
-            List<DownloadedFile>? updates = await RestClient.Update(Files);
+            List<DownloadedFile>? updates = await SyncService.Update(Files);
             if (updates == null)
             {
                 LoadingOverlay.Visibility = Visibility.Hidden;

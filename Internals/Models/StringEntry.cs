@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace RestXMLTranslator.Internals
+namespace RestXMLTranslator.Internals.Models
 {
     public class StringEntry : INotifyPropertyChanged
     {

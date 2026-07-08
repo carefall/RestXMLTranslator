@@ -1,4 +1,4 @@
-﻿namespace RestXMLTranslator.Internals
+﻿namespace RestXMLTranslator.Internals.Models
 {
     public class DownloadedFile
     {

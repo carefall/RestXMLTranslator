@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RestXMLTranslator.Internals
+namespace RestXMLTranslator.Internals.Models
 {
     public class UploadRequest
     {

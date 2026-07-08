@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using RestXMLTranslator.Internals.Models;
+using System.Collections.ObjectModel;
 using System.Windows;
 using System.Xml;
 using System.Xml.Linq;
