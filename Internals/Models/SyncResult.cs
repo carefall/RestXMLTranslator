@@ -4,7 +4,6 @@
     {
         Success,
         ServerUnavailable,
-        FileError,
         ClientVersionHigher,
         Other
     }

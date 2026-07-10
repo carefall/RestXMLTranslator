@@ -1,6 +1,8 @@
 ﻿using RestXMLTranslator.Internals.Models;
 using RestXMLTranslator.Internals.Program;
 using System.Collections.ObjectModel;
+using System.IO;
+using System.IO.Pipelines;
 using System.Text.Json;
 
 namespace RestXMLTranslator.Internals.Services
@@ -9,7 +11,7 @@ namespace RestXMLTranslator.Internals.Services
     {
         public async Task<Dictionary<string, int>?> GetServerFiles()
         {
-            string json = await RestClient.GetDataAsync("translator/files");
+            string json = await RestClient.GetDataAsync("files");
             if (string.IsNullOrEmpty(json)) return null;
             return JsonSerializer.Deserialize<Dictionary<string, int>>(json, App.Current.JsonOptions);
         }
@@ -17,14 +19,14 @@ namespace RestXMLTranslator.Internals.Services
 
         public async Task<List<DownloadedFile>?> DownloadUpdatedFiles(int version)
         {
-            string json = await RestClient.GetDataAsync($"translator/download?version={version}");
+            string json = await RestClient.GetDataAsync($"download?version={version}");
             if (string.IsNullOrEmpty(json)) return null;
-            return JsonSerializer.Deserialize<List<DownloadedFile>>(json, App.Current.JsonOptions);
+            return await Task.Run(() => JsonSerializer.Deserialize<List<DownloadedFile>>(json, App.Current.JsonOptions));
         }
 
         public async Task<int> CompareVersions()
         {
-            string json = await RestClient.GetDataAsync("translator/version");
+            string json = await RestClient.GetDataAsync("version");
             if (json == "") return -1;
             try
             {
@@ -64,12 +66,18 @@ namespace RestXMLTranslator.Internals.Services
                 int targetVersion = files.Values.Max();
                 if (targetVersion <= version) return SyncResult.Success;
                 progress?.Report(Locale.Get("deleting_files"));
-                App.Current.LocalFiles.DeleteRedundantFiles(files, gameDataPath);
+                await Task.Run(() =>
+                {
+                    App.Current.LocalFiles.DeleteRedundantFiles(files, gameDataPath);
+                });
                 var updates = await DownloadUpdates(version);
                 if (updates == null) return SyncResult.ServerUnavailable;
-                int result = App.Current.LocalFiles.ApplyUpdates(gameDataPath, updates);
-                if (result != 0) return SyncResult.FileError;
-                App.Current.Settings.UpdateVersion(targetVersion);
+                int result = await App.Current.LocalFiles.ApplyUpdates(gameDataPath, updates);
+                if (result != 0) return SyncResult.Other;
+                await Task.Run(() =>
+                {
+                    App.Current.Settings.UpdateVersion(targetVersion);
+                });
                 return SyncResult.Success;
             }
             catch (Exception ex)
@@ -122,7 +130,7 @@ namespace RestXMLTranslator.Internals.Services
                 }
             }
             string body = JsonSerializer.Serialize(request, App.Current.JsonOptions);
-            string json = await RestClient.PostDataAsync($"translator/upload?filepath={file.RelativePath.Replace("\\", "/")}", body);
+            string json = await RestClient.PostDataAsync($"upload?filepath={file.RelativePath.Replace("\\", "/")}", body);
             if (json == "") return false;
             int version = JsonSerializer.Deserialize<int>(json, App.Current.JsonOptions);
             App.Current.Settings.UpdateVersion(version);

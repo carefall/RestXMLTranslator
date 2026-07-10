@@ -5,45 +5,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:RestXMLTranslator"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="RestXMLTranslator - Перевод"
-    Width="1271"
-    Height="720"
+    xmlns:usercontrols="clr-namespace:RestXMLTranslator.UserControls"
+    MinWidth="400"
+    MinHeight="250"
     FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
+    Loaded="Window_Loaded"
     PreviewKeyDown="Window_PreviewKeyDown"
-    ResizeMode="CanResizeWithGrip"
+    ResizeMode="CanResize"
     mc:Ignorable="d">
     <Window.Resources>
-        <local:DynamicLoc x:Key="Loc" />
-        <Style TargetType="DataGridRow">
-            <Setter Property="Background" Value="White" />
-            <Style.Triggers>
-                <DataTrigger Binding="{Binding HasChanges}" Value="True">
-                    <Setter Property="Background" Value="Yellow" />
-                </DataTrigger>
-                <DataTrigger Binding="{Binding IsApproved}" Value="True">
-                    <Setter Property="Background" Value="LightGreen" />
-                </DataTrigger>
-            </Style.Triggers>
-        </Style>
-        <Style TargetType="ListBoxItem">
-            <Setter Property="Padding" Value="10,4" />
-            <Setter Property="Margin" Value="2" />
-            <Setter Property="Cursor" Value="Hand" />
-            <Setter Property="Background" Value="#E6E6E6" />
-            <Setter Property="BorderThickness" Value="0,0,0,2" />
-            <Setter Property="BorderBrush" Value="Transparent" />
-            <Setter Property="HorizontalContentAlignment" Value="Center" />
-            <Style.Triggers>
-                <Trigger Property="IsSelected" Value="True">
-                    <Setter Property="Background" Value="White" />
-                    <Setter Property="FontWeight" Value="SemiBold" />
-                    <Setter Property="BorderBrush" Value="#4A90E2" />
-                </Trigger>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#F5F5F5" />
-                </Trigger>
-            </Style.Triggers>
-        </Style>
         <Style TargetType="ToggleButton">
             <Setter Property="Padding" Value="8,3" />
             <Setter Property="Background" Value="#EAEAEA" />
@@ -63,396 +33,30 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <Grid
-            x:Name="LoadingOverlay"
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <usercontrols:SyncPanel
+            Grid.ColumnSpan="3"
             Panel.ZIndex="100"
-            Background="#66000000"
-            Visibility="Hidden">
-
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-
-                <Grid
-                    x:Name="Circle"
-                    Width="64"
-                    Height="64"
-                    Margin="0,30,0,0"
-                    RenderTransformOrigin="0.5,0.5">
-                    <Grid.RenderTransform>
-                        <RotateTransform />
-                    </Grid.RenderTransform>
-                    <Path
-                        Stroke="DodgerBlue"
-                        StrokeEndLineCap="Round"
-                        StrokeStartLineCap="Round"
-                        StrokeThickness="8">
-
-                        <Path.Data>
-                            <PathGeometry>
-                                <PathFigure IsClosed="False" StartPoint="32,4">
-                                    <ArcSegment
-                                        IsLargeArc="False"
-                                        Point="60,32"
-                                        Size="28,28"
-                                        SweepDirection="Clockwise" />
-                                </PathFigure>
-                            </PathGeometry>
-                        </Path.Data>
-
-                    </Path>
-                    <Grid.Triggers>
-                        <EventTrigger RoutedEvent="Loaded">
-                            <BeginStoryboard>
-                                <Storyboard RepeatBehavior="Forever">
-                                    <DoubleAnimation
-                                        Storyboard.TargetProperty="RenderTransform.Angle"
-                                        From="0"
-                                        To="360"
-                                        Duration="0:0:0.8" />
-                                </Storyboard>
-                            </BeginStoryboard>
-                        </EventTrigger>
-                    </Grid.Triggers>
-                </Grid>
-                <TextBlock
-                    x:Name="SyncTitle"
-                    Margin="0,10,0,0"
-                    HorizontalAlignment="Center"
-                    FontSize="16"
-                    Foreground="White"
-                    Text="Синхронизация..." />
-            </StackPanel>
-        </Grid>
-        <Grid>
+            Visibility="Hidden" />
+        <usercontrols:FileExplorer Grid.Column="0" MinWidth="200" />
+        <GridSplitter
+            Grid.Column="1"
+            HorizontalAlignment="Stretch"
+            Background="Gray"
+            ResizeBehavior="PreviousAndNext" />
+        <!--  Сюда переезжают файлы  -->
+        <Grid Grid.Column="2">
+            <!--  А здесь всё остальное  -->
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <Border
-                Grid.Row="0"
-                Margin="5"
-                Background="#FAFAFA"
-                BorderBrush="#D6D6D6"
-                BorderThickness="1"
-                CornerRadius="4">
-                <ListBox
-                    x:Name="FilesList"
-                    Background="Transparent"
-                    BorderThickness="0"
-                    ItemsSource="{Binding FilesView}"
-                    Loaded="FilesList_Loaded"
-                    PreviewMouseWheel="FilesList_PreviewMouseWheel"
-                    ScrollViewer.HorizontalScrollBarVisibility="Hidden"
-                    ScrollViewer.VerticalScrollBarVisibility="Disabled"
-                    SelectedItem="{Binding SelectedFile}"
-                    SelectionChanged="FilesList_SelectionChanged"
-                    VirtualizingPanel.IsVirtualizing="True"
-                    VirtualizingPanel.ScrollUnit="Pixel">
-                    <ListBox.ItemsPanel>
-                        <ItemsPanelTemplate>
-                            <VirtualizingStackPanel Orientation="Horizontal" />
-                        </ItemsPanelTemplate>
-                    </ListBox.ItemsPanel>
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock
-                                MaxWidth="160"
-                                Text="{Binding Name}"
-                                TextTrimming="CharacterEllipsis"
-                                ToolTip="{Binding Tip}" />
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
-            </Border>
-            <Grid
-                Grid.Row="1"
-                Margin="5"
-                HorizontalAlignment="Stretch">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <StackPanel Grid.Row="0" Orientation="Horizontal">
-                    <Button
-                        x:Name="Save"
-                        MinWidth="160"
-                        Padding="5,0,5,0"
-                        Background="#4A90E2"
-                        BorderBrush="#3B78C2"
-                        Click="Save_Click"
-                        Content="Отправить изменения"
-                        FontWeight="SemiBold"
-                        Foreground="White" />
-                    <Button
-                        x:Name="Sync"
-                        MinWidth="160"
-                        Margin="10,0,0,0"
-                        Padding="5,0,5,0"
-                        Background="#4A90E2"
-                        BorderBrush="#3B78C2"
-                        Click="Sync_Click"
-                        Content="Загрузить изменения"
-                        FontWeight="SemiBold"
-                        Foreground="White" />
-                    <Button
-                        x:Name="SaveLocal"
-                        MinWidth="160"
-                        Margin="10,0,0,0"
-                        Padding="5,0,5,0"
-                        Click="SaveLocal_Click"
-                        Content="Сохранить изменения файла" />
-                    <Button
-                        x:Name="SaveAllLocal"
-                        MinWidth="160"
-                        Margin="10,0,0,0"
-                        Padding="5,0,5,0"
-                        Click="SaveAllLocal_Click"
-                        Content="Сохранить все изменения" />
-                    <Button
-                        x:Name="LoadTranslation"
-                        MinWidth="160"
-                        Margin="10,0,0,0"
-                        Padding="5,0,5,0"
-                        Click="LoadTranslation_Click"
-                        Content="Загрузить перевод из файла" />
-                    <Button
-                        x:Name="LoadBufferTranslation"
-                        MinWidth="160"
-                        Margin="10,0,10,0"
-                        Padding="5,0,5,0"
-                        Click="LoadBufferTranslation_Click"
-                        Content="Загрузить перевод из буфера" />
-                    <Border BorderBrush="Black" BorderThickness="1">
-                        <TextBlock
-                            x:Name="Status"
-                            MinWidth="180"
-                            Margin="5,0,5,0"
-                            Padding="5"
-                            HorizontalAlignment="Right"
-                            FontSize="16"
-                            FontWeight="SemiBold"
-                            TextAlignment="Center" />
-                    </Border>
-                </StackPanel>
-                <!--  FILTERS  -->
-                <Grid
-                    Grid.Row="1"
-                    Margin="0,10,0,0"
-                    VerticalAlignment="Center">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-
-                    <ToggleButton
-                        x:Name="HideApproved"
-                        Grid.Column="0"
-                        Checked="FilterChanged"
-                        Content="Скрыть утверждённые"
-                        Unchecked="FilterChanged" />
-
-                    <ToggleButton
-                        x:Name="HideUnchanged"
-                        Grid.Column="1"
-                        Margin="10,0,10,0"
-                        Checked="FilterChanged"
-                        Content="Скрыть неизменённые"
-                        Unchecked="FilterChanged" />
-
-                    <ToggleButton
-                        x:Name="HideChanged"
-                        Grid.Column="2"
-                        Checked="FilterChanged"
-                        Content="Скрыть изменённые"
-                        Unchecked="FilterChanged" />
-
-                    <Grid
-                        Grid.Column="3"
-                        MinWidth="150"
-                        Margin="10,0,0,0"
-                        HorizontalAlignment="Stretch">
-                        <TextBox
-                            x:Name="SearchBox"
-                            Padding="20,0,5,0"
-                            VerticalContentAlignment="Center"
-                            TextChanged="SearchBox_TextChanged" />
-
-                        <TextBlock
-                            Margin="5,0,0,0"
-                            HorizontalAlignment="Stretch"
-                            VerticalAlignment="Center"
-                            Foreground="Gray"
-                            IsHitTestVisible="False"
-                            Text="🔍" />
-
-                        <TextBlock
-                            x:Name="SearchPlaceholder"
-                            Margin="25,0,0,0"
-                            HorizontalAlignment="Stretch"
-                            VerticalAlignment="Center"
-                            Foreground="Gray"
-                            IsHitTestVisible="False"
-                            Text="Поиск...">
-                            <TextBlock.Style>
-                                <Style TargetType="TextBlock">
-                                    <Setter Property="Visibility" Value="Collapsed" />
-                                    <Style.Triggers>
-                                        <DataTrigger Binding="{Binding Text, ElementName=SearchBox}" Value="">
-                                            <Setter Property="Visibility" Value="Visible" />
-                                        </DataTrigger>
-                                        <DataTrigger Binding="{Binding IsKeyboardFocused, ElementName=SearchBox}" Value="True">
-                                            <Setter Property="Visibility" Value="Collapsed" />
-                                        </DataTrigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </TextBlock.Style>
-                        </TextBlock>
-                    </Grid>
-                </Grid>
-            </Grid>
-            <DataGrid
-                x:Name="Grid"
-                Grid.Row="2"
-                Margin="5,0,5,0"
-                AutoGenerateColumns="False"
-                BeginningEdit="Grid_BeginningEdit"
-                CanUserAddRows="False"
-                CanUserSortColumns="True"
-                SelectionMode="Extended"
-                SelectionUnit="FullRow">
-                <DataGrid.Resources>
-                    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="LightBlue" />
-                    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="Black" />
-                    <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="LightBlue" />
-                    <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightTextBrushKey}" Color="Black" />
-                </DataGrid.Resources>
-                <DataGrid.Columns>
-                    <DataGridTemplateColumn
-                        Width="220"
-                        Header="ID"
-                        SortMemberPath="Id">
-                        <DataGridTemplateColumn.CellTemplate>
-                            <DataTemplate>
-                                <TextBox
-                                    Padding="2,0"
-                                    VerticalContentAlignment="Center"
-                                    Background="Transparent"
-                                    BorderThickness="0"
-                                    IsReadOnly="True"
-                                    Text="{Binding Id}" />
-                            </DataTemplate>
-                        </DataGridTemplateColumn.CellTemplate>
-                    </DataGridTemplateColumn>
-
-                    <DataGridTemplateColumn
-                        x:Name="RuColumn"
-                        Width="2*"
-                        Header="Русский"
-                        SortMemberPath="Ru">
-                        <DataGridTemplateColumn.CellTemplate>
-                            <DataTemplate>
-                                <TextBox
-                                    Padding="2,0"
-                                    VerticalContentAlignment="Center"
-                                    Background="Transparent"
-                                    BorderThickness="0"
-                                    Cursor="Arrow"
-                                    IsReadOnly="True"
-                                    MaxLines="4"
-                                    Text="{Binding Ru}"
-                                    TextWrapping="Wrap"
-                                    VerticalScrollBarVisibility="Hidden" />
-                            </DataTemplate>
-                        </DataGridTemplateColumn.CellTemplate>
-                    </DataGridTemplateColumn>
-                    <DataGridTemplateColumn
-                        x:Name="EngColumn"
-                        Width="2*"
-                        Header="Английский"
-                        SortMemberPath="Eng">
-                        <DataGridTemplateColumn.CellTemplate>
-                            <DataTemplate>
-                                <TextBox
-                                    Padding="2,0"
-                                    VerticalContentAlignment="Center"
-                                    Background="Transparent"
-                                    BorderThickness="0"
-                                    Cursor="Arrow"
-                                    IsReadOnly="True"
-                                    MaxLines="4"
-                                    Text="{Binding Eng}"
-                                    TextWrapping="Wrap"
-                                    VerticalScrollBarVisibility="Hidden" />
-                            </DataTemplate>
-                        </DataGridTemplateColumn.CellTemplate>
-                    </DataGridTemplateColumn>
-                    <DataGridTextColumn
-                        x:Name="NewRuColumn"
-                        Width="2*"
-                        Binding="{Binding NewRu, UpdateSourceTrigger=PropertyChanged}"
-                        Header="Новый русский"
-                        SortMemberPath="NewRu">
-                        <DataGridTextColumn.CellStyle>
-                            <Style TargetType="DataGridCell">
-                                <Setter Property="Cursor" Value="IBeam" />
-                                <EventSetter Event="PreviewMouseLeftButtonDown" Handler="DataGridCell_PreviewMouseLeftButtonDown" />
-                                <EventSetter Event="PreviewMouseDoubleClick" Handler="EditLongText" />
-                            </Style>
-                        </DataGridTextColumn.CellStyle>
-                        <DataGridTextColumn.EditingElementStyle>
-                            <Style TargetType="TextBox">
-                                <EventSetter Event="GotFocus" Handler="TextBox_GotFocus" />
-                            </Style>
-                        </DataGridTextColumn.EditingElementStyle>
-                    </DataGridTextColumn>
-                    <DataGridTextColumn
-                        x:Name="NewEngColumn"
-                        Width="2*"
-                        Binding="{Binding NewEng, UpdateSourceTrigger=PropertyChanged}"
-                        Header="Новый английский"
-                        SortMemberPath="NewEng">
-                        <DataGridTextColumn.CellStyle>
-                            <Style TargetType="DataGridCell">
-                                <Setter Property="Cursor" Value="IBeam" />
-                                <EventSetter Event="PreviewMouseLeftButtonDown" Handler="DataGridCell_PreviewMouseLeftButtonDown" />
-                                <EventSetter Event="PreviewMouseDoubleClick" Handler="EditLongText" />
-                            </Style>
-                        </DataGridTextColumn.CellStyle>
-                        <DataGridTextColumn.EditingElementStyle>
-                            <Style TargetType="TextBox">
-                                <EventSetter Event="GotFocus" Handler="TextBox_GotFocus" />
-                            </Style>
-                        </DataGridTextColumn.EditingElementStyle>
-                    </DataGridTextColumn>
-                    <DataGridTemplateColumn
-                        x:Name="StatusColumn"
-                        Width="110"
-                        Header="Статус"
-                        SortMemberPath="IsApproved">
-                        <DataGridTemplateColumn.CellTemplate>
-                            <DataTemplate>
-                                <Button x:Name="Approve" Click="Approve_Click">
-                                    <Button.Style>
-                                        <Style TargetType="Button">
-                                            <Setter Property="Content" Value="{Binding Source={StaticResource Loc}, Path=[btn_approve]}" />
-                                            <Setter Property="ToolTip" Value="{Binding Source={StaticResource Loc}, Path=[tip_approve]}" />
-
-                                            <Style.Triggers>
-                                                <DataTrigger Binding="{Binding IsApproved}" Value="True">
-                                                    <Setter Property="Content" Value="{Binding Source={StaticResource Loc}, Path=[btn_decline]}" />
-                                                    <Setter Property="ToolTip" Value="{Binding Source={StaticResource Loc}, Path=[tip_decline]}" />
-                                                </DataTrigger>
-                                            </Style.Triggers>
-                                        </Style>
-                                    </Button.Style>
-                                </Button>
-                            </DataTemplate>
-                        </DataGridTemplateColumn.CellTemplate>
-                    </DataGridTemplateColumn>
-                </DataGrid.Columns>
-            </DataGrid>
+            <usercontrols:ButtonsPanel Grid.Row="1" Margin="5,0,5,0" />
+            <usercontrols:TranslationGrid Grid.Row="2" Margin="5,0,5,0" />
         </Grid>
     </Grid>
 </Window>

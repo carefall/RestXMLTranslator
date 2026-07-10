@@ -11,13 +11,21 @@ namespace RestXMLTranslator
     public partial class App : Application
     {
 
+        static App()
+        {
+            System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+            Locale.Init();
+            Logger.Setup();
+        }
+
         public static new App Current => (App)Application.Current;
 
         public readonly JsonSerializerOptions JsonOptions = new()
         {
             PropertyNameCaseInsensitive = true,
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+            WriteIndented = true
         };
 
         public readonly XmlWriterSettings XmlSettings = new()
@@ -32,8 +40,8 @@ namespace RestXMLTranslator
 
         public App()
         {
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             Settings = new Settings();
+            new StartupWindow().Show();
         }
     }
 }

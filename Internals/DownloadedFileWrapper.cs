@@ -38,7 +38,6 @@ namespace RestXMLTranslator.Internals
                     existing.NewEng = entry.Text!;
                 }
             }
-
             file.Entries = entries;
         }
 

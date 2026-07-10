@@ -89,16 +89,9 @@ namespace RestXMLTranslator.Internals.Program
                 Title = Locale.Get("select_gamedata"),
                 InitialDirectory = @"C:\"
             };
-            while (true)
+            MessageBox.Show("START");
+            while (dialog.ShowDialog() != true)
             {
-                if (dialog.ShowDialog() == true)
-                {
-                    GameDataPath = Path.GetFullPath(dialog.FolderName);
-                    Directory.CreateDirectory(Path.Combine(GameDataPath, "gamedata", "configs"));
-                    Save();
-                    Logger.Log("Settings", $"GameData path selected: {GameDataPath}");
-                    return;
-                }
                 var result = MessageBox.Show(Locale.Get("select_gamedata_dialog"), Locale.Get("settings"), MessageBoxButton.YesNo, MessageBoxImage.Exclamation);
                 if (result == MessageBoxResult.No)
                 {
@@ -106,6 +99,22 @@ namespace RestXMLTranslator.Internals.Program
                     return;
                 }
             }
+            MessageBox.Show("MID");
+            GameDataPath = Path.GetFullPath(dialog.FolderName);
+            MessageBox.Show(GameDataPath);
+            try
+            {
+                Directory.CreateDirectory(Path.Combine(GameDataPath, "gamedata", "configs"));
+                Save();
+            }
+            catch (Exception ex)
+            {
+                Logger.Log("Settings", $"Unhandled exception on gamedata folder creation: {ex}");
+                MessageBox.Show(Locale.Get("gamedata_creation_failed"), Locale.Get("settings"));
+                Application.Current.Shutdown();
+            }
+            Logger.Log("Settings", $"GameData path selected: {GameDataPath}");
+            return;
         }
 
         private void Save()

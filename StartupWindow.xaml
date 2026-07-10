@@ -9,6 +9,7 @@
     Width="400"
     Height="220"
     FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
+    Loaded="Window_Loaded"
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">

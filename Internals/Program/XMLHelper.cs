@@ -8,15 +8,14 @@ namespace RestXMLTranslator.Internals.Program
 {
     public static class XMLHelper
     {
-        public static string DecodeMultiline(string text)
+        private static string DecodeMultiline(string text)
         {
             return text.Replace("\\n", Environment.NewLine);
         }
 
         public static string EncodeMultiline(string text)
         {
-            return text.Replace("\r\n", "\n")
-                       .Replace("\n", "\\n");
+            return text.Replace("\r\n", "\n").Replace("\n", "\\n");
         }
 
         public static ObservableCollection<StringEntry> LoadStrings(string xml)

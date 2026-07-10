@@ -9,26 +9,13 @@ namespace RestXMLTranslator
     {
 
         private static readonly HashSet<char> AllowedChars = ['.', ',', '-'];
-        private readonly IProgress<string> _progress;
+        private IProgress<string>? _progress;
 
         public StartupWindow()
         {
             InitializeComponent();
-            Logger.Setup();
-            Locale.Init();
-            _progress = new Progress<string>(SetSyncText);
             Title = Locale.Get("window_title", Locale.Get("startup"));
             ContinueButton.Content = Locale.Get("continue");
-            string name = App.Current.Settings.Name;
-            if (name != "")
-            {
-                PrepareUpdate(name);
-                _ = StartUpdate();
-            }
-            else
-            {
-                Text.Text = Locale.Get("enter_name");
-            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -36,18 +23,18 @@ namespace RestXMLTranslator
             string name = NameBox.Text;
             PrepareUpdate(name);
             App.Current.Settings.UpdateName(name);
-            _ = StartUpdate();
+            StartUpdate();
         }
 
-        private async Task StartUpdate()
+        private async void StartUpdate()
         {
             var settings = App.Current.Settings;
             SyncText.Visibility = Visibility.Visible;
             Logger.Log("Startup", "Performing update check...");
             SyncResult result = await App.Current.SyncService.StartupSync(settings.GameDataPath, settings.Version, _progress);
-            if (result == SyncResult.Other || result == SyncResult.ClientVersionHigher)
+            if (result != SyncResult.Success && result != SyncResult.ServerUnavailable)
             {
-                MessageBox.Show(Locale.Get("sync_fail"), Locale.Get("sync"));
+                MessageBox.Show(Locale.Get(result == SyncResult.ClientVersionHigher ? "sync_version_higher" : "sync_fail"), Locale.Get("sync"));
                 Application.Current.Shutdown();
                 return;
             }
@@ -55,12 +42,12 @@ namespace RestXMLTranslator
             {
                 MessageBox.Show(Locale.Get("update_server_unreachable"), Locale.Get("sync"));
                 Logger.Log("Startup", "Update check failed due to service unavailability. Moving to MainWindow");
-                new MainWindow(false, settings.GameDataPath).Show();
+                new MainWindow(false).Show();
             }
             else
             {
                 Logger.Log("Startup", "Successful update check. Moving to MainWindow");
-                new MainWindow(true, settings.GameDataPath).Show();
+                new MainWindow(true).Show();
             }
             Close();
             return;
@@ -68,8 +55,7 @@ namespace RestXMLTranslator
 
         private void NameBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (sender is not TextBox textBox)
-                return;
+            if (sender is not TextBox textBox) return;
             var clean = new string([.. textBox.Text.Where(c => char.IsLetterOrDigit(c) || char.IsWhiteSpace(c) || AllowedChars.Contains(c))]);
             if (textBox.Text != clean)
             {
@@ -94,5 +80,19 @@ namespace RestXMLTranslator
             Text.Text = Locale.Get("welcome", name);
         }
 
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            string name = App.Current.Settings.Name;
+            _progress = new Progress<string>(SetSyncText);
+            if (name != "")
+            {
+                PrepareUpdate(name);
+                StartUpdate();
+            }
+            else
+            {
+                Text.Text = Locale.Get("enter_name");
+            }
+        }
     }
 }

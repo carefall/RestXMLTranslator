@@ -5,7 +5,19 @@
     <Compile Update="StartupWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UserControls\ButtonsPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\FileExplorer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\SyncPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="TextEditWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\TranslationGrid.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
