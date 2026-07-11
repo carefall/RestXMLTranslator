@@ -12,31 +12,11 @@
         x:Name="TGrid"
         AutoGenerateColumns="False"
         BeginningEdit="TGrid_BeginningEdit"
-        CanUserAddRows="False"
         CanUserSortColumns="True"
-        ItemsSource="{Binding Entries, RelativeSource={RelativeSource AncestorType=UserControl}}"
-        SelectionMode="Extended"
-        SelectionUnit="FullRow">
-        <DataGrid.Resources>
-            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="LightBlue" />
-            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="Black" />
-            <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="LightBlue" />
-            <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightTextBrushKey}" Color="Black" />
-            <Style TargetType="DataGridRow">
-                <Setter Property="Background" Value="White" />
-                <Style.Triggers>
-                    <DataTrigger Binding="{Binding HasChanges}" Value="True">
-                        <Setter Property="Background" Value="Yellow" />
-                    </DataTrigger>
-                    <DataTrigger Binding="{Binding IsApproved}" Value="True">
-                        <Setter Property="Background" Value="LightGreen" />
-                    </DataTrigger>
-                </Style.Triggers>
-            </Style>
-        </DataGrid.Resources>
+        ItemsSource="{Binding Entries, RelativeSource={RelativeSource AncestorType=UserControl}}">
         <DataGrid.Columns>
             <DataGridTemplateColumn
-                Width="220"
+                Width="120"
                 Header="ID"
                 SortMemberPath="Id">
                 <DataGridTemplateColumn.CellTemplate>
@@ -51,7 +31,6 @@
                     </DataTemplate>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
-
             <DataGridTemplateColumn
                 x:Name="RuColumn"
                 Width="2*"
@@ -101,14 +80,14 @@
                 Header="{Binding Source={StaticResource Locale}, Path=[new_rus]}"
                 SortMemberPath="NewRu">
                 <DataGridTextColumn.CellStyle>
-                    <Style TargetType="DataGridCell">
+                    <Style BasedOn="{StaticResource {x:Type DataGridCell}}" TargetType="DataGridCell">
                         <Setter Property="Cursor" Value="IBeam" />
                         <EventSetter Event="PreviewMouseLeftButtonDown" Handler="DataGridCell_PreviewMouseLeftButtonDown" />
                         <EventSetter Event="PreviewMouseDoubleClick" Handler="EditLongText" />
                     </Style>
                 </DataGridTextColumn.CellStyle>
                 <DataGridTextColumn.EditingElementStyle>
-                    <Style TargetType="TextBox">
+                    <Style BasedOn="{StaticResource DataGridEditingTextBoxStyle}" TargetType="TextBox">
                         <EventSetter Event="GotFocus" Handler="TextBox_GotFocus" />
                     </Style>
                 </DataGridTextColumn.EditingElementStyle>
@@ -120,39 +99,29 @@
                 Header="{Binding Source={StaticResource Locale}, Path=[new_eng]}"
                 SortMemberPath="NewEng">
                 <DataGridTextColumn.CellStyle>
-                    <Style TargetType="DataGridCell">
+                    <Style BasedOn="{StaticResource {x:Type DataGridCell}}" TargetType="DataGridCell">
                         <Setter Property="Cursor" Value="IBeam" />
                         <EventSetter Event="PreviewMouseLeftButtonDown" Handler="DataGridCell_PreviewMouseLeftButtonDown" />
                         <EventSetter Event="PreviewMouseDoubleClick" Handler="EditLongText" />
                     </Style>
                 </DataGridTextColumn.CellStyle>
                 <DataGridTextColumn.EditingElementStyle>
-                    <Style TargetType="TextBox">
+                    <Style BasedOn="{StaticResource DataGridEditingTextBoxStyle}" TargetType="TextBox">
                         <EventSetter Event="GotFocus" Handler="TextBox_GotFocus" />
                     </Style>
                 </DataGridTextColumn.EditingElementStyle>
             </DataGridTextColumn>
             <DataGridTemplateColumn
                 x:Name="StatusColumn"
-                Width="110"
+                Width="120"
                 Header="{Binding Source={StaticResource Locale}, Path=[translation_status]}"
                 SortMemberPath="IsApproved">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
-                        <Button x:Name="Approve" Click="Approve_Click">
-                            <Button.Style>
-                                <Style TargetType="Button">
-                                    <Setter Property="Content" Value="{Binding Source={StaticResource Locale}, Path=[btn_approve]}" />
-                                    <Setter Property="ToolTip" Value="{Binding Source={StaticResource Locale}, Path=[tip_approve]}" />
-                                    <Style.Triggers>
-                                        <DataTrigger Binding="{Binding IsApproved}" Value="True">
-                                            <Setter Property="Content" Value="{Binding Source={StaticResource Locale}, Path=[btn_decline]}" />
-                                            <Setter Property="ToolTip" Value="{Binding Source={StaticResource Locale}, Path=[tip_decline]}" />
-                                        </DataTrigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </Button.Style>
-                        </Button>
+                        <Button
+                            x:Name="Approve"
+                            Click="Approve_Click"
+                            Style="{StaticResource ApproveButtonStyle}" />
                     </DataTemplate>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>

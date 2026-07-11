@@ -129,5 +129,10 @@ namespace RestXMLTranslator.UserControls
                 SaveAll.Content = Locale.Get("btn_save_file");
             }
         }
+
+        public void Theme_Click(object sender, RoutedEventArgs e)
+        {
+            App.Current.SwitchTheme();
+        }
     }
 }

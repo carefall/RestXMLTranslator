@@ -8,6 +8,7 @@
     Title="RestXMLTranslator - Инициализация"
     Width="400"
     Height="220"
+    Background="{DynamicResource WindowBackgroundBrush}"
     FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
     Loaded="Window_Loaded"
     ResizeMode="NoResize"
@@ -58,7 +59,6 @@
                     </PathGeometry>
                 </Path.Data>
             </Path>
-
             <Grid.Triggers>
                 <EventTrigger RoutedEvent="Loaded">
                     <BeginStoryboard>
@@ -67,7 +67,7 @@
                                 Storyboard.TargetProperty="RenderTransform.Angle"
                                 From="0"
                                 To="360"
-                                Duration="0:0:0.8" />
+                                Duration="0:0:1.2" />
                         </Storyboard>
                     </BeginStoryboard>
                 </EventTrigger>

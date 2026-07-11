@@ -6,37 +6,21 @@
     xmlns:local="clr-namespace:RestXMLTranslator"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:usercontrols="clr-namespace:RestXMLTranslator.UserControls"
+    Width="1398.4"
     MinWidth="400"
     MinHeight="250"
+    Background="{DynamicResource WindowBackgroundBrush}"
     FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman"
     Loaded="Window_Loaded"
     PreviewKeyDown="Window_PreviewKeyDown"
     ResizeMode="CanResize"
     mc:Ignorable="d">
-    <Window.Resources>
-        <Style TargetType="ToggleButton">
-            <Setter Property="Padding" Value="8,3" />
-            <Setter Property="Background" Value="#EAEAEA" />
-            <Setter Property="BorderBrush" Value="#CFCFCF" />
-            <Setter Property="BorderThickness" Value="1" />
-            <Setter Property="Cursor" Value="Hand" />
-            <Style.Triggers>
-                <Trigger Property="IsChecked" Value="True">
-                    <Setter Property="Background" Value="#D6E8FF" />
-                    <Setter Property="BorderBrush" Value="#4A90E2" />
-                </Trigger>
-
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#F3F3F3" />
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-    </Window.Resources>
+    <Window.Resources />
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="2" />
-            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="5*" />
         </Grid.ColumnDefinitions>
         <usercontrols:WindowBlocker
             x:Name="WindowBlocker"
