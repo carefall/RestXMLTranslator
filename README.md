@@ -129,11 +129,11 @@ Use this column to create a new English translation or edit an existing one.
 
 Once you have verified a translation, click **Approve**.
 
-<img width="1151" height="411" alt="image" src="https://github.com/user-attachments/assets/65235f3d-49a7-4abc-ae2c-975b34bf8c1e" />
+<img width="1154" height="287" alt="image" src="https://github.com/user-attachments/assets/09baa960-67d3-4f51-8664-3bdbc599bb17" />
 
 If necessary, click **Unapprove** to return the translation to the unapproved state.
 
-<img width="1152" height="261" alt="image" src="https://github.com/user-attachments/assets/88cb5e45-dbef-498b-8b48-065652a2a50c" />
+<img width="1150" height="256" alt="image" src="https://github.com/user-attachments/assets/8b0d9eb1-5d2c-4bf9-aa7f-6e2b230c3dcd" />
 
 ---
 
