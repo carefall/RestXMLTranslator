@@ -193,7 +193,7 @@
 В правом верхнем углу находится кнопка переключения между светлой и тёмной темой.
 
 <img width="289" height="237" alt="image" src="https://github.com/user-attachments/assets/226084e2-aaaf-48bf-8ddf-1ae2f240157b" />
-
+<img width="1384" height="752" alt="image" src="https://github.com/user-attachments/assets/0c8451d3-1421-4700-9ad1-5c6d75eb91bc" />
 
 ---
 
