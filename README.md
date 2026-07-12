@@ -27,7 +27,8 @@
 ### Скриншот
 
 ```
-<img width="614" height="166" alt="image" src="https://github.com/user-attachments/assets/8c3e644d-6e63-4f30-bb21-817d78698c61" />
+<img width="614" height="166" alt="image" src="https://github.com/user-attachments/assets/eee6d51b-798f-4cc2-87a9-2116171d150e" />
+
 
 ```
 
