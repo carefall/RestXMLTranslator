@@ -95,7 +95,7 @@ The application will automatically:
 
 After initialization, the main application window will open.
 
-<img width="1384" height="752" alt="image" src="https://github.com/user-attachments/assets/c1dba051-cf19-4322-803c-178bd4c1b3d5" />
+<img width="1409" height="752" alt="image" src="https://github.com/user-attachments/assets/56ac6e44-7fdb-4c0b-97b0-3827df037e07" />
 
 ---
 
@@ -301,7 +301,7 @@ Use the button in the upper-right corner to switch between the light and dark th
 
 Нажмите **Продолжить**.
 
-<img width="386" height="213" alt="image" src="https://github.com/user-attachments/assets/53660349-439a-4ff3-a35f-af26f4a71f31" />
+<img width="1435" height="752" alt="image" src="https://github.com/user-attachments/assets/4d08b9d9-7905-4957-b796-909572a2d90b" />
 
 ---
 
