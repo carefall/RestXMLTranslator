@@ -51,11 +51,14 @@ namespace RestXMLTranslator.Internals.Services
             (var files, bool allowed) = await GetServerFiles();
             if (!allowed) return (SyncResult.Inactive, null);
             if (files == null) return (SyncResult.ServerUnavailable, null);
+            App.Current.MWindow.WindowBlocker.Title.Text = Locale.Get("deleting_files");
             App.Current.LocalFiles.DeleteRedundantFiles(files);
             App.Current.LocalFiles.DeleteChanges(files);
+            App.Current.MWindow.WindowBlocker.Title.Text = Locale.Get("downloading_updates");
             var updates = await DownloadUpdates(version);
             if (updates == null) return (SyncResult.ServerUnavailable, files);
             if (updates.Count == 0) return (SyncResult.OldApp, files);
+            App.Current.MWindow.WindowBlocker.Title.Text = Locale.Get("applying_updates");
             SyncResult result = await App.Current.LocalFiles.ApplyUpdates(updates);
             return (result, files);
         }

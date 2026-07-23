@@ -67,6 +67,7 @@ namespace RestXMLTranslator
                 return;
             }
             await Files.SaveAll(false);
+            WindowBlocker.Visibility = Visibility.Visible;
             (SyncResult syncResult, Dictionary<string, FileInfo>? fileResult) = await App.Current.SyncService.EditorSync();
             if (fileResult != null) files = fileResult;
             if (files != null)

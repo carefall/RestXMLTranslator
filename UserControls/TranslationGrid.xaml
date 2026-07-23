@@ -42,7 +42,7 @@
                     <DataTemplate>
                         <TextBox
                             Padding="2,0"
-                            VerticalContentAlignment="Center"
+                            VerticalContentAlignment="Top"
                             Background="Transparent"
                             BorderThickness="0"
                             Cursor="Arrow"
@@ -68,7 +68,7 @@
                             </Grid.ColumnDefinitions>
                             <TextBox
                                 Padding="2"
-                                VerticalContentAlignment="Center"
+                                VerticalContentAlignment="Top"
                                 Background="Transparent"
                                 BorderThickness="0"
                                 Focusable="False"
@@ -111,7 +111,7 @@
                     <DataTemplate>
                         <TextBox
                             Padding="2,0"
-                            VerticalContentAlignment="Center"
+                            VerticalContentAlignment="Top"
                             Background="Transparent"
                             BorderThickness="0"
                             Cursor="Arrow"
@@ -137,7 +137,7 @@
                             </Grid.ColumnDefinitions>
                             <TextBox
                                 Padding="2"
-                                VerticalContentAlignment="Center"
+                                VerticalContentAlignment="Top"
                                 Background="Transparent"
                                 BorderThickness="0"
                                 Focusable="False"
@@ -180,7 +180,7 @@
                     <DataTemplate>
                         <TextBox
                             Padding="2,0"
-                            VerticalContentAlignment="Center"
+                            VerticalContentAlignment="Top"
                             Background="Transparent"
                             BorderThickness="0"
                             Cursor="Arrow"
@@ -206,7 +206,7 @@
                             </Grid.ColumnDefinitions>
                             <TextBox
                                 Padding="2"
-                                VerticalContentAlignment="Center"
+                                VerticalContentAlignment="Top"
                                 Background="Transparent"
                                 BorderThickness="0"
                                 Focusable="False"
