@@ -9,7 +9,7 @@
 		<ApplicationIcon>appIcon.ico</ApplicationIcon>
 		<AssemblyTitle>RestXMLTranslator</AssemblyTitle>
 		<ApplicationManifest>app.manifest</ApplicationManifest>
-		<Version>2.13</Version>
+		<Version>2.13.1</Version>
 		<AssemblyVersion>$(Version)</AssemblyVersion>
 		<FileVersion>$(Version)</FileVersion>
 		<InformationalVersion>13</InformationalVersion>
