@@ -217,7 +217,11 @@ namespace RestXMLTranslator.Internals.Services
             foreach (StringEntry entry in file.Entries)
             {
                 if (!entry.HasChanges) continue;
-                if (ignoreApproved && entry.IsApproved) continue;
+                if (ignoreApproved && entry.IsApproved)
+                {
+                    entry.IsApproved = false;
+                    continue;
+                }
                 changes.Add(new Change(entry.Id, XMLHelper.EncodeMultilineForJSON(entry.NewRu), XMLHelper.EncodeMultilineForJSON(entry.NewEng), allowApprove ? entry.IsApproved : false, entry.NewComment, entry.HasNewLine));
             }
             if (changes.Count == 0 && File.Exists(filePath))
@@ -258,7 +262,6 @@ namespace RestXMLTranslator.Internals.Services
                 rus.Value = XMLHelper.EncodeMultilineFromInput(entry.IsApproved ? entry.NewRu : entry.Ru);
                 XElement eng = GetOrCreateLanguage(stringElement, "eng");
                 eng.Value = XMLHelper.EncodeMultilineFromInput(entry.IsApproved ? entry.NewEng : entry.Eng);
-                entry.IsApproved = false;
             }
             using var writer = XmlWriter.Create(tab.FilePath, App.Current.XmlSettings);
             doc.Save(writer);

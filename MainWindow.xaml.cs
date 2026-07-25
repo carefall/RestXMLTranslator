@@ -165,7 +165,7 @@ namespace RestXMLTranslator
                     return;
             }
             await App.Current.LocalFiles.ApplyApprovedChanges(tab);
-            App.Current.LocalFiles.StoreChanges(tab, false);
+            App.Current.LocalFiles.StoreChanges(tab);
             WindowBlocker.Visibility = Visibility.Hidden;
             MessageBox.Show(Locale.Get("synced"), Locale.Get("sync"));
             Title = Locale.Get("window_title", Locale.Get("connected", GetCurrentTimeHM()));
