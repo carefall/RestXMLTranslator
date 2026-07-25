@@ -1,11 +1,11 @@
 ﻿using RestXMLTranslator.Internals.Models;
 using RestXMLTranslator.Internals.Program;
-using System.Collections;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
+using System.Windows;
 using System.Xml;
 using System.Xml.Linq;
 
@@ -23,10 +23,10 @@ namespace RestXMLTranslator.Internals.Services
             if (files.Count == 0) return;
             foreach (string item in localFiles)
             {
-                if (files.ContainsKey(item)) continue;
+                if (files.ContainsKey("text/" + item.Replace("\\", "/"))) continue;
                 try
                 {
-                    App.Current.Settings.TryDeleteStatus(item);
+                    App.Current.Settings.TryDeleteStatus("text/" + item.Replace("\\", "/"));
                     File.Delete(Path.Combine(path, item));
                 }
                 catch (Exception ex)
@@ -42,20 +42,15 @@ namespace RestXMLTranslator.Internals.Services
             string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Changes");
             if (!Directory.Exists(path)) return;
             List<string> localFiles = GetLocalFiles(path);
-            localFiles = localFiles.ConvertAll(file =>
-            {
-                int index = file.IndexOf("text/");
-                return index >= 0 ? file.Remove(index, "text/".Length) : file;
-            });
             if (localFiles.Count == 0) return;
             if (files.Count == 0) return;
             if (!Directory.Exists(path)) return;
             foreach (string item in localFiles)
             {
-                if (files.ContainsKey(item.Replace(".json", ".xml"))) continue;
+                if (files.ContainsKey("text/" + item.Replace(".json", ".xml").Replace("\\", "/"))) continue;
                 try
                 {
-                    File.Delete(Path.Combine(path, item.Replace("text\\", "")));
+                    File.Delete(Path.Combine(path, item));
                 }
                 catch (Exception ex)
                 {
@@ -150,7 +145,7 @@ namespace RestXMLTranslator.Internals.Services
                 return [..Directory.GetFiles(folderPath, "*", SearchOption.AllDirectories).Select(f =>
                 {
                     var relative = Path.GetRelativePath(folderPath, f);
-                    return "text/" + relative.Replace("\\", "/");
+                    return relative;
                 })];
             }
             catch (Exception ex)
