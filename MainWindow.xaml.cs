@@ -125,6 +125,7 @@ namespace RestXMLTranslator
                 WindowBlocker.Visibility = Visibility.Hidden;
                 MessageBox.Show(Locale.Get("server_unreachable"), Locale.Get("sync"), MessageBoxButton.OK, MessageBoxImage.Error);
                 Title = Locale.Get("window_title", Locale.Get("not_connected"));
+                App.Current.LocalFiles.StoreChanges(tab, true);
                 return;
             }
             if (version == -2)
@@ -132,6 +133,7 @@ namespace RestXMLTranslator
                 WindowBlocker.Visibility = Visibility.Hidden;
                 MessageBox.Show(Locale.Get("server_broken"), Locale.Get("sync"), MessageBoxButton.OK, MessageBoxImage.Error);
                 Title = Locale.Get("window_title", Locale.Get("not_connected"));
+                App.Current.LocalFiles.StoreChanges(tab, true);
                 return;
             }
             if (version > App.Current.Settings.Version)
@@ -147,20 +149,23 @@ namespace RestXMLTranslator
                     WindowBlocker.Visibility = Visibility.Hidden;
                     MessageBox.Show(Locale.Get("old_app_post"), Locale.Get("sync"), MessageBoxButton.OK, MessageBoxImage.Warning);
                     Title = Locale.Get("window_title", Locale.Get("not_connected"));
+                    App.Current.LocalFiles.StoreChanges(tab, true);
                     return;
                 case SyncResult.Inactive:
                     WindowBlocker.Visibility = Visibility.Hidden;
                     MessageBox.Show(Locale.Get("post_not_allowed"), Locale.Get("sync"), MessageBoxButton.OK, MessageBoxImage.Warning);
                     Title = Locale.Get("window_title", Locale.Get("not_connected"));
+                    App.Current.LocalFiles.StoreChanges(tab, true);
                     return;
                 case SyncResult.ServerUnavailable:
                     WindowBlocker.Visibility = Visibility.Hidden;
                     MessageBox.Show(Locale.Get("commit_fail"), Locale.Get("sync"), MessageBoxButton.OK, MessageBoxImage.Error);
                     Title = Locale.Get("window_title", Locale.Get("not_connected"));
+                    App.Current.LocalFiles.StoreChanges(tab, true);
                     return;
             }
-            App.Current.LocalFiles.StoreChanges(tab);
             await App.Current.LocalFiles.ApplyApprovedChanges(tab);
+            App.Current.LocalFiles.StoreChanges(tab, false);
             WindowBlocker.Visibility = Visibility.Hidden;
             MessageBox.Show(Locale.Get("synced"), Locale.Get("sync"));
             Title = Locale.Get("window_title", Locale.Get("connected", GetCurrentTimeHM()));

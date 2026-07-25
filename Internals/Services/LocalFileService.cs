@@ -1,9 +1,11 @@
 ﻿using RestXMLTranslator.Internals.Models;
 using RestXMLTranslator.Internals.Program;
+using System.Collections;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Text;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Linq;
 
@@ -82,7 +84,7 @@ namespace RestXMLTranslator.Internals.Services
             return element;
         }
 
-        public void ApplyHalfEntries(string path, DownloadedFile file)
+        public async Task ApplyHalfEntries(string path, DownloadedFile file)
         {
             XDocument doc = new(new XElement("string_table"));
             if (File.Exists(path)) doc = XDocument.Load(path);
@@ -116,7 +118,9 @@ namespace RestXMLTranslator.Internals.Services
             }
             using var writer = XmlWriter.Create(path, App.Current.XmlSettings);
             doc.Save(writer);
+            writer.Close();
             App.Current.Settings.SetOrAddFileStatus(file.Path, file.Finished);
+            await WriteWhiteSpaces(path, file.HalfEntries);
         }
 
         public async Task<SyncResult> ApplyUpdates(List<DownloadedFile> files)
@@ -128,7 +132,7 @@ namespace RestXMLTranslator.Internals.Services
                     string path = Path.Combine(App.Current.Settings.GameDataPath, "gamedata", "configs", file.Path);
                     string? dir = Path.GetDirectoryName(path);
                     Directory.CreateDirectory(dir!);
-                    ApplyHalfEntries(path, file);
+                    await ApplyHalfEntries(path, file);
                 }
             }
             catch (Exception ex)
@@ -194,6 +198,7 @@ namespace RestXMLTranslator.Internals.Services
                     bro.NewEng = XMLHelper.DecodeMultiline(change.Eng ?? "");
                     bro.NewRu = XMLHelper.DecodeMultiline(change.Ru ?? "");
                     bro.NewComment = XMLHelper.DecodeMultiline(change.Comment ?? "");
+                    bro.HasNewLine = change.NewLine;
                     if (!change.IsApproved) bro.IsApproved = false;
                     if (bro.HasChanges && change.IsApproved) bro.IsApproved = true;
                 }
@@ -219,7 +224,7 @@ namespace RestXMLTranslator.Internals.Services
             {
                 if (!entry.HasChanges) continue;
                 if (ignoreApproved && entry.IsApproved) continue;
-                changes.Add(new Change(entry.Id, XMLHelper.EncodeMultilineForJSON(entry.NewRu), XMLHelper.EncodeMultilineForJSON(entry.NewEng), allowApprove ? entry.IsApproved : false, entry.NewComment));
+                changes.Add(new Change(entry.Id, XMLHelper.EncodeMultilineForJSON(entry.NewRu), XMLHelper.EncodeMultilineForJSON(entry.NewEng), allowApprove ? entry.IsApproved : false, entry.NewComment, entry.HasNewLine));
             }
             if (changes.Count == 0 && File.Exists(filePath))
             {
@@ -263,6 +268,57 @@ namespace RestXMLTranslator.Internals.Services
             }
             using var writer = XmlWriter.Create(tab.FilePath, App.Current.XmlSettings);
             doc.Save(writer);
+            writer.Close();
+            await WriteWhiteSpaces(tab.FilePath, tab.Entries);
+        }
+
+        private async Task WriteWhiteSpaces<T>(string path, IEnumerable<T> entries) where T : IEntry
+        {
+            var encoding = Encoding.GetEncoding(1251);
+            var lines = File.ReadAllLines(path, encoding).ToList();
+            var result = new List<string>(lines.Count);
+            var needBlank = entries.Where(x => x.HasNewLine).Select(x => x.Id!).ToHashSet();
+            for (int i = 0; i < lines.Count;)
+            {
+                bool isComment = lines[i].TrimStart().StartsWith("<!--");
+                bool isString = lines[i].Contains("<string id=\"");
+                if (!isComment && !isString)
+                {
+                    result.Add(lines[i++]);
+                    continue;
+                }
+                var block = new List<string>();
+                if (isComment)
+                {
+                    do
+                    {
+                        block.Add(lines[i]);
+                        while (!lines[i].Contains("-->"))
+                        {
+                            i++;
+                            block.Add(lines[i]);
+                        }
+                        i++;
+                    }
+                    while (i < lines.Count && lines[i].Trim().Length == 0);
+                    if (i < lines.Count && lines[i].Contains("<string id=\""))
+                    {
+                        block.Add(lines[i]);
+                        i++;
+                    }
+                }
+                else
+                {
+                    block.Add(lines[i]);
+                    i++;
+                }
+                var match = Regex.Match(block.Last(), @"<string id=""([^""]+)""");
+                string? id = match.Success ? match.Groups[1].Value : null;
+                while (result.Count > 0 && string.IsNullOrWhiteSpace(result[^1])) result.RemoveAt(result.Count - 1);
+                if (id != null && needBlank.Contains(id)) result.Add("");
+                result.AddRange(block);
+            }
+            File.WriteAllText(path, string.Join("\r\n", result), encoding);
         }
     }
 }

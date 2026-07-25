@@ -1,4 +1,6 @@
-﻿namespace RestXMLTranslator.Internals.Models
+﻿using System.Windows.Controls;
+
+namespace RestXMLTranslator.Internals.Models
 {
     public class SearchResult
     {
@@ -8,7 +10,7 @@
 
         public string Id { get; set; } = "";
 
-        public string Preview { get; set; } = "";
+        public TextBlock PreviewBlock { get; set; } = null!;
 
     }
 }

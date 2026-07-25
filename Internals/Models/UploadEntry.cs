@@ -11,5 +11,7 @@
 
         public string User { get; set; } = string.Empty;
 
+        public bool NewLine { get; set; }
+
     }
 }

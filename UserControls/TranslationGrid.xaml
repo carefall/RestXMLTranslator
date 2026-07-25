@@ -241,6 +241,22 @@
                 </DataGridTemplateColumn.CellEditingTemplate>
             </DataGridTemplateColumn>
             <DataGridTemplateColumn
+                x:Name="NewLineColumn"
+                Width="100"
+                Header="{Binding Source={StaticResource Locale}, Path=[whitespace]}">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <CheckBox
+                            x:Name="ChangeStatus"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Checked="ChangeStatus_Checked"
+                            IsChecked="{Binding HasNewLine}"
+                            Unchecked="ChangeStatus_Unchecked" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTemplateColumn
                 x:Name="StatusColumn"
                 Width="120"
                 Header="{Binding Source={StaticResource Locale}, Path=[translation_status]}"

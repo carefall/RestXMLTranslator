@@ -50,6 +50,8 @@
 
 	"comment": "Comment",
 	"new_comment": "New comment",
+	
+	"whitespace": "Whitespace line?",
 
 	"long_text": "Edit long text",
 	"open_file": "Open in system XML editor",

@@ -128,7 +128,8 @@ namespace RestXMLTranslator.Internals.Services
                         Id = entry.Id,
                         EditType = 0,
                         Text = XMLHelper.EncodeMultilineForServer(entry.NewRu),
-                        User = App.Current.Settings.Name
+                        User = App.Current.Settings.Name,
+                        NewLine = entry.HasNewLine,
                     });
                 }
                 if (entry.HasEngChanges)
@@ -139,6 +140,7 @@ namespace RestXMLTranslator.Internals.Services
                         EditType = 1,
                         Text = XMLHelper.EncodeMultilineForServer(entry.NewEng),
                         User = App.Current.Settings.Name,
+                        NewLine = entry.HasNewLine,
                     });
                 }
                 if (entry.HasCommentChanges)
@@ -149,6 +151,34 @@ namespace RestXMLTranslator.Internals.Services
                         EditType = -1,
                         Text = entry.NewComment,
                         User = App.Current.Settings.Name,
+                        NewLine = entry.HasNewLine,
+                    });
+                }
+                if (!entry.HasRuChanges && !entry.HasEngChanges && !entry.HasCommentChanges && entry.HasNewLineChanges)
+                {
+                    request.Entries.Add(new UploadEntry
+                    {
+                        Id = entry.Id,
+                        EditType = 0,
+                        Text = XMLHelper.EncodeMultilineForServer(entry.NewRu),
+                        User = App.Current.Settings.Name,
+                        NewLine = entry.HasNewLine,
+                    });
+                    request.Entries.Add(new UploadEntry
+                    {
+                        Id = entry.Id,
+                        EditType = -1,
+                        Text = entry.NewComment,
+                        User = App.Current.Settings.Name,
+                        NewLine = entry.HasNewLine,
+                    });
+                    request.Entries.Add(new UploadEntry
+                    {
+                        Id = entry.Id,
+                        EditType = 1,
+                        Text = XMLHelper.EncodeMultilineForServer(entry.NewEng),
+                        User = App.Current.Settings.Name,
+                        NewLine = entry.HasNewLine,
                     });
                 }
             }

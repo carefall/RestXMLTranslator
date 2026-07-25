@@ -147,6 +147,7 @@ namespace RestXMLTranslator.UserControls
             foreach (var item in Entries)
             {
                 if (!translations.TryGetValue(item.Id!, out var tr)) continue;
+                item.HasNewLine = tr.HasNewLine;
                 if (!string.IsNullOrWhiteSpace(tr.Eng) && (type == ImportType.English || type == ImportType.All || type == ImportType.Localization))
                 {
                     item.NewEng = tr.Eng;
@@ -182,6 +183,22 @@ namespace RestXMLTranslator.UserControls
                 if (child is T parent) return parent;
             }
             return null;
+        }
+
+        private void ChangeStatus_Checked(object sender, RoutedEventArgs e)
+        {
+            if (sender is not CheckBox cb) return;
+            if (cb.DataContext is not StringEntry entry) return;
+            if (entry.IsApproved) return;
+            entry.HasNewLine = true;
+        }
+
+        private void ChangeStatus_Unchecked(object sender, RoutedEventArgs e)
+        {
+            if (sender is not CheckBox cb) return;
+            if (cb.DataContext is not StringEntry entry) return;
+            if (entry.IsApproved) return;
+            entry.HasNewLine = false;
         }
     }
 }

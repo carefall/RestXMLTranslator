@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace RestXMLTranslator.Internals.Models
 {
-    public class StringEntry : INotifyPropertyChanged
+    public class StringEntry : INotifyPropertyChanged, IEntry
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -11,8 +11,6 @@ namespace RestXMLTranslator.Internals.Models
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
-        public string Id { get; set; } = "";
 
         private string _ru = "";
         public string Ru
@@ -53,7 +51,6 @@ namespace RestXMLTranslator.Internals.Models
 
         private string _newRu = "";
 
-
         public string NewRu
         {
             get => _newRu;
@@ -77,9 +74,26 @@ namespace RestXMLTranslator.Internals.Models
                 OnPropertyChanged();
             }
         }
-        
 
-        public bool HasChanges => HasRuChanges || HasEngChanges || HasCommentChanges;
+        public bool HadNewLine { get; set; } = false;
+
+        private bool hasNewLine;
+        
+        public bool HasNewLine
+        {
+            get => hasNewLine;
+            set
+            {
+                hasNewLine = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(HasNewLineChanges));
+                OnPropertyChanged(nameof(HasChanges));
+            }
+        }
+
+        public bool HasNewLineChanges => HasNewLine != HadNewLine;
+
+        public bool HasChanges => HasRuChanges || HasEngChanges || HasCommentChanges || HasNewLineChanges;
 
         public bool HasRuChanges => Ru != NewRu;
 
@@ -112,6 +126,11 @@ namespace RestXMLTranslator.Internals.Models
                 OnPropertyChanged(nameof(HasChanges));
             }
         }
+        public string Id { get; set; } = "";
 
+        public override string ToString()
+        {
+            return $"Entry {Id}\n" + $"New Line: {HadNewLine}\n" + $"Comment: {Comment}\n" + $"Ru: {Ru}\n" + $"Eng: {Eng}\n" + $"Approved: {IsApproved}";
+        }
     }
 }

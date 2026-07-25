@@ -92,10 +92,13 @@
                     Width="220"
                     Binding="{Binding Id}"
                     Header="ID" />
-                <DataGridTextColumn
-                    Width="*"
-                    Binding="{Binding Preview}"
-                    Header="{Binding Source={StaticResource Locale}, Path=[entry_match]}" />
+                <DataGridTemplateColumn Width="*" Header="{Binding Source={StaticResource Locale}, Path=[entry_match]}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ContentPresenter Content="{Binding PreviewBlock}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>
