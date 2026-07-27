@@ -274,10 +274,11 @@ namespace RestXMLTranslator
             Buttons.HideApproved.IsChecked = false;
             Buttons.HideChanged.IsChecked = false;
             Buttons.HideUnchanged.IsChecked = false;
+            file.SelectedEntry = entry;
+            Files.FilesList.SelectedItem = null;
+            Files.FilesList.SelectedItem = file;
             Files.FilesView?.Refresh();
             TranslationGrid.EntriesView?.Refresh();
-            file.SelectedEntry = entry;
-            Files.FilesList.SelectedItem = file;
         }
 
     }
