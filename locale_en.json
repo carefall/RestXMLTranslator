@@ -37,6 +37,7 @@
 	"hide_finished": "Hide finished",
 	"hide_unfinished": "Hide unfinished",
 	"btn_adv_search": "Advanced search",
+	"ignore_ids": "Ignore ID matches",
 
 	"translation": "Translation",
 	"translation_status": "Status",
@@ -50,7 +51,7 @@
 
 	"comment": "Comment",
 	"new_comment": "New comment",
-	
+
 	"whitespace": "Whitespace line?",
 
 	"long_text": "Edit long text",

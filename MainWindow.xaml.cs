@@ -279,6 +279,7 @@ namespace RestXMLTranslator
             Files.FilesList.SelectedItem = file;
             Files.FilesView?.Refresh();
             TranslationGrid.EntriesView?.Refresh();
+            TranslationGrid.TGrid.ScrollIntoView(TranslationGrid.TGrid.SelectedItem);
         }
 
     }

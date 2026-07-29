@@ -76,9 +76,7 @@ namespace RestXMLTranslator.UserControls
             if (targetEntry != null)
             {
                 TGrid.SelectedItem = targetEntry;
-                TGrid.ScrollIntoView(targetEntry);
             }
-
         }
 
         private void TextBox_GotFocus(object sender, RoutedEventArgs e)

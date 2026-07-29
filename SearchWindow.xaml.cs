@@ -32,12 +32,12 @@ namespace RestXMLTranslator
             {
                 foreach (StringEntry entry in file.Entries)
                 {
-                    AddResult(results, file, entry.Id, entry.Id, search);
-                    AddResult(results, file, entry.Id, entry.Ru, search);
+                    if (IgnoreIds.IsChecked == false) AddResult(results, file, entry.Id, entry.Id, search);
+                    if (entry.Ru != entry.NewRu) AddResult(results, file, entry.Id, entry.Ru, search);
                     AddResult(results, file, entry.Id, entry.NewRu, search);
-                    AddResult(results, file, entry.Id, entry.Eng, search);
+                    if (entry.Eng != entry.NewEng) AddResult(results, file, entry.Id, entry.Eng, search);
                     AddResult(results, file, entry.Id, entry.NewEng, search);
-                    AddResult(results, file, entry.Id, entry.Comment, search);
+                    if (entry.Comment != entry.NewComment) AddResult(results, file, entry.Id, entry.Comment, search);
                     AddResult(results, file, entry.Id, entry.NewComment, search);
                 }
             }
@@ -91,27 +91,6 @@ namespace RestXMLTranslator
         {
             return !string.IsNullOrEmpty(text) &&
                    text.Contains(search, StringComparison.OrdinalIgnoreCase);
-        }
-
-        private static string CreatePreview(string text, string search)
-        {
-            text = text.Replace('\n', ' ')
-                       .Replace('\r', ' ');
-            int index = text.IndexOf(search, StringComparison.OrdinalIgnoreCase);
-            if (index < 0)
-                return text.Length > 120 ? text[..120] + "..." : text;
-            const int radius = 40;
-            int start = Math.Max(0, index - radius);
-            int length = Math.Min(
-                text.Length - start,
-                search.Length + radius * 2
-            );
-            string preview = text.Substring(start, length);
-            if (start > 0)
-                preview = "..." + preview;
-            if (start + length < text.Length)
-                preview += "...";
-            return preview;
         }
 
         private void SearchBox_KeyDown(object sender, KeyEventArgs e)
