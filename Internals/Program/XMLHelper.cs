@@ -39,7 +39,7 @@ namespace RestXMLTranslator.Internals.Program
             return text.Replace("\n", "\n\\n");
         }
 
-        public static ObservableCollection<StringEntry> LoadStrings(string xml, bool file)
+        public static async Task<ObservableCollection<StringEntry>> LoadStrings(string xml, bool file)
         {
             if (file && !File.Exists(xml))
             {
@@ -47,7 +47,7 @@ namespace RestXMLTranslator.Internals.Program
                 return [];
             }
             string[] text;
-            if (file) text = File.ReadAllLines(xml, Encoding.GetEncoding(1251));
+            if (file) text = await File.ReadAllLinesAsync(xml, Encoding.GetEncoding(1251));
             else text = xml.Split(["\r\n", "\n"], StringSplitOptions.None);
             List<string> whitespaces = GetWhitespaces(text);
             try

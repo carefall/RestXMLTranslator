@@ -81,9 +81,13 @@ namespace RestXMLTranslator.Internals.Services
         public async Task ApplyHalfEntries(string path, DownloadedFile file)
         {
             XDocument doc = new(new XElement("string_table"));
-            if (File.Exists(path)) doc = XDocument.Load(path);
+            HashSet<string> blankLines = [];
+            if (File.Exists(path)) {
+                doc = XDocument.Load(path);
+                blankLines = await ReadBlankLines(path);
+            }
             var index = doc.Root!.Elements("string").ToDictionary(x => (string)x.Attribute("id")!);
-            HashSet<string> validIds = new(file.Ids);
+            HashSet<string> validIds = [.. file.Ids];
             foreach (var pair in index.ToList())
             {
                 if (validIds.Contains(pair.Key))
@@ -93,10 +97,20 @@ namespace RestXMLTranslator.Internals.Services
                     comment.Remove();
                 element.Remove();
                 index.Remove(pair.Key);
+                blankLines.Remove(pair.Key);
+            }
+            if (file.HalfEntries.Count == 0)
+            {
+                var emptyWriter = XmlWriter.Create(path, App.Current.XmlSettings);
+                doc.Save(emptyWriter);
+                emptyWriter.Close();
+                if (blankLines.Count != 0) await WriteWhiteSpaces(path, blankLines);
+                return;
             }
             foreach (var entry in file.HalfEntries)
             {
                 XElement stringElement = GetOrCreateString(doc.Root!, index, entry.Id!);
+                blankLines.Remove(entry.Id!);
                 if (entry.EditType == -1)
                 {
                     if (stringElement.PreviousNode is XComment oldComment) oldComment.Remove();
@@ -115,6 +129,7 @@ namespace RestXMLTranslator.Internals.Services
             writer.Close();
             App.Current.Settings.SetOrAddFileStatus(file.Path, file.Finished);
             await WriteWhiteSpaces(path, file.HalfEntries);
+            if (blankLines.Count != 0) await WriteWhiteSpaces(path, blankLines);
         }
 
         public async Task<SyncResult> ApplyUpdates(List<DownloadedFile> files)
@@ -164,24 +179,21 @@ namespace RestXMLTranslator.Internals.Services
             {
                 var relativePath = file.Replace(path, "")[1..].Replace("\\", "/");
                 var tab = new FileTab(file, relativePath);
-                await Task.Run(() =>
-                {
-                    tab.Read();
-                    ApplyChanges(tab);
-                });
+                await tab.Read();
+                await ApplyChanges(tab);
                 if (tab.Entries.Count == 0) continue;
                 tabs.Add(tab);
             }
             return tabs;
         }
 
-        private void ApplyChanges(FileTab file)
+        private async Task ApplyChanges(FileTab file)
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Changes", file.RelativePath.Replace(".xml", ".json"));
             if (!File.Exists(filePath)) return;
             try
             {
-                string json = File.ReadAllText(filePath, Encoding.GetEncoding(1251));
+                string json = await File.ReadAllTextAsync(filePath, Encoding.GetEncoding(1251));
                 List<Change>? changes = JsonSerializer.Deserialize<List<Change>>(json, App.Current.JsonOptions);
                 changes ??= [];
                 foreach (Change change in changes)
@@ -203,12 +215,12 @@ namespace RestXMLTranslator.Internals.Services
             }
         }
 
-        public void StoreChanges(FileTab file, bool allowApprove)
+        public async Task StoreChanges(FileTab file, bool allowApprove)
         {
-            StoreChanges(file, allowApprove, false);
+            await StoreChanges(file, allowApprove, false);
         }
 
-        private void StoreChanges(FileTab file, bool allowApprove, bool ignoreApproved)
+        private async Task StoreChanges(FileTab file, bool allowApprove, bool ignoreApproved)
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Changes", file.RelativePath.Replace(".xml", ".json"));
             string directory = Path.GetDirectoryName(filePath)!;
@@ -230,19 +242,19 @@ namespace RestXMLTranslator.Internals.Services
             }
             else
             {
-                File.WriteAllText(filePath, JsonSerializer.Serialize(changes, App.Current.JsonOptions), Encoding.GetEncoding(1251));
+                await File.WriteAllTextAsync(filePath, JsonSerializer.Serialize(changes, App.Current.JsonOptions), Encoding.GetEncoding(1251));
             }
         }
 
-        public void StoreChanges(FileTab file)
+        public async Task StoreChanges(FileTab file)
         {
-            StoreChanges(file, false, true);
+            await StoreChanges(file, false, true);
         }
 
-        public ObservableCollection<StringEntry> Read(string filePath)
+        public async Task<ObservableCollection<StringEntry>> Read(string filePath)
         {
-            string xml = File.ReadAllText(filePath, Encoding.GetEncoding(1251));
-            return XMLHelper.LoadStrings(xml, false);
+            string xml = await File.ReadAllTextAsync(filePath, Encoding.GetEncoding(1251));
+            return await XMLHelper.LoadStrings(xml, false);
         }
 
         public async Task ApplyApprovedChanges(FileTab tab)
@@ -269,10 +281,108 @@ namespace RestXMLTranslator.Internals.Services
             await WriteWhiteSpaces(tab.FilePath, tab.Entries);
         }
 
+        private async Task<HashSet<string>> ReadBlankLines(string path)
+        {
+            var encoding = Encoding.GetEncoding(1251);
+            var lines = await File.ReadAllLinesAsync(path, encoding);
+            HashSet<string> result = [];
+            bool previousWasBlank = false;
+            for (int i = 0; i < lines.Length; i++)
+            {
+                string line = lines[i];
+                if (string.IsNullOrWhiteSpace(line))
+                {
+                    previousWasBlank = true;
+                    continue;
+                }
+                if (line.TrimStart().StartsWith("<!--"))
+                {
+                    int j = i;
+                    while (j < lines.Length && !lines[j].Contains("-->")) j++;
+                    for (j++; j < lines.Length; j++)
+                    {
+                        if (string.IsNullOrWhiteSpace(lines[j]))
+                            continue;
+                        Match match = Regex.Match(lines[j], @"<string id=""([^""]+)""");
+                        if (match.Success)
+                        {
+                            if (previousWasBlank) result.Add(match.Groups[1].Value);
+                            break;
+                        }
+                        break;
+                    }
+                    previousWasBlank = false;
+                    i = j - 1;
+                    continue;
+                }
+                Match stringMatch = Regex.Match(line, @"<string id=""([^""]+)""");
+                if (stringMatch.Success)
+                {
+                    if (previousWasBlank) result.Add(stringMatch.Groups[1].Value);
+                    previousWasBlank = false;
+                    continue;
+                }
+                previousWasBlank = false;
+            }
+            return result;
+        }
+
+        private static async Task WriteWhiteSpaces(string path, HashSet<string> blankLines)
+        {
+            var encoding = Encoding.GetEncoding(1251);
+            var lines = (await File.ReadAllLinesAsync(path, encoding)).ToList();
+            var result = new List<string>(lines.Count);
+            for (int i = 0; i < lines.Count;)
+            {
+                bool isComment = lines[i].TrimStart().StartsWith("<!--");
+                bool isString = lines[i].Contains("<string id=\"");
+                if (!isComment && !isString)
+                {
+                    result.Add(lines[i]);
+                    i++;
+                    continue;
+                }
+                var block = new List<string>();
+                if (isComment)
+                {
+                    do
+                    {
+                        block.Add(lines[i]);
+                        while (!lines[i].Contains("-->"))
+                        {
+                            i++;
+                            block.Add(lines[i]);
+                        }
+                        i++;
+                        while (i < lines.Count && string.IsNullOrWhiteSpace(lines[i])) i++;
+                    } while (i < lines.Count && lines[i].TrimStart().StartsWith("<!--"));
+                    if (i < lines.Count && lines[i].Contains("<string id=\""))
+                    {
+                        block.Add(lines[i]);
+                        i++;
+                    }
+                }
+                else
+                {
+                    block.Add(lines[i]);
+                    i++;
+                }
+                var match = Regex.Match(block.Last(), @"<string id=""([^""]+)""");
+                if (match.Success)
+                {
+                    while (result.Count > 0 && string.IsNullOrWhiteSpace(result[^1])) result.RemoveAt(result.Count - 1);
+                    if (blankLines.Contains(match.Groups[1].Value)) result.Add("");
+                }
+                result.AddRange(block);
+                while (i < lines.Count && string.IsNullOrWhiteSpace(lines[i])) i++;
+            }
+            await File.WriteAllTextAsync(path, string.Join("\r\n", result), encoding); 
+        }
+
         private async Task WriteWhiteSpaces<T>(string path, IEnumerable<T> entries) where T : IEntry
         {
             var encoding = Encoding.GetEncoding(1251);
-            var lines = File.ReadAllLines(path, encoding).ToList();
+            var lines = (await File.ReadAllLinesAsync(path, encoding)).ToList();
             var result = new List<string>(lines.Count);
             var needBlank = entries.Where(x => x.HasNewLine).Select(x => x.Id!).ToHashSet();
             for (int i = 0; i < lines.Count;)
@@ -315,7 +425,7 @@ namespace RestXMLTranslator.Internals.Services
                 if (id != null && needBlank.Contains(id)) result.Add("");
                 result.AddRange(block);
             }
-            File.WriteAllText(path, string.Join("\r\n", result), encoding);
+            await File.WriteAllTextAsync(path, string.Join("\r\n", result), encoding);
         }
     }
 }

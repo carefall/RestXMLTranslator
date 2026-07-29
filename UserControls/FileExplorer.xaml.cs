@@ -64,23 +64,20 @@ namespace RestXMLTranslator.UserControls
         {
             if (!Files.Any(f => f.HasChanges)) return false;
             App.Current.MWindow.WindowBlocker.Visibility = Visibility.Visible;
-            await Task.Run(() =>
+            foreach (var file in Files)
             {
-                foreach (var file in Files)
-                {
-                    if (!file.HasChanges) continue;
-                    App.Current.LocalFiles.StoreChanges(file, allowApprove);
-                }
-            });
+                if (!file.HasChanges) continue;
+                await App.Current.LocalFiles.StoreChanges(file, allowApprove);
+            }
             App.Current.MWindow.WindowBlocker.Visibility = Visibility.Hidden;
             return true;
         }
 
-        public bool SaveFile()
+        public async Task<bool> SaveFile()
         {
             if (FilesList.SelectedItem is not FileTab tab) return false;
             if (!tab.HasChanges) return false;
-            App.Current.LocalFiles.StoreChanges(tab, true);
+            await App.Current.LocalFiles.StoreChanges(tab, true);
             return true;
         }
 

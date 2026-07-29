@@ -47,9 +47,9 @@ namespace RestXMLTranslator.Internals.Models
             Finished = App.Current.Settings.GetFileStatus(relativePath);
         }
 
-        public void Read()
+        public async Task Read()
         {
-            Entries = App.Current.LocalFiles.Read(FilePath);
+            Entries = await App.Current.LocalFiles.Read(FilePath);
         }
 
         public bool HasApprovedChanges => Entries.Where(e => e.IsApproved).Any();

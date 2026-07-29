@@ -61,7 +61,7 @@ namespace RestXMLTranslator.UserControls
         {
             e.Handled = true;
             SetButtonsState(false);
-            if (App.Current.MWindow.Files.SaveFile())
+            if (await App.Current.MWindow.Files.SaveFile())
                 await ShowStatusAsync(Locale.Get("changes_saved"), true);
             SetButtonsState(true);
         }
@@ -85,9 +85,9 @@ namespace RestXMLTranslator.UserControls
             LoadTranslationFromXML(Clipboard.GetText(), false);
         }
 
-        private void LoadTranslationFromXML(string text, bool file)
+        private async void LoadTranslationFromXML(string text, bool file)
         {
-            var translations = XMLHelper.LoadStrings(text, file).GroupBy(x => x.Id).ToDictionary(g => g.Key!, g => g.Last());
+            var translations = (await XMLHelper.LoadStrings(text, file)).GroupBy(x => x.Id).ToDictionary(g => g.Key!, g => g.Last());
             App.Current.MWindow.TranslationGrid.InsertTranslations(translations, file);
         }
 
